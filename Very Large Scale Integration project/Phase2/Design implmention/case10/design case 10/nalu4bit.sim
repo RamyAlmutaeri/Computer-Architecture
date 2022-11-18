@@ -1,0 +1,750 @@
+| units: 100 tech: scmos format: MIT
+p nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# Vdd nalu2bit_0/m1_n372_72# 2 4 1176 128
+n nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# Gnd nalu2bit_0/m1_n372_72# 2 4 1176 40
+p nalu2bit_0/nalu1bit_0/m1_n484_n24# Vdd nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_96# 2 4 1128 128
+p nalu2bit_0/nalu1bit_0/m1_n492_n32# nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_96# nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# 2 4 1144 128
+n nalu2bit_0/nalu1bit_0/m1_n484_n24# Gnd nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# 2 4 1128 40
+n nalu2bit_0/nalu1bit_0/m1_n492_n32# nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# Gnd 2 4 1144 40
+p nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# Vdd nalu2bit_0/nalu1bit_0/m1_n484_n24# 2 4 1504 128
+n nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# Gnd nalu2bit_0/nalu1bit_0/m1_n484_n24# 2 4 1504 40
+p A0 nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# Vdd 2 4 1460 128
+n A0 nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_0/a_10_8# 2 4 1460 40
+p B0 Vdd nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# 2 4 1472 128
+n B0 nalu2bit_0/nalu1bit_0/2inAND_0/a_10_8# Gnd 2 4 1472 40
+p nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# Vdd nalu2bit_0/nalu1bit_0/m1_n492_n32# 2 4 1344 128
+n nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# Gnd nalu2bit_0/nalu1bit_0/m1_n492_n32# 2 4 1344 40
+p Cin nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# Vdd 2 4 1300 128
+n Cin nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_1/a_10_8# 2 4 1300 40
+p nalu2bit_0/nalu1bit_0/m1_248_64# Vdd nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# 2 4 1312 128
+n nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2inAND_1/a_10_8# Gnd 2 4 1312 40
+p nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# Vdd D0 2 4 2068 128
+n nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# Gnd D0 2 4 2068 40
+p E nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# Vdd 2 4 2024 128
+n E nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_2/a_10_8# 2 4 2024 40
+p nalu2bit_0/nalu1bit_0/m1_396_48# Vdd nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# 2 4 2036 128
+n nalu2bit_0/nalu1bit_0/m1_396_48# nalu2bit_0/nalu1bit_0/2inAND_2/a_10_8# Gnd 2 4 2036 40
+p B0 Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# 3 4 1636 120
+n B0 Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# 3 4 1636 40
+p A0 Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# 3 4 1692 120
+n A0 Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# 3 4 1692 40
+p nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# 2 4 1724 120
+p B0 Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# 2 4 1608 120
+p A0 nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# Vdd 2 4 1592 120
+p nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# nalu2bit_0/nalu1bit_0/m1_248_64# 2 4 1664 120
+n A0 nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_0/a_14_8# 2 4 1592 40
+n nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_0/2in-xor_0/a_86_8# nalu2bit_0/nalu1bit_0/m1_248_64# 2 4 1724 40
+n B0 nalu2bit_0/nalu1bit_0/2in-xor_0/a_14_8# Gnd 2 4 1608 40
+n nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/a_86_8# 2 4 1664 40
+p Cin Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# 3 4 1872 120
+n Cin Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# 3 4 1872 40
+p nalu2bit_0/nalu1bit_0/m1_248_64# Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# 3 4 1928 120
+n nalu2bit_0/nalu1bit_0/m1_248_64# Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# 3 4 1928 40
+p nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_0/m1_396_48# nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# 2 4 1960 120
+p Cin Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# 2 4 1844 120
+p nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# Vdd 2 4 1828 120
+p nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# nalu2bit_0/nalu1bit_0/m1_396_48# 2 4 1900 120
+n nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/m1_396_48# nalu2bit_0/nalu1bit_0/2in-xor_1/a_14_8# 2 4 1828 40
+n nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_0/2in-xor_1/a_86_8# nalu2bit_0/nalu1bit_0/m1_396_48# 2 4 1960 40
+n Cin nalu2bit_0/nalu1bit_0/2in-xor_1/a_14_8# Gnd 2 4 1844 40
+n nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/a_86_8# 2 4 1900 40
+p nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# Vdd m1_n392_180# 2 4 92 128
+n nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# Gnd m1_n392_180# 2 4 92 40
+p nalu2bit_0/nalu1bit_1/m1_n484_n24# Vdd nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_96# 2 4 44 128
+p nalu2bit_0/nalu1bit_1/m1_n492_n32# nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_96# nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# 2 4 60 128
+n nalu2bit_0/nalu1bit_1/m1_n484_n24# Gnd nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# 2 4 44 40
+n nalu2bit_0/nalu1bit_1/m1_n492_n32# nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# Gnd 2 4 60 40
+p nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# Vdd nalu2bit_0/nalu1bit_1/m1_n484_n24# 2 4 420 128
+n nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# Gnd nalu2bit_0/nalu1bit_1/m1_n484_n24# 2 4 420 40
+p A1 nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# Vdd 2 4 376 128
+n A1 nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_0/a_10_8# 2 4 376 40
+p B1 Vdd nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# 2 4 388 128
+n B1 nalu2bit_0/nalu1bit_1/2inAND_0/a_10_8# Gnd 2 4 388 40
+p nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# Vdd nalu2bit_0/nalu1bit_1/m1_n492_n32# 2 4 260 128
+n nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# Gnd nalu2bit_0/nalu1bit_1/m1_n492_n32# 2 4 260 40
+p nalu2bit_0/nalu1bit_1/2inAND_1/a_0_68# nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# Vdd 2 4 216 128
+n nalu2bit_0/nalu1bit_1/2inAND_1/a_0_68# nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_1/a_10_8# 2 4 216 40
+p nalu2bit_0/nalu1bit_1/m1_248_64# Vdd nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# 2 4 228 128
+n nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2inAND_1/a_10_8# Gnd 2 4 228 40
+p nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# Vdd D1 2 4 984 128
+n nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# Gnd D1 2 4 984 40
+p E nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# Vdd 2 4 940 128
+n E nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_2/a_10_8# 2 4 940 40
+p nalu2bit_0/nalu1bit_1/m1_396_48# Vdd nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# 2 4 952 128
+n nalu2bit_0/nalu1bit_1/m1_396_48# nalu2bit_0/nalu1bit_1/2inAND_2/a_10_8# Gnd 2 4 952 40
+p B1 Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# 3 4 552 120
+n B1 Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# 3 4 552 40
+p A1 Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# 3 4 608 120
+n A1 Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# 3 4 608 40
+p nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# 2 4 640 120
+p B1 Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# 2 4 524 120
+p A1 nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# Vdd 2 4 508 120
+p nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# nalu2bit_0/nalu1bit_1/m1_248_64# 2 4 580 120
+n A1 nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_0/a_14_8# 2 4 508 40
+n nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_1/2in-xor_0/a_86_8# nalu2bit_0/nalu1bit_1/m1_248_64# 2 4 640 40
+n B1 nalu2bit_0/nalu1bit_1/2in-xor_0/a_14_8# Gnd 2 4 524 40
+n nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/a_86_8# 2 4 580 40
+p nalu2bit_0/m1_n372_72# Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# 3 4 788 120
+n nalu2bit_0/m1_n372_72# Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# 3 4 788 40
+p nalu2bit_0/nalu1bit_1/m1_248_64# Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# 3 4 844 120
+n nalu2bit_0/nalu1bit_1/m1_248_64# Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# 3 4 844 40
+p nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_1/m1_396_48# nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# 2 4 876 120
+p nalu2bit_0/m1_n372_72# Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# 2 4 760 120
+p nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# Vdd 2 4 744 120
+p nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# nalu2bit_0/nalu1bit_1/m1_396_48# 2 4 816 120
+n nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/m1_396_48# nalu2bit_0/nalu1bit_1/2in-xor_1/a_14_8# 2 4 744 40
+n nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_1/2in-xor_1/a_86_8# nalu2bit_0/nalu1bit_1/m1_396_48# 2 4 876 40
+n nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_1/2in-xor_1/a_14_8# Gnd 2 4 760 40
+n nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/a_86_8# 2 4 816 40
+p nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# Vdd nalu2bit_1/m1_n372_72# 2 4 -1024 128
+n nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# Gnd nalu2bit_1/m1_n372_72# 2 4 -1024 40
+p nalu2bit_1/nalu1bit_0/m1_n484_n24# Vdd nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_96# 2 4 -1072 128
+p nalu2bit_1/nalu1bit_0/m1_n492_n32# nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_96# nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# 2 4 -1056 128
+n nalu2bit_1/nalu1bit_0/m1_n484_n24# Gnd nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# 2 4 -1072 40
+n nalu2bit_1/nalu1bit_0/m1_n492_n32# nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# Gnd 2 4 -1056 40
+p nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# Vdd nalu2bit_1/nalu1bit_0/m1_n484_n24# 2 4 -696 128
+n nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# Gnd nalu2bit_1/nalu1bit_0/m1_n484_n24# 2 4 -696 40
+p A2 nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# Vdd 2 4 -740 128
+n A2 nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_0/a_10_8# 2 4 -740 40
+p B2 Vdd nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# 2 4 -728 128
+n B2 nalu2bit_1/nalu1bit_0/2inAND_0/a_10_8# Gnd 2 4 -728 40
+p nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# Vdd nalu2bit_1/nalu1bit_0/m1_n492_n32# 2 4 -856 128
+n nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# Gnd nalu2bit_1/nalu1bit_0/m1_n492_n32# 2 4 -856 40
+p m1_n392_180# nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# Vdd 2 4 -900 128
+n m1_n392_180# nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_1/a_10_8# 2 4 -900 40
+p nalu2bit_1/nalu1bit_0/m1_248_64# Vdd nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# 2 4 -888 128
+n nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2inAND_1/a_10_8# Gnd 2 4 -888 40
+p nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# Vdd D2 2 4 -132 128
+n nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# Gnd D2 2 4 -132 40
+p E nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# Vdd 2 4 -176 128
+n E nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_2/a_10_8# 2 4 -176 40
+p nalu2bit_1/nalu1bit_0/m1_396_48# Vdd nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# 2 4 -164 128
+n nalu2bit_1/nalu1bit_0/m1_396_48# nalu2bit_1/nalu1bit_0/2inAND_2/a_10_8# Gnd 2 4 -164 40
+p B2 Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# 3 4 -564 120
+n B2 Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# 3 4 -564 40
+p A2 Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# 3 4 -508 120
+n A2 Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# 3 4 -508 40
+p nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# 2 4 -476 120
+p B2 Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# 2 4 -592 120
+p A2 nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# Vdd 2 4 -608 120
+p nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# nalu2bit_1/nalu1bit_0/m1_248_64# 2 4 -536 120
+n A2 nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_0/a_14_8# 2 4 -608 40
+n nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_0/2in-xor_0/a_86_8# nalu2bit_1/nalu1bit_0/m1_248_64# 2 4 -476 40
+n B2 nalu2bit_1/nalu1bit_0/2in-xor_0/a_14_8# Gnd 2 4 -592 40
+n nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/a_86_8# 2 4 -536 40
+p m1_n392_180# Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# 3 4 -328 120
+n m1_n392_180# Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# 3 4 -328 40
+p nalu2bit_1/nalu1bit_0/m1_248_64# Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# 3 4 -272 120
+n nalu2bit_1/nalu1bit_0/m1_248_64# Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# 3 4 -272 40
+p nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_0/m1_396_48# nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# 2 4 -240 120
+p m1_n392_180# Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# 2 4 -356 120
+p nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# Vdd 2 4 -372 120
+p nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# nalu2bit_1/nalu1bit_0/m1_396_48# 2 4 -300 120
+n nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/m1_396_48# nalu2bit_1/nalu1bit_0/2in-xor_1/a_14_8# 2 4 -372 40
+n nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_0/2in-xor_1/a_86_8# nalu2bit_1/nalu1bit_0/m1_396_48# 2 4 -240 40
+n m1_n392_180# nalu2bit_1/nalu1bit_0/2in-xor_1/a_14_8# Gnd 2 4 -356 40
+n nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/a_86_8# 2 4 -300 40
+p nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# Vdd nalu2bit_1/nalu1bit_1/m1_n372_56# 2 4 -2108 128
+n nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# Gnd nalu2bit_1/nalu1bit_1/m1_n372_56# 2 4 -2108 40
+p nalu2bit_1/nalu1bit_1/m1_n484_n24# Vdd nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_96# 2 4 -2156 128
+p nalu2bit_1/nalu1bit_1/m1_n492_n32# nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_96# nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# 2 4 -2140 128
+n nalu2bit_1/nalu1bit_1/m1_n484_n24# Gnd nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# 2 4 -2156 40
+n nalu2bit_1/nalu1bit_1/m1_n492_n32# nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# Gnd 2 4 -2140 40
+p nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# Vdd nalu2bit_1/nalu1bit_1/m1_n484_n24# 2 4 -1780 128
+n nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# Gnd nalu2bit_1/nalu1bit_1/m1_n484_n24# 2 4 -1780 40
+p A3 nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# Vdd 2 4 -1824 128
+n A3 nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_0/a_10_8# 2 4 -1824 40
+p B3 Vdd nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# 2 4 -1812 128
+n B3 nalu2bit_1/nalu1bit_1/2inAND_0/a_10_8# Gnd 2 4 -1812 40
+p nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# Vdd nalu2bit_1/nalu1bit_1/m1_n492_n32# 2 4 -1940 128
+n nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# Gnd nalu2bit_1/nalu1bit_1/m1_n492_n32# 2 4 -1940 40
+p nalu2bit_1/nalu1bit_1/2inAND_1/a_0_68# nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# Vdd 2 4 -1984 128
+n nalu2bit_1/nalu1bit_1/2inAND_1/a_0_68# nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_1/a_10_8# 2 4 -1984 40
+p nalu2bit_1/nalu1bit_1/m1_248_64# Vdd nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# 2 4 -1972 128
+n nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2inAND_1/a_10_8# Gnd 2 4 -1972 40
+p nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# Vdd D3 2 4 -1216 128
+n nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# Gnd D3 2 4 -1216 40
+p E nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# Vdd 2 4 -1260 128
+n E nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_2/a_10_8# 2 4 -1260 40
+p nalu2bit_1/nalu1bit_1/m1_396_48# Vdd nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# 2 4 -1248 128
+n nalu2bit_1/nalu1bit_1/m1_396_48# nalu2bit_1/nalu1bit_1/2inAND_2/a_10_8# Gnd 2 4 -1248 40
+p B3 Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# 3 4 -1648 120
+n B3 Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# 3 4 -1648 40
+p A3 Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# 3 4 -1592 120
+n A3 Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# 3 4 -1592 40
+p nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# 2 4 -1560 120
+p B3 Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# 2 4 -1676 120
+p A3 nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# Vdd 2 4 -1692 120
+p nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# nalu2bit_1/nalu1bit_1/m1_248_64# 2 4 -1620 120
+n A3 nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_0/a_14_8# 2 4 -1692 40
+n nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_1/2in-xor_0/a_86_8# nalu2bit_1/nalu1bit_1/m1_248_64# 2 4 -1560 40
+n B3 nalu2bit_1/nalu1bit_1/2in-xor_0/a_14_8# Gnd 2 4 -1676 40
+n nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/a_86_8# 2 4 -1620 40
+p nalu2bit_1/m1_n372_72# Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# 3 4 -1412 120
+n nalu2bit_1/m1_n372_72# Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# 3 4 -1412 40
+p nalu2bit_1/nalu1bit_1/m1_248_64# Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# 3 4 -1356 120
+n nalu2bit_1/nalu1bit_1/m1_248_64# Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# 3 4 -1356 40
+p nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_1/m1_396_48# nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# 2 4 -1324 120
+p nalu2bit_1/m1_n372_72# Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# 2 4 -1440 120
+p nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# Vdd 2 4 -1456 120
+p nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# nalu2bit_1/nalu1bit_1/m1_396_48# 2 4 -1384 120
+n nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/m1_396_48# nalu2bit_1/nalu1bit_1/2in-xor_1/a_14_8# 2 4 -1456 40
+n nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_1/2in-xor_1/a_86_8# nalu2bit_1/nalu1bit_1/m1_396_48# 2 4 -1324 40
+n nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_1/2in-xor_1/a_14_8# Gnd 2 4 -1440 40
+n nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/a_86_8# 2 4 -1384 40
+C nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_0/m1_248_64# 2.55
+C Vdd m1_n392_180# 2.16
+C nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_1/m1_248_64# 2.55
+C nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_1/m1_248_64# 2.55
+C nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_0/m1_396_48# 2.55
+C nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_0/m1_248_64# 2.55
+C nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_1/m1_396_48# 2.55
+C E m1_n392_180# 2.16
+C E Vdd 2.88
+C nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_1/m1_396_48# 2.55
+C nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_0/m1_396_48# 2.55
+C nalu2bit_1/nalu1bit_1/m1_248_64# GND 277.05
+R nalu2bit_1/nalu1bit_1/m1_248_64# 3739
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_1/a_12_6#
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_1/inv_1/a_12_5#
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/m1_n268_60#
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_8#
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/2inAND_1/a_20_6#
+= nalu2bit_1/nalu1bit_1/m1_248_64# nalu2bit_1/nalu1bit_1/m1_n324_n16#
+R B3 2933
+= B3 nalu2bit_1/m1_n596_72#
+= B3 nalu2bit_1/nalu1bit_1/m1_28_40#
+= B3 nalu2bit_1/nalu1bit_1/2in-xor_0/a_28_5#
+= B3 nalu2bit_1/nalu1bit_1/2in-xor_0/inv_0/a_12_5#
+= B3 nalu2bit_1/nalu1bit_1/m1_n164_60#
+= B3 nalu2bit_1/nalu1bit_1/2inAND_0/a_20_6#
+= B3 nalu2bit_1/nalu1bit_1/m1_n108_60#
+C nalu2bit_1/nalu1bit_1/2in-xor_1/a_86_8# GND 8.62
+R nalu2bit_1/nalu1bit_1/2in-xor_1/a_86_8# 266
+R nalu2bit_1/nalu1bit_1/2in-xor_1/a_14_8# 93
+C nalu2bit_1/nalu1bit_1/m1_396_48# GND 75.04
+R nalu2bit_1/nalu1bit_1/m1_396_48# 1957
+= nalu2bit_1/nalu1bit_1/m1_396_48# nalu2bit_1/nalu1bit_1/2inAND_2/a_20_6#
+= nalu2bit_1/nalu1bit_1/m1_396_48# nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_8#
+C nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# GND 22.03
+R nalu2bit_1/nalu1bit_1/2in-xor_1/a_4_88# 1098
+C nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# GND 37.03
+R nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# 1245
+= nalu2bit_1/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_1/2in-xor_1/inv_1/a_15_8#
+C nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# GND 37.93
+R nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# 1245
+= nalu2bit_1/nalu1bit_1/2in-xor_1/a_84_6# nalu2bit_1/nalu1bit_1/2in-xor_1/inv_0/a_15_8#
+C nalu2bit_1/nalu1bit_1/2in-xor_0/a_86_8# GND 8.62
+R nalu2bit_1/nalu1bit_1/2in-xor_0/a_86_8# 266
+R nalu2bit_1/nalu1bit_1/2in-xor_0/a_14_8# 93
+C nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# GND 22.03
+R nalu2bit_1/nalu1bit_1/2in-xor_0/a_4_88# 1098
+C Gnd GND 373.67
+R Gnd 8049
+= Gnd m2_n100_32#
+= Gnd nalu2bit_0/m2_n72_32#
+= Gnd nalu2bit_0/m2_1008_32#
+= Gnd nalu2bit_0/nalu1bit_0/m2_n44_0#
+= Gnd nalu2bit_0/nalu1bit_0/m2_n372_0#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_1/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_1/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_0/m2_n204_0#
+= Gnd nalu2bit_0/nalu1bit_0/2in-OR_0/a_0_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-OR_0/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_2/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_2/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_0/m2_400_0#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_0/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_0/2inAND_0/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_0/m2_164_0#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/a_30_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/inv_0/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/m2_108_0#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_1/inv_1/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/a_30_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/inv_0/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/m2_108_0#
+= Gnd nalu2bit_0/nalu1bit_0/2in-xor_0/inv_1/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_1/m2_n44_0#
+= Gnd nalu2bit_0/nalu1bit_1/m2_n372_0#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_1/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_1/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_1/m2_n204_0#
+= Gnd nalu2bit_0/nalu1bit_1/2in-OR_0/a_0_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-OR_0/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_2/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_2/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_1/m2_400_0#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_0/a_22_8#
+= Gnd nalu2bit_0/nalu1bit_1/2inAND_0/inverter_0/a_8_8#
+= Gnd nalu2bit_0/nalu1bit_1/m2_164_0#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/a_30_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/inv_0/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/m2_108_0#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_1/inv_1/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/a_30_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/inv_0/a_4_8#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/m2_108_0#
+= Gnd nalu2bit_0/nalu1bit_1/2in-xor_0/inv_1/a_4_8#
+= Gnd nalu2bit_1/m2_n72_32#
+= Gnd nalu2bit_1/m2_1008_32#
+= Gnd nalu2bit_1/nalu1bit_0/m2_n44_0#
+= Gnd nalu2bit_1/nalu1bit_0/m2_n372_0#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_1/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_1/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_0/m2_n204_0#
+= Gnd nalu2bit_1/nalu1bit_0/2in-OR_0/a_0_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-OR_0/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_2/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_2/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_0/m2_400_0#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_0/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_0/2inAND_0/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_0/m2_164_0#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/a_30_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/inv_0/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/m2_108_0#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_1/inv_1/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/a_30_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/inv_0/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/m2_108_0#
+= Gnd nalu2bit_1/nalu1bit_0/2in-xor_0/inv_1/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_1/m2_n44_0#
+= Gnd nalu2bit_1/nalu1bit_1/m2_n372_0#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_1/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_1/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_1/m2_n204_0#
+= Gnd nalu2bit_1/nalu1bit_1/2in-OR_0/a_0_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-OR_0/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_2/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_2/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_1/m2_400_0#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_0/a_22_8#
+= Gnd nalu2bit_1/nalu1bit_1/2inAND_0/inverter_0/a_8_8#
+= Gnd nalu2bit_1/nalu1bit_1/m2_164_0#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/a_30_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/inv_0/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/m2_108_0#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_1/inv_1/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/a_30_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/inv_0/a_4_8#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/m2_108_0#
+= Gnd nalu2bit_1/nalu1bit_1/2in-xor_0/inv_1/a_4_8#
+C nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# GND 37.03
+R nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# 1245
+= nalu2bit_1/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_1/2in-xor_0/inv_1/a_15_8#
+C nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# GND 37.93
+R nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# 1245
+= nalu2bit_1/nalu1bit_1/2in-xor_0/a_84_6# nalu2bit_1/nalu1bit_1/2in-xor_0/inv_0/a_15_8#
+R nalu2bit_1/nalu1bit_1/2inAND_2/a_10_8# 67
+R D3 475
+= D3 nalu2bit_1/m1_n72_88#
+= D3 nalu2bit_1/nalu1bit_1/2inAND_2/m1_68_56#
+= D3 nalu2bit_1/nalu1bit_1/2inAND_2/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# 1775
+= nalu2bit_1/nalu1bit_1/2inAND_2/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_2/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_1/2inAND_1/a_10_8# 67
+C nalu2bit_1/nalu1bit_1/2inAND_1/a_0_68# GND 24.44
+R nalu2bit_1/nalu1bit_1/2inAND_1/a_0_68# 1240
+C nalu2bit_1/nalu1bit_1/m1_n492_n32# GND 134.37
+R nalu2bit_1/nalu1bit_1/m1_n492_n32# 1627
+= nalu2bit_1/nalu1bit_1/m1_n492_n32# nalu2bit_1/nalu1bit_1/2in-OR_0/a_24_6#
+= nalu2bit_1/nalu1bit_1/m1_n492_n32# nalu2bit_1/nalu1bit_1/2inAND_1/m1_68_56#
+= nalu2bit_1/nalu1bit_1/m1_n492_n32# nalu2bit_1/nalu1bit_1/2inAND_1/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# 1775
+= nalu2bit_1/nalu1bit_1/2inAND_1/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_1/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_1/2inAND_0/a_10_8# 67
+R A3 3014
+= A3 nalu2bit_1/m1_n596_96#
+= A3 nalu2bit_1/nalu1bit_1/m1_12_64#
+= A3 nalu2bit_1/nalu1bit_1/2in-xor_0/a_12_6#
+= A3 nalu2bit_1/nalu1bit_1/2in-xor_0/inv_1/a_12_5#
+= A3 nalu2bit_1/nalu1bit_1/m1_n156_68#
+= A3 nalu2bit_1/nalu1bit_1/2inAND_0/a_0_68#
+C nalu2bit_1/nalu1bit_1/m1_n484_n24# GND 142.74
+R nalu2bit_1/nalu1bit_1/m1_n484_n24# 1722
+= nalu2bit_1/nalu1bit_1/m1_n484_n24# nalu2bit_1/nalu1bit_1/2in-OR_0/a_0_32#
+= nalu2bit_1/nalu1bit_1/m1_n484_n24# nalu2bit_1/nalu1bit_1/2inAND_0/m1_68_56#
+= nalu2bit_1/nalu1bit_1/m1_n484_n24# nalu2bit_1/nalu1bit_1/2inAND_0/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# 1775
+= nalu2bit_1/nalu1bit_1/2inAND_0/a_0_8# nalu2bit_1/nalu1bit_1/2inAND_0/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_96# 208
+C nalu2bit_1/nalu1bit_1/m1_n372_56# GND 37.18
+R nalu2bit_1/nalu1bit_1/m1_n372_56# 476
+= nalu2bit_1/nalu1bit_1/m1_n372_56# nalu2bit_1/nalu1bit_1/2in-OR_0/m1_72_56#
+= nalu2bit_1/nalu1bit_1/m1_n372_56# nalu2bit_1/nalu1bit_1/2in-OR_0/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# GND 45.32
+R nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# 1532
+= nalu2bit_1/nalu1bit_1/2in-OR_0/a_10_8# nalu2bit_1/nalu1bit_1/2in-OR_0/inverter_0/a_8_56#
+C nalu2bit_1/nalu1bit_0/m1_248_64# GND 277.05
+R nalu2bit_1/nalu1bit_0/m1_248_64# 3739
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_1/a_12_6#
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_1/inv_1/a_12_5#
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/m1_n268_60#
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_8#
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/2inAND_1/a_20_6#
+= nalu2bit_1/nalu1bit_0/m1_248_64# nalu2bit_1/nalu1bit_0/m1_n324_n16#
+R B2 2933
+= B2 nalu2bit_1/m1_488_72#
+= B2 nalu2bit_1/nalu1bit_0/m1_28_40#
+= B2 nalu2bit_1/nalu1bit_0/2in-xor_0/a_28_5#
+= B2 nalu2bit_1/nalu1bit_0/2in-xor_0/inv_0/a_12_5#
+= B2 nalu2bit_1/nalu1bit_0/m1_n164_60#
+= B2 nalu2bit_1/nalu1bit_0/2inAND_0/a_20_6#
+= B2 nalu2bit_1/nalu1bit_0/m1_n108_60#
+C nalu2bit_1/nalu1bit_0/2in-xor_1/a_86_8# GND 8.62
+R nalu2bit_1/nalu1bit_0/2in-xor_1/a_86_8# 266
+R nalu2bit_1/nalu1bit_0/2in-xor_1/a_14_8# 93
+C nalu2bit_1/nalu1bit_0/m1_396_48# GND 75.04
+R nalu2bit_1/nalu1bit_0/m1_396_48# 1957
+= nalu2bit_1/nalu1bit_0/m1_396_48# nalu2bit_1/nalu1bit_0/2inAND_2/a_20_6#
+= nalu2bit_1/nalu1bit_0/m1_396_48# nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_8#
+C nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# GND 22.03
+R nalu2bit_1/nalu1bit_0/2in-xor_1/a_4_88# 1098
+C nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# GND 37.03
+R nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# 1245
+= nalu2bit_1/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_1/nalu1bit_0/2in-xor_1/inv_1/a_15_8#
+C nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# GND 37.93
+R nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# 1245
+= nalu2bit_1/nalu1bit_0/2in-xor_1/a_84_6# nalu2bit_1/nalu1bit_0/2in-xor_1/inv_0/a_15_8#
+C m1_n392_180# GND 241.68
+R m1_n392_180# 3505
+= m1_n392_180# nalu2bit_0/nalu1bit_1/m1_n372_56#
+= m1_n392_180# nalu2bit_0/nalu1bit_1/2in-OR_0/m1_72_56#
+= m1_n392_180# nalu2bit_0/nalu1bit_1/2in-OR_0/inverter_0/a_22_8#
+= m1_n392_180# nalu2bit_1/m1_180_100#
+= m1_n392_180# nalu2bit_1/nalu1bit_0/2inAND_1/a_0_68#
+= m1_n392_180# nalu2bit_1/nalu1bit_0/2in-xor_1/a_28_5#
+= m1_n392_180# nalu2bit_1/nalu1bit_0/2in-xor_1/inv_0/a_12_5#
+C nalu2bit_1/nalu1bit_0/2in-xor_0/a_86_8# GND 8.62
+R nalu2bit_1/nalu1bit_0/2in-xor_0/a_86_8# 266
+R nalu2bit_1/nalu1bit_0/2in-xor_0/a_14_8# 93
+C nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# GND 22.03
+R nalu2bit_1/nalu1bit_0/2in-xor_0/a_4_88# 1098
+C nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# GND 37.03
+R nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# 1245
+= nalu2bit_1/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_1/nalu1bit_0/2in-xor_0/inv_1/a_15_8#
+C Vdd GND 372.04
+R Vdd 16564
+= Vdd m2_n100_136#
+= Vdd nalu2bit_0/m2_n72_136#
+= Vdd nalu2bit_0/nalu1bit_1/m2_400_96#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_2/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_2/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_1/m2_164_96#
+= Vdd nalu2bit_0/nalu1bit_1/m2_n372_104#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_1/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_1/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_1/m2_n204_104#
+= Vdd nalu2bit_0/nalu1bit_1/2in-OR_0/a_0_96#
+= Vdd nalu2bit_0/nalu1bit_1/2in-OR_0/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/a_14_88#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/inv_0/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/m2_108_96#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_1/inv_1/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_1/m2_n44_104#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_0/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_1/2inAND_0/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/a_14_88#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/inv_0/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/m2_108_96#
+= Vdd nalu2bit_0/nalu1bit_1/2in-xor_0/inv_1/a_4_88#
+= Vdd nalu2bit_0/m2_1008_136#
+= Vdd nalu2bit_0/nalu1bit_0/m2_400_96#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_2/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_2/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_0/m2_164_96#
+= Vdd nalu2bit_0/nalu1bit_0/m2_n372_104#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_1/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_1/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_0/m2_n204_104#
+= Vdd nalu2bit_0/nalu1bit_0/2in-OR_0/a_0_96#
+= Vdd nalu2bit_0/nalu1bit_0/2in-OR_0/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/a_14_88#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/inv_0/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/m2_108_96#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_1/inv_1/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_0/m2_n44_104#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_0/a_10_96#
+= Vdd nalu2bit_0/nalu1bit_0/2inAND_0/inverter_0/a_8_96#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/a_14_88#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/inv_0/a_4_88#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/m2_108_96#
+= Vdd nalu2bit_0/nalu1bit_0/2in-xor_0/inv_1/a_4_88#
+= Vdd nalu2bit_1/m2_n72_136#
+= Vdd nalu2bit_1/nalu1bit_1/m2_400_96#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_2/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_2/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_1/m2_164_96#
+= Vdd nalu2bit_1/nalu1bit_1/m2_n372_104#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_1/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_1/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_1/m2_n204_104#
+= Vdd nalu2bit_1/nalu1bit_1/2in-OR_0/a_0_96#
+= Vdd nalu2bit_1/nalu1bit_1/2in-OR_0/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/a_14_88#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/inv_0/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/m2_108_96#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_1/inv_1/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_1/m2_n44_104#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_0/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_1/2inAND_0/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/a_14_88#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/inv_0/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/m2_108_96#
+= Vdd nalu2bit_1/nalu1bit_1/2in-xor_0/inv_1/a_4_88#
+= Vdd nalu2bit_1/m2_1008_136#
+= Vdd nalu2bit_1/nalu1bit_0/m2_400_96#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_2/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_2/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_0/m2_164_96#
+= Vdd nalu2bit_1/nalu1bit_0/m2_n372_104#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_1/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_1/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_0/m2_n204_104#
+= Vdd nalu2bit_1/nalu1bit_0/2in-OR_0/a_0_96#
+= Vdd nalu2bit_1/nalu1bit_0/2in-OR_0/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/a_14_88#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/inv_0/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/m2_108_96#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_1/inv_1/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_0/m2_n44_104#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_0/a_10_96#
+= Vdd nalu2bit_1/nalu1bit_0/2inAND_0/inverter_0/a_8_96#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/a_14_88#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/inv_0/a_4_88#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/m2_108_96#
+= Vdd nalu2bit_1/nalu1bit_0/2in-xor_0/inv_1/a_4_88#
+C nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# GND 37.93
+R nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# 1245
+= nalu2bit_1/nalu1bit_0/2in-xor_0/a_84_6# nalu2bit_1/nalu1bit_0/2in-xor_0/inv_0/a_15_8#
+R nalu2bit_1/nalu1bit_0/2inAND_2/a_10_8# 67
+R D2 475
+= D2 nalu2bit_1/m1_1012_88#
+= D2 nalu2bit_1/nalu1bit_0/2inAND_2/m1_68_56#
+= D2 nalu2bit_1/nalu1bit_0/2inAND_2/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# 1775
+= nalu2bit_1/nalu1bit_0/2inAND_2/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_2/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_0/2inAND_1/a_10_8# 67
+C nalu2bit_1/nalu1bit_0/m1_n492_n32# GND 134.37
+R nalu2bit_1/nalu1bit_0/m1_n492_n32# 1627
+= nalu2bit_1/nalu1bit_0/m1_n492_n32# nalu2bit_1/nalu1bit_0/2in-OR_0/a_24_6#
+= nalu2bit_1/nalu1bit_0/m1_n492_n32# nalu2bit_1/nalu1bit_0/2inAND_1/m1_68_56#
+= nalu2bit_1/nalu1bit_0/m1_n492_n32# nalu2bit_1/nalu1bit_0/2inAND_1/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# 1775
+= nalu2bit_1/nalu1bit_0/2inAND_1/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_1/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_0/2inAND_0/a_10_8# 67
+R A2 3014
+= A2 nalu2bit_1/m1_488_96#
+= A2 nalu2bit_1/nalu1bit_0/m1_12_64#
+= A2 nalu2bit_1/nalu1bit_0/2in-xor_0/a_12_6#
+= A2 nalu2bit_1/nalu1bit_0/2in-xor_0/inv_1/a_12_5#
+= A2 nalu2bit_1/nalu1bit_0/m1_n156_68#
+= A2 nalu2bit_1/nalu1bit_0/2inAND_0/a_0_68#
+C nalu2bit_1/nalu1bit_0/m1_n484_n24# GND 142.74
+R nalu2bit_1/nalu1bit_0/m1_n484_n24# 1722
+= nalu2bit_1/nalu1bit_0/m1_n484_n24# nalu2bit_1/nalu1bit_0/2in-OR_0/a_0_32#
+= nalu2bit_1/nalu1bit_0/m1_n484_n24# nalu2bit_1/nalu1bit_0/2inAND_0/m1_68_56#
+= nalu2bit_1/nalu1bit_0/m1_n484_n24# nalu2bit_1/nalu1bit_0/2inAND_0/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# GND 53.22
+R nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# 1775
+= nalu2bit_1/nalu1bit_0/2inAND_0/a_0_8# nalu2bit_1/nalu1bit_0/2inAND_0/inverter_0/a_8_56#
+R nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_96# 208
+C nalu2bit_1/m1_n372_72# GND 198.25
+R nalu2bit_1/m1_n372_72# 2247
+= nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_1/2in-xor_1/a_28_5#
+= nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_1/2in-xor_1/inv_0/a_12_5#
+= nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_0/m1_n372_56#
+= nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_0/2in-OR_0/m1_72_56#
+= nalu2bit_1/m1_n372_72# nalu2bit_1/nalu1bit_0/2in-OR_0/inverter_0/a_22_8#
+C nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# GND 45.32
+R nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# 1532
+= nalu2bit_1/nalu1bit_0/2in-OR_0/a_10_8# nalu2bit_1/nalu1bit_0/2in-OR_0/inverter_0/a_8_56#
+C nalu2bit_0/nalu1bit_1/m1_248_64# GND 277.05
+R nalu2bit_0/nalu1bit_1/m1_248_64# 3739
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_1/a_12_6#
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_1/inv_1/a_12_5#
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/m1_n268_60#
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_8#
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/2inAND_1/a_20_6#
+= nalu2bit_0/nalu1bit_1/m1_248_64# nalu2bit_0/nalu1bit_1/m1_n324_n16#
+R B1 2933
+= B1 nalu2bit_0/m1_n596_72#
+= B1 nalu2bit_0/nalu1bit_1/m1_28_40#
+= B1 nalu2bit_0/nalu1bit_1/2in-xor_0/a_28_5#
+= B1 nalu2bit_0/nalu1bit_1/2in-xor_0/inv_0/a_12_5#
+= B1 nalu2bit_0/nalu1bit_1/m1_n164_60#
+= B1 nalu2bit_0/nalu1bit_1/2inAND_0/a_20_6#
+= B1 nalu2bit_0/nalu1bit_1/m1_n108_60#
+C nalu2bit_0/nalu1bit_1/2in-xor_1/a_86_8# GND 8.62
+R nalu2bit_0/nalu1bit_1/2in-xor_1/a_86_8# 266
+R nalu2bit_0/nalu1bit_1/2in-xor_1/a_14_8# 93
+C nalu2bit_0/nalu1bit_1/m1_396_48# GND 75.04
+R nalu2bit_0/nalu1bit_1/m1_396_48# 1957
+= nalu2bit_0/nalu1bit_1/m1_396_48# nalu2bit_0/nalu1bit_1/2inAND_2/a_20_6#
+= nalu2bit_0/nalu1bit_1/m1_396_48# nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_8#
+C nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# GND 22.03
+R nalu2bit_0/nalu1bit_1/2in-xor_1/a_4_88# 1098
+C nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# GND 37.03
+R nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# 1245
+= nalu2bit_0/nalu1bit_1/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_1/2in-xor_1/inv_1/a_15_8#
+C nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# GND 37.93
+R nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# 1245
+= nalu2bit_0/nalu1bit_1/2in-xor_1/a_84_6# nalu2bit_0/nalu1bit_1/2in-xor_1/inv_0/a_15_8#
+C nalu2bit_0/nalu1bit_1/2in-xor_0/a_86_8# GND 8.62
+R nalu2bit_0/nalu1bit_1/2in-xor_0/a_86_8# 266
+R nalu2bit_0/nalu1bit_1/2in-xor_0/a_14_8# 93
+C nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# GND 22.03
+R nalu2bit_0/nalu1bit_1/2in-xor_0/a_4_88# 1098
+C nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# GND 37.03
+R nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# 1245
+= nalu2bit_0/nalu1bit_1/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_1/2in-xor_0/inv_1/a_15_8#
+C nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# GND 37.93
+R nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# 1245
+= nalu2bit_0/nalu1bit_1/2in-xor_0/a_84_6# nalu2bit_0/nalu1bit_1/2in-xor_0/inv_0/a_15_8#
+R nalu2bit_0/nalu1bit_1/2inAND_2/a_10_8# 67
+R E 5114
+= E m1_n196_196#
+= E nalu2bit_1/m1_n168_196#
+= E nalu2bit_1/nalu1bit_0/m1_420_68#
+= E nalu2bit_1/nalu1bit_0/2inAND_2/a_0_68#
+= E nalu2bit_1/nalu1bit_1/m1_420_68#
+= E nalu2bit_1/nalu1bit_1/2inAND_2/a_0_68#
+= E nalu2bit_0/m1_n168_196#
+= E nalu2bit_0/nalu1bit_0/m1_420_68#
+= E nalu2bit_0/nalu1bit_0/2inAND_2/a_0_68#
+= E nalu2bit_0/nalu1bit_1/m1_420_68#
+= E nalu2bit_0/nalu1bit_1/2inAND_2/a_0_68#
+R D1 475
+= D1 nalu2bit_0/m1_n72_88#
+= D1 nalu2bit_0/nalu1bit_1/2inAND_2/m1_68_56#
+= D1 nalu2bit_0/nalu1bit_1/2inAND_2/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# 1775
+= nalu2bit_0/nalu1bit_1/2inAND_2/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_2/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_1/2inAND_1/a_10_8# 67
+C nalu2bit_0/nalu1bit_1/2inAND_1/a_0_68# GND 24.44
+R nalu2bit_0/nalu1bit_1/2inAND_1/a_0_68# 1240
+C nalu2bit_0/nalu1bit_1/m1_n492_n32# GND 134.37
+R nalu2bit_0/nalu1bit_1/m1_n492_n32# 1627
+= nalu2bit_0/nalu1bit_1/m1_n492_n32# nalu2bit_0/nalu1bit_1/2in-OR_0/a_24_6#
+= nalu2bit_0/nalu1bit_1/m1_n492_n32# nalu2bit_0/nalu1bit_1/2inAND_1/m1_68_56#
+= nalu2bit_0/nalu1bit_1/m1_n492_n32# nalu2bit_0/nalu1bit_1/2inAND_1/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# 1775
+= nalu2bit_0/nalu1bit_1/2inAND_1/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_1/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_1/2inAND_0/a_10_8# 67
+R A1 3014
+= A1 nalu2bit_0/m1_n596_96#
+= A1 nalu2bit_0/nalu1bit_1/m1_12_64#
+= A1 nalu2bit_0/nalu1bit_1/2in-xor_0/a_12_6#
+= A1 nalu2bit_0/nalu1bit_1/2in-xor_0/inv_1/a_12_5#
+= A1 nalu2bit_0/nalu1bit_1/m1_n156_68#
+= A1 nalu2bit_0/nalu1bit_1/2inAND_0/a_0_68#
+C nalu2bit_0/nalu1bit_1/m1_n484_n24# GND 142.74
+R nalu2bit_0/nalu1bit_1/m1_n484_n24# 1722
+= nalu2bit_0/nalu1bit_1/m1_n484_n24# nalu2bit_0/nalu1bit_1/2in-OR_0/a_0_32#
+= nalu2bit_0/nalu1bit_1/m1_n484_n24# nalu2bit_0/nalu1bit_1/2inAND_0/m1_68_56#
+= nalu2bit_0/nalu1bit_1/m1_n484_n24# nalu2bit_0/nalu1bit_1/2inAND_0/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# 1775
+= nalu2bit_0/nalu1bit_1/2inAND_0/a_0_8# nalu2bit_0/nalu1bit_1/2inAND_0/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_96# 208
+C nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# GND 45.32
+R nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# 1532
+= nalu2bit_0/nalu1bit_1/2in-OR_0/a_10_8# nalu2bit_0/nalu1bit_1/2in-OR_0/inverter_0/a_8_56#
+C nalu2bit_0/nalu1bit_0/m1_248_64# GND 277.05
+R nalu2bit_0/nalu1bit_0/m1_248_64# 3739
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_1/a_12_6#
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_1/inv_1/a_12_5#
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/m1_n268_60#
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_8#
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/2inAND_1/a_20_6#
+= nalu2bit_0/nalu1bit_0/m1_248_64# nalu2bit_0/nalu1bit_0/m1_n324_n16#
+R B0 2933
+= B0 nalu2bit_0/m1_488_72#
+= B0 nalu2bit_0/nalu1bit_0/m1_28_40#
+= B0 nalu2bit_0/nalu1bit_0/2in-xor_0/a_28_5#
+= B0 nalu2bit_0/nalu1bit_0/2in-xor_0/inv_0/a_12_5#
+= B0 nalu2bit_0/nalu1bit_0/m1_n164_60#
+= B0 nalu2bit_0/nalu1bit_0/2inAND_0/a_20_6#
+= B0 nalu2bit_0/nalu1bit_0/m1_n108_60#
+C nalu2bit_0/nalu1bit_0/2in-xor_1/a_86_8# GND 8.62
+R nalu2bit_0/nalu1bit_0/2in-xor_1/a_86_8# 266
+R nalu2bit_0/nalu1bit_0/2in-xor_1/a_14_8# 93
+C nalu2bit_0/nalu1bit_0/m1_396_48# GND 75.04
+R nalu2bit_0/nalu1bit_0/m1_396_48# 1957
+= nalu2bit_0/nalu1bit_0/m1_396_48# nalu2bit_0/nalu1bit_0/2inAND_2/a_20_6#
+= nalu2bit_0/nalu1bit_0/m1_396_48# nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_8#
+C nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# GND 22.03
+R nalu2bit_0/nalu1bit_0/2in-xor_1/a_4_88# 1098
+C nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# GND 37.03
+R nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# 1245
+= nalu2bit_0/nalu1bit_0/2in-xor_1/a_144_6# nalu2bit_0/nalu1bit_0/2in-xor_1/inv_1/a_15_8#
+C nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# GND 37.93
+R nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# 1245
+= nalu2bit_0/nalu1bit_0/2in-xor_1/a_84_6# nalu2bit_0/nalu1bit_0/2in-xor_1/inv_0/a_15_8#
+R Cin 3028
+= Cin nalu2bit_0/m1_180_100#
+= Cin nalu2bit_0/nalu1bit_0/2inAND_1/a_0_68#
+= Cin nalu2bit_0/nalu1bit_0/2in-xor_1/a_28_5#
+= Cin nalu2bit_0/nalu1bit_0/2in-xor_1/inv_0/a_12_5#
+C nalu2bit_0/nalu1bit_0/2in-xor_0/a_86_8# GND 8.62
+R nalu2bit_0/nalu1bit_0/2in-xor_0/a_86_8# 266
+R nalu2bit_0/nalu1bit_0/2in-xor_0/a_14_8# 93
+C nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# GND 22.03
+R nalu2bit_0/nalu1bit_0/2in-xor_0/a_4_88# 1098
+C nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# GND 37.03
+R nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# 1245
+= nalu2bit_0/nalu1bit_0/2in-xor_0/a_144_6# nalu2bit_0/nalu1bit_0/2in-xor_0/inv_1/a_15_8#
+C nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# GND 37.93
+R nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# 1245
+= nalu2bit_0/nalu1bit_0/2in-xor_0/a_84_6# nalu2bit_0/nalu1bit_0/2in-xor_0/inv_0/a_15_8#
+R nalu2bit_0/nalu1bit_0/2inAND_2/a_10_8# 67
+R D0 475
+= D0 nalu2bit_0/m1_1012_88#
+= D0 nalu2bit_0/nalu1bit_0/2inAND_2/m1_68_56#
+= D0 nalu2bit_0/nalu1bit_0/2inAND_2/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# 1775
+= nalu2bit_0/nalu1bit_0/2inAND_2/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_2/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_0/2inAND_1/a_10_8# 67
+C nalu2bit_0/nalu1bit_0/m1_n492_n32# GND 134.37
+R nalu2bit_0/nalu1bit_0/m1_n492_n32# 1627
+= nalu2bit_0/nalu1bit_0/m1_n492_n32# nalu2bit_0/nalu1bit_0/2in-OR_0/a_24_6#
+= nalu2bit_0/nalu1bit_0/m1_n492_n32# nalu2bit_0/nalu1bit_0/2inAND_1/m1_68_56#
+= nalu2bit_0/nalu1bit_0/m1_n492_n32# nalu2bit_0/nalu1bit_0/2inAND_1/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# 1775
+= nalu2bit_0/nalu1bit_0/2inAND_1/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_1/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_0/2inAND_0/a_10_8# 67
+R A0 3014
+= A0 nalu2bit_0/m1_488_96#
+= A0 nalu2bit_0/nalu1bit_0/m1_12_64#
+= A0 nalu2bit_0/nalu1bit_0/2in-xor_0/a_12_6#
+= A0 nalu2bit_0/nalu1bit_0/2in-xor_0/inv_1/a_12_5#
+= A0 nalu2bit_0/nalu1bit_0/m1_n156_68#
+= A0 nalu2bit_0/nalu1bit_0/2inAND_0/a_0_68#
+C nalu2bit_0/nalu1bit_0/m1_n484_n24# GND 142.74
+R nalu2bit_0/nalu1bit_0/m1_n484_n24# 1722
+= nalu2bit_0/nalu1bit_0/m1_n484_n24# nalu2bit_0/nalu1bit_0/2in-OR_0/a_0_32#
+= nalu2bit_0/nalu1bit_0/m1_n484_n24# nalu2bit_0/nalu1bit_0/2inAND_0/m1_68_56#
+= nalu2bit_0/nalu1bit_0/m1_n484_n24# nalu2bit_0/nalu1bit_0/2inAND_0/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# GND 53.22
+R nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# 1775
+= nalu2bit_0/nalu1bit_0/2inAND_0/a_0_8# nalu2bit_0/nalu1bit_0/2inAND_0/inverter_0/a_8_56#
+R nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_96# 208
+C nalu2bit_0/m1_n372_72# GND 198.25
+R nalu2bit_0/m1_n372_72# 2247
+= nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_1/2in-xor_1/a_28_5#
+= nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_1/2in-xor_1/inv_0/a_12_5#
+= nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_0/m1_n372_56#
+= nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_0/2in-OR_0/m1_72_56#
+= nalu2bit_0/m1_n372_72# nalu2bit_0/nalu1bit_0/2in-OR_0/inverter_0/a_22_8#
+C nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# GND 45.32
+R nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# 1532
+= nalu2bit_0/nalu1bit_0/2in-OR_0/a_10_8# nalu2bit_0/nalu1bit_0/2in-OR_0/inverter_0/a_8_56#

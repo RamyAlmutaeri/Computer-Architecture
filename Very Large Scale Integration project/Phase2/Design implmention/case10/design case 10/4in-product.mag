@@ -1,0 +1,152 @@
+magic
+tech scmos
+timestamp 1653368704
+<< metal1 >>
+rect -708 144 -140 148
+rect -708 44 -704 144
+rect -536 136 -4 140
+rect -544 128 -12 132
+rect -556 120 -20 124
+rect -640 67 -636 112
+rect -708 40 -664 44
+rect -708 -68 -704 40
+rect -556 36 -552 120
+rect -684 -4 -680 8
+rect -708 -72 -664 -68
+rect -708 -124 -704 -72
+rect -556 -76 -552 32
+rect -548 60 -544 112
+rect -548 -52 -544 56
+rect -540 92 -536 112
+rect -540 -20 -536 88
+rect -156 55 -152 112
+rect -140 44 -136 112
+rect -100 112 -32 116
+rect -100 70 -96 112
+rect -140 40 -132 44
+rect -24 36 -20 120
+rect -548 -56 -523 -52
+rect -680 -116 -676 -88
+rect -156 -116 -152 -52
+rect -680 -120 -152 -116
+rect -148 -116 -144 -44
+rect -140 -72 -128 -68
+rect -140 -124 -136 -72
+rect -24 -76 -20 32
+rect -16 56 -12 128
+rect -16 -60 -12 52
+rect -8 92 -4 136
+rect 8 112 384 116
+rect -8 -20 -4 88
+rect 380 56 384 112
+rect 380 -116 384 -52
+rect -124 -120 384 -116
+rect -708 -128 -136 -124
+<< metal2 >>
+rect -640 164 -152 168
+rect -640 116 -636 164
+rect -548 116 -544 128
+rect -540 116 -536 136
+rect -156 116 -152 164
+rect -140 116 -136 144
+rect -28 112 4 116
+rect -684 104 -668 108
+rect -568 104 -544 108
+rect -44 104 245 108
+rect -684 12 -680 104
+rect -536 88 -524 92
+rect -4 88 20 92
+rect -572 64 -523 68
+rect -36 64 12 68
+rect -544 56 -524 60
+rect -12 52 12 56
+rect -552 32 -524 36
+rect -20 32 12 36
+rect -692 0 -668 4
+rect -565 0 -541 4
+rect -39 0 250 4
+rect -692 -108 -688 0
+rect -680 -8 -668 -4
+rect -565 -8 -541 -4
+rect -40 -8 249 -4
+rect -536 -24 -525 -20
+rect -4 -24 12 -20
+rect -680 -45 -636 -41
+rect -144 -44 -100 -41
+rect -680 -84 -676 -45
+rect -572 -48 -523 -44
+rect -36 -48 12 -44
+rect -12 -64 12 -60
+rect -552 -80 -524 -76
+rect -20 -80 12 -76
+rect -692 -112 -668 -108
+rect -568 -112 -540 -108
+rect -37 -112 252 -108
+rect -144 -120 -128 -116
+<< m2contact >>
+rect -140 144 -136 148
+rect -540 136 -536 140
+rect -548 128 -544 132
+rect -640 112 -636 116
+rect -576 64 -572 68
+rect -556 32 -552 36
+rect -684 8 -680 12
+rect -684 -8 -680 -4
+rect -636 -45 -632 -41
+rect -576 -48 -572 -44
+rect -548 112 -544 116
+rect -548 56 -544 60
+rect -540 112 -536 116
+rect -540 88 -536 92
+rect -156 112 -152 116
+rect -140 112 -136 116
+rect -32 112 -28 116
+rect -40 64 -36 68
+rect -540 -24 -536 -20
+rect -24 32 -20 36
+rect -148 -44 -144 -40
+rect -100 -44 -96 -40
+rect -556 -80 -552 -76
+rect -680 -88 -676 -84
+rect -40 -48 -36 -44
+rect -148 -120 -144 -116
+rect -16 52 -12 56
+rect 4 112 8 116
+rect -8 88 -4 92
+rect -8 -24 -4 -20
+rect -16 -64 -12 -60
+rect -24 -80 -20 -76
+rect -128 -120 -124 -116
+use 2inMUX  2inMUX_0
+timestamp 1653041667
+transform 1 0 -104 0 1 0
+box -32 0 76 108
+use 2inMUX  2inMUX_1
+timestamp 1653041667
+transform 1 0 -640 0 1 0
+box -32 0 76 108
+use 2inMUX  2inMUX_2
+timestamp 1653041667
+transform 1 0 -104 0 1 -112
+box -32 0 76 108
+use 2inMUX  2inMUX_3
+timestamp 1653041667
+transform 1 0 -640 0 1 -112
+box -32 0 76 108
+use dflipflopER  dflipflopER_0
+timestamp 1653191013
+transform 1 0 -164 0 1 0
+box 156 0 564 108
+use dflipflopER  dflipflopER_1
+timestamp 1653191013
+transform 1 0 -700 0 1 0
+box 156 0 564 108
+use dflipflopER  dflipflopER_2
+timestamp 1653191013
+transform 1 0 -164 0 1 -112
+box 156 0 564 108
+use dflipflopER  dflipflopER_3
+timestamp 1653191013
+transform 1 0 -700 0 1 -112
+box 156 0 564 108
+<< end >>

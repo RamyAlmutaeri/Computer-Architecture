@@ -1,0 +1,337 @@
+| units: 100 tech: scmos format: MIT
+p alu1bit_0/2in-OR_0/a_10_8# Vdd m1_n892_n44# 2 4 184 96
+n alu1bit_0/2in-OR_0/a_10_8# Vdd m1_n892_n44# 2 4 184 8
+p alu1bit_0/m1_n272_n276# Vdd alu1bit_0/2in-OR_0/a_10_96# 2 4 136 96
+p alu1bit_0/m1_n256_n264# alu1bit_0/2in-OR_0/a_10_96# alu1bit_0/2in-OR_0/a_10_8# 2 4 152 96
+n alu1bit_0/m1_n272_n276# Vdd alu1bit_0/2in-OR_0/a_10_8# 2 4 136 8
+n alu1bit_0/m1_n256_n264# alu1bit_0/2in-OR_0/a_10_8# Vdd 2 4 152 8
+p alu1bit_0/2inAND_0/a_0_8# Vdd alu1bit_0/m1_n256_n264# 2 4 272 268
+n alu1bit_0/2inAND_0/a_0_8# Vdd alu1bit_0/m1_n256_n264# 2 4 272 180
+p B0 alu1bit_0/2inAND_0/a_0_8# Vdd 2 4 228 268
+n B0 alu1bit_0/2inAND_0/a_0_8# alu1bit_0/2inAND_0/a_10_8# 2 4 228 180
+p A0 Vdd alu1bit_0/2inAND_0/a_0_8# 2 4 240 268
+n A0 alu1bit_0/2inAND_0/a_10_8# Vdd 2 4 240 180
+p alu1bit_0/2inAND_1/a_0_8# Vdd alu1bit_0/m1_n272_n276# 2 4 96 268
+n alu1bit_0/2inAND_1/a_0_8# Vdd alu1bit_0/m1_n272_n276# 2 4 96 180
+p Cin1 alu1bit_0/2inAND_1/a_0_8# Vdd 2 4 52 268
+n Cin1 alu1bit_0/2inAND_1/a_0_8# alu1bit_0/2inAND_1/a_10_8# 2 4 52 180
+p alu1bit_0/m1_n364_n76# Vdd alu1bit_0/2inAND_1/a_0_8# 2 4 64 268
+n alu1bit_0/m1_n364_n76# alu1bit_0/2inAND_1/a_10_8# Vdd 2 4 64 180
+p A0 Vdd alu1bit_0/2in-xor_0/a_84_6# 3 4 420 396
+n A0 Vdd alu1bit_0/2in-xor_0/a_84_6# 3 4 420 316
+p B0 Vdd alu1bit_0/2in-xor_0/a_144_6# 3 4 476 396
+n B0 Vdd alu1bit_0/2in-xor_0/a_144_6# 3 4 476 316
+p alu1bit_0/2in-xor_0/a_144_6# alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_0/a_4_88# 2 4 508 396
+p A0 Vdd alu1bit_0/2in-xor_0/a_4_88# 2 4 392 396
+p B0 alu1bit_0/2in-xor_0/a_4_88# Vdd 2 4 376 396
+p alu1bit_0/2in-xor_0/a_84_6# alu1bit_0/2in-xor_0/a_4_88# alu1bit_0/m1_n364_n76# 2 4 448 396
+n B0 alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_0/a_14_8# 2 4 376 316
+n alu1bit_0/2in-xor_0/a_144_6# alu1bit_0/2in-xor_0/a_86_8# alu1bit_0/m1_n364_n76# 2 4 508 316
+n A0 alu1bit_0/2in-xor_0/a_14_8# Vdd 2 4 392 316
+n alu1bit_0/2in-xor_0/a_84_6# Vdd alu1bit_0/2in-xor_0/a_86_8# 2 4 448 316
+p Cin0 Vdd alu1bit_0/2in-xor_1/a_84_6# 3 4 656 264
+n Cin0 Vdd alu1bit_0/2in-xor_1/a_84_6# 3 4 656 184
+p alu1bit_0/m1_n364_n76# Vdd alu1bit_0/2in-xor_1/a_144_6# 3 4 712 264
+n alu1bit_0/m1_n364_n76# Vdd alu1bit_0/2in-xor_1/a_144_6# 3 4 712 184
+p alu1bit_0/2in-xor_1/a_144_6# m1_760_224# alu1bit_0/2in-xor_1/a_4_88# 2 4 744 264
+p Cin0 Vdd alu1bit_0/2in-xor_1/a_4_88# 2 4 628 264
+p alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_1/a_4_88# Vdd 2 4 612 264
+p alu1bit_0/2in-xor_1/a_84_6# alu1bit_0/2in-xor_1/a_4_88# m1_760_224# 2 4 684 264
+n alu1bit_0/m1_n364_n76# m1_760_224# alu1bit_0/2in-xor_1/a_14_8# 2 4 612 184
+n alu1bit_0/2in-xor_1/a_144_6# alu1bit_0/2in-xor_1/a_86_8# m1_760_224# 2 4 744 184
+n Cin0 alu1bit_0/2in-xor_1/a_14_8# Vdd 2 4 628 184
+n alu1bit_0/2in-xor_1/a_84_6# Vdd alu1bit_0/2in-xor_1/a_86_8# 2 4 684 184
+p alu1bit_1/2in-OR_0/a_10_8# Vdd alu1bit_1/2in-OR_0/m1_72_56# 2 4 -724 96
+n alu1bit_1/2in-OR_0/a_10_8# Vdd alu1bit_1/2in-OR_0/m1_72_56# 2 4 -724 8
+p alu1bit_1/m1_n272_n276# Vdd alu1bit_1/2in-OR_0/a_10_96# 2 4 -772 96
+p alu1bit_1/m1_n256_n264# alu1bit_1/2in-OR_0/a_10_96# alu1bit_1/2in-OR_0/a_10_8# 2 4 -756 96
+n alu1bit_1/m1_n272_n276# Vdd alu1bit_1/2in-OR_0/a_10_8# 2 4 -772 8
+n alu1bit_1/m1_n256_n264# alu1bit_1/2in-OR_0/a_10_8# Vdd 2 4 -756 8
+p alu1bit_1/2inAND_0/a_0_8# Vdd alu1bit_1/m1_n256_n264# 2 4 -636 268
+n alu1bit_1/2inAND_0/a_0_8# Vdd alu1bit_1/m1_n256_n264# 2 4 -636 180
+p B1 alu1bit_1/2inAND_0/a_0_8# Vdd 2 4 -680 268
+n B1 alu1bit_1/2inAND_0/a_0_8# alu1bit_1/2inAND_0/a_10_8# 2 4 -680 180
+p A1 Vdd alu1bit_1/2inAND_0/a_0_8# 2 4 -668 268
+n A1 alu1bit_1/2inAND_0/a_10_8# Vdd 2 4 -668 180
+p alu1bit_1/2inAND_1/a_0_8# Vdd alu1bit_1/m1_n272_n276# 2 4 -812 268
+n alu1bit_1/2inAND_1/a_0_8# Vdd alu1bit_1/m1_n272_n276# 2 4 -812 180
+p m1_n892_n44# alu1bit_1/2inAND_1/a_0_8# Vdd 2 4 -856 268
+n m1_n892_n44# alu1bit_1/2inAND_1/a_0_8# alu1bit_1/2inAND_1/a_10_8# 2 4 -856 180
+p alu1bit_1/m1_n364_n76# Vdd alu1bit_1/2inAND_1/a_0_8# 2 4 -844 268
+n alu1bit_1/m1_n364_n76# alu1bit_1/2inAND_1/a_10_8# Vdd 2 4 -844 180
+p A1 Vdd alu1bit_1/2in-xor_0/a_84_6# 3 4 -488 396
+n A1 Vdd alu1bit_1/2in-xor_0/a_84_6# 3 4 -488 316
+p B1 Vdd alu1bit_1/2in-xor_0/a_144_6# 3 4 -432 396
+n B1 Vdd alu1bit_1/2in-xor_0/a_144_6# 3 4 -432 316
+p alu1bit_1/2in-xor_0/a_144_6# alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_0/a_4_88# 2 4 -400 396
+p A1 Vdd alu1bit_1/2in-xor_0/a_4_88# 2 4 -516 396
+p B1 alu1bit_1/2in-xor_0/a_4_88# Vdd 2 4 -532 396
+p alu1bit_1/2in-xor_0/a_84_6# alu1bit_1/2in-xor_0/a_4_88# alu1bit_1/m1_n364_n76# 2 4 -460 396
+n B1 alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_0/a_14_8# 2 4 -532 316
+n alu1bit_1/2in-xor_0/a_144_6# alu1bit_1/2in-xor_0/a_86_8# alu1bit_1/m1_n364_n76# 2 4 -400 316
+n A1 alu1bit_1/2in-xor_0/a_14_8# Vdd 2 4 -516 316
+n alu1bit_1/2in-xor_0/a_84_6# Vdd alu1bit_1/2in-xor_0/a_86_8# 2 4 -460 316
+p m1_n892_n44# Vdd alu1bit_1/2in-xor_1/a_84_6# 3 4 -252 264
+n m1_n892_n44# Vdd alu1bit_1/2in-xor_1/a_84_6# 3 4 -252 184
+p alu1bit_1/m1_n364_n76# Vdd alu1bit_1/2in-xor_1/a_144_6# 3 4 -196 264
+n alu1bit_1/m1_n364_n76# Vdd alu1bit_1/2in-xor_1/a_144_6# 3 4 -196 184
+p alu1bit_1/2in-xor_1/a_144_6# m1_n148_224# alu1bit_1/2in-xor_1/a_4_88# 2 4 -164 264
+p m1_n892_n44# Vdd alu1bit_1/2in-xor_1/a_4_88# 2 4 -280 264
+p alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_1/a_4_88# Vdd 2 4 -296 264
+p alu1bit_1/2in-xor_1/a_84_6# alu1bit_1/2in-xor_1/a_4_88# m1_n148_224# 2 4 -224 264
+n alu1bit_1/m1_n364_n76# m1_n148_224# alu1bit_1/2in-xor_1/a_14_8# 2 4 -296 184
+n alu1bit_1/2in-xor_1/a_144_6# alu1bit_1/2in-xor_1/a_86_8# m1_n148_224# 2 4 -164 184
+n m1_n892_n44# alu1bit_1/2in-xor_1/a_14_8# Vdd 2 4 -280 184
+n alu1bit_1/2in-xor_1/a_84_6# Vdd alu1bit_1/2in-xor_1/a_86_8# 2 4 -224 184
+p 2inAND_0/a_0_8# Vdd D0 2 4 876 -152
+n 2inAND_0/a_0_8# Vdd D0 2 4 876 -240
+p m1_760_224# 2inAND_0/a_0_8# Vdd 2 4 832 -152
+n m1_760_224# 2inAND_0/a_0_8# 2inAND_0/a_10_8# 2 4 832 -240
+p E0 Vdd 2inAND_0/a_0_8# 2 4 844 -152
+n E0 2inAND_0/a_10_8# Vdd 2 4 844 -240
+p 2inAND_1/a_0_8# Vdd D1 2 4 -32 -152
+n 2inAND_1/a_0_8# Vdd D1 2 4 -32 -240
+p m1_n148_224# 2inAND_1/a_0_8# Vdd 2 4 -76 -152
+n m1_n148_224# 2inAND_1/a_0_8# 2inAND_1/a_10_8# 2 4 -76 -240
+p E1 Vdd 2inAND_1/a_0_8# 2 4 -64 -152
+n E1 2inAND_1/a_10_8# Vdd 2 4 -64 -240
+C alu1bit_0/m1_n364_n76# Vdd 2.88
+C m1_n148_224# alu1bit_1/2in-xor_1/a_144_6# 2.55
+C m1_n892_n44# Vdd 4.32
+C alu1bit_0/2in-xor_1/a_144_6# m1_760_224# 2.55
+C alu1bit_1/m1_n364_n76# Vdd 2.88
+C alu1bit_1/2in-xor_0/a_144_6# alu1bit_1/m1_n364_n76# 2.55
+C alu1bit_0/2in-xor_0/a_144_6# alu1bit_0/m1_n364_n76# 2.55
+R 2inAND_1/a_10_8# 67
+R E1 1145
+= E1 2inAND_1/a_20_6#
+C m1_n148_224# GND 147.88
+R m1_n148_224# 2057
+= m1_n148_224# alu1bit_1/2in-xor_1/a_4_8#
+= m1_n148_224# 2inAND_1/a_0_68#
+R D1 475
+= D1 2inAND_1/m1_68_56#
+= D1 2inAND_1/inverter_0/a_22_8#
+C Vdd GND 767.95
+R Vdd 12255
+= Vdd m2_528_404#
+= Vdd 2inAND_0/a_10_96#
+= Vdd 2inAND_0/inverter_0/a_8_96#
+= Vdd alu1bit_0/2in-xor_1/a_14_88#
+= Vdd alu1bit_0/2in-xor_1/inv_0/a_4_88#
+= Vdd alu1bit_0/2in-xor_1/m2_108_96#
+= Vdd alu1bit_0/2in-xor_1/inv_1/a_4_88#
+= Vdd alu1bit_1/2in-xor_0/a_30_8#
+= Vdd alu1bit_1/2in-xor_0/inv_0/a_4_8#
+= Vdd alu1bit_1/2in-xor_0/m2_108_0#
+= Vdd alu1bit_1/2in-xor_0/inv_1/a_4_8#
+= Vdd alu1bit_1/2inAND_0/a_22_8#
+= Vdd alu1bit_1/2inAND_0/inverter_0/a_8_8#
+= Vdd alu1bit_1/2inAND_1/a_22_8#
+= Vdd alu1bit_1/2inAND_1/inverter_0/a_8_8#
+= Vdd alu1bit_1/2in-OR_0/a_0_8#
+= Vdd alu1bit_1/2in-OR_0/inverter_0/a_8_8#
+= Vdd m2_n856_n248#
+= Vdd alu1bit_0/2in-xor_0/a_30_8#
+= Vdd alu1bit_0/2in-xor_0/inv_0/a_4_8#
+= Vdd alu1bit_0/2in-xor_0/m2_108_0#
+= Vdd alu1bit_0/2in-xor_0/inv_1/a_4_8#
+= Vdd Gnd
+= Vdd alu1bit_0/2in-xor_1/a_30_8#
+= Vdd alu1bit_0/2in-xor_1/inv_0/a_4_8#
+= Vdd alu1bit_0/2in-xor_1/m2_108_0#
+= Vdd alu1bit_0/2in-xor_1/inv_1/a_4_8#
+= Vdd m2_0_n248#
+= Vdd alu1bit_0/2in-OR_0/a_0_8#
+= Vdd alu1bit_0/2in-OR_0/inverter_0/a_8_8#
+= Vdd 2inAND_0/a_22_8#
+= Vdd 2inAND_0/inverter_0/a_8_8#
+= Vdd 2inAND_1/a_22_8#
+= Vdd 2inAND_1/inverter_0/a_8_8#
+= Vdd m2_n840_280#
+= Vdd alu1bit_1/2inAND_0/a_10_96#
+= Vdd alu1bit_1/2inAND_0/inverter_0/a_8_96#
+= Vdd alu1bit_1/2inAND_1/a_10_96#
+= Vdd alu1bit_1/2inAND_1/inverter_0/a_8_96#
+= Vdd alu1bit_1/2in-OR_0/a_0_96#
+= Vdd alu1bit_1/2in-OR_0/inverter_0/a_8_96#
+= Vdd alu1bit_0/2in-xor_0/a_14_88#
+= Vdd alu1bit_0/2in-xor_0/inv_0/a_4_88#
+= Vdd alu1bit_0/2in-xor_0/m2_108_96#
+= Vdd alu1bit_0/2in-xor_0/inv_1/a_4_88#
+= Vdd alu1bit_1/2in-xor_0/a_14_88#
+= Vdd alu1bit_1/2in-xor_0/inv_0/a_4_88#
+= Vdd alu1bit_1/2in-xor_0/m2_108_96#
+= Vdd alu1bit_1/2in-xor_0/inv_1/a_4_88#
+= Vdd alu1bit_0/2inAND_0/a_10_96#
+= Vdd alu1bit_0/2inAND_0/inverter_0/a_8_96#
+= Vdd alu1bit_0/2inAND_1/a_10_96#
+= Vdd alu1bit_0/2inAND_1/inverter_0/a_8_96#
+= Vdd alu1bit_1/2in-xor_1/a_14_88#
+= Vdd alu1bit_1/2in-xor_1/inv_0/a_4_88#
+= Vdd alu1bit_1/2in-xor_1/m2_108_96#
+= Vdd alu1bit_1/2in-xor_1/inv_1/a_4_88#
+= Vdd m1_148_172#
+= Vdd alu1bit_0/2inAND_0/a_22_8#
+= Vdd alu1bit_0/2inAND_0/inverter_0/a_8_8#
+= Vdd alu1bit_0/2inAND_1/a_22_8#
+= Vdd alu1bit_0/2inAND_1/inverter_0/a_8_8#
+= Vdd alu1bit_1/2in-xor_1/a_30_8#
+= Vdd alu1bit_1/2in-xor_1/inv_0/a_4_8#
+= Vdd alu1bit_1/2in-xor_1/m2_108_0#
+= Vdd alu1bit_1/2in-xor_1/inv_1/a_4_8#
+= Vdd alu1bit_0/2in-OR_0/a_0_96#
+= Vdd alu1bit_0/2in-OR_0/inverter_0/a_8_96#
+= Vdd 2inAND_1/a_10_96#
+= Vdd 2inAND_1/inverter_0/a_8_96#
+C 2inAND_1/a_0_8# GND 53.22
+R 2inAND_1/a_0_8# 1775
+= 2inAND_1/a_0_8# 2inAND_1/inverter_0/a_8_56#
+R 2inAND_0/a_10_8# 67
+R E0 1145
+= E0 2inAND_0/a_20_6#
+C m1_760_224# GND 151.77
+R m1_760_224# 2057
+= m1_760_224# alu1bit_0/2in-xor_1/a_4_8#
+= m1_760_224# 2inAND_0/a_0_68#
+R D0 475
+= D0 2inAND_0/m1_68_56#
+= D0 2inAND_0/inverter_0/a_22_8#
+C 2inAND_0/a_0_8# GND 53.22
+R 2inAND_0/a_0_8# 1775
+= 2inAND_0/a_0_8# 2inAND_0/inverter_0/a_8_56#
+C alu1bit_1/2in-xor_1/a_86_8# GND 8.62
+R alu1bit_1/2in-xor_1/a_86_8# 266
+R alu1bit_1/2in-xor_1/a_14_8# 93
+C alu1bit_1/2in-xor_1/a_4_88# GND 22.03
+R alu1bit_1/2in-xor_1/a_4_88# 1098
+C alu1bit_1/2in-xor_1/a_144_6# GND 37.03
+R alu1bit_1/2in-xor_1/a_144_6# 1245
+= alu1bit_1/2in-xor_1/a_144_6# alu1bit_1/2in-xor_1/inv_1/a_15_8#
+C alu1bit_1/m1_n364_n76# GND 285.64
+R alu1bit_1/m1_n364_n76# 3740
+= alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_0/a_4_8#
+= alu1bit_1/m1_n364_n76# alu1bit_1/2inAND_1/a_20_6#
+= alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_1/a_12_6#
+= alu1bit_1/m1_n364_n76# alu1bit_1/2in-xor_1/inv_1/a_12_5#
+C alu1bit_1/2in-xor_1/a_84_6# GND 37.93
+R alu1bit_1/2in-xor_1/a_84_6# 1245
+= alu1bit_1/2in-xor_1/a_84_6# alu1bit_1/2in-xor_1/inv_0/a_15_8#
+C alu1bit_1/2in-xor_0/a_86_8# GND 8.62
+R alu1bit_1/2in-xor_0/a_86_8# 266
+R alu1bit_1/2in-xor_0/a_14_8# 93
+C alu1bit_1/2in-xor_0/a_4_88# GND 22.03
+R alu1bit_1/2in-xor_0/a_4_88# 1098
+C alu1bit_1/2in-xor_0/a_144_6# GND 37.03
+R alu1bit_1/2in-xor_0/a_144_6# 1245
+= alu1bit_1/2in-xor_0/a_144_6# alu1bit_1/2in-xor_0/inv_1/a_15_8#
+R B1 3016
+= B1 alu1bit_1/m1_n176_n68#
+= B1 alu1bit_1/2inAND_0/a_0_68#
+= B1 alu1bit_1/2in-xor_0/a_12_6#
+= B1 alu1bit_1/2in-xor_0/inv_1/a_12_5#
+C alu1bit_1/2in-xor_0/a_84_6# GND 37.93
+R alu1bit_1/2in-xor_0/a_84_6# 1245
+= alu1bit_1/2in-xor_0/a_84_6# alu1bit_1/2in-xor_0/inv_0/a_15_8#
+R A1 2933
+= A1 alu1bit_1/m1_n188_n76#
+= A1 alu1bit_1/2inAND_0/a_20_6#
+= A1 alu1bit_1/2in-xor_0/a_28_5#
+= A1 alu1bit_1/2in-xor_0/inv_0/a_12_5#
+R alu1bit_1/2inAND_1/a_10_8# 67
+C alu1bit_1/m1_n272_n276# GND 97.01
+R alu1bit_1/m1_n272_n276# 1719
+= alu1bit_1/m1_n272_n276# alu1bit_1/2in-OR_0/a_0_32#
+= alu1bit_1/m1_n272_n276# alu1bit_1/2inAND_1/m1_68_56#
+= alu1bit_1/m1_n272_n276# alu1bit_1/2inAND_1/inverter_0/a_22_8#
+C alu1bit_1/2inAND_1/a_0_8# GND 53.22
+R alu1bit_1/2inAND_1/a_0_8# 1775
+= alu1bit_1/2inAND_1/a_0_8# alu1bit_1/2inAND_1/inverter_0/a_8_56#
+R alu1bit_1/2inAND_0/a_10_8# 67
+C alu1bit_1/m1_n256_n264# GND 130.07
+R alu1bit_1/m1_n256_n264# 1626
+= alu1bit_1/m1_n256_n264# alu1bit_1/2in-OR_0/a_24_6#
+= alu1bit_1/m1_n256_n264# alu1bit_1/2inAND_0/m1_68_56#
+= alu1bit_1/m1_n256_n264# alu1bit_1/2inAND_0/inverter_0/a_22_8#
+C alu1bit_1/2inAND_0/a_0_8# GND 53.22
+R alu1bit_1/2inAND_0/a_0_8# 1775
+= alu1bit_1/2inAND_0/a_0_8# alu1bit_1/2inAND_0/inverter_0/a_8_56#
+R alu1bit_1/2in-OR_0/a_10_96# 208
+C alu1bit_1/2in-OR_0/m1_72_56# GND 18.05
+R alu1bit_1/2in-OR_0/m1_72_56# 475
+= alu1bit_1/2in-OR_0/m1_72_56# alu1bit_1/2in-OR_0/inverter_0/a_22_8#
+C alu1bit_1/2in-OR_0/a_10_8# GND 45.32
+R alu1bit_1/2in-OR_0/a_10_8# 1532
+= alu1bit_1/2in-OR_0/a_10_8# alu1bit_1/2in-OR_0/inverter_0/a_8_56#
+C alu1bit_0/2in-xor_1/a_86_8# GND 8.62
+R alu1bit_0/2in-xor_1/a_86_8# 266
+R alu1bit_0/2in-xor_1/a_14_8# 93
+C alu1bit_0/2in-xor_1/a_4_88# GND 22.03
+R alu1bit_0/2in-xor_1/a_4_88# 1098
+C alu1bit_0/2in-xor_1/a_144_6# GND 37.03
+R alu1bit_0/2in-xor_1/a_144_6# 1245
+= alu1bit_0/2in-xor_1/a_144_6# alu1bit_0/2in-xor_1/inv_1/a_15_8#
+C alu1bit_0/m1_n364_n76# GND 285.64
+R alu1bit_0/m1_n364_n76# 3740
+= alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_0/a_4_8#
+= alu1bit_0/m1_n364_n76# alu1bit_0/2inAND_1/a_20_6#
+= alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_1/a_12_6#
+= alu1bit_0/m1_n364_n76# alu1bit_0/2in-xor_1/inv_1/a_12_5#
+C alu1bit_0/2in-xor_1/a_84_6# GND 37.93
+R alu1bit_0/2in-xor_1/a_84_6# 1245
+= alu1bit_0/2in-xor_1/a_84_6# alu1bit_0/2in-xor_1/inv_0/a_15_8#
+R Cin0 1765
+= Cin0 alu1bit_0/2in-xor_1/a_28_5#
+= Cin0 alu1bit_0/2in-xor_1/inv_0/a_12_5#
+C alu1bit_0/2in-xor_0/a_86_8# GND 8.62
+R alu1bit_0/2in-xor_0/a_86_8# 266
+R alu1bit_0/2in-xor_0/a_14_8# 93
+C alu1bit_0/2in-xor_0/a_4_88# GND 22.03
+R alu1bit_0/2in-xor_0/a_4_88# 1098
+C alu1bit_0/2in-xor_0/a_144_6# GND 37.03
+R alu1bit_0/2in-xor_0/a_144_6# 1245
+= alu1bit_0/2in-xor_0/a_144_6# alu1bit_0/2in-xor_0/inv_1/a_15_8#
+R B0 3015
+= B0 alu1bit_0/m1_n176_n68#
+= B0 alu1bit_0/2inAND_0/a_0_68#
+= B0 alu1bit_0/2in-xor_0/a_12_6#
+= B0 alu1bit_0/2in-xor_0/inv_1/a_12_5#
+C alu1bit_0/2in-xor_0/a_84_6# GND 37.93
+R alu1bit_0/2in-xor_0/a_84_6# 1245
+= alu1bit_0/2in-xor_0/a_84_6# alu1bit_0/2in-xor_0/inv_0/a_15_8#
+R A0 2933
+= A0 alu1bit_0/m1_n188_n76#
+= A0 alu1bit_0/2inAND_0/a_20_6#
+= A0 alu1bit_0/2in-xor_0/a_28_5#
+= A0 alu1bit_0/2in-xor_0/inv_0/a_12_5#
+R alu1bit_0/2inAND_1/a_10_8# 67
+R Cin1 1240
+= Cin1 alu1bit_0/2inAND_1/a_0_68#
+C alu1bit_0/m1_n272_n276# GND 97.01
+R alu1bit_0/m1_n272_n276# 1719
+= alu1bit_0/m1_n272_n276# alu1bit_0/2in-OR_0/a_0_32#
+= alu1bit_0/m1_n272_n276# alu1bit_0/2inAND_1/m1_68_56#
+= alu1bit_0/m1_n272_n276# alu1bit_0/2inAND_1/inverter_0/a_22_8#
+C alu1bit_0/2inAND_1/a_0_8# GND 53.22
+R alu1bit_0/2inAND_1/a_0_8# 1775
+= alu1bit_0/2inAND_1/a_0_8# alu1bit_0/2inAND_1/inverter_0/a_8_56#
+R alu1bit_0/2inAND_0/a_10_8# 67
+C alu1bit_0/m1_n256_n264# GND 130.07
+R alu1bit_0/m1_n256_n264# 1626
+= alu1bit_0/m1_n256_n264# alu1bit_0/2in-OR_0/a_24_6#
+= alu1bit_0/m1_n256_n264# alu1bit_0/2inAND_0/m1_68_56#
+= alu1bit_0/m1_n256_n264# alu1bit_0/2inAND_0/inverter_0/a_22_8#
+C alu1bit_0/2inAND_0/a_0_8# GND 53.22
+R alu1bit_0/2inAND_0/a_0_8# 1775
+= alu1bit_0/2inAND_0/a_0_8# alu1bit_0/2inAND_0/inverter_0/a_8_56#
+R alu1bit_0/2in-OR_0/a_10_96# 208
+C m1_n892_n44# GND 419.83
+R m1_n892_n44# 3520
+= m1_n892_n44# alu1bit_1/2in-xor_1/a_28_5#
+= m1_n892_n44# alu1bit_1/2in-xor_1/inv_0/a_12_5#
+= m1_n892_n44# alu1bit_1/2inAND_1/a_0_68#
+= m1_n892_n44# alu1bit_0/2in-OR_0/m1_72_56#
+= m1_n892_n44# alu1bit_0/2in-OR_0/inverter_0/a_22_8#
+C alu1bit_0/2in-OR_0/a_10_8# GND 45.32
+R alu1bit_0/2in-OR_0/a_10_8# 1532
+= alu1bit_0/2in-OR_0/a_10_8# alu1bit_0/2in-OR_0/inverter_0/a_8_56#

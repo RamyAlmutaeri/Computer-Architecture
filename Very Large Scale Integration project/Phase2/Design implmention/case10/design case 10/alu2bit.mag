@@ -1,0 +1,104 @@
+magic
+tech scmos
+timestamp 1653239363
+<< metal1 >>
+rect -540 372 -536 376
+rect 364 372 368 376
+rect -536 348 -532 352
+rect 364 348 368 352
+rect -888 240 -864 244
+rect 40 240 48 244
+rect -148 224 -112 228
+rect 760 224 800 228
+rect -892 -40 -888 216
+rect -336 216 -304 220
+rect -336 -40 -332 216
+rect -116 -20 -112 224
+rect 604 216 608 220
+rect -32 172 -12 176
+rect 152 172 168 176
+rect 216 56 248 60
+rect 244 -40 248 56
+rect -892 -44 248 -40
+rect -116 -176 -112 -60
+rect 796 -176 800 224
+rect -116 -180 -84 -176
+rect 796 -180 824 -176
+rect -84 -188 -80 -184
+rect 824 -188 828 -184
+rect 0 -192 4 -188
+rect 908 -192 912 -188
+<< metal2 >>
+rect -840 404 -544 408
+rect -380 404 364 408
+rect 528 404 880 408
+rect -840 280 -836 404
+rect -892 220 -888 240
+rect -856 -244 -852 172
+rect -764 108 -760 404
+rect -628 280 -624 404
+rect -764 -244 -760 0
+rect -624 -244 -620 172
+rect -456 -244 -452 308
+rect -236 276 -232 404
+rect -144 176 -48 180
+rect -28 176 -24 404
+rect 76 280 80 404
+rect -52 172 -36 176
+rect -32 172 -12 176
+rect -8 172 44 176
+rect 128 172 148 176
+rect -116 -56 -112 -24
+rect -28 -140 -24 172
+rect 156 108 160 404
+rect 272 280 276 404
+rect 360 308 364 312
+rect 428 180 432 308
+rect 680 276 684 404
+rect 428 176 600 180
+rect 172 172 220 176
+rect 304 172 432 176
+rect 192 -244 196 0
+rect 428 -244 432 172
+rect 876 -140 880 404
+rect -856 -248 -84 -244
+rect 0 -248 824 -244
+<< m2contact >>
+rect -892 240 -888 244
+rect -892 216 -888 220
+rect -36 172 -32 176
+rect -12 172 -8 176
+rect 148 172 152 176
+rect 168 172 172 176
+rect -116 -24 -112 -20
+rect -116 -60 -112 -56
+use 2inAND  2inAND_0
+timestamp 1653228967
+transform 1 0 824 0 1 -248
+box 0 0 88 108
+use 2inAND  2inAND_1
+timestamp 1653228967
+transform 1 0 -84 0 1 -248
+box 0 0 88 108
+use alu1bit  alu1bit_0
+timestamp 1653223483
+transform 1 0 364 0 1 308
+box -364 -308 400 100
+use alu1bit  alu1bit_1
+timestamp 1653223483
+transform 1 0 -544 0 1 308
+box -364 -308 400 100
+<< labels >>
+rlabel metal2 360 404 364 408 5 Vdd
+rlabel metal2 360 308 364 312 1 Gnd
+rlabel metal1 364 372 368 376 1 B0
+rlabel metal1 364 348 368 352 1 A0
+rlabel metal1 -540 372 -536 376 1 B1
+rlabel metal1 908 -192 912 -188 7 D0
+rlabel metal1 0 -192 4 -188 1 D1
+rlabel metal1 604 216 608 220 1 Cin0
+rlabel metal1 40 240 44 244 1 Cin1
+rlabel metal1 824 -188 828 -184 1 E0
+rlabel metal1 -84 -188 -80 -184 1 E1
+rlabel metal1 -536 348 -532 352 1 A1
+<< end >>

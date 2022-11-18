@@ -1,0 +1,547 @@
+| units: 100 tech: scmos format: MIT
+p m1_n708_n120# m2_n40_n8# 2inMUX_0/a_20_35# 3 4 -120 96
+n m1_n708_n120# m2_n39_0# 2inMUX_0/a_20_35# 3 4 -120 8
+n 2inMUX_0/a_20_35# 2inMUX_0/a_28_58# m1_n40_64# 2 4 -68 58
+p m1_n708_n120# 2inMUX_0/a_28_58# m1_n40_64# 2 4 -68 90
+p 2inMUX_0/a_20_35# 2inMUX_0/a_28_13# m1_n40_64# 2 4 -68 29
+n m1_n708_n120# 2inMUX_0/a_28_13# m1_n40_64# 2 4 -68 13
+p m1_n708_n120# m2_n40_n8# 2inMUX_1/a_20_35# 3 4 -656 96
+n m1_n708_n120# m2_n39_0# 2inMUX_1/a_20_35# 3 4 -656 8
+n 2inMUX_1/a_20_35# 2inMUX_1/a_28_58# m1_n576_64# 2 4 -604 58
+p m1_n708_n120# 2inMUX_1/a_28_58# m1_n576_64# 2 4 -604 90
+p 2inMUX_1/a_20_35# 2inMUX_1/a_28_13# m1_n576_64# 2 4 -604 29
+n m1_n708_n120# 2inMUX_1/a_28_13# m1_n576_64# 2 4 -604 13
+p m1_n708_n120# m2_n40_n8# 2inMUX_2/a_20_35# 3 4 -120 -16
+n m1_n708_n120# m2_n39_0# 2inMUX_2/a_20_35# 3 4 -120 -104
+n 2inMUX_2/a_20_35# 2inMUX_2/a_28_58# m1_n40_n48# 2 4 -68 -54
+p m1_n708_n120# 2inMUX_2/a_28_58# m1_n40_n48# 2 4 -68 -22
+p 2inMUX_2/a_20_35# 2inMUX_2/a_28_13# m1_n40_n48# 2 4 -68 -83
+n m1_n708_n120# 2inMUX_2/a_28_13# m1_n40_n48# 2 4 -68 -99
+p m1_n708_n120# m2_n40_n8# 2inMUX_3/a_20_35# 3 4 -656 -16
+n m1_n708_n120# m2_n39_0# 2inMUX_3/a_20_35# 3 4 -656 -104
+n 2inMUX_3/a_20_35# 2inMUX_3/a_28_58# m1_n576_n48# 2 4 -604 -54
+p m1_n708_n120# 2inMUX_3/a_28_58# m1_n576_n48# 2 4 -604 -22
+p 2inMUX_3/a_20_35# 2inMUX_3/a_28_13# m1_n576_n48# 2 4 -604 -83
+n m1_n708_n120# 2inMUX_3/a_28_13# m1_n576_n48# 2 4 -604 -99
+p m1_n540_n24# m2_n40_n8# dflipflopER_0/m1_460_72# 2 4 288 96
+n m1_n540_n24# m2_n39_0# dflipflopER_0/m1_460_72# 2 4 288 8
+p m1_n556_n80# m2_n40_n8# dflipflopER_0/m1_236_24# 2 4 64 96
+n m1_n556_n80# m2_n39_0# dflipflopER_0/m1_236_24# 2 4 64 8
+p m1_n548_n56# m2_n40_n8# dflipflopER_0/m1_200_40# 2 4 28 96
+n m1_n548_n56# m2_n39_0# dflipflopER_0/m1_200_40# 2 4 28 8
+p m1_n40_64# m2_n40_n8# dflipflopER_0/latch_0/a_18_96# 2 4 120 96
+p dflipflopER_0/latch_0/a_26_8# m2_n40_n8# dflipflopER_0/m1_336_56# 2 4 164 96
+n m1_n40_64# m2_n39_0# dflipflopER_0/latch_0/a_18_8# 2 4 120 8
+p dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_18_96# dflipflopER_0/latch_0/a_26_8# 2 4 128 96
+n dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_42_8# m2_n39_0# 2 4 152 8
+p dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_42_96# m2_n40_n8# 2 4 152 96
+n m1_n548_n56# dflipflopER_0/latch_0/a_18_8# dflipflopER_0/latch_0/a_26_8# 2 4 128 8
+p m1_n548_n56# dflipflopER_0/latch_0/a_26_8# dflipflopER_0/latch_0/a_42_96# 2 4 144 96
+n dflipflopER_0/latch_0/a_26_8# m2_n39_0# dflipflopER_0/m1_336_56# 2 4 164 8
+n dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_26_8# dflipflopER_0/latch_0/a_42_8# 2 4 144 8
+p dflipflopER_0/m1_336_56# m2_n40_n8# dflipflopER_0/latch_1/a_18_96# 2 4 208 96
+p dflipflopER_0/latch_1/a_26_8# m2_n40_n8# dflipflopER_0/m1_424_48# 2 4 252 96
+n dflipflopER_0/m1_336_56# m2_n39_0# dflipflopER_0/latch_1/a_18_8# 2 4 208 8
+p dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_18_96# dflipflopER_0/latch_1/a_26_8# 2 4 216 96
+n dflipflopER_0/m1_424_48# dflipflopER_0/latch_1/a_42_8# m2_n39_0# 2 4 240 8
+p dflipflopER_0/m1_424_48# dflipflopER_0/latch_1/a_42_96# m2_n40_n8# 2 4 240 96
+n m1_n556_n80# dflipflopER_0/latch_1/a_18_8# dflipflopER_0/latch_1/a_26_8# 2 4 216 8
+p m1_n556_n80# dflipflopER_0/latch_1/a_26_8# dflipflopER_0/latch_1/a_42_96# 2 4 232 96
+n dflipflopER_0/latch_1/a_26_8# m2_n39_0# dflipflopER_0/m1_424_48# 2 4 252 8
+n dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_26_8# dflipflopER_0/latch_1/a_42_8# 2 4 232 8
+p dflipflopER_0/2inAND_3/a_8_8# m2_n40_n8# dflipflopER_0/2inAND_3/m1_64_56# 2 4 364 96
+n dflipflopER_0/2inAND_3/a_8_8# m2_n39_0# dflipflopER_0/2inAND_3/m1_64_56# 2 4 364 8
+p dflipflopER_0/m1_460_72# dflipflopER_0/2inAND_3/a_8_8# m2_n40_n8# 2 4 324 96
+p dflipflopER_0/m1_424_48# m2_n40_n8# dflipflopER_0/2inAND_3/a_8_8# 2 4 336 96
+n dflipflopER_0/m1_460_72# dflipflopER_0/2inAND_3/a_8_8# dflipflopER_0/2inAND_3/a_18_8# 2 4 324 8
+n dflipflopER_0/m1_424_48# dflipflopER_0/2inAND_3/a_18_8# m2_n39_0# 2 4 336 8
+p m1_n540_n24# m2_n40_n8# dflipflopER_1/m1_460_72# 2 4 -248 96
+n m1_n540_n24# m2_n39_0# dflipflopER_1/m1_460_72# 2 4 -248 8
+p m1_n556_n80# m2_n40_n8# dflipflopER_1/m1_236_24# 2 4 -472 96
+n m1_n556_n80# m2_n39_0# dflipflopER_1/m1_236_24# 2 4 -472 8
+p m1_n548_n56# m2_n40_n8# dflipflopER_1/m1_200_40# 2 4 -508 96
+n m1_n548_n56# m2_n39_0# dflipflopER_1/m1_200_40# 2 4 -508 8
+p m1_n576_64# m2_n40_n8# dflipflopER_1/latch_0/a_18_96# 2 4 -416 96
+p dflipflopER_1/latch_0/a_26_8# m2_n40_n8# dflipflopER_1/m1_336_56# 2 4 -372 96
+n m1_n576_64# m2_n39_0# dflipflopER_1/latch_0/a_18_8# 2 4 -416 8
+p dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_18_96# dflipflopER_1/latch_0/a_26_8# 2 4 -408 96
+n dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_42_8# m2_n39_0# 2 4 -384 8
+p dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_42_96# m2_n40_n8# 2 4 -384 96
+n m1_n548_n56# dflipflopER_1/latch_0/a_18_8# dflipflopER_1/latch_0/a_26_8# 2 4 -408 8
+p m1_n548_n56# dflipflopER_1/latch_0/a_26_8# dflipflopER_1/latch_0/a_42_96# 2 4 -392 96
+n dflipflopER_1/latch_0/a_26_8# m2_n39_0# dflipflopER_1/m1_336_56# 2 4 -372 8
+n dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_26_8# dflipflopER_1/latch_0/a_42_8# 2 4 -392 8
+p dflipflopER_1/m1_336_56# m2_n40_n8# dflipflopER_1/latch_1/a_18_96# 2 4 -328 96
+p dflipflopER_1/latch_1/a_26_8# m2_n40_n8# dflipflopER_1/m1_424_48# 2 4 -284 96
+n dflipflopER_1/m1_336_56# m2_n39_0# dflipflopER_1/latch_1/a_18_8# 2 4 -328 8
+p dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_18_96# dflipflopER_1/latch_1/a_26_8# 2 4 -320 96
+n dflipflopER_1/m1_424_48# dflipflopER_1/latch_1/a_42_8# m2_n39_0# 2 4 -296 8
+p dflipflopER_1/m1_424_48# dflipflopER_1/latch_1/a_42_96# m2_n40_n8# 2 4 -296 96
+n m1_n556_n80# dflipflopER_1/latch_1/a_18_8# dflipflopER_1/latch_1/a_26_8# 2 4 -320 8
+p m1_n556_n80# dflipflopER_1/latch_1/a_26_8# dflipflopER_1/latch_1/a_42_96# 2 4 -304 96
+n dflipflopER_1/latch_1/a_26_8# m2_n39_0# dflipflopER_1/m1_424_48# 2 4 -284 8
+n dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_26_8# dflipflopER_1/latch_1/a_42_8# 2 4 -304 8
+p dflipflopER_1/2inAND_3/a_8_8# m2_n40_n8# dflipflopER_1/2inAND_3/m1_64_56# 2 4 -172 96
+n dflipflopER_1/2inAND_3/a_8_8# m2_n39_0# dflipflopER_1/2inAND_3/m1_64_56# 2 4 -172 8
+p dflipflopER_1/m1_460_72# dflipflopER_1/2inAND_3/a_8_8# m2_n40_n8# 2 4 -212 96
+p dflipflopER_1/m1_424_48# m2_n40_n8# dflipflopER_1/2inAND_3/a_8_8# 2 4 -200 96
+n dflipflopER_1/m1_460_72# dflipflopER_1/2inAND_3/a_8_8# dflipflopER_1/2inAND_3/a_18_8# 2 4 -212 8
+n dflipflopER_1/m1_424_48# dflipflopER_1/2inAND_3/a_18_8# m2_n39_0# 2 4 -200 8
+p m1_n540_n24# m2_n40_n8# dflipflopER_2/m1_460_72# 2 4 288 -16
+n m1_n540_n24# m2_n39_0# dflipflopER_2/m1_460_72# 2 4 288 -104
+p m1_n556_n80# m2_n40_n8# dflipflopER_2/m1_236_24# 2 4 64 -16
+n m1_n556_n80# m2_n39_0# dflipflopER_2/m1_236_24# 2 4 64 -104
+p m1_n548_n56# m2_n40_n8# dflipflopER_2/m1_200_40# 2 4 28 -16
+n m1_n548_n56# m2_n39_0# dflipflopER_2/m1_200_40# 2 4 28 -104
+p m1_n40_n48# m2_n40_n8# dflipflopER_2/latch_0/a_18_96# 2 4 120 -16
+p dflipflopER_2/latch_0/a_26_8# m2_n40_n8# dflipflopER_2/m1_336_56# 2 4 164 -16
+n m1_n40_n48# m2_n39_0# dflipflopER_2/latch_0/a_18_8# 2 4 120 -104
+p dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_18_96# dflipflopER_2/latch_0/a_26_8# 2 4 128 -16
+n dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_42_8# m2_n39_0# 2 4 152 -104
+p dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_42_96# m2_n40_n8# 2 4 152 -16
+n m1_n548_n56# dflipflopER_2/latch_0/a_18_8# dflipflopER_2/latch_0/a_26_8# 2 4 128 -104
+p m1_n548_n56# dflipflopER_2/latch_0/a_26_8# dflipflopER_2/latch_0/a_42_96# 2 4 144 -16
+n dflipflopER_2/latch_0/a_26_8# m2_n39_0# dflipflopER_2/m1_336_56# 2 4 164 -104
+n dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_26_8# dflipflopER_2/latch_0/a_42_8# 2 4 144 -104
+p dflipflopER_2/m1_336_56# m2_n40_n8# dflipflopER_2/latch_1/a_18_96# 2 4 208 -16
+p dflipflopER_2/latch_1/a_26_8# m2_n40_n8# dflipflopER_2/m1_424_48# 2 4 252 -16
+n dflipflopER_2/m1_336_56# m2_n39_0# dflipflopER_2/latch_1/a_18_8# 2 4 208 -104
+p dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_18_96# dflipflopER_2/latch_1/a_26_8# 2 4 216 -16
+n dflipflopER_2/m1_424_48# dflipflopER_2/latch_1/a_42_8# m2_n39_0# 2 4 240 -104
+p dflipflopER_2/m1_424_48# dflipflopER_2/latch_1/a_42_96# m2_n40_n8# 2 4 240 -16
+n m1_n556_n80# dflipflopER_2/latch_1/a_18_8# dflipflopER_2/latch_1/a_26_8# 2 4 216 -104
+p m1_n556_n80# dflipflopER_2/latch_1/a_26_8# dflipflopER_2/latch_1/a_42_96# 2 4 232 -16
+n dflipflopER_2/latch_1/a_26_8# m2_n39_0# dflipflopER_2/m1_424_48# 2 4 252 -104
+n dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_26_8# dflipflopER_2/latch_1/a_42_8# 2 4 232 -104
+p dflipflopER_2/2inAND_3/a_8_8# m2_n40_n8# dflipflopER_2/2inAND_3/m1_64_56# 2 4 364 -16
+n dflipflopER_2/2inAND_3/a_8_8# m2_n39_0# dflipflopER_2/2inAND_3/m1_64_56# 2 4 364 -104
+p dflipflopER_2/m1_460_72# dflipflopER_2/2inAND_3/a_8_8# m2_n40_n8# 2 4 324 -16
+p dflipflopER_2/m1_424_48# m2_n40_n8# dflipflopER_2/2inAND_3/a_8_8# 2 4 336 -16
+n dflipflopER_2/m1_460_72# dflipflopER_2/2inAND_3/a_8_8# dflipflopER_2/2inAND_3/a_18_8# 2 4 324 -104
+n dflipflopER_2/m1_424_48# dflipflopER_2/2inAND_3/a_18_8# m2_n39_0# 2 4 336 -104
+p m1_n540_n24# m2_n40_n8# dflipflopER_3/m1_460_72# 2 4 -248 -16
+n m1_n540_n24# m2_n39_0# dflipflopER_3/m1_460_72# 2 4 -248 -104
+p m1_n556_n80# m2_n40_n8# dflipflopER_3/m1_236_24# 2 4 -472 -16
+n m1_n556_n80# m2_n39_0# dflipflopER_3/m1_236_24# 2 4 -472 -104
+p m1_n548_n56# m2_n40_n8# dflipflopER_3/m1_200_40# 2 4 -508 -16
+n m1_n548_n56# m2_n39_0# dflipflopER_3/m1_200_40# 2 4 -508 -104
+p m1_n576_n48# m2_n40_n8# dflipflopER_3/latch_0/a_18_96# 2 4 -416 -16
+p dflipflopER_3/latch_0/a_26_8# m2_n40_n8# dflipflopER_3/m1_336_56# 2 4 -372 -16
+n m1_n576_n48# m2_n39_0# dflipflopER_3/latch_0/a_18_8# 2 4 -416 -104
+p dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_18_96# dflipflopER_3/latch_0/a_26_8# 2 4 -408 -16
+n dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_42_8# m2_n39_0# 2 4 -384 -104
+p dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_42_96# m2_n40_n8# 2 4 -384 -16
+n m1_n548_n56# dflipflopER_3/latch_0/a_18_8# dflipflopER_3/latch_0/a_26_8# 2 4 -408 -104
+p m1_n548_n56# dflipflopER_3/latch_0/a_26_8# dflipflopER_3/latch_0/a_42_96# 2 4 -392 -16
+n dflipflopER_3/latch_0/a_26_8# m2_n39_0# dflipflopER_3/m1_336_56# 2 4 -372 -104
+n dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_26_8# dflipflopER_3/latch_0/a_42_8# 2 4 -392 -104
+p dflipflopER_3/m1_336_56# m2_n40_n8# dflipflopER_3/latch_1/a_18_96# 2 4 -328 -16
+p dflipflopER_3/latch_1/a_26_8# m2_n40_n8# dflipflopER_3/m1_424_48# 2 4 -284 -16
+n dflipflopER_3/m1_336_56# m2_n39_0# dflipflopER_3/latch_1/a_18_8# 2 4 -328 -104
+p dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_18_96# dflipflopER_3/latch_1/a_26_8# 2 4 -320 -16
+n dflipflopER_3/m1_424_48# dflipflopER_3/latch_1/a_42_8# m2_n39_0# 2 4 -296 -104
+p dflipflopER_3/m1_424_48# dflipflopER_3/latch_1/a_42_96# m2_n40_n8# 2 4 -296 -16
+n m1_n556_n80# dflipflopER_3/latch_1/a_18_8# dflipflopER_3/latch_1/a_26_8# 2 4 -320 -104
+p m1_n556_n80# dflipflopER_3/latch_1/a_26_8# dflipflopER_3/latch_1/a_42_96# 2 4 -304 -16
+n dflipflopER_3/latch_1/a_26_8# m2_n39_0# dflipflopER_3/m1_424_48# 2 4 -284 -104
+n dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_26_8# dflipflopER_3/latch_1/a_42_8# 2 4 -304 -104
+p dflipflopER_3/2inAND_3/a_8_8# m2_n40_n8# dflipflopER_3/2inAND_3/m1_64_56# 2 4 -172 -16
+n dflipflopER_3/2inAND_3/a_8_8# m2_n39_0# dflipflopER_3/2inAND_3/m1_64_56# 2 4 -172 -104
+p dflipflopER_3/m1_460_72# dflipflopER_3/2inAND_3/a_8_8# m2_n40_n8# 2 4 -212 -16
+p dflipflopER_3/m1_424_48# m2_n40_n8# dflipflopER_3/2inAND_3/a_8_8# 2 4 -200 -16
+n dflipflopER_3/m1_460_72# dflipflopER_3/2inAND_3/a_8_8# dflipflopER_3/2inAND_3/a_18_8# 2 4 -212 -104
+n dflipflopER_3/m1_424_48# dflipflopER_3/2inAND_3/a_18_8# m2_n39_0# 2 4 -200 -104
+C m2_n40_n8# m1_n548_n56# 2.88
+C m2_n40_n8# m1_n540_n24# 2.88
+C m1_n556_n80# dflipflopER_0/m1_200_40# 2.46
+C m1_n540_n24# m1_n548_n56# 3.38
+C dflipflopER_3/m1_200_40# m1_n556_n80# 2.46
+C dflipflopER_1/m1_200_40# m1_n556_n80# 2.46
+C m2_n40_n8# m1_n556_n80# 2.88
+C m1_n556_n80# m1_n548_n56# 9.74
+C m1_n556_n80# m1_n540_n24# 3.38
+C m1_n556_n80# dflipflopER_2/m1_200_40# 2.46
+R dflipflopER_3/2inAND_3/a_18_8# 67
+C dflipflopER_3/2inAND_3/m1_64_56# GND 17.30
+R dflipflopER_3/2inAND_3/m1_64_56# 217
+= dflipflopER_3/2inAND_3/m1_64_56# dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R dflipflopER_3/2inAND_3/a_8_8# 1727
+= dflipflopER_3/2inAND_3/a_8_8# dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_3/latch_1/a_42_8# 40
+R dflipflopER_3/latch_1/a_18_8# 40
+R dflipflopER_3/latch_1/a_42_96# 89
+R dflipflopER_3/latch_1/a_18_96# 89
+C dflipflopER_3/latch_1/a_26_8# GND 36.70
+R dflipflopER_3/latch_1/a_26_8# 1448
+C dflipflopER_3/m1_424_48# GND 70.98
+R dflipflopER_3/m1_424_48# 2556
+= dflipflopER_3/m1_424_48# dflipflopER_3/2inAND_3/a_28_6#
+= dflipflopER_3/m1_424_48# dflipflopER_3/latch_1/a_48_6#
+R dflipflopER_3/latch_0/a_42_8# 40
+R dflipflopER_3/latch_0/a_18_8# 40
+R dflipflopER_3/latch_0/a_42_96# 89
+R dflipflopER_3/latch_0/a_18_96# 89
+C dflipflopER_3/latch_0/a_26_8# GND 36.70
+R dflipflopER_3/latch_0/a_26_8# 1448
+C dflipflopER_3/m1_336_56# GND 69.91
+R dflipflopER_3/m1_336_56# 2651
+= dflipflopER_3/m1_336_56# dflipflopER_3/latch_1/a_8_56#
+= dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_48_6#
+C m1_n576_n48# GND 61.31
+R m1_n576_n48# 1905
+= m1_n576_n48# 2inMUX_3/a_38_13#
+= m1_n576_n48# dflipflopER_3/m1_252_56#
+= m1_n576_n48# dflipflopER_3/latch_0/a_8_56#
+C dflipflopER_3/m1_200_40# GND 56.01
+R dflipflopER_3/m1_200_40# 1508
+= dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_24_68#
+= dflipflopER_3/m1_200_40# dflipflopER_3/inverter_2/a_18_8#
+C m2_n40_n8# GND 218.66
+R m2_n40_n8# 10899
+= m2_n40_n8# dflipflopER_2/m2_556_104#
+= m2_n40_n8# dflipflopER_2/2inAND_3/a_18_96#
+= m2_n40_n8# dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_2/2inAND_3/m2_76_104#
+= m2_n40_n8# dflipflopER_2/m2_348_104#
+= m2_n40_n8# dflipflopER_2/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_2/latch_0/a_8_96#
+= m2_n40_n8# dflipflopER_2/latch_1/a_8_96#
+= m2_n40_n8# dflipflopER_2/m2_234_104#
+= m2_n40_n8# dflipflopER_2/inverter_1/a_8_96#
+= m2_n40_n8# dflipflopER_2/m2_156_104#
+= m2_n40_n8# dflipflopER_2/inverter_2/a_8_96#
+= m2_n40_n8# m2_n565_n8#
+= m2_n40_n8# m2_n44_104#
+= m2_n40_n8# dflipflopER_0/m2_556_104#
+= m2_n40_n8# dflipflopER_0/2inAND_3/a_18_96#
+= m2_n40_n8# dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_0/2inAND_3/m2_76_104#
+= m2_n40_n8# dflipflopER_0/m2_348_104#
+= m2_n40_n8# dflipflopER_0/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_0/latch_0/a_8_96#
+= m2_n40_n8# dflipflopER_0/latch_1/a_8_96#
+= m2_n40_n8# dflipflopER_0/m2_234_104#
+= m2_n40_n8# dflipflopER_0/inverter_1/a_8_96#
+= m2_n40_n8# dflipflopER_0/m2_156_104#
+= m2_n40_n8# dflipflopER_0/inverter_2/a_8_96#
+= m2_n40_n8# m2_n568_104#
+= m2_n40_n8# 2inMUX_0/m2_0_104#
+= m2_n40_n8# 2inMUX_0/inv_0/a_4_96#
+= m2_n40_n8# 2inMUX_0/m2_n32_104#
+= m2_n40_n8# 2inMUX_1/m2_0_104#
+= m2_n40_n8# 2inMUX_1/inv_0/a_4_96#
+= m2_n40_n8# 2inMUX_1/m2_n32_104#
+= m2_n40_n8# dflipflopER_1/m2_556_104#
+= m2_n40_n8# dflipflopER_1/2inAND_3/a_18_96#
+= m2_n40_n8# dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_1/2inAND_3/m2_76_104#
+= m2_n40_n8# dflipflopER_1/m2_348_104#
+= m2_n40_n8# dflipflopER_1/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_1/latch_0/a_8_96#
+= m2_n40_n8# dflipflopER_1/latch_1/a_8_96#
+= m2_n40_n8# dflipflopER_1/m2_234_104#
+= m2_n40_n8# dflipflopER_1/inverter_1/a_8_96#
+= m2_n40_n8# dflipflopER_1/m2_156_104#
+= m2_n40_n8# dflipflopER_1/inverter_2/a_8_96#
+= m2_n40_n8# m1_n684_n8#
+= m2_n40_n8# 2inMUX_2/m2_0_104#
+= m2_n40_n8# 2inMUX_2/inv_0/a_4_96#
+= m2_n40_n8# 2inMUX_2/m2_n32_104#
+= m2_n40_n8# 2inMUX_3/m2_0_104#
+= m2_n40_n8# 2inMUX_3/inv_0/a_4_96#
+= m2_n40_n8# 2inMUX_3/m2_n32_104#
+= m2_n40_n8# dflipflopER_3/m2_556_104#
+= m2_n40_n8# dflipflopER_3/2inAND_3/a_18_96#
+= m2_n40_n8# dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_3/2inAND_3/m2_76_104#
+= m2_n40_n8# dflipflopER_3/m2_348_104#
+= m2_n40_n8# dflipflopER_3/inverter_0/a_8_96#
+= m2_n40_n8# dflipflopER_3/latch_0/a_8_96#
+= m2_n40_n8# dflipflopER_3/latch_1/a_8_96#
+= m2_n40_n8# dflipflopER_3/m2_234_104#
+= m2_n40_n8# dflipflopER_3/inverter_1/a_8_96#
+= m2_n40_n8# dflipflopER_3/m2_156_104#
+= m2_n40_n8# dflipflopER_3/inverter_2/a_8_96#
+C m1_n548_n56# GND 401.72
+R m1_n548_n56# 10277
+= m1_n548_n56# dflipflopER_0/m1_172_56#
+= m1_n548_n56# dflipflopER_0/latch_0/a_24_6#
+= m1_n548_n56# dflipflopER_0/inverter_2/a_8_56#
+= m1_n548_n56# dflipflopER_1/m1_172_56#
+= m1_n548_n56# dflipflopER_1/latch_0/a_24_6#
+= m1_n548_n56# dflipflopER_1/inverter_2/a_8_56#
+= m1_n548_n56# dflipflopER_2/m1_172_56#
+= m1_n548_n56# dflipflopER_2/latch_0/a_24_6#
+= m1_n548_n56# dflipflopER_2/inverter_2/a_8_56#
+= m1_n548_n56# dflipflopER_3/m1_172_56#
+= m1_n548_n56# dflipflopER_3/latch_0/a_24_6#
+= m1_n548_n56# dflipflopER_3/inverter_2/a_8_56#
+C dflipflopER_3/m1_236_24# GND 51.27
+R dflipflopER_3/m1_236_24# 1507
+= dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_24_68#
+= dflipflopER_3/m1_236_24# dflipflopER_3/inverter_1/a_18_8#
+C m1_n556_n80# GND 418.92
+R m1_n556_n80# 10278
+= m1_n556_n80# dflipflopER_0/m1_220_32#
+= m1_n556_n80# dflipflopER_0/latch_1/a_24_6#
+= m1_n556_n80# dflipflopER_0/inverter_1/a_8_56#
+= m1_n556_n80# dflipflopER_1/m1_220_32#
+= m1_n556_n80# dflipflopER_1/latch_1/a_24_6#
+= m1_n556_n80# dflipflopER_1/inverter_1/a_8_56#
+= m1_n556_n80# dflipflopER_2/m1_220_32#
+= m1_n556_n80# dflipflopER_2/latch_1/a_24_6#
+= m1_n556_n80# dflipflopER_2/inverter_1/a_8_56#
+= m1_n556_n80# dflipflopER_3/m1_220_32#
+= m1_n556_n80# dflipflopER_3/latch_1/a_24_6#
+= m1_n556_n80# dflipflopER_3/inverter_1/a_8_56#
+C dflipflopER_3/m1_460_72# GND 43.24
+R dflipflopER_3/m1_460_72# 1457
+= dflipflopER_3/m1_460_72# dflipflopER_3/2inAND_3/a_8_72#
+= dflipflopER_3/m1_460_72# dflipflopER_3/inverter_0/a_18_8#
+C m1_n540_n24# GND 322.56
+R m1_n540_n24# 5122
+= m1_n540_n24# dflipflopER_0/m1_444_56#
+= m1_n540_n24# dflipflopER_0/inverter_0/a_8_56#
+= m1_n540_n24# dflipflopER_1/m1_444_56#
+= m1_n540_n24# dflipflopER_1/inverter_0/a_8_56#
+= m1_n540_n24# dflipflopER_2/m1_444_56#
+= m1_n540_n24# dflipflopER_2/inverter_0/a_8_56#
+= m1_n540_n24# dflipflopER_3/m1_444_56#
+= m1_n540_n24# dflipflopER_3/inverter_0/a_8_56#
+R dflipflopER_2/2inAND_3/a_18_8# 67
+C dflipflopER_2/2inAND_3/m1_64_56# GND 17.30
+R dflipflopER_2/2inAND_3/m1_64_56# 217
+= dflipflopER_2/2inAND_3/m1_64_56# dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R dflipflopER_2/2inAND_3/a_8_8# 1727
+= dflipflopER_2/2inAND_3/a_8_8# dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_2/latch_1/a_42_8# 40
+R dflipflopER_2/latch_1/a_18_8# 40
+R dflipflopER_2/latch_1/a_42_96# 89
+R dflipflopER_2/latch_1/a_18_96# 89
+C dflipflopER_2/latch_1/a_26_8# GND 36.70
+R dflipflopER_2/latch_1/a_26_8# 1448
+C dflipflopER_2/m1_424_48# GND 70.98
+R dflipflopER_2/m1_424_48# 2556
+= dflipflopER_2/m1_424_48# dflipflopER_2/2inAND_3/a_28_6#
+= dflipflopER_2/m1_424_48# dflipflopER_2/latch_1/a_48_6#
+R dflipflopER_2/latch_0/a_42_8# 40
+R dflipflopER_2/latch_0/a_18_8# 40
+R dflipflopER_2/latch_0/a_42_96# 89
+R dflipflopER_2/latch_0/a_18_96# 89
+C dflipflopER_2/latch_0/a_26_8# GND 36.70
+R dflipflopER_2/latch_0/a_26_8# 1448
+C dflipflopER_2/m1_336_56# GND 69.91
+R dflipflopER_2/m1_336_56# 2651
+= dflipflopER_2/m1_336_56# dflipflopER_2/latch_1/a_8_56#
+= dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_48_6#
+C m1_n40_n48# GND 59.79
+R m1_n40_n48# 1904
+= m1_n40_n48# 2inMUX_2/a_38_13#
+= m1_n40_n48# dflipflopER_2/m1_252_56#
+= m1_n40_n48# dflipflopER_2/latch_0/a_8_56#
+C dflipflopER_2/m1_200_40# GND 56.01
+R dflipflopER_2/m1_200_40# 1508
+= dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_24_68#
+= dflipflopER_2/m1_200_40# dflipflopER_2/inverter_2/a_18_8#
+C dflipflopER_2/m1_236_24# GND 51.27
+R dflipflopER_2/m1_236_24# 1507
+= dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_24_68#
+= dflipflopER_2/m1_236_24# dflipflopER_2/inverter_1/a_18_8#
+C dflipflopER_2/m1_460_72# GND 43.24
+R dflipflopER_2/m1_460_72# 1457
+= dflipflopER_2/m1_460_72# dflipflopER_2/2inAND_3/a_8_72#
+= dflipflopER_2/m1_460_72# dflipflopER_2/inverter_0/a_18_8#
+R dflipflopER_1/2inAND_3/a_18_8# 67
+C dflipflopER_1/2inAND_3/m1_64_56# GND 17.30
+R dflipflopER_1/2inAND_3/m1_64_56# 217
+= dflipflopER_1/2inAND_3/m1_64_56# dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R dflipflopER_1/2inAND_3/a_8_8# 1727
+= dflipflopER_1/2inAND_3/a_8_8# dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_1/latch_1/a_42_8# 40
+R dflipflopER_1/latch_1/a_18_8# 40
+R dflipflopER_1/latch_1/a_42_96# 89
+R dflipflopER_1/latch_1/a_18_96# 89
+C dflipflopER_1/latch_1/a_26_8# GND 36.70
+R dflipflopER_1/latch_1/a_26_8# 1448
+C dflipflopER_1/m1_424_48# GND 70.98
+R dflipflopER_1/m1_424_48# 2556
+= dflipflopER_1/m1_424_48# dflipflopER_1/2inAND_3/a_28_6#
+= dflipflopER_1/m1_424_48# dflipflopER_1/latch_1/a_48_6#
+R dflipflopER_1/latch_0/a_42_8# 40
+R dflipflopER_1/latch_0/a_18_8# 40
+R dflipflopER_1/latch_0/a_42_96# 89
+R dflipflopER_1/latch_0/a_18_96# 89
+C dflipflopER_1/latch_0/a_26_8# GND 36.70
+R dflipflopER_1/latch_0/a_26_8# 1448
+C dflipflopER_1/m1_336_56# GND 69.91
+R dflipflopER_1/m1_336_56# 2651
+= dflipflopER_1/m1_336_56# dflipflopER_1/latch_1/a_8_56#
+= dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_48_6#
+C m1_n576_64# GND 61.01
+R m1_n576_64# 1905
+= m1_n576_64# 2inMUX_1/a_38_13#
+= m1_n576_64# dflipflopER_1/m1_252_56#
+= m1_n576_64# dflipflopER_1/latch_0/a_8_56#
+C m2_n39_0# GND 219.15
+R m2_n39_0# 4590
+= m2_n39_0# m2_n37_n112#
+= m2_n39_0# dflipflopER_2/m2_556_0#
+= m2_n39_0# dflipflopER_2/2inAND_3/a_30_8#
+= m2_n39_0# dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_2/2inAND_3/m2_76_0#
+= m2_n39_0# dflipflopER_2/m2_348_0#
+= m2_n39_0# dflipflopER_2/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_2/latch_0/a_8_8#
+= m2_n39_0# dflipflopER_2/latch_1/a_8_8#
+= m2_n39_0# dflipflopER_2/m2_239_0#
+= m2_n39_0# dflipflopER_2/inverter_1/a_8_8#
+= m2_n39_0# dflipflopER_2/m2_156_0#
+= m2_n39_0# dflipflopER_2/inverter_2/a_8_8#
+= m2_n39_0# m2_n692_n112#
+= m2_n39_0# 2inMUX_1/m2_0_0#
+= m2_n39_0# 2inMUX_1/inv_0/a_4_8#
+= m2_n39_0# 2inMUX_1/m2_n32_0#
+= m2_n39_0# m2_n568_n112#
+= m2_n39_0# 2inMUX_3/m2_0_0#
+= m2_n39_0# 2inMUX_3/inv_0/a_4_8#
+= m2_n39_0# 2inMUX_3/m2_n32_0#
+= m2_n39_0# 2inMUX_2/m2_0_0#
+= m2_n39_0# 2inMUX_2/inv_0/a_4_8#
+= m2_n39_0# 2inMUX_2/m2_n32_0#
+= m2_n39_0# dflipflopER_3/m2_556_0#
+= m2_n39_0# dflipflopER_3/2inAND_3/a_30_8#
+= m2_n39_0# dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_3/2inAND_3/m2_76_0#
+= m2_n39_0# dflipflopER_3/m2_348_0#
+= m2_n39_0# dflipflopER_3/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_3/latch_0/a_8_8#
+= m2_n39_0# dflipflopER_3/latch_1/a_8_8#
+= m2_n39_0# dflipflopER_3/m2_239_0#
+= m2_n39_0# dflipflopER_3/inverter_1/a_8_8#
+= m2_n39_0# dflipflopER_3/m2_156_0#
+= m2_n39_0# dflipflopER_3/inverter_2/a_8_8#
+= m2_n39_0# m2_n565_0#
+= m2_n39_0# dflipflopER_0/m2_556_0#
+= m2_n39_0# dflipflopER_0/2inAND_3/a_30_8#
+= m2_n39_0# dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_0/2inAND_3/m2_76_0#
+= m2_n39_0# dflipflopER_0/m2_348_0#
+= m2_n39_0# dflipflopER_0/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_0/latch_0/a_8_8#
+= m2_n39_0# dflipflopER_0/latch_1/a_8_8#
+= m2_n39_0# dflipflopER_0/m2_239_0#
+= m2_n39_0# dflipflopER_0/inverter_1/a_8_8#
+= m2_n39_0# dflipflopER_0/m2_156_0#
+= m2_n39_0# dflipflopER_0/inverter_2/a_8_8#
+= m2_n39_0# 2inMUX_0/m2_0_0#
+= m2_n39_0# 2inMUX_0/inv_0/a_4_8#
+= m2_n39_0# 2inMUX_0/m2_n32_0#
+= m2_n39_0# dflipflopER_1/m2_556_0#
+= m2_n39_0# dflipflopER_1/2inAND_3/a_30_8#
+= m2_n39_0# dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_1/2inAND_3/m2_76_0#
+= m2_n39_0# dflipflopER_1/m2_348_0#
+= m2_n39_0# dflipflopER_1/inverter_0/a_8_8#
+= m2_n39_0# dflipflopER_1/latch_0/a_8_8#
+= m2_n39_0# dflipflopER_1/latch_1/a_8_8#
+= m2_n39_0# dflipflopER_1/m2_239_0#
+= m2_n39_0# dflipflopER_1/inverter_1/a_8_8#
+= m2_n39_0# dflipflopER_1/m2_156_0#
+= m2_n39_0# dflipflopER_1/inverter_2/a_8_8#
+C dflipflopER_1/m1_200_40# GND 56.01
+R dflipflopER_1/m1_200_40# 1508
+= dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_24_68#
+= dflipflopER_1/m1_200_40# dflipflopER_1/inverter_2/a_18_8#
+C dflipflopER_1/m1_236_24# GND 51.27
+R dflipflopER_1/m1_236_24# 1507
+= dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_24_68#
+= dflipflopER_1/m1_236_24# dflipflopER_1/inverter_1/a_18_8#
+C dflipflopER_1/m1_460_72# GND 43.24
+R dflipflopER_1/m1_460_72# 1457
+= dflipflopER_1/m1_460_72# dflipflopER_1/2inAND_3/a_8_72#
+= dflipflopER_1/m1_460_72# dflipflopER_1/inverter_0/a_18_8#
+R dflipflopER_0/2inAND_3/a_18_8# 67
+C dflipflopER_0/2inAND_3/m1_64_56# GND 17.30
+R dflipflopER_0/2inAND_3/m1_64_56# 217
+= dflipflopER_0/2inAND_3/m1_64_56# dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R dflipflopER_0/2inAND_3/a_8_8# 1727
+= dflipflopER_0/2inAND_3/a_8_8# dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_0/latch_1/a_42_8# 40
+R dflipflopER_0/latch_1/a_18_8# 40
+R dflipflopER_0/latch_1/a_42_96# 89
+R dflipflopER_0/latch_1/a_18_96# 89
+C dflipflopER_0/latch_1/a_26_8# GND 36.70
+R dflipflopER_0/latch_1/a_26_8# 1448
+C dflipflopER_0/m1_424_48# GND 70.98
+R dflipflopER_0/m1_424_48# 2556
+= dflipflopER_0/m1_424_48# dflipflopER_0/2inAND_3/a_28_6#
+= dflipflopER_0/m1_424_48# dflipflopER_0/latch_1/a_48_6#
+R dflipflopER_0/latch_0/a_42_8# 40
+R dflipflopER_0/latch_0/a_18_8# 40
+R dflipflopER_0/latch_0/a_42_96# 89
+R dflipflopER_0/latch_0/a_18_96# 89
+C dflipflopER_0/latch_0/a_26_8# GND 36.70
+R dflipflopER_0/latch_0/a_26_8# 1448
+C dflipflopER_0/m1_336_56# GND 69.91
+R dflipflopER_0/m1_336_56# 2651
+= dflipflopER_0/m1_336_56# dflipflopER_0/latch_1/a_8_56#
+= dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_48_6#
+C m1_n40_64# GND 59.49
+R m1_n40_64# 1904
+= m1_n40_64# 2inMUX_0/a_38_13#
+= m1_n40_64# dflipflopER_0/m1_252_56#
+= m1_n40_64# dflipflopER_0/latch_0/a_8_56#
+C dflipflopER_0/m1_200_40# GND 56.01
+R dflipflopER_0/m1_200_40# 1508
+= dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_24_68#
+= dflipflopER_0/m1_200_40# dflipflopER_0/inverter_2/a_18_8#
+C dflipflopER_0/m1_236_24# GND 51.27
+R dflipflopER_0/m1_236_24# 1507
+= dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_24_68#
+= dflipflopER_0/m1_236_24# dflipflopER_0/inverter_1/a_18_8#
+C dflipflopER_0/m1_460_72# GND 43.24
+R dflipflopER_0/m1_460_72# 1457
+= dflipflopER_0/m1_460_72# dflipflopER_0/2inAND_3/a_8_72#
+= dflipflopER_0/m1_460_72# dflipflopER_0/inverter_0/a_18_8#
+C 2inMUX_3/a_28_13# GND 6.39
+R 2inMUX_3/a_28_13# 173
+C 2inMUX_3/a_28_58# GND 9.40
+R 2inMUX_3/a_28_58# 173
+C 2inMUX_3/a_20_35# GND 37.94
+R 2inMUX_3/a_20_35# 1113
+= 2inMUX_3/a_20_35# 2inMUX_3/inv_0/a_15_8#
+C m1_n708_n120# GND 593.60
+R m1_n708_n120# 11550
+= m1_n708_n120# 2inMUX_0/a_n16_40#
+= m1_n708_n120# 2inMUX_0/inv_0/a_12_5#
+= m1_n708_n120# 2inMUX_1/a_n16_40#
+= m1_n708_n120# 2inMUX_1/inv_0/a_12_5#
+= m1_n708_n120# 2inMUX_2/a_n16_40#
+= m1_n708_n120# 2inMUX_2/inv_0/a_12_5#
+= m1_n708_n120# 2inMUX_3/a_n16_40#
+= m1_n708_n120# 2inMUX_3/inv_0/a_12_5#
+C 2inMUX_2/a_28_13# GND 6.39
+R 2inMUX_2/a_28_13# 173
+C 2inMUX_2/a_28_58# GND 9.40
+R 2inMUX_2/a_28_58# 173
+C 2inMUX_2/a_20_35# GND 37.94
+R 2inMUX_2/a_20_35# 1113
+= 2inMUX_2/a_20_35# 2inMUX_2/inv_0/a_15_8#
+C 2inMUX_1/a_28_13# GND 6.39
+R 2inMUX_1/a_28_13# 173
+C 2inMUX_1/a_28_58# GND 9.40
+R 2inMUX_1/a_28_58# 173
+C 2inMUX_1/a_20_35# GND 37.94
+R 2inMUX_1/a_20_35# 1113
+= 2inMUX_1/a_20_35# 2inMUX_1/inv_0/a_15_8#
+C 2inMUX_0/a_28_13# GND 6.39
+R 2inMUX_0/a_28_13# 173
+C 2inMUX_0/a_28_58# GND 9.40
+R 2inMUX_0/a_28_58# 173
+C 2inMUX_0/a_20_35# GND 37.94
+R 2inMUX_0/a_20_35# 1113
+= 2inMUX_0/a_20_35# 2inMUX_0/inv_0/a_15_8#

@@ -1,0 +1,89 @@
+magic
+tech scmos
+timestamp 1653242760
+<< metal1 >>
+rect -372 56 -368 172
+rect -164 124 -28 128
+rect -164 64 -160 124
+rect -156 112 -12 116
+rect -156 72 -152 112
+rect -156 68 -124 72
+rect -324 60 -288 64
+rect -268 60 -264 64
+rect -164 60 -128 64
+rect -108 60 -104 64
+rect -492 44 -460 48
+rect -492 -28 -488 44
+rect -484 32 -456 36
+rect -484 -20 -480 32
+rect -324 -12 -320 60
+rect -200 -4 -196 60
+rect -40 -4 -36 60
+rect -28 44 -24 104
+rect -16 68 -12 112
+rect 420 72 424 168
+rect 420 68 440 72
+rect -16 64 4 68
+rect 12 64 16 68
+rect 208 64 240 68
+rect 248 64 252 68
+rect 208 52 212 64
+rect 428 60 436 64
+rect 428 52 432 60
+rect 160 48 212 52
+rect 396 48 432 52
+rect -28 40 4 44
+rect 28 40 32 44
+rect 208 -12 212 48
+rect -324 -16 212 -12
+rect -484 -24 -40 -20
+rect -492 -32 -200 -28
+<< metal2 >>
+rect -28 108 -24 124
+rect -372 104 -288 108
+rect -204 104 -128 108
+rect -44 104 -36 108
+rect 400 104 436 108
+rect -40 100 -36 104
+rect -40 96 0 100
+rect 164 96 236 100
+rect 400 96 404 104
+rect -372 0 -288 4
+rect -204 0 -128 4
+rect -44 0 0 4
+rect 164 0 236 4
+rect 400 0 436 4
+rect -200 -28 -196 -8
+rect -40 -20 -36 -8
+<< m2contact >>
+rect -28 124 -24 128
+rect -28 104 -24 108
+rect -200 -8 -196 -4
+rect -40 -8 -36 -4
+rect -40 -24 -36 -20
+rect -200 -32 -196 -28
+use 2in-OR  2in-OR_0
+timestamp 1653229139
+transform 1 0 -460 0 1 0
+box 0 0 88 108
+use 2in-xor  2in-xor_0
+timestamp 1653229051
+transform 1 0 0 0 1 0
+box 0 0 164 100
+use 2in-xor  2in-xor_1
+timestamp 1653229051
+transform 1 0 236 0 1 0
+box 0 0 164 100
+use 2inAND  2inAND_0
+timestamp 1653228967
+transform 1 0 -128 0 1 0
+box 0 0 88 108
+use 2inAND  2inAND_1
+timestamp 1653228967
+transform 1 0 -288 0 1 0
+box 0 0 88 108
+use 2inAND  2inAND_2
+timestamp 1653228967
+transform 1 0 436 0 1 0
+box 0 0 88 108
+<< end >>
