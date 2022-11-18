@@ -1,0 +1,789 @@
+| units: 100 tech: scmos format: MIT
+p reset vdd dflipflopER_0/2inAND_3/a 2 4 378 134
+n reset gnd dflipflopER_0/2inAND_3/a 2 4 378 46
+p phi2 vdd dflipflopER_0/m1_236_24# 2 4 154 134
+n phi2 gnd dflipflopER_0/m1_236_24# 2 4 154 46
+p phi1 vdd dflipflopER_0/m1_200_40# 2 4 118 134
+n phi1 gnd dflipflopER_0/m1_200_40# 2 4 118 46
+p nxtd vdd dflipflopER_0/latch_0/a_18_96# 2 4 210 134
+p dflipflopER_0/latch_0/a_26_8# vdd dflipflopER_0/m1_336_56# 2 4 254 134
+n nxtd gnd dflipflopER_0/latch_0/a_18_8# 2 4 210 46
+p dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_18_96# dflipflopER_0/latch_0/a_26_8# 2 4 218 134
+n dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_42_8# gnd 2 4 242 46
+p dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_42_96# vdd 2 4 242 134
+n phi1 dflipflopER_0/latch_0/a_18_8# dflipflopER_0/latch_0/a_26_8# 2 4 218 46
+p phi1 dflipflopER_0/latch_0/a_26_8# dflipflopER_0/latch_0/a_42_96# 2 4 234 134
+n dflipflopER_0/latch_0/a_26_8# gnd dflipflopER_0/m1_336_56# 2 4 254 46
+n dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_26_8# dflipflopER_0/latch_0/a_42_8# 2 4 234 46
+p dflipflopER_0/m1_336_56# vdd dflipflopER_0/latch_1/a_18_96# 2 4 298 134
+p dflipflopER_0/latch_1/a_26_8# vdd dflipflopER_0/2inAND_3/b 2 4 342 134
+n dflipflopER_0/m1_336_56# gnd dflipflopER_0/latch_1/a_18_8# 2 4 298 46
+p dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_18_96# dflipflopER_0/latch_1/a_26_8# 2 4 306 134
+n dflipflopER_0/2inAND_3/b dflipflopER_0/latch_1/a_42_8# gnd 2 4 330 46
+p dflipflopER_0/2inAND_3/b dflipflopER_0/latch_1/a_42_96# vdd 2 4 330 134
+n phi2 dflipflopER_0/latch_1/a_18_8# dflipflopER_0/latch_1/a_26_8# 2 4 306 46
+p phi2 dflipflopER_0/latch_1/a_26_8# dflipflopER_0/latch_1/a_42_96# 2 4 322 134
+n dflipflopER_0/latch_1/a_26_8# gnd dflipflopER_0/2inAND_3/b 2 4 342 46
+n dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_26_8# dflipflopER_0/latch_1/a_42_8# 2 4 322 46
+p 2inAND_7/b vdd 2inAND_6/b 2 4 454 134
+n 2inAND_7/b gnd 2inAND_6/b 2 4 454 46
+p dflipflopER_0/2inAND_3/a 2inAND_7/b vdd 2 4 414 134
+p dflipflopER_0/2inAND_3/b vdd 2inAND_7/b 2 4 426 134
+n dflipflopER_0/2inAND_3/a 2inAND_7/b dflipflopER_0/2inAND_3/a_18_8# 2 4 414 46
+n dflipflopER_0/2inAND_3/b dflipflopER_0/2inAND_3/a_18_8# gnd 2 4 426 46
+p reset vdd dflipflopER_1/2inAND_3/a 2 4 379 253
+n reset gnd dflipflopER_1/2inAND_3/a 2 4 379 165
+p phi2 vdd dflipflopER_1/m1_236_24# 2 4 155 253
+n phi2 gnd dflipflopER_1/m1_236_24# 2 4 155 165
+p phi1 vdd dflipflopER_1/m1_200_40# 2 4 119 253
+n phi1 gnd dflipflopER_1/m1_200_40# 2 4 119 165
+p nxtc vdd dflipflopER_1/latch_0/a_18_96# 2 4 211 253
+p dflipflopER_1/latch_0/a_26_8# vdd dflipflopER_1/m1_336_56# 2 4 255 253
+n nxtc gnd dflipflopER_1/latch_0/a_18_8# 2 4 211 165
+p dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_18_96# dflipflopER_1/latch_0/a_26_8# 2 4 219 253
+n dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_42_8# gnd 2 4 243 165
+p dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_42_96# vdd 2 4 243 253
+n phi1 dflipflopER_1/latch_0/a_18_8# dflipflopER_1/latch_0/a_26_8# 2 4 219 165
+p phi1 dflipflopER_1/latch_0/a_26_8# dflipflopER_1/latch_0/a_42_96# 2 4 235 253
+n dflipflopER_1/latch_0/a_26_8# gnd dflipflopER_1/m1_336_56# 2 4 255 165
+n dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_26_8# dflipflopER_1/latch_0/a_42_8# 2 4 235 165
+p dflipflopER_1/m1_336_56# vdd dflipflopER_1/latch_1/a_18_96# 2 4 299 253
+p dflipflopER_1/latch_1/a_26_8# vdd dflipflopER_1/2inAND_3/b 2 4 343 253
+n dflipflopER_1/m1_336_56# gnd dflipflopER_1/latch_1/a_18_8# 2 4 299 165
+p dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_18_96# dflipflopER_1/latch_1/a_26_8# 2 4 307 253
+n dflipflopER_1/2inAND_3/b dflipflopER_1/latch_1/a_42_8# gnd 2 4 331 165
+p dflipflopER_1/2inAND_3/b dflipflopER_1/latch_1/a_42_96# vdd 2 4 331 253
+n phi2 dflipflopER_1/latch_1/a_18_8# dflipflopER_1/latch_1/a_26_8# 2 4 307 165
+p phi2 dflipflopER_1/latch_1/a_26_8# dflipflopER_1/latch_1/a_42_96# 2 4 323 253
+n dflipflopER_1/latch_1/a_26_8# gnd dflipflopER_1/2inAND_3/b 2 4 343 165
+n dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_26_8# dflipflopER_1/latch_1/a_42_8# 2 4 323 165
+p 2inAND_5/b vdd 2inAND_4/b 2 4 455 253
+n 2inAND_5/b gnd 2inAND_4/b 2 4 455 165
+p dflipflopER_1/2inAND_3/a 2inAND_5/b vdd 2 4 415 253
+p dflipflopER_1/2inAND_3/b vdd 2inAND_5/b 2 4 427 253
+n dflipflopER_1/2inAND_3/a 2inAND_5/b dflipflopER_1/2inAND_3/a_18_8# 2 4 415 165
+n dflipflopER_1/2inAND_3/b dflipflopER_1/2inAND_3/a_18_8# gnd 2 4 427 165
+p reset vdd dflipflopER_2/2inAND_3/a 2 4 379 372
+n reset gnd dflipflopER_2/2inAND_3/a 2 4 379 284
+p phi2 vdd dflipflopER_2/m1_236_24# 2 4 155 372
+n phi2 gnd dflipflopER_2/m1_236_24# 2 4 155 284
+p phi1 vdd dflipflopER_2/m1_200_40# 2 4 119 372
+n phi1 gnd dflipflopER_2/m1_200_40# 2 4 119 284
+p nxtb vdd dflipflopER_2/latch_0/a_18_96# 2 4 211 372
+p dflipflopER_2/latch_0/a_26_8# vdd dflipflopER_2/m1_336_56# 2 4 255 372
+n nxtb gnd dflipflopER_2/latch_0/a_18_8# 2 4 211 284
+p dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_18_96# dflipflopER_2/latch_0/a_26_8# 2 4 219 372
+n dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_42_8# gnd 2 4 243 284
+p dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_42_96# vdd 2 4 243 372
+n phi1 dflipflopER_2/latch_0/a_18_8# dflipflopER_2/latch_0/a_26_8# 2 4 219 284
+p phi1 dflipflopER_2/latch_0/a_26_8# dflipflopER_2/latch_0/a_42_96# 2 4 235 372
+n dflipflopER_2/latch_0/a_26_8# gnd dflipflopER_2/m1_336_56# 2 4 255 284
+n dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_26_8# dflipflopER_2/latch_0/a_42_8# 2 4 235 284
+p dflipflopER_2/m1_336_56# vdd dflipflopER_2/latch_1/a_18_96# 2 4 299 372
+p dflipflopER_2/latch_1/a_26_8# vdd dflipflopER_2/2inAND_3/b 2 4 343 372
+n dflipflopER_2/m1_336_56# gnd dflipflopER_2/latch_1/a_18_8# 2 4 299 284
+p dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_18_96# dflipflopER_2/latch_1/a_26_8# 2 4 307 372
+n dflipflopER_2/2inAND_3/b dflipflopER_2/latch_1/a_42_8# gnd 2 4 331 284
+p dflipflopER_2/2inAND_3/b dflipflopER_2/latch_1/a_42_96# vdd 2 4 331 372
+n phi2 dflipflopER_2/latch_1/a_18_8# dflipflopER_2/latch_1/a_26_8# 2 4 307 284
+p phi2 dflipflopER_2/latch_1/a_26_8# dflipflopER_2/latch_1/a_42_96# 2 4 323 372
+n dflipflopER_2/latch_1/a_26_8# gnd dflipflopER_2/2inAND_3/b 2 4 343 284
+n dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_26_8# dflipflopER_2/latch_1/a_42_8# 2 4 323 284
+p 2inAND_3/b vdd 2inAND_2/b 2 4 455 372
+n 2inAND_3/b gnd 2inAND_2/b 2 4 455 284
+p dflipflopER_2/2inAND_3/a 2inAND_3/b vdd 2 4 415 372
+p dflipflopER_2/2inAND_3/b vdd 2inAND_3/b 2 4 427 372
+n dflipflopER_2/2inAND_3/a 2inAND_3/b dflipflopER_2/2inAND_3/a_18_8# 2 4 415 284
+n dflipflopER_2/2inAND_3/b dflipflopER_2/2inAND_3/a_18_8# gnd 2 4 427 284
+p 2inAND_0/a_8_8# vdd nxta_0/a 2 4 579 500
+n 2inAND_0/a_8_8# gnd nxta_0/a 2 4 579 412
+p En 2inAND_0/a_8_8# vdd 2 4 539 500
+p 2inAND_0/b vdd 2inAND_0/a_8_8# 2 4 551 500
+n En 2inAND_0/a_8_8# 2inAND_0/a_18_8# 2 4 539 412
+n 2inAND_0/b 2inAND_0/a_18_8# gnd 2 4 551 412
+p reset vdd dflipflopER_3/2inAND_3/a 2 4 380 487
+n reset gnd dflipflopER_3/2inAND_3/a 2 4 380 399
+p phi2 vdd dflipflopER_3/m1_236_24# 2 4 156 487
+n phi2 gnd dflipflopER_3/m1_236_24# 2 4 156 399
+p phi1 vdd dflipflopER_3/m1_200_40# 2 4 120 487
+n phi1 gnd dflipflopER_3/m1_200_40# 2 4 120 399
+p nxta vdd dflipflopER_3/latch_0/a_18_96# 2 4 212 487
+p dflipflopER_3/latch_0/a_26_8# vdd dflipflopER_3/m1_336_56# 2 4 256 487
+n nxta gnd dflipflopER_3/latch_0/a_18_8# 2 4 212 399
+p dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_18_96# dflipflopER_3/latch_0/a_26_8# 2 4 220 487
+n dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_42_8# gnd 2 4 244 399
+p dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_42_96# vdd 2 4 244 487
+n phi1 dflipflopER_3/latch_0/a_18_8# dflipflopER_3/latch_0/a_26_8# 2 4 220 399
+p phi1 dflipflopER_3/latch_0/a_26_8# dflipflopER_3/latch_0/a_42_96# 2 4 236 487
+n dflipflopER_3/latch_0/a_26_8# gnd dflipflopER_3/m1_336_56# 2 4 256 399
+n dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_26_8# dflipflopER_3/latch_0/a_42_8# 2 4 236 399
+p dflipflopER_3/m1_336_56# vdd dflipflopER_3/latch_1/a_18_96# 2 4 300 487
+p dflipflopER_3/latch_1/a_26_8# vdd dflipflopER_3/2inAND_3/b 2 4 344 487
+n dflipflopER_3/m1_336_56# gnd dflipflopER_3/latch_1/a_18_8# 2 4 300 399
+p dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_18_96# dflipflopER_3/latch_1/a_26_8# 2 4 308 487
+n dflipflopER_3/2inAND_3/b dflipflopER_3/latch_1/a_42_8# gnd 2 4 332 399
+p dflipflopER_3/2inAND_3/b dflipflopER_3/latch_1/a_42_96# vdd 2 4 332 487
+n phi2 dflipflopER_3/latch_1/a_18_8# dflipflopER_3/latch_1/a_26_8# 2 4 308 399
+p phi2 dflipflopER_3/latch_1/a_26_8# dflipflopER_3/latch_1/a_42_96# 2 4 324 487
+n dflipflopER_3/latch_1/a_26_8# gnd dflipflopER_3/2inAND_3/b 2 4 344 399
+n dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_26_8# dflipflopER_3/latch_1/a_42_8# 2 4 324 399
+p 2inAND_1/b vdd 2inAND_0/b 2 4 456 487
+n 2inAND_1/b gnd 2inAND_0/b 2 4 456 399
+p dflipflopER_3/2inAND_3/a 2inAND_1/b vdd 2 4 416 487
+p dflipflopER_3/2inAND_3/b vdd 2inAND_1/b 2 4 428 487
+n dflipflopER_3/2inAND_3/a 2inAND_1/b dflipflopER_3/2inAND_3/a_18_8# 2 4 416 399
+n dflipflopER_3/2inAND_3/b dflipflopER_3/2inAND_3/a_18_8# gnd 2 4 428 399
+p 2inAND_1/a_8_8# vdd nxta_0/a' 2 4 670 479
+n 2inAND_1/a_8_8# gnd nxta_0/a' 2 4 670 391
+p En 2inAND_1/a_8_8# vdd 2 4 630 479
+p 2inAND_1/b vdd 2inAND_1/a_8_8# 2 4 642 479
+n En 2inAND_1/a_8_8# 2inAND_1/a_18_8# 2 4 630 391
+n 2inAND_1/b 2inAND_1/a_18_8# gnd 2 4 642 391
+p 2inAND_2/a_8_8# vdd nxtb_0/b 2 4 577 371
+n 2inAND_2/a_8_8# gnd nxtb_0/b 2 4 577 283
+p En 2inAND_2/a_8_8# vdd 2 4 537 371
+p 2inAND_2/b vdd 2inAND_2/a_8_8# 2 4 549 371
+n En 2inAND_2/a_8_8# 2inAND_2/a_18_8# 2 4 537 283
+n 2inAND_2/b 2inAND_2/a_18_8# gnd 2 4 549 283
+p 2inAND_3/a_8_8# vdd nxtb_0/b' 2 4 673 357
+n 2inAND_3/a_8_8# gnd nxtb_0/b' 2 4 673 269
+p En 2inAND_3/a_8_8# vdd 2 4 633 357
+p 2inAND_3/b vdd 2inAND_3/a_8_8# 2 4 645 357
+n En 2inAND_3/a_8_8# 2inAND_3/a_18_8# 2 4 633 269
+n 2inAND_3/b 2inAND_3/a_18_8# gnd 2 4 645 269
+p nxta_0/a nxta nxta_0/a_9_110# 2 4 -283 170
+n nxtd gnd nxta_0/a_84_8# 2 4 -208 68
+n nxtb_0/b' nxta_0/a_101_8# nxta_0/a_9_8# 2 4 -175 68
+p xnor_0/b nxta_0/a_53_110# vdd 2 4 -223 170
+n nxtb_0/b nxta_0/a_26_8# gnd 2 4 -255 68
+p xnor_0/a nxta_0/a_37_110# nxta_0/a_53_110# 2 4 -239 170
+p nxtb_0/b' vdd nxta_0/a_84_110# 2 4 -175 170
+n xnor_0/a gnd nxta_0/a_26_8# 2 4 -239 68
+n nxta_0/a nxta nxta_0/a_9_8# 2 4 -283 68
+p nxtb_0/b nxta_0/a_9_110# nxta_0/a_37_110# 2 4 -255 170
+n xnor_0/b nxta_0/a_26_8# gnd 2 4 -223 68
+p nxta_0/a' nxta_0/a_84_110# nxta 2 4 -151 170
+p xnor_0/na nxta_0/a_84_110# vdd 2 4 -191 170
+p nxtd vdd nxta_0/a_84_110# 2 4 -208 170
+n nxta_0/a' nxta_0/a_26_8# nxta 2 4 -151 68
+n xnor_0/na nxta_0/a_84_8# nxta_0/a_101_8# 2 4 -191 68
+p 2inAND_4/a_8_8# vdd xnor_0/a 2 4 567 254
+n 2inAND_4/a_8_8# gnd xnor_0/a 2 4 567 166
+p En 2inAND_4/a_8_8# vdd 2 4 527 254
+p 2inAND_4/b vdd 2inAND_4/a_8_8# 2 4 539 254
+n En 2inAND_4/a_8_8# 2inAND_4/a_18_8# 2 4 527 166
+n 2inAND_4/b 2inAND_4/a_18_8# gnd 2 4 539 166
+p xnor_0/a nxtc xnor_0/a_19_88# 2 4 -265 -107
+n xnor_0/a xnor_0/a_3_0# nxtc 2 4 -265 -195
+n xnor_0/na xnor_0/a_35_0# gnd 2 4 -232 -195
+n xnor_0/b nxtc xnor_0/a_35_0# 2 4 -249 -195
+p nxtd xnor_0/a_n16_88# nxtc 2 4 -281 -107
+p xnor_0/b xnor_0/a_19_88# vdd 2 4 -249 -107
+n nxtd gnd xnor_0/a_3_0# 2 4 -281 -195
+p xnor_0/na vdd xnor_0/a_n16_88# 2 4 -232 -107
+p 2inAND_5/a_8_8# vdd xnor_0/na 2 4 665 239
+n 2inAND_5/a_8_8# gnd xnor_0/na 2 4 665 151
+p En 2inAND_5/a_8_8# vdd 2 4 625 239
+p 2inAND_5/b vdd 2inAND_5/a_8_8# 2 4 637 239
+n En 2inAND_5/a_8_8# 2inAND_5/a_18_8# 2 4 625 151
+n 2inAND_5/b 2inAND_5/a_18_8# gnd 2 4 637 151
+p 2inAND_6/a_8_8# vdd xnor_0/b 2 4 574 136
+n 2inAND_6/a_8_8# gnd xnor_0/b 2 4 574 48
+p En 2inAND_6/a_8_8# vdd 2 4 534 136
+p 2inAND_6/b vdd 2inAND_6/a_8_8# 2 4 546 136
+n En 2inAND_6/a_8_8# 2inAND_6/a_18_8# 2 4 534 48
+n 2inAND_6/b 2inAND_6/a_18_8# gnd 2 4 546 48
+p 2inAND_7/a_8_8# vdd nxtd 2 4 664 123
+n 2inAND_7/a_8_8# gnd nxtd 2 4 664 35
+p En 2inAND_7/a_8_8# vdd 2 4 624 123
+p 2inAND_7/b vdd 2inAND_7/a_8_8# 2 4 636 123
+n En 2inAND_7/a_8_8# 2inAND_7/a_18_8# 2 4 624 35
+n 2inAND_7/b 2inAND_7/a_18_8# gnd 2 4 636 35
+p 4inAND_1/a_0_8# vdd nextEn 2 4 166 -23
+n 4inAND_1/a_0_8# gnd nextEn 2 4 166 -111
+p nxtd 4inAND_1/a_0_8# vdd 2 4 102 -23
+n nxtd 4inAND_1/a_0_8# 4inAND_1/a_10_8# 2 4 102 -111
+n nxtb 4inAND_1/a_22_8# 4inAND_1/a_34_8# 2 4 126 -111
+p nxta vdd 4inAND_1/a_0_8# 2 4 114 -23
+p nxtb 4inAND_1/a_0_8# vdd 2 4 126 -23
+p nxtc vdd 4inAND_1/a_0_8# 2 4 138 -23
+n nxtc 4inAND_1/a_34_8# gnd 2 4 138 -111
+n nxta 4inAND_1/a_10_8# 4inAND_1/a_22_8# 2 4 114 -111
+p nxtb_0/b' nxtb_0/a_76_100# nxtb 2 4 -156 20
+n xnor_0/a nxtb_0/a_31_n1# gnd 2 4 -250 -80
+n xnor_0/na nxtb_0/a_14_n1# nxtb_0/a_88_n1# 2 4 -204 -80
+n xnor_0/b gnd nxtb_0/a_31_n1# 2 4 -234 -80
+n nxtd nxtb_0/a_88_n1# gnd 2 4 -188 -80
+p nxtd vdd nxtb_0/a_76_100# 2 4 -188 20
+p xnor_0/b nxtb_0/a_42_100# vdd 2 4 -234 20
+n nxtb_0/b nxtb nxtb_0/a_14_n1# 2 4 -278 -80
+n nxtb_0/b' nxtb_0/a_31_n1# nxtb 2 4 -156 -80
+p xnor_0/a nxtb_0/a_14_100# nxtb_0/a_42_100# 2 4 -250 20
+p xnor_0/na nxtb_0/a_76_100# vdd 2 4 -204 20
+p nxtb_0/b nxtb nxtb_0/a_14_100# 2 4 -278 20
+C xnor_0/na nxtb_0/b 2.46
+C phi1 phi2 7.58
+C dflipflopER_0/m1_200_40# phi2 2.46
+C xnor_0/a nxtb_0/b' 2.46
+C xnor_0/a nxtd 3.34
+C nxtb_0/b nxtb_0/b' 3.18
+C nxtd nxtb_0/b 2.46
+C En 2inAND_0/b 2.01
+C xnor_0/na xnor_0/b 2.62
+C xnor_0/b nxtb_0/b' 2.46
+C xnor_0/b nxtd 4.06
+C xnor_0/a nxtb_0/b 2.46
+C nxta gnd 2.88
+C nxta vdd 2.88
+C xnor_0/a xnor_0/b 3.34
+C xnor_0/b nxtb_0/b 2.46
+C dflipflopER_3/m1_200_40# phi2 2.46
+C dflipflopER_1/m1_200_40# phi2 2.46
+C nxtb gnd 2.16
+C nxtb vdd 2.16
+C xnor_0/na nxtb_0/b' 2.46
+C En gnd 2.88
+C En vdd 2.79
+C xnor_0/na nxtd 3.34
+C dflipflopER_2/m1_200_40# phi2 2.46
+C nxtd nxtb_0/b' 2.46
+C xnor_0/a xnor_0/na 4.06
+R nxtb_0/a_88_n1# 93
+C nxtb_0/a_31_n1# GND 14.65
+R nxtb_0/a_31_n1# 350
+C nxtb_0/a_14_n1# GND 6.43
+R nxtb_0/a_14_n1# 229
+C nxtb_0/a_76_100# GND 4.53
+R nxtb_0/a_76_100# 734
+R nxtb_0/a_42_100# 208
+R nxtb_0/a_14_100# 387
+C nxtb_0/b' GND 378.71
+R nxtb_0/b' 2902
+= nxtb_0/b' 2inAND_3/o
+= nxtb_0/b' 2inAND_3/inverter_0/a_18_8#
+= nxtb_0/b' nxta_0/b'
+= nxtb_0/b' m1_n492_n52#
+C nxtb_0/b GND 354.35
+R nxtb_0/b 3016
+= nxtb_0/b 2inAND_2/o
+= nxtb_0/b 2inAND_2/inverter_0/a_18_8#
+= nxtb_0/b nxta_0/b
+= nxtb_0/b m1_n504_0#
+R 4inAND_1/a_34_8# 67
+R 4inAND_1/a_22_8# 67
+R 4inAND_1/a_10_8# 67
+C nxtb GND 228.48
+R nxtb 3426
+= nxtb dflipflopER_2/d
+= nxtb dflipflopER_2/latch_0/a_8_56#
+= nxtb nxtb_0/o
+= nxtb 4inAND_1/c
+C nxta GND 243.72
+R nxta 3325
+= nxta dflipflopER_3/d
+= nxta dflipflopER_3/latch_0/a_8_56#
+= nxta nxta_0/nxtao
+= nxta 4inAND_1/b
+C nextEn GND 22.75
+R nextEn 217
+= nextEn 4inAND_1/out
+= nextEn 4inAND_1/inverter_0/a_18_8#
+C 4inAND_1/a_0_8# GND 65.80
+R 4inAND_1/a_0_8# 1731
+= 4inAND_1/a_0_8# 4inAND_1/inverter_0/a_8_56#
+R 2inAND_7/a_18_8# 67
+C 2inAND_7/a_8_8# GND 51.51
+R 2inAND_7/a_8_8# 1394
+= 2inAND_7/a_8_8# 2inAND_7/inverter_0/a_8_56#
+R 2inAND_6/a_18_8# 67
+R En 10268
+= En 2inAND_0/a
+= En 2inAND_1/a
+= En 2inAND_3/a
+= En 2inAND_2/a
+= En 2inAND_5/a
+= En 2inAND_4/a
+= En 2inAND_7/a
+= En 2inAND_6/a
+C 2inAND_6/a_8_8# GND 51.51
+R 2inAND_6/a_8_8# 1394
+= 2inAND_6/a_8_8# 2inAND_6/inverter_0/a_8_56#
+R 2inAND_5/a_18_8# 67
+C 2inAND_5/a_8_8# GND 51.51
+R 2inAND_5/a_8_8# 1394
+= 2inAND_5/a_8_8# 2inAND_5/inverter_0/a_8_56#
+R xnor_0/a_35_0# 100
+R xnor_0/a_3_0# 93
+R xnor_0/a_19_88# 208
+C nxtc GND 178.76
+R nxtc 2745
+= nxtc dflipflopER_1/d
+= nxtc dflipflopER_1/latch_0/a_8_56#
+= nxtc 4inAND_1/d
+= nxtc xnor_0/o
+C xnor_0/a_n16_88# GND 6.66
+R xnor_0/a_n16_88# 578
+C xnor_0/na GND 470.18
+R xnor_0/na 4100
+= xnor_0/na 2inAND_5/o
+= xnor_0/na 2inAND_5/inverter_0/a_18_8#
+= xnor_0/na nxta_0/c'
+= xnor_0/na nxtb_0/c'
+= xnor_0/na m1_n468_n179#
+C xnor_0/b GND 493.33
+R xnor_0/b 4101
+= xnor_0/b 2inAND_6/o
+= xnor_0/b 2inAND_6/inverter_0/a_18_8#
+= xnor_0/b nxta_0/d
+= xnor_0/b nxtb_0/d
+= xnor_0/b m1_n456_n171#
+C xnor_0/a GND 456.35
+R xnor_0/a 4099
+= xnor_0/a 2inAND_4/o
+= xnor_0/a 2inAND_4/inverter_0/a_18_8#
+= xnor_0/a nxta_0/c
+= xnor_0/a nxtb_0/c
+= xnor_0/a m1_n480_n155#
+C nxtd GND 691.62
+R nxtd 6844
+= nxtd 2inAND_7/o
+= nxtd 2inAND_7/inverter_0/a_18_8#
+= nxtd dflipflopER_0/d
+= nxtd dflipflopER_0/latch_0/a_8_56#
+= nxtd nxta_0/d'
+= nxtd 4inAND_1/a
+= nxtd nxtb_0/d'
+= nxtd xnor_0/nb
+R 2inAND_4/a_18_8# 67
+C 2inAND_4/a_8_8# GND 51.51
+R 2inAND_4/a_8_8# 1394
+= 2inAND_4/a_8_8# 2inAND_4/inverter_0/a_8_56#
+R nxta_0/a_101_8# 93
+R nxta_0/a_84_8# 100
+C nxta_0/a_26_8# GND 15.48
+R nxta_0/a_26_8# 344
+C nxta_0/a_9_8# GND 9.39
+R nxta_0/a_9_8# 195
+C nxta_0/a_84_110# GND 4.83
+R nxta_0/a_84_110# 691
+R nxta_0/a_53_110# 208
+R nxta_0/a_37_110# 208
+R nxta_0/a_9_110# 387
+R 2inAND_3/a_18_8# 67
+C 2inAND_3/a_8_8# GND 51.51
+R 2inAND_3/a_8_8# 1394
+= 2inAND_3/a_8_8# 2inAND_3/inverter_0/a_8_56#
+R 2inAND_2/a_18_8# 67
+C 2inAND_2/a_8_8# GND 51.51
+R 2inAND_2/a_8_8# 1394
+= 2inAND_2/a_8_8# 2inAND_2/inverter_0/a_8_56#
+R 2inAND_1/a_18_8# 67
+C nxta_0/a' GND 268.98
+R nxta_0/a' 1547
+= nxta_0/a' m1_n516_94#
+= nxta_0/a' 2inAND_1/o
+= nxta_0/a' 2inAND_1/inverter_0/a_18_8#
+C 2inAND_1/a_8_8# GND 51.51
+R 2inAND_1/a_8_8# 1394
+= 2inAND_1/a_8_8# 2inAND_1/inverter_0/a_8_56#
+R dflipflopER_3/2inAND_3/a_18_8# 67
+C 2inAND_0/b GND 50.58
+R 2inAND_0/b 1363
+= 2inAND_0/b dflipflopER_3/q
+= 2inAND_0/b m1_531_447#
+= 2inAND_0/b dflipflopER_3/2inAND_3/o
+= 2inAND_0/b dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 2inAND_1/b GND 92.29
+R 2inAND_1/b 2589
+= 2inAND_1/b dflipflopER_3/q'
+= 2inAND_1/b m1_622_413#
+= 2inAND_1/b dflipflopER_3/2inAND_3/a_8_8#
+= 2inAND_1/b dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_3/latch_1/a_42_8# 40
+R dflipflopER_3/latch_1/a_18_8# 40
+R dflipflopER_3/latch_1/a_42_96# 89
+R dflipflopER_3/latch_1/a_18_96# 89
+C dflipflopER_3/latch_1/a_26_8# GND 36.70
+R dflipflopER_3/latch_1/a_26_8# 1448
+C dflipflopER_3/2inAND_3/b GND 73.38
+R dflipflopER_3/2inAND_3/b 2556
+= dflipflopER_3/2inAND_3/b dflipflopER_3/m1_424_48#
+= dflipflopER_3/2inAND_3/b dflipflopER_3/latch_1/a_48_6#
+R dflipflopER_3/latch_0/a_42_8# 40
+R dflipflopER_3/latch_0/a_18_8# 40
+R dflipflopER_3/latch_0/a_42_96# 89
+R dflipflopER_3/latch_0/a_18_96# 89
+C dflipflopER_3/latch_0/a_26_8# GND 36.70
+R dflipflopER_3/latch_0/a_26_8# 1448
+C dflipflopER_3/m1_336_56# GND 69.91
+R dflipflopER_3/m1_336_56# 2651
+= dflipflopER_3/m1_336_56# dflipflopER_3/latch_1/a_8_56#
+= dflipflopER_3/m1_336_56# dflipflopER_3/latch_0/a_48_6#
+C dflipflopER_3/m1_200_40# GND 56.01
+R dflipflopER_3/m1_200_40# 1508
+= dflipflopER_3/m1_200_40# dflipflopER_3/latch_0/a_24_68#
+= dflipflopER_3/m1_200_40# dflipflopER_3/inverter_2/a_18_8#
+C dflipflopER_3/m1_236_24# GND 51.19
+R dflipflopER_3/m1_236_24# 1507
+= dflipflopER_3/m1_236_24# dflipflopER_3/latch_1/a_24_68#
+= dflipflopER_3/m1_236_24# dflipflopER_3/inverter_1/a_18_8#
+C dflipflopER_3/2inAND_3/a GND 43.24
+R dflipflopER_3/2inAND_3/a 1457
+= dflipflopER_3/2inAND_3/a dflipflopER_3/m1_460_72#
+= dflipflopER_3/2inAND_3/a dflipflopER_3/inverter_0/a_18_8#
+R 2inAND_0/a_18_8# 67
+C nxta_0/a GND 241.70
+R nxta_0/a 1795
+= nxta_0/a m1_n528_158#
+= nxta_0/a 2inAND_0/o
+= nxta_0/a 2inAND_0/inverter_0/a_18_8#
+C 2inAND_0/a_8_8# GND 51.51
+R 2inAND_0/a_8_8# 1394
+= 2inAND_0/a_8_8# 2inAND_0/inverter_0/a_8_56#
+R dflipflopER_2/2inAND_3/a_18_8# 67
+C 2inAND_2/b GND 50.31
+R 2inAND_2/b 1363
+= 2inAND_2/b dflipflopER_2/q
+= 2inAND_2/b m1_529_332#
+= 2inAND_2/b dflipflopER_2/2inAND_3/o
+= 2inAND_2/b dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 2inAND_3/b GND 91.99
+R 2inAND_3/b 2589
+= 2inAND_3/b dflipflopER_2/q'
+= 2inAND_3/b m1_625_305#
+= 2inAND_3/b dflipflopER_2/2inAND_3/a_8_8#
+= 2inAND_3/b dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_2/latch_1/a_42_8# 40
+R dflipflopER_2/latch_1/a_18_8# 40
+R dflipflopER_2/latch_1/a_42_96# 89
+R dflipflopER_2/latch_1/a_18_96# 89
+C dflipflopER_2/latch_1/a_26_8# GND 36.70
+R dflipflopER_2/latch_1/a_26_8# 1448
+C dflipflopER_2/2inAND_3/b GND 73.38
+R dflipflopER_2/2inAND_3/b 2556
+= dflipflopER_2/2inAND_3/b dflipflopER_2/m1_424_48#
+= dflipflopER_2/2inAND_3/b dflipflopER_2/latch_1/a_48_6#
+R dflipflopER_2/latch_0/a_42_8# 40
+R dflipflopER_2/latch_0/a_18_8# 40
+R dflipflopER_2/latch_0/a_42_96# 89
+R dflipflopER_2/latch_0/a_18_96# 89
+C dflipflopER_2/latch_0/a_26_8# GND 36.70
+R dflipflopER_2/latch_0/a_26_8# 1448
+C dflipflopER_2/m1_336_56# GND 69.91
+R dflipflopER_2/m1_336_56# 2651
+= dflipflopER_2/m1_336_56# dflipflopER_2/latch_1/a_8_56#
+= dflipflopER_2/m1_336_56# dflipflopER_2/latch_0/a_48_6#
+C dflipflopER_2/m1_200_40# GND 56.01
+R dflipflopER_2/m1_200_40# 1508
+= dflipflopER_2/m1_200_40# dflipflopER_2/latch_0/a_24_68#
+= dflipflopER_2/m1_200_40# dflipflopER_2/inverter_2/a_18_8#
+C dflipflopER_2/m1_236_24# GND 51.19
+R dflipflopER_2/m1_236_24# 1507
+= dflipflopER_2/m1_236_24# dflipflopER_2/latch_1/a_24_68#
+= dflipflopER_2/m1_236_24# dflipflopER_2/inverter_1/a_18_8#
+C dflipflopER_2/2inAND_3/a GND 43.24
+R dflipflopER_2/2inAND_3/a 1457
+= dflipflopER_2/2inAND_3/a dflipflopER_2/m1_460_72#
+= dflipflopER_2/2inAND_3/a dflipflopER_2/inverter_0/a_18_8#
+R dflipflopER_1/2inAND_3/a_18_8# 67
+C 2inAND_4/b GND 49.55
+R 2inAND_4/b 1362
+= 2inAND_4/b dflipflopER_1/q
+= 2inAND_4/b m1_519_213#
+= 2inAND_4/b dflipflopER_1/2inAND_3/o
+= 2inAND_4/b dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 2inAND_5/b GND 91.59
+R 2inAND_5/b 2589
+= 2inAND_5/b dflipflopER_1/q'
+= 2inAND_5/b m1_616_187#
+= 2inAND_5/b dflipflopER_1/2inAND_3/a_8_8#
+= 2inAND_5/b dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_1/latch_1/a_42_8# 40
+R dflipflopER_1/latch_1/a_18_8# 40
+R dflipflopER_1/latch_1/a_42_96# 89
+R dflipflopER_1/latch_1/a_18_96# 89
+C dflipflopER_1/latch_1/a_26_8# GND 36.70
+R dflipflopER_1/latch_1/a_26_8# 1448
+C dflipflopER_1/2inAND_3/b GND 73.38
+R dflipflopER_1/2inAND_3/b 2556
+= dflipflopER_1/2inAND_3/b dflipflopER_1/m1_424_48#
+= dflipflopER_1/2inAND_3/b dflipflopER_1/latch_1/a_48_6#
+R dflipflopER_1/latch_0/a_42_8# 40
+R dflipflopER_1/latch_0/a_18_8# 40
+R dflipflopER_1/latch_0/a_42_96# 89
+R dflipflopER_1/latch_0/a_18_96# 89
+C dflipflopER_1/latch_0/a_26_8# GND 36.70
+R dflipflopER_1/latch_0/a_26_8# 1448
+C dflipflopER_1/m1_336_56# GND 69.91
+R dflipflopER_1/m1_336_56# 2651
+= dflipflopER_1/m1_336_56# dflipflopER_1/latch_1/a_8_56#
+= dflipflopER_1/m1_336_56# dflipflopER_1/latch_0/a_48_6#
+C dflipflopER_1/m1_200_40# GND 56.01
+R dflipflopER_1/m1_200_40# 1508
+= dflipflopER_1/m1_200_40# dflipflopER_1/latch_0/a_24_68#
+= dflipflopER_1/m1_200_40# dflipflopER_1/inverter_2/a_18_8#
+C dflipflopER_1/m1_236_24# GND 51.19
+R dflipflopER_1/m1_236_24# 1507
+= dflipflopER_1/m1_236_24# dflipflopER_1/latch_1/a_24_68#
+= dflipflopER_1/m1_236_24# dflipflopER_1/inverter_1/a_18_8#
+C dflipflopER_1/2inAND_3/a GND 43.24
+R dflipflopER_1/2inAND_3/a 1457
+= dflipflopER_1/2inAND_3/a dflipflopER_1/m1_460_72#
+= dflipflopER_1/2inAND_3/a dflipflopER_1/inverter_0/a_18_8#
+R dflipflopER_0/2inAND_3/a_18_8# 67
+C 2inAND_6/b GND 50.54
+R 2inAND_6/b 1362
+= 2inAND_6/b dflipflopER_0/q
+= 2inAND_6/b m1_526_94#
+= 2inAND_6/b dflipflopER_0/2inAND_3/o
+= 2inAND_6/b dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 2inAND_7/b GND 90.93
+R 2inAND_7/b 2589
+= 2inAND_7/b dflipflopER_0/q'
+= 2inAND_7/b m1_616_61#
+= 2inAND_7/b dflipflopER_0/2inAND_3/a_8_8#
+= 2inAND_7/b dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R dflipflopER_0/latch_1/a_42_8# 40
+R dflipflopER_0/latch_1/a_18_8# 40
+R dflipflopER_0/latch_1/a_42_96# 89
+R dflipflopER_0/latch_1/a_18_96# 89
+C dflipflopER_0/latch_1/a_26_8# GND 36.70
+R dflipflopER_0/latch_1/a_26_8# 1448
+C dflipflopER_0/2inAND_3/b GND 73.38
+R dflipflopER_0/2inAND_3/b 2556
+= dflipflopER_0/2inAND_3/b dflipflopER_0/m1_424_48#
+= dflipflopER_0/2inAND_3/b dflipflopER_0/latch_1/a_48_6#
+R dflipflopER_0/latch_0/a_42_8# 40
+R dflipflopER_0/latch_0/a_18_8# 40
+R dflipflopER_0/latch_0/a_42_96# 89
+R dflipflopER_0/latch_0/a_18_96# 89
+C dflipflopER_0/latch_0/a_26_8# GND 36.70
+R dflipflopER_0/latch_0/a_26_8# 1448
+C dflipflopER_0/m1_336_56# GND 69.91
+R dflipflopER_0/m1_336_56# 2651
+= dflipflopER_0/m1_336_56# dflipflopER_0/latch_1/a_8_56#
+= dflipflopER_0/m1_336_56# dflipflopER_0/latch_0/a_48_6#
+C gnd GND 389.90
+R gnd 7594
+= gnd 2inAND_1/gnd
+= gnd 2inAND_1/inverter_0/a_8_8#
+= gnd 2inAND_1/m2_76_0#
+= gnd 2inAND_0/gnd
+= gnd 2inAND_0/inverter_0/a_8_8#
+= gnd 2inAND_0/m2_76_0#
+= gnd dflipflopER_3/Gnd
+= gnd m1_523_391#
+= gnd dflipflopER_3/2inAND_3/gnd
+= gnd dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= gnd dflipflopER_3/2inAND_3/m2_76_0#
+= gnd dflipflopER_3/m2_556_0#
+= gnd dflipflopER_3/inverter_0/a_8_8#
+= gnd dflipflopER_3/latch_0/a_8_8#
+= gnd dflipflopER_3/latch_1/a_8_8#
+= gnd dflipflopER_3/m2_348_0#
+= gnd dflipflopER_3/inverter_1/a_8_8#
+= gnd dflipflopER_3/m2_156_0#
+= gnd dflipflopER_3/inverter_2/a_8_8#
+= gnd 2inAND_3/gnd
+= gnd 2inAND_2/gnd
+= gnd 2inAND_2/inverter_0/a_8_8#
+= gnd 2inAND_2/m2_76_0#
+= gnd m1_600_261#
+= gnd 2inAND_3/inverter_0/a_8_8#
+= gnd 2inAND_3/m2_76_0#
+= gnd dflipflopER_2/Gnd
+= gnd m2_488_275#
+= gnd dflipflopER_2/2inAND_3/gnd
+= gnd dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= gnd dflipflopER_2/2inAND_3/m2_76_0#
+= gnd dflipflopER_2/m2_556_0#
+= gnd dflipflopER_2/inverter_0/a_8_8#
+= gnd dflipflopER_2/latch_0/a_8_8#
+= gnd dflipflopER_2/latch_1/a_8_8#
+= gnd dflipflopER_2/m2_348_0#
+= gnd dflipflopER_2/inverter_1/a_8_8#
+= gnd dflipflopER_2/m2_156_0#
+= gnd dflipflopER_2/inverter_2/a_8_8#
+= gnd 2inAND_5/gnd
+= gnd 2inAND_5/inverter_0/a_8_8#
+= gnd 2inAND_5/m2_76_0#
+= gnd 2inAND_4/gnd
+= gnd m2_586_158#
+= gnd 2inAND_4/inverter_0/a_8_8#
+= gnd 2inAND_4/m2_76_0#
+= gnd dflipflopER_1/Gnd
+= gnd m2_489_157#
+= gnd dflipflopER_1/2inAND_3/gnd
+= gnd dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= gnd dflipflopER_1/2inAND_3/m2_76_0#
+= gnd dflipflopER_1/m2_556_0#
+= gnd dflipflopER_1/inverter_0/a_8_8#
+= gnd dflipflopER_1/latch_0/a_8_8#
+= gnd dflipflopER_1/latch_1/a_8_8#
+= gnd dflipflopER_1/m2_348_0#
+= gnd dflipflopER_1/inverter_1/a_8_8#
+= gnd dflipflopER_1/m2_156_0#
+= gnd dflipflopER_1/inverter_2/a_8_8#
+= gnd nxta_0/gnd
+= gnd 4inAND_1/Gnd
+= gnd 4inAND_1/inverter_0/a_8_8#
+= gnd nxtb_0/gnd
+= gnd xnor_0/gnd
+= gnd 2inAND_7/gnd
+= gnd 2inAND_7/inverter_0/a_8_8#
+= gnd 2inAND_7/m2_76_0#
+= gnd 2inAND_6/gnd
+= gnd m2_600_28#
+= gnd 2inAND_6/inverter_0/a_8_8#
+= gnd 2inAND_6/m2_76_0#
+= gnd dflipflopER_0/Gnd
+= gnd m2_489_38#
+= gnd dflipflopER_0/2inAND_3/gnd
+= gnd dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= gnd dflipflopER_0/2inAND_3/m2_76_0#
+= gnd dflipflopER_0/m2_556_0#
+= gnd dflipflopER_0/inverter_0/a_8_8#
+= gnd dflipflopER_0/latch_0/a_8_8#
+= gnd dflipflopER_0/latch_1/a_8_8#
+= gnd dflipflopER_0/m2_348_0#
+= gnd dflipflopER_0/inverter_1/a_8_8#
+= gnd dflipflopER_0/m2_156_0#
+= gnd dflipflopER_0/inverter_2/a_8_8#
+C dflipflopER_0/m1_200_40# GND 56.01
+R dflipflopER_0/m1_200_40# 1508
+= dflipflopER_0/m1_200_40# dflipflopER_0/latch_0/a_24_68#
+= dflipflopER_0/m1_200_40# dflipflopER_0/inverter_2/a_18_8#
+C vdd GND 391.62
+R vdd 16817
+= vdd 2inAND_5/vdd
+= vdd 2inAND_5/inverter_0/a_8_96#
+= vdd 2inAND_5/m2_76_104#
+= vdd m2_591_247#
+= vdd 2inAND_1/vdd
+= vdd 2inAND_1/inverter_0/a_8_96#
+= vdd 2inAND_1/m2_76_104#
+= vdd m1_614_487#
+= vdd 2inAND_0/vdd
+= vdd 2inAND_0/inverter_0/a_8_96#
+= vdd 2inAND_0/m2_76_104#
+= vdd dflipflopER_3/Vdd
+= vdd m1_488_495#
+= vdd dflipflopER_3/2inAND_3/vdd
+= vdd dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= vdd dflipflopER_3/2inAND_3/m2_76_104#
+= vdd dflipflopER_3/m2_556_104#
+= vdd dflipflopER_3/inverter_0/a_8_96#
+= vdd dflipflopER_3/latch_0/a_8_96#
+= vdd dflipflopER_3/latch_1/a_8_96#
+= vdd dflipflopER_3/m2_348_104#
+= vdd dflipflopER_3/inverter_1/a_8_96#
+= vdd dflipflopER_3/m2_156_104#
+= vdd dflipflopER_3/inverter_2/a_8_96#
+= vdd 2inAND_3/vdd
+= vdd 2inAND_2/vdd
+= vdd 2inAND_2/inverter_0/a_8_96#
+= vdd 2inAND_2/m2_76_104#
+= vdd m1_600_365#
+= vdd 2inAND_3/inverter_0/a_8_96#
+= vdd 2inAND_3/m2_76_104#
+= vdd dflipflopER_2/Vdd
+= vdd m2_488_379#
+= vdd dflipflopER_2/2inAND_3/vdd
+= vdd dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= vdd dflipflopER_2/2inAND_3/m2_76_104#
+= vdd dflipflopER_2/m2_556_104#
+= vdd dflipflopER_2/inverter_0/a_8_96#
+= vdd dflipflopER_2/latch_0/a_8_96#
+= vdd dflipflopER_2/latch_1/a_8_96#
+= vdd dflipflopER_2/m2_348_104#
+= vdd dflipflopER_2/inverter_1/a_8_96#
+= vdd dflipflopER_2/m2_156_104#
+= vdd dflipflopER_2/inverter_2/a_8_96#
+= vdd 2inAND_4/vdd
+= vdd 2inAND_4/inverter_0/a_8_96#
+= vdd 2inAND_4/m2_76_104#
+= vdd dflipflopER_1/Vdd
+= vdd m2_487_261#
+= vdd dflipflopER_1/2inAND_3/vdd
+= vdd dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= vdd dflipflopER_1/2inAND_3/m2_76_104#
+= vdd dflipflopER_1/m2_556_104#
+= vdd dflipflopER_1/inverter_0/a_8_96#
+= vdd dflipflopER_1/latch_0/a_8_96#
+= vdd dflipflopER_1/latch_1/a_8_96#
+= vdd dflipflopER_1/m2_348_104#
+= vdd dflipflopER_1/inverter_1/a_8_96#
+= vdd dflipflopER_1/m2_156_104#
+= vdd dflipflopER_1/inverter_2/a_8_96#
+= vdd nxta_0/vdd
+= vdd 4inAND_1/Vdd
+= vdd 4inAND_1/inverter_0/a_8_96#
+= vdd nxtb_0/vdd
+= vdd xnor_0/vdd
+= vdd 2inAND_7/vdd
+= vdd 2inAND_7/inverter_0/a_8_96#
+= vdd 2inAND_7/m2_76_104#
+= vdd 2inAND_6/vdd
+= vdd m2_598_131#
+= vdd 2inAND_6/inverter_0/a_8_96#
+= vdd 2inAND_6/m2_76_104#
+= vdd dflipflopER_0/Vdd
+= vdd m2_490_142#
+= vdd dflipflopER_0/2inAND_3/vdd
+= vdd dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= vdd dflipflopER_0/2inAND_3/m2_76_104#
+= vdd dflipflopER_0/m2_556_104#
+= vdd dflipflopER_0/inverter_0/a_8_96#
+= vdd dflipflopER_0/latch_0/a_8_96#
+= vdd dflipflopER_0/latch_1/a_8_96#
+= vdd dflipflopER_0/m2_348_104#
+= vdd dflipflopER_0/inverter_1/a_8_96#
+= vdd dflipflopER_0/m2_156_104#
+= vdd dflipflopER_0/inverter_2/a_8_96#
+C phi1 GND 311.68
+R phi1 10271
+= phi1 dflipflopER_3/phi1
+= phi1 dflipflopER_3/latch_0/a_24_6#
+= phi1 dflipflopER_3/inverter_2/a_8_56#
+= phi1 m2_100_439#
+= phi1 dflipflopER_2/phi1
+= phi1 dflipflopER_2/latch_0/a_24_6#
+= phi1 dflipflopER_2/inverter_2/a_8_56#
+= phi1 dflipflopER_1/phi1
+= phi1 dflipflopER_1/latch_0/a_24_6#
+= phi1 dflipflopER_1/inverter_2/a_8_56#
+= phi1 dflipflopER_0/phi1
+= phi1 dflipflopER_0/latch_0/a_24_6#
+= phi1 dflipflopER_0/inverter_2/a_8_56#
+C dflipflopER_0/m1_236_24# GND 51.19
+R dflipflopER_0/m1_236_24# 1507
+= dflipflopER_0/m1_236_24# dflipflopER_0/latch_1/a_24_68#
+= dflipflopER_0/m1_236_24# dflipflopER_0/inverter_1/a_18_8#
+C phi2 GND 310.00
+R phi2 10271
+= phi2 dflipflopER_3/phi2
+= phi2 dflipflopER_3/latch_1/a_24_6#
+= phi2 dflipflopER_3/inverter_1/a_8_56#
+= phi2 dflipflopER_2/phi2
+= phi2 dflipflopER_2/latch_1/a_24_6#
+= phi2 dflipflopER_2/inverter_1/a_8_56#
+= phi2 dflipflopER_1/phi2
+= phi2 dflipflopER_1/latch_1/a_24_6#
+= phi2 dflipflopER_1/inverter_1/a_8_56#
+= phi2 dflipflopER_0/phi2
+= phi2 dflipflopER_0/latch_1/a_24_6#
+= phi2 dflipflopER_0/inverter_1/a_8_56#
+C dflipflopER_0/2inAND_3/a GND 43.24
+R dflipflopER_0/2inAND_3/a 1457
+= dflipflopER_0/2inAND_3/a dflipflopER_0/m1_460_72#
+= dflipflopER_0/2inAND_3/a dflipflopER_0/inverter_0/a_18_8#
+C reset GND 205.42
+R reset 5116
+= reset dflipflopER_3/reset
+= reset dflipflopER_3/inverter_0/a_8_56#
+= reset dflipflopER_2/reset
+= reset dflipflopER_2/inverter_0/a_8_56#
+= reset dflipflopER_1/reset
+= reset dflipflopER_1/inverter_0/a_8_56#
+= reset dflipflopER_0/reset
+= reset dflipflopER_0/inverter_0/a_8_56#

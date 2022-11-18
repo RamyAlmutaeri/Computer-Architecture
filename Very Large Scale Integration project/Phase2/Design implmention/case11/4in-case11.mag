@@ -1,0 +1,55 @@
+magic
+tech scmos
+timestamp 1653249832
+<< metal1 >>
+rect 156 64 172 68
+rect 156 49 160 64
+rect 164 40 185 44
+rect 164 -52 168 40
+rect 155 -56 168 -52
+rect 176 -52 180 -49
+rect 287 -49 300 -44
+rect 176 -57 188 -52
+rect 228 -56 232 -49
+rect 228 -61 244 -56
+<< metal2 >>
+rect 161 96 181 100
+rect 160 0 180 4
+rect 160 -8 180 -4
+rect 169 -44 174 -8
+rect 169 -49 176 -44
+rect 180 -49 228 -44
+rect 232 -49 292 -44
+rect 159 -104 179 -100
+<< polycontact >>
+rect 300 -49 304 -44
+rect 188 -57 192 -52
+rect 244 -61 248 -56
+<< m2contact >>
+rect 176 -49 180 -44
+rect 228 -49 232 -44
+use 2in-xor  2in-xor_0
+timestamp 1653040024
+transform 1 0 0 0 1 0
+box 0 0 164 100
+use 2in-xor  2in-xor_1
+timestamp 1653040024
+transform 1 0 0 0 1 -104
+box 0 0 164 100
+use 2in-xor  2in-xor_2
+timestamp 1653040024
+transform 1 0 176 0 1 0
+box 0 0 164 100
+use inverter  inverter_0
+timestamp 1652779389
+transform 1 0 172 0 1 -104
+box 0 0 56 100
+use inverter  inverter_1
+timestamp 1652779389
+transform 1 0 228 0 1 -104
+box 0 0 56 100
+use inverter  inverter_2
+timestamp 1652779389
+transform 1 0 284 0 1 -104
+box 0 0 56 100
+<< end >>

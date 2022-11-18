@@ -1,0 +1,149 @@
+magic
+tech scmos
+timestamp 1653249895
+<< polysilicon >>
+rect 12 92 14 94
+rect 28 92 30 94
+rect 84 92 86 94
+rect 144 92 146 94
+rect 12 68 14 88
+rect 12 12 14 64
+rect 28 44 30 88
+rect 84 44 86 88
+rect 144 68 146 88
+rect 28 12 30 40
+rect 84 12 86 40
+rect 144 12 146 64
+rect 12 6 14 8
+rect 28 5 30 8
+rect 84 6 86 8
+rect 144 6 146 8
+<< ndiffusion >>
+rect 8 8 12 12
+rect 14 8 28 12
+rect 30 8 36 12
+rect 72 8 76 12
+rect 80 8 84 12
+rect 86 8 92 12
+rect 96 8 100 12
+rect 128 8 132 12
+rect 136 8 144 12
+rect 146 8 152 12
+rect 156 8 160 12
+<< pdiffusion >>
+rect 8 88 12 92
+rect 14 88 20 92
+rect 24 88 28 92
+rect 30 88 36 92
+rect 72 88 76 92
+rect 80 88 84 92
+rect 86 88 92 92
+rect 96 88 100 92
+rect 128 88 132 92
+rect 136 88 144 92
+rect 146 88 152 92
+rect 156 88 160 92
+<< metal1 >>
+rect 20 92 24 96
+rect 4 84 8 88
+rect 36 84 40 88
+rect 76 84 80 88
+rect 4 80 44 84
+rect 92 84 96 88
+rect 92 80 100 84
+rect 132 80 136 88
+rect 76 76 80 80
+rect 4 64 12 68
+rect 16 64 48 68
+rect 76 64 112 68
+rect 128 52 132 80
+rect 152 76 156 88
+rect 140 64 144 68
+rect 128 48 160 52
+rect 4 40 28 44
+rect 32 40 56 44
+rect 64 40 84 44
+rect 4 16 48 20
+rect 4 12 8 16
+rect 92 12 96 24
+rect 36 4 40 8
+rect 132 12 136 24
+rect 152 20 156 48
+rect 152 12 156 16
+rect 76 4 80 8
+<< metal2 >>
+rect 0 96 20 100
+rect 24 96 104 100
+rect 108 96 164 100
+rect 48 80 76 84
+rect 104 80 128 84
+rect 80 72 152 76
+rect 52 64 72 68
+rect 124 64 136 68
+rect 96 27 113 28
+rect 120 27 132 28
+rect 96 24 132 27
+rect 52 16 152 20
+rect 0 0 36 4
+rect 40 0 76 4
+rect 80 0 104 4
+rect 108 0 164 4
+<< ntransistor >>
+rect 12 8 14 12
+rect 28 8 30 12
+rect 84 8 86 12
+rect 144 8 146 12
+<< ptransistor >>
+rect 12 88 14 92
+rect 28 88 30 92
+rect 84 88 86 92
+rect 144 88 146 92
+<< polycontact >>
+rect 12 64 16 68
+rect 112 64 116 68
+rect 144 64 148 68
+rect 28 40 32 44
+rect 56 40 60 44
+rect 84 40 88 44
+<< ndcontact >>
+rect 4 8 8 12
+rect 36 8 40 12
+rect 76 8 80 12
+rect 92 8 96 12
+rect 132 8 136 12
+rect 152 8 156 12
+<< pdcontact >>
+rect 4 88 8 92
+rect 20 88 24 92
+rect 36 88 40 92
+rect 76 88 80 92
+rect 92 88 96 92
+rect 132 88 136 92
+rect 152 88 156 92
+<< m2contact >>
+rect 20 96 24 100
+rect 44 80 48 84
+rect 76 80 80 84
+rect 100 80 104 84
+rect 128 80 132 84
+rect 76 72 80 76
+rect 48 64 52 68
+rect 72 64 76 68
+rect 120 64 124 68
+rect 152 72 156 76
+rect 136 64 140 68
+rect 92 24 96 28
+rect 48 16 52 20
+rect 36 0 40 4
+rect 132 24 136 28
+rect 152 16 156 20
+rect 76 0 80 4
+use inv  inv_0
+timestamp 1653039801
+transform 1 0 44 0 1 0
+box 0 0 28 100
+use inv  inv_1
+timestamp 1653039801
+transform 1 0 100 0 1 0
+box 0 0 28 100
+<< end >>

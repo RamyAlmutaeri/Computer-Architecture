@@ -1,0 +1,153 @@
+| units: 100 tech: scmos format: MIT
+p 2in-xor_1/Vdd 2in-xor_1/Vdd inverter_0/a_19_8# 3 4 188 -16
+n 2in-xor_1/Vdd 2in-xor_1/Gnd inverter_0/a_19_8# 3 4 188 -96
+p 2in-xor_1/Vdd 2in-xor_1/Vdd inverter_1/a_19_8# 3 4 244 -16
+n 2in-xor_1/Vdd 2in-xor_1/Gnd inverter_1/a_19_8# 3 4 244 -96
+p a_300_n49# 2in-xor_1/Vdd inverter_2/a_19_8# 3 4 300 -16
+n a_300_n49# 2in-xor_1/Gnd inverter_2/a_19_8# 3 4 300 -96
+p 2in-xor_0/b 2in-xor_2/Vdd 2in-xor_0/a_84_6# 3 4 56 88
+n 2in-xor_0/b 2in-xor_2/Gnd 2in-xor_0/a_84_6# 3 4 56 8
+p 2in-xor_0/a 2in-xor_2/Vdd 2in-xor_0/a_144_6# 3 4 112 88
+n 2in-xor_0/a 2in-xor_2/Gnd 2in-xor_0/a_144_6# 3 4 112 8
+p 2in-xor_0/a_144_6# 2in-xor_0/out 2in-xor_0/a_4_88# 2 4 144 88
+p 2in-xor_0/b 2in-xor_2/Vdd 2in-xor_0/a_4_88# 2 4 28 88
+p 2in-xor_0/a 2in-xor_0/a_4_88# 2in-xor_2/Vdd 2 4 12 88
+p 2in-xor_0/a_84_6# 2in-xor_0/a_4_88# 2in-xor_0/out 2 4 84 88
+n 2in-xor_0/a 2in-xor_0/out 2in-xor_0/a_14_8# 2 4 12 8
+n 2in-xor_0/a_144_6# 2in-xor_0/a_86_8# 2in-xor_0/out 2 4 144 8
+n 2in-xor_0/b 2in-xor_0/a_14_8# 2in-xor_2/Gnd 2 4 28 8
+n 2in-xor_0/a_84_6# 2in-xor_2/Gnd 2in-xor_0/a_86_8# 2 4 84 8
+p 2in-xor_1/b 2in-xor_1/Vdd 2in-xor_1/a_84_6# 3 4 56 -16
+n 2in-xor_1/b 2in-xor_1/Gnd 2in-xor_1/a_84_6# 3 4 56 -96
+p 2in-xor_1/a 2in-xor_1/Vdd 2in-xor_1/a_144_6# 3 4 112 -16
+n 2in-xor_1/a 2in-xor_1/Gnd 2in-xor_1/a_144_6# 3 4 112 -96
+p 2in-xor_1/a_144_6# 2in-xor_2/b 2in-xor_1/a_4_88# 2 4 144 -16
+p 2in-xor_1/b 2in-xor_1/Vdd 2in-xor_1/a_4_88# 2 4 28 -16
+p 2in-xor_1/a 2in-xor_1/a_4_88# 2in-xor_1/Vdd 2 4 12 -16
+p 2in-xor_1/a_84_6# 2in-xor_1/a_4_88# 2in-xor_2/b 2 4 84 -16
+n 2in-xor_1/a 2in-xor_2/b 2in-xor_1/a_14_8# 2 4 12 -96
+n 2in-xor_1/a_144_6# 2in-xor_1/a_86_8# 2in-xor_2/b 2 4 144 -96
+n 2in-xor_1/b 2in-xor_1/a_14_8# 2in-xor_1/Gnd 2 4 28 -96
+n 2in-xor_1/a_84_6# 2in-xor_1/Gnd 2in-xor_1/a_86_8# 2 4 84 -96
+p 2in-xor_2/b 2in-xor_2/Vdd 2in-xor_2/a_84_6# 3 4 232 88
+n 2in-xor_2/b 2in-xor_2/Gnd 2in-xor_2/a_84_6# 3 4 232 8
+p 2in-xor_2/a 2in-xor_2/Vdd 2in-xor_2/a_144_6# 3 4 288 88
+n 2in-xor_2/a 2in-xor_2/Gnd 2in-xor_2/a_144_6# 3 4 288 8
+p 2in-xor_2/a_144_6# 2in-xor_2/out 2in-xor_2/a_4_88# 2 4 320 88
+p 2in-xor_2/b 2in-xor_2/Vdd 2in-xor_2/a_4_88# 2 4 204 88
+p 2in-xor_2/a 2in-xor_2/a_4_88# 2in-xor_2/Vdd 2 4 188 88
+p 2in-xor_2/a_84_6# 2in-xor_2/a_4_88# 2in-xor_2/out 2 4 260 88
+n 2in-xor_2/a 2in-xor_2/out 2in-xor_2/a_14_8# 2 4 188 8
+n 2in-xor_2/a_144_6# 2in-xor_2/a_86_8# 2in-xor_2/out 2 4 320 8
+n 2in-xor_2/b 2in-xor_2/a_14_8# 2in-xor_2/Gnd 2 4 204 8
+n 2in-xor_2/a_84_6# 2in-xor_2/Gnd 2in-xor_2/a_86_8# 2 4 260 8
+C 2in-xor_2/b 2in-xor_1/a_144_6# 2.55
+C 2in-xor_0/a_144_6# 2in-xor_0/out 2.55
+C 2in-xor_2/a_144_6# 2in-xor_2/out 2.55
+C 2in-xor_2/a_86_8# GND 8.62
+R 2in-xor_2/a_86_8# 266
+R 2in-xor_2/a_14_8# 93
+C 2in-xor_2/out GND 40.47
+R 2in-xor_2/out 811
+C 2in-xor_2/a_4_88# GND 22.03
+R 2in-xor_2/a_4_88# 1098
+C 2in-xor_2/Gnd GND 35.14
+R 2in-xor_2/Gnd 973
+= 2in-xor_2/Gnd 2in-xor_0/Gnd
+= 2in-xor_2/Gnd 2in-xor_0/inv_0/a_4_8#
+= 2in-xor_2/Gnd 2in-xor_0/m2_108_0#
+= 2in-xor_2/Gnd 2in-xor_0/inv_1/a_4_8#
+= 2in-xor_2/Gnd m2_160_0#
+= 2in-xor_2/Gnd 2in-xor_2/inv_0/a_4_8#
+= 2in-xor_2/Gnd 2in-xor_2/m2_108_0#
+= 2in-xor_2/Gnd 2in-xor_2/inv_1/a_4_8#
+C 2in-xor_2/a_144_6# GND 37.03
+R 2in-xor_2/a_144_6# 1245
+= 2in-xor_2/a_144_6# 2in-xor_2/inv_1/a_15_8#
+C 2in-xor_2/Vdd GND 33.04
+R 2in-xor_2/Vdd 1633
+= 2in-xor_2/Vdd 2in-xor_0/Vdd
+= 2in-xor_2/Vdd 2in-xor_0/inv_0/a_4_88#
+= 2in-xor_2/Vdd 2in-xor_0/m2_108_96#
+= 2in-xor_2/Vdd 2in-xor_0/inv_1/a_4_88#
+= 2in-xor_2/Vdd m2_161_96#
+= 2in-xor_2/Vdd 2in-xor_2/inv_0/a_4_88#
+= 2in-xor_2/Vdd 2in-xor_2/m2_108_96#
+= 2in-xor_2/Vdd 2in-xor_2/inv_1/a_4_88#
+C 2in-xor_2/a GND 61.38
+R 2in-xor_2/a 1754
+= 2in-xor_2/a 2in-xor_2/inv_1/a_12_5#
+C 2in-xor_2/a_84_6# GND 37.93
+R 2in-xor_2/a_84_6# 1245
+= 2in-xor_2/a_84_6# 2in-xor_2/inv_0/a_15_8#
+C 2in-xor_2/b GND 115.99
+R 2in-xor_2/b 2577
+= 2in-xor_2/b 2in-xor_1/out
+= 2in-xor_2/b m1_155_n56#
+= 2in-xor_2/b 2in-xor_2/inv_0/a_12_5#
+C 2in-xor_1/a_86_8# GND 8.62
+R 2in-xor_1/a_86_8# 266
+R 2in-xor_1/a_14_8# 93
+C 2in-xor_1/a_4_88# GND 22.03
+R 2in-xor_1/a_4_88# 1098
+C 2in-xor_1/Gnd GND 34.24
+R 2in-xor_1/Gnd 887
+= 2in-xor_1/Gnd inverter_2/a_4_8#
+= 2in-xor_1/Gnd inverter_1/a_4_8#
+= 2in-xor_1/Gnd m2_159_n104#
+= 2in-xor_1/Gnd inverter_0/a_4_8#
+= 2in-xor_1/Gnd 2in-xor_1/inv_0/a_4_8#
+= 2in-xor_1/Gnd 2in-xor_1/m2_108_0#
+= 2in-xor_1/Gnd 2in-xor_1/inv_1/a_4_8#
+C 2in-xor_1/a_144_6# GND 37.03
+R 2in-xor_1/a_144_6# 1245
+= 2in-xor_1/a_144_6# 2in-xor_1/inv_1/a_15_8#
+C 2in-xor_1/Vdd GND 104.08
+R 2in-xor_1/Vdd 3186
+= 2in-xor_1/Vdd inverter_2/a_4_88#
+= 2in-xor_1/Vdd inverter_1/a_4_88#
+= 2in-xor_1/Vdd inverter_1/a_16_5#
+= 2in-xor_1/Vdd a_188_n57#
+= 2in-xor_1/Vdd inverter_0/a_4_88#
+= 2in-xor_1/Vdd inverter_0/a_16_5#
+= 2in-xor_1/Vdd 2in-xor_1/inv_0/a_4_88#
+= 2in-xor_1/Vdd 2in-xor_1/m2_108_96#
+= 2in-xor_1/Vdd 2in-xor_1/inv_1/a_4_88#
+C 2in-xor_1/a GND 61.38
+R 2in-xor_1/a 1754
+= 2in-xor_1/a 2in-xor_1/inv_1/a_12_5#
+C 2in-xor_1/a_84_6# GND 37.93
+R 2in-xor_1/a_84_6# 1245
+= 2in-xor_1/a_84_6# 2in-xor_1/inv_0/a_15_8#
+C 2in-xor_1/b GND 53.71
+R 2in-xor_1/b 1765
+= 2in-xor_1/b 2in-xor_1/inv_0/a_12_5#
+C 2in-xor_0/a_86_8# GND 8.62
+R 2in-xor_0/a_86_8# 266
+R 2in-xor_0/a_14_8# 93
+C 2in-xor_0/out GND 45.74
+R 2in-xor_0/out 811
+= 2in-xor_0/out m1_156_49#
+C 2in-xor_0/a_4_88# GND 22.03
+R 2in-xor_0/a_4_88# 1098
+C 2in-xor_0/a_144_6# GND 37.03
+R 2in-xor_0/a_144_6# 1245
+= 2in-xor_0/a_144_6# 2in-xor_0/inv_1/a_15_8#
+C 2in-xor_0/a GND 61.38
+R 2in-xor_0/a 1754
+= 2in-xor_0/a 2in-xor_0/inv_1/a_12_5#
+C 2in-xor_0/a_84_6# GND 37.93
+R 2in-xor_0/a_84_6# 1245
+= 2in-xor_0/a_84_6# 2in-xor_0/inv_0/a_15_8#
+C 2in-xor_0/b GND 53.71
+R 2in-xor_0/b 1765
+= 2in-xor_0/b 2in-xor_0/inv_0/a_12_5#
+C inverter_2/a_19_8# GND 14.29
+R inverter_2/a_19_8# 712
+C a_300_n49# GND 26.53
+R a_300_n49# 673
+= a_300_n49# inverter_2/a_16_5#
+C inverter_1/a_19_8# GND 14.29
+R inverter_1/a_19_8# 712
+C inverter_0/a_19_8# GND 14.29
+R inverter_0/a_19_8# 712
