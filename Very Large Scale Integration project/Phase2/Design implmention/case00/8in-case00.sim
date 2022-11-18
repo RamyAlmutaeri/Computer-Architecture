@@ -1,0 +1,67 @@
+| units: 100 tech: scmos format: MIT
+p inverter_0/a_8_56# inverter_7/a_8_96# inverter_0/a_18_8# 2 4 16 96
+n inverter_0/a_8_56# inverter_7/a_8_8# inverter_0/a_18_8# 2 4 16 8
+p inverter_1/a_8_56# inverter_7/a_8_96# inverter_1/a_18_8# 2 4 52 96
+n inverter_1/a_8_56# inverter_7/a_8_8# inverter_1/a_18_8# 2 4 52 8
+p inverter_2/a_8_56# inverter_7/a_8_96# inverter_2/a_18_8# 2 4 88 96
+n inverter_2/a_8_56# inverter_7/a_8_8# inverter_2/a_18_8# 2 4 88 8
+p inverter_3/a_8_56# inverter_7/a_8_96# inverter_3/a_18_8# 2 4 124 96
+n inverter_3/a_8_56# inverter_7/a_8_8# inverter_3/a_18_8# 2 4 124 8
+p inverter_4/a_8_56# inverter_7/a_8_96# inverter_4/a_18_8# 2 4 160 96
+n inverter_4/a_8_56# inverter_7/a_8_8# inverter_4/a_18_8# 2 4 160 8
+p inverter_5/a_8_56# inverter_7/a_8_96# inverter_5/a_18_8# 2 4 196 96
+n inverter_5/a_8_56# inverter_7/a_8_8# inverter_5/a_18_8# 2 4 196 8
+p inverter_6/a_8_56# inverter_7/a_8_96# inverter_6/a_18_8# 2 4 232 96
+n inverter_6/a_8_56# inverter_7/a_8_8# inverter_6/a_18_8# 2 4 232 8
+p inverter_7/a_8_56# inverter_7/a_8_96# inverter_7/a_18_8# 2 4 268 96
+n inverter_7/a_8_56# inverter_7/a_8_8# inverter_7/a_18_8# 2 4 268 8
+C inverter_7/a_18_8# GND 15.79
+R inverter_7/a_18_8# 217
+C inverter_7/a_8_56# GND 24.44
+R inverter_7/a_8_56# 1240
+C inverter_6/a_18_8# GND 15.79
+R inverter_6/a_18_8# 217
+C inverter_6/a_8_56# GND 24.44
+R inverter_6/a_8_56# 1240
+C inverter_5/a_18_8# GND 15.79
+R inverter_5/a_18_8# 217
+C inverter_5/a_8_56# GND 24.44
+R inverter_5/a_8_56# 1240
+C inverter_7/a_8_8# GND 31.49
+R inverter_7/a_8_8# 910
+= inverter_7/a_8_8# inverter_0/a_8_8#
+= inverter_7/a_8_8# inverter_6/a_8_8#
+= inverter_7/a_8_8# inverter_5/a_8_8#
+= inverter_7/a_8_8# inverter_1/a_8_8#
+= inverter_7/a_8_8# inverter_2/a_8_8#
+= inverter_7/a_8_8# inverter_3/a_8_8#
+= inverter_7/a_8_8# inverter_4/a_8_8#
+C inverter_4/a_18_8# GND 15.79
+R inverter_4/a_18_8# 217
+C inverter_7/a_8_96# GND 31.49
+R inverter_7/a_8_96# 2027
+= inverter_7/a_8_96# inverter_0/a_8_96#
+= inverter_7/a_8_96# inverter_6/a_8_96#
+= inverter_7/a_8_96# inverter_5/a_8_96#
+= inverter_7/a_8_96# inverter_1/a_8_96#
+= inverter_7/a_8_96# inverter_2/a_8_96#
+= inverter_7/a_8_96# inverter_3/a_8_96#
+= inverter_7/a_8_96# inverter_4/a_8_96#
+C inverter_4/a_8_56# GND 24.44
+R inverter_4/a_8_56# 1240
+C inverter_3/a_18_8# GND 15.79
+R inverter_3/a_18_8# 217
+C inverter_3/a_8_56# GND 24.44
+R inverter_3/a_8_56# 1240
+C inverter_2/a_18_8# GND 15.79
+R inverter_2/a_18_8# 217
+C inverter_2/a_8_56# GND 24.44
+R inverter_2/a_8_56# 1240
+C inverter_1/a_18_8# GND 15.79
+R inverter_1/a_18_8# 217
+C inverter_1/a_8_56# GND 24.44
+R inverter_1/a_8_56# 1240
+C inverter_0/a_18_8# GND 15.79
+R inverter_0/a_18_8# 217
+C inverter_0/a_8_56# GND 24.44
+R inverter_0/a_8_56# 1240

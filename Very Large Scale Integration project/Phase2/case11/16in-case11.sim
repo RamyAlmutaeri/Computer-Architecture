@@ -1,0 +1,480 @@
+| units: 100 tech: scmos format: MIT
+p Vdd Vdd out14 3 4 708 88
+n Vdd Gnd out14 3 4 708 8
+p buffer_0/a_10_8# Vdd out0 2 4 44 264
+n in0 Gnd buffer_0/a_10_8# 2 4 12 216
+p in0 Vdd buffer_0/a_10_8# 2 4 12 264
+n buffer_0/a_10_8# Gnd out0 2 4 44 216
+p buffer_2/a_10_8# Vdd out4 2 4 284 264
+n in4 Gnd buffer_2/a_10_8# 2 4 252 216
+p in4 Vdd buffer_2/a_10_8# 2 4 252 264
+n buffer_2/a_10_8# Gnd out4 2 4 284 216
+p buffer_1/a_10_8# Vdd out1 2 4 108 264
+n in1 Gnd buffer_1/a_10_8# 2 4 76 216
+p in1 Vdd buffer_1/a_10_8# 2 4 76 264
+n buffer_1/a_10_8# Gnd out1 2 4 108 216
+p buffer_3/a_10_8# Vdd out7 2 4 472 -16
+n in7 Gnd buffer_3/a_10_8# 2 4 440 -64
+p in7 Vdd buffer_3/a_10_8# 2 4 440 -16
+n buffer_3/a_10_8# Gnd out7 2 4 472 -64
+p buffer_4/a_10_8# Vdd out2 2 4 32 -16
+n in2 Gnd buffer_4/a_10_8# 2 4 0 -64
+p in2 Vdd buffer_4/a_10_8# 2 4 0 -16
+n buffer_4/a_10_8# Gnd out2 2 4 32 -64
+p buffer_5/a_10_8# Vdd out3 2 4 105 -16
+n in3 Gnd buffer_5/a_10_8# 2 4 73 -64
+p in3 Vdd buffer_5/a_10_8# 2 4 73 -16
+n buffer_5/a_10_8# Gnd out3 2 4 105 -64
+p m1_684_152# Vdd 2in-xor_0/a_84_6# 3 4 760 192
+n m1_684_152# Gnd 2in-xor_0/a_84_6# 3 4 760 112
+p m1_332_152# Vdd 2in-xor_0/a_144_6# 3 4 816 192
+n m1_332_152# Gnd 2in-xor_0/a_144_6# 3 4 816 112
+p 2in-xor_0/a_144_6# out15 2in-xor_0/a_4_88# 2 4 848 192
+p m1_684_152# Vdd 2in-xor_0/a_4_88# 2 4 732 192
+p m1_332_152# 2in-xor_0/a_4_88# Vdd 2 4 716 192
+p 2in-xor_0/a_84_6# 2in-xor_0/a_4_88# out15 2 4 788 192
+n m1_332_152# out15 2in-xor_0/a_14_8# 2 4 716 112
+n 2in-xor_0/a_144_6# 2in-xor_0/a_86_8# out15 2 4 848 112
+n m1_684_152# 2in-xor_0/a_14_8# Gnd 2 4 732 112
+n 2in-xor_0/a_84_6# Gnd 2in-xor_0/a_86_8# 2 4 788 112
+p buffer_6/a_10_8# Vdd out5 2 4 215 -16
+n in5 Gnd buffer_6/a_10_8# 2 4 183 -64
+p in5 Vdd buffer_6/a_10_8# 2 4 183 -16
+n buffer_6/a_10_8# Gnd out5 2 4 215 -64
+p buffer_7/a_10_8# Vdd out6 2 4 404 -16
+n in6 Gnd buffer_7/a_10_8# 2 4 372 -64
+p in6 Vdd buffer_7/a_10_8# 2 4 372 -16
+n buffer_7/a_10_8# Gnd out6 2 4 404 -64
+p Vdd Vdd out8 3 4 188 88
+n Vdd Gnd out8 3 4 188 8
+p Vdd Vdd out9 3 4 244 88
+n Vdd Gnd out9 3 4 244 8
+p Vdd Vdd out10 3 4 300 88
+n Vdd Gnd out10 3 4 300 8
+p in1 Vdd 4in-case11_0/2in-xor_0/a_84_6# 3 4 56 192
+n in1 Gnd 4in-case11_0/2in-xor_0/a_84_6# 3 4 56 112
+p in0 Vdd 4in-case11_0/2in-xor_0/a_144_6# 3 4 112 192
+n in0 Gnd 4in-case11_0/2in-xor_0/a_144_6# 3 4 112 112
+p 4in-case11_0/2in-xor_0/a_144_6# m1_168_168# 4in-case11_0/2in-xor_0/a_4_88# 2 4 144 192
+p in1 Vdd 4in-case11_0/2in-xor_0/a_4_88# 2 4 28 192
+p in0 4in-case11_0/2in-xor_0/a_4_88# Vdd 2 4 12 192
+p 4in-case11_0/2in-xor_0/a_84_6# 4in-case11_0/2in-xor_0/a_4_88# m1_168_168# 2 4 84 192
+n in0 m1_168_168# 4in-case11_0/2in-xor_0/a_14_8# 2 4 12 112
+n 4in-case11_0/2in-xor_0/a_144_6# 4in-case11_0/2in-xor_0/a_86_8# m1_168_168# 2 4 144 112
+n in1 4in-case11_0/2in-xor_0/a_14_8# Gnd 2 4 28 112
+n 4in-case11_0/2in-xor_0/a_84_6# Gnd 4in-case11_0/2in-xor_0/a_86_8# 2 4 84 112
+p in3 Vdd 4in-case11_0/2in-xor_1/a_84_6# 3 4 56 88
+n in3 Gnd 4in-case11_0/2in-xor_1/a_84_6# 3 4 56 8
+p in2 Vdd 4in-case11_0/2in-xor_1/a_144_6# 3 4 112 88
+n in2 Gnd 4in-case11_0/2in-xor_1/a_144_6# 3 4 112 8
+p 4in-case11_0/2in-xor_1/a_144_6# 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_1/a_4_88# 2 4 144 88
+p in3 Vdd 4in-case11_0/2in-xor_1/a_4_88# 2 4 28 88
+p in2 4in-case11_0/2in-xor_1/a_4_88# Vdd 2 4 12 88
+p 4in-case11_0/2in-xor_1/a_84_6# 4in-case11_0/2in-xor_1/a_4_88# 4in-case11_0/m1_155_n56# 2 4 84 88
+n in2 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_1/a_14_8# 2 4 12 8
+n 4in-case11_0/2in-xor_1/a_144_6# 4in-case11_0/2in-xor_1/a_86_8# 4in-case11_0/m1_155_n56# 2 4 144 8
+n in3 4in-case11_0/2in-xor_1/a_14_8# Gnd 2 4 28 8
+n 4in-case11_0/2in-xor_1/a_84_6# Gnd 4in-case11_0/2in-xor_1/a_86_8# 2 4 84 8
+p 4in-case11_0/m1_155_n56# Vdd 4in-case11_0/2in-xor_2/a_84_6# 3 4 232 192
+n 4in-case11_0/m1_155_n56# Gnd 4in-case11_0/2in-xor_2/a_84_6# 3 4 232 112
+p m1_168_168# Vdd 4in-case11_0/2in-xor_2/a_144_6# 3 4 288 192
+n m1_168_168# Gnd 4in-case11_0/2in-xor_2/a_144_6# 3 4 288 112
+p 4in-case11_0/2in-xor_2/a_144_6# m1_332_152# 4in-case11_0/2in-xor_2/a_4_88# 2 4 320 192
+p 4in-case11_0/m1_155_n56# Vdd 4in-case11_0/2in-xor_2/a_4_88# 2 4 204 192
+p m1_168_168# 4in-case11_0/2in-xor_2/a_4_88# Vdd 2 4 188 192
+p 4in-case11_0/2in-xor_2/a_84_6# 4in-case11_0/2in-xor_2/a_4_88# m1_332_152# 2 4 260 192
+n m1_168_168# m1_332_152# 4in-case11_0/2in-xor_2/a_14_8# 2 4 188 112
+n 4in-case11_0/2in-xor_2/a_144_6# 4in-case11_0/2in-xor_2/a_86_8# m1_332_152# 2 4 320 112
+n 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_2/a_14_8# Gnd 2 4 204 112
+n 4in-case11_0/2in-xor_2/a_84_6# Gnd 4in-case11_0/2in-xor_2/a_86_8# 2 4 260 112
+p Vdd Vdd out11 3 4 540 88
+n Vdd Gnd out11 3 4 540 8
+p Vdd Vdd out12 3 4 596 88
+n Vdd Gnd out12 3 4 596 8
+p Vdd Vdd out13 3 4 652 88
+n Vdd Gnd out13 3 4 652 8
+p in5 Vdd 4in-case11_1/2in-xor_0/a_84_6# 3 4 408 192
+n in5 Gnd 4in-case11_1/2in-xor_0/a_84_6# 3 4 408 112
+p in4 Vdd 4in-case11_1/2in-xor_0/a_144_6# 3 4 464 192
+n in4 Gnd 4in-case11_1/2in-xor_0/a_144_6# 3 4 464 112
+p 4in-case11_1/2in-xor_0/a_144_6# m1_517_168# 4in-case11_1/2in-xor_0/a_4_88# 2 4 496 192
+p in5 Vdd 4in-case11_1/2in-xor_0/a_4_88# 2 4 380 192
+p in4 4in-case11_1/2in-xor_0/a_4_88# Vdd 2 4 364 192
+p 4in-case11_1/2in-xor_0/a_84_6# 4in-case11_1/2in-xor_0/a_4_88# m1_517_168# 2 4 436 192
+n in4 m1_517_168# 4in-case11_1/2in-xor_0/a_14_8# 2 4 364 112
+n 4in-case11_1/2in-xor_0/a_144_6# 4in-case11_1/2in-xor_0/a_86_8# m1_517_168# 2 4 496 112
+n in5 4in-case11_1/2in-xor_0/a_14_8# Gnd 2 4 380 112
+n 4in-case11_1/2in-xor_0/a_84_6# Gnd 4in-case11_1/2in-xor_0/a_86_8# 2 4 436 112
+p in7 Vdd 4in-case11_1/2in-xor_1/a_84_6# 3 4 408 88
+n in7 Gnd 4in-case11_1/2in-xor_1/a_84_6# 3 4 408 8
+p in6 Vdd 4in-case11_1/2in-xor_1/a_144_6# 3 4 464 88
+n in6 Gnd 4in-case11_1/2in-xor_1/a_144_6# 3 4 464 8
+p 4in-case11_1/2in-xor_1/a_144_6# 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_1/a_4_88# 2 4 496 88
+p in7 Vdd 4in-case11_1/2in-xor_1/a_4_88# 2 4 380 88
+p in6 4in-case11_1/2in-xor_1/a_4_88# Vdd 2 4 364 88
+p 4in-case11_1/2in-xor_1/a_84_6# 4in-case11_1/2in-xor_1/a_4_88# 4in-case11_1/m1_155_n56# 2 4 436 88
+n in6 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_1/a_14_8# 2 4 364 8
+n 4in-case11_1/2in-xor_1/a_144_6# 4in-case11_1/2in-xor_1/a_86_8# 4in-case11_1/m1_155_n56# 2 4 496 8
+n in7 4in-case11_1/2in-xor_1/a_14_8# Gnd 2 4 380 8
+n 4in-case11_1/2in-xor_1/a_84_6# Gnd 4in-case11_1/2in-xor_1/a_86_8# 2 4 436 8
+p 4in-case11_1/m1_155_n56# Vdd 4in-case11_1/2in-xor_2/a_84_6# 3 4 584 192
+n 4in-case11_1/m1_155_n56# Gnd 4in-case11_1/2in-xor_2/a_84_6# 3 4 584 112
+p m1_517_168# Vdd 4in-case11_1/2in-xor_2/a_144_6# 3 4 640 192
+n m1_517_168# Gnd 4in-case11_1/2in-xor_2/a_144_6# 3 4 640 112
+p 4in-case11_1/2in-xor_2/a_144_6# m1_684_152# 4in-case11_1/2in-xor_2/a_4_88# 2 4 672 192
+p 4in-case11_1/m1_155_n56# Vdd 4in-case11_1/2in-xor_2/a_4_88# 2 4 556 192
+p m1_517_168# 4in-case11_1/2in-xor_2/a_4_88# Vdd 2 4 540 192
+p 4in-case11_1/2in-xor_2/a_84_6# 4in-case11_1/2in-xor_2/a_4_88# m1_684_152# 2 4 612 192
+n m1_517_168# m1_684_152# 4in-case11_1/2in-xor_2/a_14_8# 2 4 540 112
+n 4in-case11_1/2in-xor_2/a_144_6# 4in-case11_1/2in-xor_2/a_86_8# m1_684_152# 2 4 672 112
+n 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_2/a_14_8# Gnd 2 4 556 112
+n 4in-case11_1/2in-xor_2/a_84_6# Gnd 4in-case11_1/2in-xor_2/a_86_8# 2 4 612 112
+C in5 Vdd 3.02
+C 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_1/a_144_6# 2.55
+C 4in-case11_1/2in-xor_0/a_144_6# m1_517_168# 2.55
+C 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_1/a_144_6# 2.55
+C 4in-case11_1/2in-xor_2/a_144_6# m1_684_152# 2.55
+C 4in-case11_0/2in-xor_2/a_144_6# m1_332_152# 2.55
+C 4in-case11_0/2in-xor_0/a_144_6# m1_168_168# 2.55
+C out15 2in-xor_0/a_144_6# 2.55
+C 4in-case11_1/2in-xor_2/a_86_8# GND 8.62
+R 4in-case11_1/2in-xor_2/a_86_8# 266
+R 4in-case11_1/2in-xor_2/a_14_8# 93
+C 4in-case11_1/2in-xor_2/a_4_88# GND 22.03
+R 4in-case11_1/2in-xor_2/a_4_88# 1098
+C 4in-case11_1/2in-xor_2/a_144_6# GND 37.03
+R 4in-case11_1/2in-xor_2/a_144_6# 1245
+= 4in-case11_1/2in-xor_2/a_144_6# 4in-case11_1/2in-xor_2/inv_1/a_15_8#
+C 4in-case11_1/2in-xor_2/a_84_6# GND 37.93
+R 4in-case11_1/2in-xor_2/a_84_6# 1245
+= 4in-case11_1/2in-xor_2/a_84_6# 4in-case11_1/2in-xor_2/inv_0/a_15_8#
+C 4in-case11_1/m1_155_n56# GND 105.46
+R 4in-case11_1/m1_155_n56# 2577
+= 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_1/a_4_8#
+= 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_2/a_28_5#
+= 4in-case11_1/m1_155_n56# 4in-case11_1/2in-xor_2/inv_0/a_12_5#
+C 4in-case11_1/2in-xor_1/a_86_8# GND 8.62
+R 4in-case11_1/2in-xor_1/a_86_8# 266
+R 4in-case11_1/2in-xor_1/a_14_8# 93
+C 4in-case11_1/2in-xor_1/a_4_88# GND 22.03
+R 4in-case11_1/2in-xor_1/a_4_88# 1098
+C 4in-case11_1/2in-xor_1/a_144_6# GND 37.03
+R 4in-case11_1/2in-xor_1/a_144_6# 1245
+= 4in-case11_1/2in-xor_1/a_144_6# 4in-case11_1/2in-xor_1/inv_1/a_15_8#
+C in6 GND 101.87
+R in6 2545
+= in6 buffer_7/a_0_36#
+= in6 4in-case11_1/2in-xor_1/a_12_6#
+= in6 4in-case11_1/2in-xor_1/inv_1/a_12_5#
+C 4in-case11_1/2in-xor_1/a_84_6# GND 37.93
+R 4in-case11_1/2in-xor_1/a_84_6# 1245
+= 4in-case11_1/2in-xor_1/a_84_6# 4in-case11_1/2in-xor_1/inv_0/a_15_8#
+C in7 GND 88.11
+R in7 2556
+= in7 buffer_3/a_0_36#
+= in7 4in-case11_1/2in-xor_1/a_28_5#
+= in7 4in-case11_1/2in-xor_1/inv_0/a_12_5#
+C 4in-case11_1/2in-xor_0/a_86_8# GND 8.62
+R 4in-case11_1/2in-xor_0/a_86_8# 266
+R 4in-case11_1/2in-xor_0/a_14_8# 93
+C m1_517_168# GND 103.36
+R m1_517_168# 2565
+= m1_517_168# 4in-case11_1/2in-xor_2/a_12_6#
+= m1_517_168# 4in-case11_1/2in-xor_2/inv_1/a_12_5#
+= m1_517_168# 4in-case11_1/m1_156_49#
+= m1_517_168# 4in-case11_1/2in-xor_0/a_4_8#
+C 4in-case11_1/2in-xor_0/a_4_88# GND 22.03
+R 4in-case11_1/2in-xor_0/a_4_88# 1098
+C 4in-case11_1/2in-xor_0/a_144_6# GND 37.03
+R 4in-case11_1/2in-xor_0/a_144_6# 1245
+= 4in-case11_1/2in-xor_0/a_144_6# 4in-case11_1/2in-xor_0/inv_1/a_15_8#
+C Vdd GND 514.27
+R Vdd 18137
+= Vdd inverter_0/a_4_88#
+= Vdd inverter_0/a_16_5#
+= Vdd a_708_68#
+= Vdd buffer_7/a_0_56#
+= Vdd m2_n8_n8#
+= Vdd buffer_3/a_0_56#
+= Vdd m2_416_n8#
+= Vdd buffer_6/a_0_56#
+= Vdd m2_228_n8#
+= Vdd buffer_5/a_0_56#
+= Vdd buffer_4/a_0_56#
+= Vdd m1_n8_96#
+= Vdd m2_336_96#
+= Vdd m1_640_56#
+= Vdd 4in-case11_1/a_300_n49#
+= Vdd 4in-case11_1/inverter_2/a_16_5#
+= Vdd 4in-case11_1/a_188_n57#
+= Vdd 4in-case11_1/inverter_1/a_16_5#
+= Vdd 4in-case11_1/inverter_1/a_4_88#
+= Vdd 4in-case11_1/inverter_2/a_4_88#
+= Vdd 4in-case11_1/inverter_0/a_4_88#
+= Vdd 4in-case11_1/inverter_0/a_16_5#
+= Vdd 4in-case11_1/2in-xor_1/a_14_88#
+= Vdd 4in-case11_1/2in-xor_1/inv_0/a_4_88#
+= Vdd 4in-case11_1/2in-xor_1/m2_108_96#
+= Vdd 4in-case11_1/2in-xor_1/inv_1/a_4_88#
+= Vdd m1_288_56#
+= Vdd 4in-case11_0/a_300_n49#
+= Vdd 4in-case11_0/inverter_2/a_16_5#
+= Vdd 4in-case11_0/a_188_n57#
+= Vdd 4in-case11_0/inverter_1/a_16_5#
+= Vdd 4in-case11_0/inverter_1/a_4_88#
+= Vdd 4in-case11_0/inverter_2/a_4_88#
+= Vdd 4in-case11_0/inverter_0/a_4_88#
+= Vdd 4in-case11_0/inverter_0/a_16_5#
+= Vdd 4in-case11_0/2in-xor_1/a_14_88#
+= Vdd 4in-case11_0/2in-xor_1/inv_0/a_4_88#
+= Vdd 4in-case11_0/2in-xor_1/m2_108_96#
+= Vdd 4in-case11_0/2in-xor_1/inv_1/a_4_88#
+= Vdd m2_56_272#
+= Vdd buffer_2/a_0_56#
+= Vdd buffer_1/a_0_56#
+= Vdd buffer_0/a_0_56#
+= Vdd m2_338_200#
+= Vdd 4in-case11_0/m2_161_96#
+= Vdd 4in-case11_0/2in-xor_2/a_14_88#
+= Vdd 4in-case11_0/2in-xor_2/inv_0/a_4_88#
+= Vdd 4in-case11_0/2in-xor_2/m2_108_96#
+= Vdd 4in-case11_0/2in-xor_2/inv_1/a_4_88#
+= Vdd 4in-case11_0/2in-xor_0/a_14_88#
+= Vdd 4in-case11_0/2in-xor_0/inv_0/a_4_88#
+= Vdd 4in-case11_0/2in-xor_0/m2_108_96#
+= Vdd 4in-case11_0/2in-xor_0/inv_1/a_4_88#
+= Vdd m2_688_200#
+= Vdd 2in-xor_0/a_14_88#
+= Vdd 2in-xor_0/inv_0/a_4_88#
+= Vdd 2in-xor_0/m2_108_96#
+= Vdd 2in-xor_0/inv_1/a_4_88#
+= Vdd 4in-case11_1/m2_161_96#
+= Vdd 4in-case11_1/2in-xor_2/a_14_88#
+= Vdd 4in-case11_1/2in-xor_2/inv_0/a_4_88#
+= Vdd 4in-case11_1/2in-xor_2/m2_108_96#
+= Vdd 4in-case11_1/2in-xor_2/inv_1/a_4_88#
+= Vdd 4in-case11_1/2in-xor_0/a_14_88#
+= Vdd 4in-case11_1/2in-xor_0/inv_0/a_4_88#
+= Vdd 4in-case11_1/2in-xor_0/m2_108_96#
+= Vdd 4in-case11_1/2in-xor_0/inv_1/a_4_88#
+C in4 GND 108.22
+R in4 2546
+= in4 buffer_2/a_0_36#
+= in4 4in-case11_1/2in-xor_0/a_12_6#
+= in4 4in-case11_1/2in-xor_0/inv_1/a_12_5#
+C 4in-case11_1/2in-xor_0/a_84_6# GND 37.93
+R 4in-case11_1/2in-xor_0/a_84_6# 1245
+= 4in-case11_1/2in-xor_0/a_84_6# 4in-case11_1/2in-xor_0/inv_0/a_15_8#
+C out13 GND 14.29
+R out13 712
+= out13 4in-case11_1/inverter_2/a_19_8#
+C out12 GND 11.66
+R out12 712
+= out12 4in-case11_1/inverter_1/a_19_8#
+C out11 GND 13.16
+R out11 712
+= out11 4in-case11_1/inverter_0/a_19_8#
+C 4in-case11_0/2in-xor_2/a_86_8# GND 8.62
+R 4in-case11_0/2in-xor_2/a_86_8# 266
+R 4in-case11_0/2in-xor_2/a_14_8# 93
+C 4in-case11_0/2in-xor_2/a_4_88# GND 22.03
+R 4in-case11_0/2in-xor_2/a_4_88# 1098
+C 4in-case11_0/2in-xor_2/a_144_6# GND 37.03
+R 4in-case11_0/2in-xor_2/a_144_6# 1245
+= 4in-case11_0/2in-xor_2/a_144_6# 4in-case11_0/2in-xor_2/inv_1/a_15_8#
+C 4in-case11_0/2in-xor_2/a_84_6# GND 37.93
+R 4in-case11_0/2in-xor_2/a_84_6# 1245
+= 4in-case11_0/2in-xor_2/a_84_6# 4in-case11_0/2in-xor_2/inv_0/a_15_8#
+C 4in-case11_0/m1_155_n56# GND 105.46
+R 4in-case11_0/m1_155_n56# 2577
+= 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_1/a_4_8#
+= 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_2/a_28_5#
+= 4in-case11_0/m1_155_n56# 4in-case11_0/2in-xor_2/inv_0/a_12_5#
+C 4in-case11_0/2in-xor_1/a_86_8# GND 8.62
+R 4in-case11_0/2in-xor_1/a_86_8# 266
+R 4in-case11_0/2in-xor_1/a_14_8# 93
+C 4in-case11_0/2in-xor_1/a_4_88# GND 22.03
+R 4in-case11_0/2in-xor_1/a_4_88# 1098
+C Gnd GND 273.93
+R Gnd 6643
+= Gnd buffer_2/a_0_8#
+= Gnd buffer_1/a_0_8#
+= Gnd buffer_0/a_0_8#
+= Gnd m2_56_208#
+= Gnd m2_688_104#
+= Gnd 2in-xor_0/a_30_8#
+= Gnd 2in-xor_0/inv_0/a_4_8#
+= Gnd 2in-xor_0/m2_108_0#
+= Gnd 2in-xor_0/inv_1/a_4_8#
+= Gnd m2_336_104#
+= Gnd 4in-case11_1/m2_160_0#
+= Gnd 4in-case11_1/2in-xor_2/a_30_8#
+= Gnd 4in-case11_1/2in-xor_2/inv_0/a_4_8#
+= Gnd 4in-case11_1/2in-xor_2/m2_108_0#
+= Gnd 4in-case11_1/2in-xor_2/inv_1/a_4_8#
+= Gnd 4in-case11_1/2in-xor_0/a_30_8#
+= Gnd 4in-case11_1/2in-xor_0/inv_0/a_4_8#
+= Gnd 4in-case11_1/2in-xor_0/m2_108_0#
+= Gnd 4in-case11_1/2in-xor_0/inv_1/a_4_8#
+= Gnd 4in-case11_0/m2_160_0#
+= Gnd 4in-case11_0/2in-xor_2/a_30_8#
+= Gnd 4in-case11_0/2in-xor_2/inv_0/a_4_8#
+= Gnd 4in-case11_0/2in-xor_2/m2_108_0#
+= Gnd 4in-case11_0/2in-xor_2/inv_1/a_4_8#
+= Gnd 4in-case11_0/2in-xor_0/a_30_8#
+= Gnd 4in-case11_0/2in-xor_0/inv_0/a_4_8#
+= Gnd 4in-case11_0/2in-xor_0/m2_108_0#
+= Gnd 4in-case11_0/2in-xor_0/inv_1/a_4_8#
+= Gnd m1_n36_208#
+= Gnd inverter_0/a_4_8#
+= Gnd m2_337_0#
+= Gnd m2_n8_n72#
+= Gnd buffer_7/a_0_8#
+= Gnd m2_483_n72#
+= Gnd buffer_3/a_0_8#
+= Gnd m2_416_n72#
+= Gnd buffer_6/a_0_8#
+= Gnd m2_228_n72#
+= Gnd buffer_5/a_0_8#
+= Gnd buffer_4/a_0_8#
+= Gnd 4in-case11_1/m2_159_n104#
+= Gnd 4in-case11_1/inverter_0/a_4_8#
+= Gnd 4in-case11_1/inverter_1/a_4_8#
+= Gnd 4in-case11_1/inverter_2/a_4_8#
+= Gnd 4in-case11_1/2in-xor_1/a_30_8#
+= Gnd 4in-case11_1/2in-xor_1/inv_0/a_4_8#
+= Gnd 4in-case11_1/2in-xor_1/m2_108_0#
+= Gnd 4in-case11_1/2in-xor_1/inv_1/a_4_8#
+= Gnd 4in-case11_0/m2_159_n104#
+= Gnd 4in-case11_0/inverter_0/a_4_8#
+= Gnd 4in-case11_0/inverter_1/a_4_8#
+= Gnd 4in-case11_0/inverter_2/a_4_8#
+= Gnd 4in-case11_0/2in-xor_1/a_30_8#
+= Gnd 4in-case11_0/2in-xor_1/inv_0/a_4_8#
+= Gnd 4in-case11_0/2in-xor_1/m2_108_0#
+= Gnd 4in-case11_0/2in-xor_1/inv_1/a_4_8#
+C 4in-case11_0/2in-xor_1/a_144_6# GND 37.03
+R 4in-case11_0/2in-xor_1/a_144_6# 1245
+= 4in-case11_0/2in-xor_1/a_144_6# 4in-case11_0/2in-xor_1/inv_1/a_15_8#
+C in2 GND 106.01
+R in2 2546
+= in2 buffer_4/a_0_36#
+= in2 4in-case11_0/2in-xor_1/a_12_6#
+= in2 4in-case11_0/2in-xor_1/inv_1/a_12_5#
+C 4in-case11_0/2in-xor_1/a_84_6# GND 37.93
+R 4in-case11_0/2in-xor_1/a_84_6# 1245
+= 4in-case11_0/2in-xor_1/a_84_6# 4in-case11_0/2in-xor_1/inv_0/a_15_8#
+C in3 GND 89.65
+R in3 2556
+= in3 buffer_5/a_0_36#
+= in3 4in-case11_0/2in-xor_1/a_28_5#
+= in3 4in-case11_0/2in-xor_1/inv_0/a_12_5#
+C 4in-case11_0/2in-xor_0/a_86_8# GND 8.62
+R 4in-case11_0/2in-xor_0/a_86_8# 266
+R 4in-case11_0/2in-xor_0/a_14_8# 93
+C m1_168_168# GND 103.36
+R m1_168_168# 2565
+= m1_168_168# 4in-case11_0/2in-xor_2/a_12_6#
+= m1_168_168# 4in-case11_0/2in-xor_2/inv_1/a_12_5#
+= m1_168_168# 4in-case11_0/m1_156_49#
+= m1_168_168# 4in-case11_0/2in-xor_0/a_4_8#
+C 4in-case11_0/2in-xor_0/a_4_88# GND 22.03
+R 4in-case11_0/2in-xor_0/a_4_88# 1098
+C 4in-case11_0/2in-xor_0/a_144_6# GND 37.03
+R 4in-case11_0/2in-xor_0/a_144_6# 1245
+= 4in-case11_0/2in-xor_0/a_144_6# 4in-case11_0/2in-xor_0/inv_1/a_15_8#
+C in0 GND 86.45
+R in0 2545
+= in0 buffer_0/a_0_36#
+= in0 4in-case11_0/2in-xor_0/a_12_6#
+= in0 4in-case11_0/2in-xor_0/inv_1/a_12_5#
+C 4in-case11_0/2in-xor_0/a_84_6# GND 37.93
+R 4in-case11_0/2in-xor_0/a_84_6# 1245
+= 4in-case11_0/2in-xor_0/a_84_6# 4in-case11_0/2in-xor_0/inv_0/a_15_8#
+C in1 GND 82.14
+R in1 2556
+= in1 buffer_1/a_0_36#
+= in1 4in-case11_0/2in-xor_0/a_28_5#
+= in1 4in-case11_0/2in-xor_0/inv_0/a_12_5#
+C out10 GND 14.29
+R out10 712
+= out10 4in-case11_0/inverter_2/a_19_8#
+C out9 GND 14.29
+R out9 712
+= out9 4in-case11_0/inverter_1/a_19_8#
+C out8 GND 4.32
+R out8 712
+= out8 4in-case11_0/inverter_0/a_19_8#
+C out6 GND 8.27
+R out6 302
+= out6 buffer_7/a_42_8#
+C buffer_7/a_10_8# GND 24.30
+R buffer_7/a_10_8# 970
+C out5 GND 8.46
+R out5 302
+= out5 buffer_6/a_42_8#
+C buffer_6/a_10_8# GND 24.30
+R buffer_6/a_10_8# 970
+C in5 GND 91.10
+R in5 2556
+= in5 4in-case11_1/2in-xor_0/a_28_5#
+= in5 4in-case11_1/2in-xor_0/inv_0/a_12_5#
+= in5 m1_164_n36#
+= in5 buffer_6/a_0_36#
+C 2in-xor_0/a_86_8# GND 8.62
+R 2in-xor_0/a_86_8# 266
+R 2in-xor_0/a_14_8# 93
+C out15 GND 40.47
+R out15 811
+= out15 2in-xor_0/a_4_8#
+C 2in-xor_0/a_4_88# GND 22.03
+R 2in-xor_0/a_4_88# 1098
+C 2in-xor_0/a_144_6# GND 37.03
+R 2in-xor_0/a_144_6# 1245
+= 2in-xor_0/a_144_6# 2in-xor_0/inv_1/a_15_8#
+C m1_332_152# GND 192.85
+R m1_332_152# 2571
+= m1_332_152# 4in-case11_0/2in-xor_2/a_4_8#
+= m1_332_152# 2in-xor_0/a_12_6#
+= m1_332_152# 2in-xor_0/inv_1/a_12_5#
+C 2in-xor_0/a_84_6# GND 37.93
+R 2in-xor_0/a_84_6# 1245
+= 2in-xor_0/a_84_6# 2in-xor_0/inv_0/a_15_8#
+C m1_684_152# GND 99.45
+R m1_684_152# 2576
+= m1_684_152# 4in-case11_1/2in-xor_2/a_4_8#
+= m1_684_152# 2in-xor_0/a_28_5#
+= m1_684_152# 2in-xor_0/inv_0/a_12_5#
+C out3 GND 8.27
+R out3 302
+= out3 buffer_5/a_42_8#
+C buffer_5/a_10_8# GND 24.30
+R buffer_5/a_10_8# 970
+C out2 GND 8.27
+R out2 302
+= out2 buffer_4/a_42_8#
+C buffer_4/a_10_8# GND 24.30
+R buffer_4/a_10_8# 970
+C out7 GND 8.27
+R out7 302
+= out7 buffer_3/a_42_8#
+C buffer_3/a_10_8# GND 24.30
+R buffer_3/a_10_8# 970
+C out1 GND 8.27
+R out1 302
+= out1 buffer_1/a_42_8#
+C buffer_1/a_10_8# GND 24.30
+R buffer_1/a_10_8# 970
+C out4 GND 8.27
+R out4 302
+= out4 buffer_2/a_42_8#
+C buffer_2/a_10_8# GND 24.30
+R buffer_2/a_10_8# 970
+C out0 GND 8.27
+R out0 302
+= out0 buffer_0/a_42_8#
+C buffer_0/a_10_8# GND 24.30
+R buffer_0/a_10_8# 970
+C out14 GND 14.29
+R out14 712
+= out14 inverter_0/a_19_8#

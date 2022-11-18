@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1653246572
+use inverter  inverter_0
+timestamp 1652558825
+transform 1 0 0 0 1 0
+box 0 0 36 108
+use inverter  inverter_1
+timestamp 1652558825
+transform 1 0 36 0 1 0
+box 0 0 36 108
+use inverter  inverter_2
+timestamp 1652558825
+transform 1 0 72 0 1 0
+box 0 0 36 108
+use inverter  inverter_3
+timestamp 1652558825
+transform 1 0 108 0 1 0
+box 0 0 36 108
+use inverter  inverter_4
+timestamp 1652558825
+transform 1 0 144 0 1 0
+box 0 0 36 108
+use inverter  inverter_5
+timestamp 1652558825
+transform 1 0 180 0 1 0
+box 0 0 36 108
+use inverter  inverter_6
+timestamp 1652558825
+transform 1 0 216 0 1 0
+box 0 0 36 108
+use inverter  inverter_7
+timestamp 1652558825
+transform 1 0 252 0 1 0
+box 0 0 36 108
+<< end >>

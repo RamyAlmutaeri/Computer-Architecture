@@ -1,0 +1,11 @@
+| units: 100 tech: scmos format: MIT
+p a Vdd out 3 4 12 96
+n a Gnd out 3 4 12 8
+C Gnd GND 3.33
+R Gnd 54
+C out GND 15.79
+R out 195
+C Vdd GND 3.33
+R Vdd 119
+C a GND 26.09
+R a 771

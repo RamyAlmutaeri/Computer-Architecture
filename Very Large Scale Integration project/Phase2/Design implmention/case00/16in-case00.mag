@@ -1,0 +1,92 @@
+magic
+tech scmos
+timestamp 1653247346
+<< metal1 >>
+rect 288 60 292 104
+rect 324 60 328 104
+rect 360 60 364 104
+rect 396 60 400 104
+rect 432 60 436 104
+rect 468 60 472 104
+rect 504 60 508 104
+rect 540 60 544 104
+rect 8 56 12 60
+rect 24 56 28 60
+rect 44 56 48 60
+rect 60 56 64 60
+rect 80 56 84 60
+rect 96 56 100 60
+rect 116 56 120 60
+rect 132 56 136 60
+rect 152 56 156 60
+rect 168 56 172 60
+rect 188 56 192 60
+rect 204 56 208 60
+rect 224 56 228 60
+rect 240 56 244 60
+rect 260 56 264 60
+rect 276 56 280 60
+rect 288 56 300 60
+rect 312 56 316 60
+rect 324 56 336 60
+rect 348 56 352 60
+rect 360 56 372 60
+rect 384 56 388 60
+rect 396 56 408 60
+rect 420 56 424 60
+rect 432 56 444 60
+rect 456 56 460 60
+rect 468 56 480 60
+rect 492 56 496 60
+rect 504 56 516 60
+rect 528 56 532 60
+rect 540 56 552 60
+rect 564 56 568 60
+<< metal2 >>
+rect 572 104 576 108
+rect 572 0 576 4
+<< m2contact >>
+rect 288 104 292 108
+rect 324 104 328 108
+rect 360 104 364 108
+rect 396 104 400 108
+rect 432 104 436 108
+rect 468 104 472 108
+rect 504 104 508 108
+rect 540 104 544 108
+use 8in-case00  8in-case00_0
+timestamp 1653246572
+transform 1 0 0 0 1 0
+box 0 0 288 108
+use 8in-case00  8in-case00_1
+timestamp 1653246572
+transform 1 0 288 0 1 0
+box 0 0 288 108
+<< labels >>
+rlabel metal1 8 56 12 60 1 in8
+rlabel metal1 24 56 28 60 1 out0
+rlabel metal1 44 56 48 60 1 in9
+rlabel metal1 60 56 64 60 1 out1
+rlabel metal1 80 56 84 60 1 in10
+rlabel metal1 96 56 100 60 1 out2
+rlabel metal1 116 56 120 60 1 in11
+rlabel metal1 132 56 136 60 1 out3
+rlabel metal1 152 56 156 60 1 in12
+rlabel metal1 168 56 172 60 1 out4
+rlabel metal1 188 56 192 60 1 in13
+rlabel metal1 204 56 208 60 1 out5
+rlabel metal1 224 56 228 60 1 in14
+rlabel metal1 240 56 244 60 1 out6
+rlabel metal1 260 56 264 60 1 in15
+rlabel metal1 276 56 280 60 1 out7
+rlabel metal1 312 56 316 60 1 out8
+rlabel metal1 348 56 352 60 1 out9
+rlabel metal1 384 56 388 60 1 out10
+rlabel metal1 420 56 424 60 1 out11
+rlabel metal1 456 56 460 60 1 out12
+rlabel metal1 492 56 496 60 1 out13
+rlabel metal1 528 56 532 60 1 out14
+rlabel metal1 564 56 568 60 1 out15
+rlabel metal2 572 104 576 108 6 Vdd
+rlabel metal2 572 0 576 4 8 Gnd
+<< end >>

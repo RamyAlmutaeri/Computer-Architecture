@@ -1,0 +1,157 @@
+| units: 100 tech: scmos format: MIT
+p in8 Vdd out0 2 4 16 96
+n in8 Gnd out0 2 4 16 8
+p in9 Vdd out1 2 4 52 96
+n in9 Gnd out1 2 4 52 8
+p in10 Vdd out2 2 4 88 96
+n in10 Gnd out2 2 4 88 8
+p in11 Vdd out3 2 4 124 96
+n in11 Gnd out3 2 4 124 8
+p in12 Vdd out4 2 4 160 96
+n in12 Gnd out4 2 4 160 8
+p in13 Vdd out5 2 4 196 96
+n in13 Gnd out5 2 4 196 8
+p in14 Vdd out6 2 4 232 96
+n in14 Gnd out6 2 4 232 8
+p in15 Vdd out7 2 4 268 96
+n in15 Gnd out7 2 4 268 8
+p Vdd Vdd out8 2 4 304 96
+n Vdd Gnd out8 2 4 304 8
+p Vdd Vdd out9 2 4 340 96
+n Vdd Gnd out9 2 4 340 8
+p Vdd Vdd out10 2 4 376 96
+n Vdd Gnd out10 2 4 376 8
+p Vdd Vdd out11 2 4 412 96
+n Vdd Gnd out11 2 4 412 8
+p Vdd Vdd out12 2 4 448 96
+n Vdd Gnd out12 2 4 448 8
+p Vdd Vdd out13 2 4 484 96
+n Vdd Gnd out13 2 4 484 8
+p Vdd Vdd out14 2 4 520 96
+n Vdd Gnd out14 2 4 520 8
+p Vdd Vdd out15 2 4 556 96
+n Vdd Gnd out15 2 4 556 8
+C out15 GND 15.79
+R out15 217
+= out15 8in-case00_1/inverter_7/a_18_8#
+C out14 GND 15.79
+R out14 217
+= out14 8in-case00_1/inverter_6/a_18_8#
+C out13 GND 15.79
+R out13 217
+= out13 8in-case00_1/inverter_5/a_18_8#
+C out12 GND 15.79
+R out12 217
+= out12 8in-case00_1/inverter_4/a_18_8#
+C Vdd GND 341.65
+R Vdd 14442
+= Vdd m1_540_56#
+= Vdd 8in-case00_1/inverter_7/a_8_56#
+= Vdd m1_504_56#
+= Vdd 8in-case00_1/inverter_6/a_8_56#
+= Vdd m1_468_56#
+= Vdd 8in-case00_1/inverter_5/a_8_56#
+= Vdd m1_432_56#
+= Vdd 8in-case00_1/inverter_4/a_8_56#
+= Vdd m1_396_56#
+= Vdd 8in-case00_1/inverter_3/a_8_56#
+= Vdd m1_360_56#
+= Vdd 8in-case00_1/inverter_2/a_8_56#
+= Vdd m1_324_56#
+= Vdd 8in-case00_1/inverter_1/a_8_56#
+= Vdd m1_288_56#
+= Vdd 8in-case00_0/inverter_7/a_8_96#
+= Vdd 8in-case00_0/inverter_0/a_8_96#
+= Vdd 8in-case00_0/inverter_6/a_8_96#
+= Vdd 8in-case00_0/inverter_5/a_8_96#
+= Vdd 8in-case00_0/inverter_1/a_8_96#
+= Vdd 8in-case00_0/inverter_2/a_8_96#
+= Vdd 8in-case00_0/inverter_3/a_8_96#
+= Vdd 8in-case00_0/inverter_4/a_8_96#
+= Vdd 8in-case00_1/inverter_0/a_8_56#
+= Vdd 8in-case00_1/inverter_7/a_8_96#
+= Vdd 8in-case00_1/inverter_0/a_8_96#
+= Vdd 8in-case00_1/inverter_6/a_8_96#
+= Vdd 8in-case00_1/inverter_5/a_8_96#
+= Vdd 8in-case00_1/inverter_1/a_8_96#
+= Vdd 8in-case00_1/inverter_2/a_8_96#
+= Vdd 8in-case00_1/inverter_3/a_8_96#
+= Vdd 8in-case00_1/inverter_4/a_8_96#
+C out11 GND 15.79
+R out11 217
+= out11 8in-case00_1/inverter_3/a_18_8#
+C out10 GND 15.79
+R out10 217
+= out10 8in-case00_1/inverter_2/a_18_8#
+C out9 GND 15.79
+R out9 217
+= out9 8in-case00_1/inverter_1/a_18_8#
+C out8 GND 15.79
+R out8 217
+= out8 8in-case00_1/inverter_0/a_18_8#
+C out7 GND 15.79
+R out7 217
+= out7 8in-case00_0/inverter_7/a_18_8#
+C in15 GND 24.44
+R in15 1240
+= in15 8in-case00_0/inverter_7/a_8_56#
+C out6 GND 15.79
+R out6 217
+= out6 8in-case00_0/inverter_6/a_18_8#
+C in14 GND 24.44
+R in14 1240
+= in14 8in-case00_0/inverter_6/a_8_56#
+C out5 GND 15.79
+R out5 217
+= out5 8in-case00_0/inverter_5/a_18_8#
+C in13 GND 24.44
+R in13 1240
+= in13 8in-case00_0/inverter_5/a_8_56#
+C Gnd GND 62.98
+R Gnd 1875
+= Gnd 8in-case00_1/inverter_7/a_8_8#
+= Gnd 8in-case00_1/inverter_0/a_8_8#
+= Gnd 8in-case00_1/inverter_6/a_8_8#
+= Gnd 8in-case00_1/inverter_5/a_8_8#
+= Gnd 8in-case00_1/inverter_1/a_8_8#
+= Gnd 8in-case00_1/inverter_2/a_8_8#
+= Gnd 8in-case00_1/inverter_3/a_8_8#
+= Gnd 8in-case00_1/inverter_4/a_8_8#
+= Gnd 8in-case00_0/inverter_7/a_8_8#
+= Gnd 8in-case00_0/inverter_0/a_8_8#
+= Gnd 8in-case00_0/inverter_6/a_8_8#
+= Gnd 8in-case00_0/inverter_5/a_8_8#
+= Gnd 8in-case00_0/inverter_1/a_8_8#
+= Gnd 8in-case00_0/inverter_2/a_8_8#
+= Gnd 8in-case00_0/inverter_3/a_8_8#
+= Gnd 8in-case00_0/inverter_4/a_8_8#
+C out4 GND 14.66
+R out4 217
+= out4 8in-case00_0/inverter_4/a_18_8#
+C in12 GND 24.44
+R in12 1240
+= in12 8in-case00_0/inverter_4/a_8_56#
+C out3 GND 14.66
+R out3 217
+= out3 8in-case00_0/inverter_3/a_18_8#
+C in11 GND 24.44
+R in11 1240
+= in11 8in-case00_0/inverter_3/a_8_56#
+C out2 GND 14.66
+R out2 216
+= out2 8in-case00_0/inverter_2/a_18_8#
+C in10 GND 24.44
+R in10 1240
+= in10 8in-case00_0/inverter_2/a_8_56#
+C out1 GND 14.66
+R out1 217
+= out1 8in-case00_0/inverter_1/a_18_8#
+C in9 GND 24.44
+R in9 1240
+= in9 8in-case00_0/inverter_1/a_8_56#
+C out0 GND 14.66
+R out0 217
+= out0 8in-case00_0/inverter_0/a_18_8#
+C in8 GND 24.44
+R in8 1240
+= in8 8in-case00_0/inverter_0/a_8_56#

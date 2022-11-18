@@ -1,0 +1,24 @@
+| units: 100 tech: scmos format: MIT
+p a_10_8# Vdd out 3 4 52 96
+n a_10_8# Gnd out 3 4 52 8
+p b Vdd a_10_96# 2 4 8 96
+p a a_10_96# a_10_8# 2 4 24 96
+n b Gnd a_10_8# 2 4 8 8
+n a a_10_8# Gnd 2 4 24 8
+R a_10_96# 208
+C a GND 26.67
+R a 1145
+C b GND 24.44
+R b 1240
+C Gnd GND 10.59
+R Gnd 338
+= Gnd inverter_0/a_4_8#
+C out GND 18.05
+R out 713
+= out inverter_0/a_19_8#
+C Vdd GND 9.39
+R Vdd 458
+= Vdd inverter_0/a_4_96#
+C a_10_8# GND 47.65
+R a_10_8# 936
+= a_10_8# inverter_0/a_16_5#
