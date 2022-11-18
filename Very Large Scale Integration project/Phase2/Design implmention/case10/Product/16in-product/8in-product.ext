@@ -1,0 +1,41 @@
+timestamp 1653369370
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use 4in-product 4in-product_1 1 0 2024 0 1 144
+use 4in-product 4in-product_0 1 0 900 0 1 144
+node "m2_1297_32#" 0 3648 1297 32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "m2_1296_248#" 0 3648 1296 248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "m2_1384_308#" 0 304 1384 308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_744_308#" 0 304 744 308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m1_876_264#" 9 119472 876 264 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1824 928 0 0
+node "m1_884_272#" 9 119472 884 272 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1808 912 0 0
+node "m1_892_280#" 9 119472 892 280 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1808 912 0 0
+node "m1_760_288#" 8 121072 760 288 m1 0 0 0 0 0 0 0 0 0 0 0 0 2576 1296 0 0 0 0
+cap "4in-product_1/m1_n708_n128#" "4in-product_1/m2_n692_n112#" 720
+cap "4in-product_0/m1_n548_n56#" "4in-product_0/m1_n556_n80#" 720
+cap "m1_876_264#" "4in-product_0/m1_n540_n24#" 720
+cap "m1_884_272#" "4in-product_0/m1_n540_n24#" 720
+cap "m1_884_272#" "4in-product_1/m1_n640_67#" 720
+cap "m1_876_264#" "4in-product_1/m1_n640_67#" 720
+cap "4in-product_1/m1_n708_n128#" "m1_884_272#" 720
+cap "4in-product_1/m1_n708_n128#" "4in-product_1/m1_n684_n8#" 720
+cap "4in-product_1/m1_n708_n128#" "m1_876_264#" 720
+cap "m1_892_280#" "4in-product_1/m1_n640_67#" 720
+cap "m1_892_280#" "4in-product_1/m1_n708_n128#" 720
+merge "4in-product_1/m1_n640_67#" "m2_1384_308#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "4in-product_1/m1_n540_n24#" "4in-product_0/m1_n540_n24#" -135964 0 0 0 0 0 0 0 0 0 0 0 0 -2660 -1362 -608 -316 0 0
+merge "4in-product_0/m1_n540_n24#" "m1_892_280#"
+merge "4in-product_0/m1_n640_67#" "m2_744_308#" -1976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -76 0 0
+merge "4in-product_0/dflipflopER_0/m2_556_104#" "4in-product_1/m1_n684_n8#" -912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "4in-product_1/m1_n684_n8#" "m2_1296_248#"
+merge "4in-product_1/m1_n708_n128#" "4in-product_0/m1_n708_n128#" -78960 0 0 0 0 0 0 0 0 0 0 0 0 -1680 -852 0 0 0 0
+merge "4in-product_0/m1_n708_n128#" "m1_760_288#"
+merge "4in-product_0/dflipflopER_2/m2_556_0#" "4in-product_1/m2_n692_n112#" -1520 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0
+merge "4in-product_1/m2_n692_n112#" "m2_1297_32#"
+merge "4in-product_1/m1_n548_n56#" "4in-product_0/m1_n548_n56#" -137280 0 0 0 0 0 0 0 0 0 0 0 0 -2688 -1364 -608 -312 0 0
+merge "4in-product_0/m1_n548_n56#" "m1_884_272#"
+merge "4in-product_1/m1_n556_n80#" "4in-product_0/m1_n556_n80#" -138784 0 0 0 0 0 0 0 0 0 0 0 0 -2720 -1380 -608 -312 0 0
+merge "4in-product_0/m1_n556_n80#" "m1_876_264#"

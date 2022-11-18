@@ -1,0 +1,2193 @@
+| units: 100 tech: scmos format: MIT
+p s Vdd 4in-multiplicand_0/2inMUX_0/a_20_35# 3 4 780 240
+n s Gnd 4in-multiplicand_0/2inMUX_0/a_20_35# 3 4 780 152
+n 4in-multiplicand_0/2inMUX_0/a_20_35# out8 4in-multiplicand_0/m1_n40_64# 2 4 832 202
+p s out8 4in-multiplicand_0/m1_n40_64# 2 4 832 234
+p 4in-multiplicand_0/2inMUX_0/a_20_35# in9 4in-multiplicand_0/m1_n40_64# 2 4 832 173
+n s in9 4in-multiplicand_0/m1_n40_64# 2 4 832 157
+p s Vdd 4in-multiplicand_0/2inMUX_1/a_20_35# 3 4 244 240
+n s Gnd 4in-multiplicand_0/2inMUX_1/a_20_35# 3 4 244 152
+n 4in-multiplicand_0/2inMUX_1/a_20_35# out7 4in-multiplicand_0/m1_n576_64# 2 4 296 202
+p s out7 4in-multiplicand_0/m1_n576_64# 2 4 296 234
+p 4in-multiplicand_0/2inMUX_1/a_20_35# in8 4in-multiplicand_0/m1_n576_64# 2 4 296 173
+n s in8 4in-multiplicand_0/m1_n576_64# 2 4 296 157
+p s Vdd 4in-multiplicand_0/2inMUX_2/a_20_35# 3 4 780 128
+n s Gnd 4in-multiplicand_0/2inMUX_2/a_20_35# 3 4 780 40
+n 4in-multiplicand_0/2inMUX_2/a_20_35# out0 4in-multiplicand_0/m1_n40_n48# 2 4 832 90
+p s out0 4in-multiplicand_0/m1_n40_n48# 2 4 832 122
+p 4in-multiplicand_0/2inMUX_2/a_20_35# in1 4in-multiplicand_0/m1_n40_n48# 2 4 832 61
+n s in1 4in-multiplicand_0/m1_n40_n48# 2 4 832 45
+p s Vdd 4in-multiplicand_0/2inMUX_3/a_20_35# 3 4 244 128
+n s Gnd 4in-multiplicand_0/2inMUX_3/a_20_35# 3 4 244 40
+n 4in-multiplicand_0/2inMUX_3/a_20_35# Gnd 4in-multiplicand_0/m1_n576_n48# 2 4 296 90
+p s Gnd 4in-multiplicand_0/m1_n576_n48# 2 4 296 122
+p 4in-multiplicand_0/2inMUX_3/a_20_35# in0 4in-multiplicand_0/m1_n576_n48# 2 4 296 61
+n s in0 4in-multiplicand_0/m1_n576_n48# 2 4 296 45
+p reset Vdd 4in-multiplicand_0/dflipflopER_0/m1_460_72# 2 4 1188 240
+n reset Gnd 4in-multiplicand_0/dflipflopER_0/m1_460_72# 2 4 1188 152
+p phi2 Vdd 4in-multiplicand_0/dflipflopER_0/m1_236_24# 2 4 964 240
+n phi2 Gnd 4in-multiplicand_0/dflipflopER_0/m1_236_24# 2 4 964 152
+p phi1 Vdd 4in-multiplicand_0/dflipflopER_0/m1_200_40# 2 4 928 240
+n phi1 Gnd 4in-multiplicand_0/dflipflopER_0/m1_200_40# 2 4 928 152
+p 4in-multiplicand_0/m1_n40_64# Vdd 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_96# 2 4 1020 240
+p 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_0/m1_336_56# 2 4 1064 240
+n 4in-multiplicand_0/m1_n40_64# Gnd 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_8# 2 4 1020 152
+p 4in-multiplicand_0/dflipflopER_0/m1_200_40# 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_96# 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# 2 4 1028 240
+n 4in-multiplicand_0/dflipflopER_0/m1_336_56# 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_8# Gnd 2 4 1052 152
+p 4in-multiplicand_0/dflipflopER_0/m1_336_56# 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_96# Vdd 2 4 1052 240
+n phi1 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_8# 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# 2 4 1028 152
+p phi1 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_96# 2 4 1044 240
+n 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_0/m1_336_56# 2 4 1064 152
+n 4in-multiplicand_0/dflipflopER_0/m1_200_40# 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_8# 2 4 1044 152
+p 4in-multiplicand_0/dflipflopER_0/m1_336_56# Vdd 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_96# 2 4 1108 240
+p 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_0/m1_424_48# 2 4 1152 240
+n 4in-multiplicand_0/dflipflopER_0/m1_336_56# Gnd 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_8# 2 4 1108 152
+p 4in-multiplicand_0/dflipflopER_0/m1_236_24# 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_96# 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# 2 4 1116 240
+n 4in-multiplicand_0/dflipflopER_0/m1_424_48# 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_8# Gnd 2 4 1140 152
+p 4in-multiplicand_0/dflipflopER_0/m1_424_48# 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_96# Vdd 2 4 1140 240
+n phi2 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_8# 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# 2 4 1116 152
+p phi2 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_96# 2 4 1132 240
+n 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_0/m1_424_48# 2 4 1152 152
+n 4in-multiplicand_0/dflipflopER_0/m1_236_24# 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_8# 2 4 1132 152
+p 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# Vdd out9 2 4 1264 240
+n 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# Gnd out9 2 4 1264 152
+p 4in-multiplicand_0/dflipflopER_0/m1_460_72# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# Vdd 2 4 1224 240
+p 4in-multiplicand_0/dflipflopER_0/m1_424_48# Vdd 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# 2 4 1236 240
+n 4in-multiplicand_0/dflipflopER_0/m1_460_72# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_18_8# 2 4 1224 152
+n 4in-multiplicand_0/dflipflopER_0/m1_424_48# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_18_8# Gnd 2 4 1236 152
+p reset Vdd 4in-multiplicand_0/dflipflopER_1/m1_460_72# 2 4 652 240
+n reset Gnd 4in-multiplicand_0/dflipflopER_1/m1_460_72# 2 4 652 152
+p phi2 Vdd 4in-multiplicand_0/dflipflopER_1/m1_236_24# 2 4 428 240
+n phi2 Gnd 4in-multiplicand_0/dflipflopER_1/m1_236_24# 2 4 428 152
+p phi1 Vdd 4in-multiplicand_0/dflipflopER_1/m1_200_40# 2 4 392 240
+n phi1 Gnd 4in-multiplicand_0/dflipflopER_1/m1_200_40# 2 4 392 152
+p 4in-multiplicand_0/m1_n576_64# Vdd 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_96# 2 4 484 240
+p 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_1/m1_336_56# 2 4 528 240
+n 4in-multiplicand_0/m1_n576_64# Gnd 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_8# 2 4 484 152
+p 4in-multiplicand_0/dflipflopER_1/m1_200_40# 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_96# 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# 2 4 492 240
+n 4in-multiplicand_0/dflipflopER_1/m1_336_56# 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_8# Gnd 2 4 516 152
+p 4in-multiplicand_0/dflipflopER_1/m1_336_56# 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_96# Vdd 2 4 516 240
+n phi1 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_8# 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# 2 4 492 152
+p phi1 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_96# 2 4 508 240
+n 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_1/m1_336_56# 2 4 528 152
+n 4in-multiplicand_0/dflipflopER_1/m1_200_40# 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_8# 2 4 508 152
+p 4in-multiplicand_0/dflipflopER_1/m1_336_56# Vdd 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_96# 2 4 572 240
+p 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_1/m1_424_48# 2 4 616 240
+n 4in-multiplicand_0/dflipflopER_1/m1_336_56# Gnd 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_8# 2 4 572 152
+p 4in-multiplicand_0/dflipflopER_1/m1_236_24# 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_96# 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# 2 4 580 240
+n 4in-multiplicand_0/dflipflopER_1/m1_424_48# 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_8# Gnd 2 4 604 152
+p 4in-multiplicand_0/dflipflopER_1/m1_424_48# 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_96# Vdd 2 4 604 240
+n phi2 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_8# 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# 2 4 580 152
+p phi2 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_96# 2 4 596 240
+n 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_1/m1_424_48# 2 4 616 152
+n 4in-multiplicand_0/dflipflopER_1/m1_236_24# 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_8# 2 4 596 152
+p 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# Vdd out8 2 4 728 240
+n 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# Gnd out8 2 4 728 152
+p 4in-multiplicand_0/dflipflopER_1/m1_460_72# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# Vdd 2 4 688 240
+p 4in-multiplicand_0/dflipflopER_1/m1_424_48# Vdd 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# 2 4 700 240
+n 4in-multiplicand_0/dflipflopER_1/m1_460_72# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_18_8# 2 4 688 152
+n 4in-multiplicand_0/dflipflopER_1/m1_424_48# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_18_8# Gnd 2 4 700 152
+p reset Vdd 4in-multiplicand_0/dflipflopER_2/m1_460_72# 2 4 1188 128
+n reset Gnd 4in-multiplicand_0/dflipflopER_2/m1_460_72# 2 4 1188 40
+p phi2 Vdd 4in-multiplicand_0/dflipflopER_2/m1_236_24# 2 4 964 128
+n phi2 Gnd 4in-multiplicand_0/dflipflopER_2/m1_236_24# 2 4 964 40
+p phi1 Vdd 4in-multiplicand_0/dflipflopER_2/m1_200_40# 2 4 928 128
+n phi1 Gnd 4in-multiplicand_0/dflipflopER_2/m1_200_40# 2 4 928 40
+p 4in-multiplicand_0/m1_n40_n48# Vdd 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_96# 2 4 1020 128
+p 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_2/m1_336_56# 2 4 1064 128
+n 4in-multiplicand_0/m1_n40_n48# Gnd 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_8# 2 4 1020 40
+p 4in-multiplicand_0/dflipflopER_2/m1_200_40# 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_96# 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# 2 4 1028 128
+n 4in-multiplicand_0/dflipflopER_2/m1_336_56# 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_8# Gnd 2 4 1052 40
+p 4in-multiplicand_0/dflipflopER_2/m1_336_56# 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_96# Vdd 2 4 1052 128
+n phi1 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_8# 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# 2 4 1028 40
+p phi1 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_96# 2 4 1044 128
+n 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_2/m1_336_56# 2 4 1064 40
+n 4in-multiplicand_0/dflipflopER_2/m1_200_40# 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_8# 2 4 1044 40
+p 4in-multiplicand_0/dflipflopER_2/m1_336_56# Vdd 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_96# 2 4 1108 128
+p 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_2/m1_424_48# 2 4 1152 128
+n 4in-multiplicand_0/dflipflopER_2/m1_336_56# Gnd 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_8# 2 4 1108 40
+p 4in-multiplicand_0/dflipflopER_2/m1_236_24# 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_96# 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# 2 4 1116 128
+n 4in-multiplicand_0/dflipflopER_2/m1_424_48# 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_8# Gnd 2 4 1140 40
+p 4in-multiplicand_0/dflipflopER_2/m1_424_48# 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_96# Vdd 2 4 1140 128
+n phi2 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_8# 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# 2 4 1116 40
+p phi2 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_96# 2 4 1132 128
+n 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_2/m1_424_48# 2 4 1152 40
+n 4in-multiplicand_0/dflipflopER_2/m1_236_24# 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_8# 2 4 1132 40
+p 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# Vdd out1 2 4 1264 128
+n 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# Gnd out1 2 4 1264 40
+p 4in-multiplicand_0/dflipflopER_2/m1_460_72# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# Vdd 2 4 1224 128
+p 4in-multiplicand_0/dflipflopER_2/m1_424_48# Vdd 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# 2 4 1236 128
+n 4in-multiplicand_0/dflipflopER_2/m1_460_72# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_18_8# 2 4 1224 40
+n 4in-multiplicand_0/dflipflopER_2/m1_424_48# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_18_8# Gnd 2 4 1236 40
+p reset Vdd 4in-multiplicand_0/dflipflopER_3/m1_460_72# 2 4 652 128
+n reset Gnd 4in-multiplicand_0/dflipflopER_3/m1_460_72# 2 4 652 40
+p phi2 Vdd 4in-multiplicand_0/dflipflopER_3/m1_236_24# 2 4 428 128
+n phi2 Gnd 4in-multiplicand_0/dflipflopER_3/m1_236_24# 2 4 428 40
+p phi1 Vdd 4in-multiplicand_0/dflipflopER_3/m1_200_40# 2 4 392 128
+n phi1 Gnd 4in-multiplicand_0/dflipflopER_3/m1_200_40# 2 4 392 40
+p 4in-multiplicand_0/m1_n576_n48# Vdd 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_96# 2 4 484 128
+p 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_3/m1_336_56# 2 4 528 128
+n 4in-multiplicand_0/m1_n576_n48# Gnd 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_8# 2 4 484 40
+p 4in-multiplicand_0/dflipflopER_3/m1_200_40# 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_96# 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# 2 4 492 128
+n 4in-multiplicand_0/dflipflopER_3/m1_336_56# 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_8# Gnd 2 4 516 40
+p 4in-multiplicand_0/dflipflopER_3/m1_336_56# 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_96# Vdd 2 4 516 128
+n phi1 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_8# 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# 2 4 492 40
+p phi1 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_96# 2 4 508 128
+n 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_3/m1_336_56# 2 4 528 40
+n 4in-multiplicand_0/dflipflopER_3/m1_200_40# 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_8# 2 4 508 40
+p 4in-multiplicand_0/dflipflopER_3/m1_336_56# Vdd 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_96# 2 4 572 128
+p 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# Vdd 4in-multiplicand_0/dflipflopER_3/m1_424_48# 2 4 616 128
+n 4in-multiplicand_0/dflipflopER_3/m1_336_56# Gnd 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_8# 2 4 572 40
+p 4in-multiplicand_0/dflipflopER_3/m1_236_24# 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_96# 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# 2 4 580 128
+n 4in-multiplicand_0/dflipflopER_3/m1_424_48# 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_8# Gnd 2 4 604 40
+p 4in-multiplicand_0/dflipflopER_3/m1_424_48# 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_96# Vdd 2 4 604 128
+n phi2 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_8# 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# 2 4 580 40
+p phi2 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_96# 2 4 596 128
+n 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# Gnd 4in-multiplicand_0/dflipflopER_3/m1_424_48# 2 4 616 40
+n 4in-multiplicand_0/dflipflopER_3/m1_236_24# 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_8# 2 4 596 40
+p 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# Vdd out0 2 4 728 128
+n 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# Gnd out0 2 4 728 40
+p 4in-multiplicand_0/dflipflopER_3/m1_460_72# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# Vdd 2 4 688 128
+p 4in-multiplicand_0/dflipflopER_3/m1_424_48# Vdd 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# 2 4 700 128
+n 4in-multiplicand_0/dflipflopER_3/m1_460_72# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_18_8# 2 4 688 40
+n 4in-multiplicand_0/dflipflopER_3/m1_424_48# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_18_8# Gnd 2 4 700 40
+p s Vdd 4in-multiplicand_1/2inMUX_0/a_20_35# 3 4 1908 240
+n s Gnd 4in-multiplicand_1/2inMUX_0/a_20_35# 3 4 1908 152
+n 4in-multiplicand_1/2inMUX_0/a_20_35# out10 4in-multiplicand_1/m1_n40_64# 2 4 1960 202
+p s out10 4in-multiplicand_1/m1_n40_64# 2 4 1960 234
+p 4in-multiplicand_1/2inMUX_0/a_20_35# in11 4in-multiplicand_1/m1_n40_64# 2 4 1960 173
+n s in11 4in-multiplicand_1/m1_n40_64# 2 4 1960 157
+p s Vdd 4in-multiplicand_1/2inMUX_1/a_20_35# 3 4 1372 240
+n s Gnd 4in-multiplicand_1/2inMUX_1/a_20_35# 3 4 1372 152
+n 4in-multiplicand_1/2inMUX_1/a_20_35# out9 4in-multiplicand_1/m1_n576_64# 2 4 1424 202
+p s out9 4in-multiplicand_1/m1_n576_64# 2 4 1424 234
+p 4in-multiplicand_1/2inMUX_1/a_20_35# in10 4in-multiplicand_1/m1_n576_64# 2 4 1424 173
+n s in10 4in-multiplicand_1/m1_n576_64# 2 4 1424 157
+p s Vdd 4in-multiplicand_1/2inMUX_2/a_20_35# 3 4 1908 128
+n s Gnd 4in-multiplicand_1/2inMUX_2/a_20_35# 3 4 1908 40
+n 4in-multiplicand_1/2inMUX_2/a_20_35# out2 4in-multiplicand_1/m1_n40_n48# 2 4 1960 90
+p s out2 4in-multiplicand_1/m1_n40_n48# 2 4 1960 122
+p 4in-multiplicand_1/2inMUX_2/a_20_35# in3 4in-multiplicand_1/m1_n40_n48# 2 4 1960 61
+n s in3 4in-multiplicand_1/m1_n40_n48# 2 4 1960 45
+p s Vdd 4in-multiplicand_1/2inMUX_3/a_20_35# 3 4 1372 128
+n s Gnd 4in-multiplicand_1/2inMUX_3/a_20_35# 3 4 1372 40
+n 4in-multiplicand_1/2inMUX_3/a_20_35# out1 4in-multiplicand_1/m1_n576_n48# 2 4 1424 90
+p s out1 4in-multiplicand_1/m1_n576_n48# 2 4 1424 122
+p 4in-multiplicand_1/2inMUX_3/a_20_35# in2 4in-multiplicand_1/m1_n576_n48# 2 4 1424 61
+n s in2 4in-multiplicand_1/m1_n576_n48# 2 4 1424 45
+p reset Vdd 4in-multiplicand_1/dflipflopER_0/m1_460_72# 2 4 2316 240
+n reset Gnd 4in-multiplicand_1/dflipflopER_0/m1_460_72# 2 4 2316 152
+p phi2 Vdd 4in-multiplicand_1/dflipflopER_0/m1_236_24# 2 4 2092 240
+n phi2 Gnd 4in-multiplicand_1/dflipflopER_0/m1_236_24# 2 4 2092 152
+p phi1 Vdd 4in-multiplicand_1/dflipflopER_0/m1_200_40# 2 4 2056 240
+n phi1 Gnd 4in-multiplicand_1/dflipflopER_0/m1_200_40# 2 4 2056 152
+p 4in-multiplicand_1/m1_n40_64# Vdd 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_96# 2 4 2148 240
+p 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_0/m1_336_56# 2 4 2192 240
+n 4in-multiplicand_1/m1_n40_64# Gnd 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_8# 2 4 2148 152
+p 4in-multiplicand_1/dflipflopER_0/m1_200_40# 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_96# 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# 2 4 2156 240
+n 4in-multiplicand_1/dflipflopER_0/m1_336_56# 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_8# Gnd 2 4 2180 152
+p 4in-multiplicand_1/dflipflopER_0/m1_336_56# 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_96# Vdd 2 4 2180 240
+n phi1 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_8# 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# 2 4 2156 152
+p phi1 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_96# 2 4 2172 240
+n 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_0/m1_336_56# 2 4 2192 152
+n 4in-multiplicand_1/dflipflopER_0/m1_200_40# 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_8# 2 4 2172 152
+p 4in-multiplicand_1/dflipflopER_0/m1_336_56# Vdd 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_96# 2 4 2236 240
+p 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_0/m1_424_48# 2 4 2280 240
+n 4in-multiplicand_1/dflipflopER_0/m1_336_56# Gnd 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_8# 2 4 2236 152
+p 4in-multiplicand_1/dflipflopER_0/m1_236_24# 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_96# 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# 2 4 2244 240
+n 4in-multiplicand_1/dflipflopER_0/m1_424_48# 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_8# Gnd 2 4 2268 152
+p 4in-multiplicand_1/dflipflopER_0/m1_424_48# 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_96# Vdd 2 4 2268 240
+n phi2 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_8# 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# 2 4 2244 152
+p phi2 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_96# 2 4 2260 240
+n 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_0/m1_424_48# 2 4 2280 152
+n 4in-multiplicand_1/dflipflopER_0/m1_236_24# 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_8# 2 4 2260 152
+p 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# Vdd out11 2 4 2392 240
+n 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# Gnd out11 2 4 2392 152
+p 4in-multiplicand_1/dflipflopER_0/m1_460_72# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# Vdd 2 4 2352 240
+p 4in-multiplicand_1/dflipflopER_0/m1_424_48# Vdd 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# 2 4 2364 240
+n 4in-multiplicand_1/dflipflopER_0/m1_460_72# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_18_8# 2 4 2352 152
+n 4in-multiplicand_1/dflipflopER_0/m1_424_48# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_18_8# Gnd 2 4 2364 152
+p reset Vdd 4in-multiplicand_1/dflipflopER_1/m1_460_72# 2 4 1780 240
+n reset Gnd 4in-multiplicand_1/dflipflopER_1/m1_460_72# 2 4 1780 152
+p phi2 Vdd 4in-multiplicand_1/dflipflopER_1/m1_236_24# 2 4 1556 240
+n phi2 Gnd 4in-multiplicand_1/dflipflopER_1/m1_236_24# 2 4 1556 152
+p phi1 Vdd 4in-multiplicand_1/dflipflopER_1/m1_200_40# 2 4 1520 240
+n phi1 Gnd 4in-multiplicand_1/dflipflopER_1/m1_200_40# 2 4 1520 152
+p 4in-multiplicand_1/m1_n576_64# Vdd 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_96# 2 4 1612 240
+p 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_1/m1_336_56# 2 4 1656 240
+n 4in-multiplicand_1/m1_n576_64# Gnd 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_8# 2 4 1612 152
+p 4in-multiplicand_1/dflipflopER_1/m1_200_40# 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_96# 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# 2 4 1620 240
+n 4in-multiplicand_1/dflipflopER_1/m1_336_56# 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_8# Gnd 2 4 1644 152
+p 4in-multiplicand_1/dflipflopER_1/m1_336_56# 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_96# Vdd 2 4 1644 240
+n phi1 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_8# 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# 2 4 1620 152
+p phi1 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_96# 2 4 1636 240
+n 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_1/m1_336_56# 2 4 1656 152
+n 4in-multiplicand_1/dflipflopER_1/m1_200_40# 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_8# 2 4 1636 152
+p 4in-multiplicand_1/dflipflopER_1/m1_336_56# Vdd 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_96# 2 4 1700 240
+p 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_1/m1_424_48# 2 4 1744 240
+n 4in-multiplicand_1/dflipflopER_1/m1_336_56# Gnd 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_8# 2 4 1700 152
+p 4in-multiplicand_1/dflipflopER_1/m1_236_24# 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_96# 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# 2 4 1708 240
+n 4in-multiplicand_1/dflipflopER_1/m1_424_48# 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_8# Gnd 2 4 1732 152
+p 4in-multiplicand_1/dflipflopER_1/m1_424_48# 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_96# Vdd 2 4 1732 240
+n phi2 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_8# 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# 2 4 1708 152
+p phi2 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_96# 2 4 1724 240
+n 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_1/m1_424_48# 2 4 1744 152
+n 4in-multiplicand_1/dflipflopER_1/m1_236_24# 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_8# 2 4 1724 152
+p 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# Vdd out10 2 4 1856 240
+n 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# Gnd out10 2 4 1856 152
+p 4in-multiplicand_1/dflipflopER_1/m1_460_72# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# Vdd 2 4 1816 240
+p 4in-multiplicand_1/dflipflopER_1/m1_424_48# Vdd 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# 2 4 1828 240
+n 4in-multiplicand_1/dflipflopER_1/m1_460_72# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_18_8# 2 4 1816 152
+n 4in-multiplicand_1/dflipflopER_1/m1_424_48# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_18_8# Gnd 2 4 1828 152
+p reset Vdd 4in-multiplicand_1/dflipflopER_2/m1_460_72# 2 4 2316 128
+n reset Gnd 4in-multiplicand_1/dflipflopER_2/m1_460_72# 2 4 2316 40
+p phi2 Vdd 4in-multiplicand_1/dflipflopER_2/m1_236_24# 2 4 2092 128
+n phi2 Gnd 4in-multiplicand_1/dflipflopER_2/m1_236_24# 2 4 2092 40
+p phi1 Vdd 4in-multiplicand_1/dflipflopER_2/m1_200_40# 2 4 2056 128
+n phi1 Gnd 4in-multiplicand_1/dflipflopER_2/m1_200_40# 2 4 2056 40
+p 4in-multiplicand_1/m1_n40_n48# Vdd 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_96# 2 4 2148 128
+p 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_2/m1_336_56# 2 4 2192 128
+n 4in-multiplicand_1/m1_n40_n48# Gnd 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_8# 2 4 2148 40
+p 4in-multiplicand_1/dflipflopER_2/m1_200_40# 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_96# 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# 2 4 2156 128
+n 4in-multiplicand_1/dflipflopER_2/m1_336_56# 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_8# Gnd 2 4 2180 40
+p 4in-multiplicand_1/dflipflopER_2/m1_336_56# 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_96# Vdd 2 4 2180 128
+n phi1 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_8# 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# 2 4 2156 40
+p phi1 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_96# 2 4 2172 128
+n 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_2/m1_336_56# 2 4 2192 40
+n 4in-multiplicand_1/dflipflopER_2/m1_200_40# 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_8# 2 4 2172 40
+p 4in-multiplicand_1/dflipflopER_2/m1_336_56# Vdd 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_96# 2 4 2236 128
+p 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_2/m1_424_48# 2 4 2280 128
+n 4in-multiplicand_1/dflipflopER_2/m1_336_56# Gnd 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_8# 2 4 2236 40
+p 4in-multiplicand_1/dflipflopER_2/m1_236_24# 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_96# 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# 2 4 2244 128
+n 4in-multiplicand_1/dflipflopER_2/m1_424_48# 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_8# Gnd 2 4 2268 40
+p 4in-multiplicand_1/dflipflopER_2/m1_424_48# 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_96# Vdd 2 4 2268 128
+n phi2 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_8# 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# 2 4 2244 40
+p phi2 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_96# 2 4 2260 128
+n 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_2/m1_424_48# 2 4 2280 40
+n 4in-multiplicand_1/dflipflopER_2/m1_236_24# 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_8# 2 4 2260 40
+p 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# Vdd out3 2 4 2392 128
+n 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# Gnd out3 2 4 2392 40
+p 4in-multiplicand_1/dflipflopER_2/m1_460_72# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# Vdd 2 4 2352 128
+p 4in-multiplicand_1/dflipflopER_2/m1_424_48# Vdd 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# 2 4 2364 128
+n 4in-multiplicand_1/dflipflopER_2/m1_460_72# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_18_8# 2 4 2352 40
+n 4in-multiplicand_1/dflipflopER_2/m1_424_48# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_18_8# Gnd 2 4 2364 40
+p reset Vdd 4in-multiplicand_1/dflipflopER_3/m1_460_72# 2 4 1780 128
+n reset Gnd 4in-multiplicand_1/dflipflopER_3/m1_460_72# 2 4 1780 40
+p phi2 Vdd 4in-multiplicand_1/dflipflopER_3/m1_236_24# 2 4 1556 128
+n phi2 Gnd 4in-multiplicand_1/dflipflopER_3/m1_236_24# 2 4 1556 40
+p phi1 Vdd 4in-multiplicand_1/dflipflopER_3/m1_200_40# 2 4 1520 128
+n phi1 Gnd 4in-multiplicand_1/dflipflopER_3/m1_200_40# 2 4 1520 40
+p 4in-multiplicand_1/m1_n576_n48# Vdd 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_96# 2 4 1612 128
+p 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_3/m1_336_56# 2 4 1656 128
+n 4in-multiplicand_1/m1_n576_n48# Gnd 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_8# 2 4 1612 40
+p 4in-multiplicand_1/dflipflopER_3/m1_200_40# 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_96# 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# 2 4 1620 128
+n 4in-multiplicand_1/dflipflopER_3/m1_336_56# 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_8# Gnd 2 4 1644 40
+p 4in-multiplicand_1/dflipflopER_3/m1_336_56# 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_96# Vdd 2 4 1644 128
+n phi1 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_8# 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# 2 4 1620 40
+p phi1 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_96# 2 4 1636 128
+n 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_3/m1_336_56# 2 4 1656 40
+n 4in-multiplicand_1/dflipflopER_3/m1_200_40# 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_8# 2 4 1636 40
+p 4in-multiplicand_1/dflipflopER_3/m1_336_56# Vdd 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_96# 2 4 1700 128
+p 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# Vdd 4in-multiplicand_1/dflipflopER_3/m1_424_48# 2 4 1744 128
+n 4in-multiplicand_1/dflipflopER_3/m1_336_56# Gnd 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_8# 2 4 1700 40
+p 4in-multiplicand_1/dflipflopER_3/m1_236_24# 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_96# 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# 2 4 1708 128
+n 4in-multiplicand_1/dflipflopER_3/m1_424_48# 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_8# Gnd 2 4 1732 40
+p 4in-multiplicand_1/dflipflopER_3/m1_424_48# 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_96# Vdd 2 4 1732 128
+n phi2 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_8# 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# 2 4 1708 40
+p phi2 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_96# 2 4 1724 128
+n 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# Gnd 4in-multiplicand_1/dflipflopER_3/m1_424_48# 2 4 1744 40
+n 4in-multiplicand_1/dflipflopER_3/m1_236_24# 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_8# 2 4 1724 40
+p 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# Vdd out2 2 4 1856 128
+n 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# Gnd out2 2 4 1856 40
+p 4in-multiplicand_1/dflipflopER_3/m1_460_72# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# Vdd 2 4 1816 128
+p 4in-multiplicand_1/dflipflopER_3/m1_424_48# Vdd 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# 2 4 1828 128
+n 4in-multiplicand_1/dflipflopER_3/m1_460_72# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_18_8# 2 4 1816 40
+n 4in-multiplicand_1/dflipflopER_3/m1_424_48# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_18_8# Gnd 2 4 1828 40
+p s Vdd 4in-multiplicand_2/2inMUX_0/a_20_35# 3 4 3036 240
+n s Gnd 4in-multiplicand_2/2inMUX_0/a_20_35# 3 4 3036 152
+n 4in-multiplicand_2/2inMUX_0/a_20_35# out12 4in-multiplicand_2/m1_n40_64# 2 4 3088 202
+p s out12 4in-multiplicand_2/m1_n40_64# 2 4 3088 234
+p 4in-multiplicand_2/2inMUX_0/a_20_35# in13 4in-multiplicand_2/m1_n40_64# 2 4 3088 173
+n s in13 4in-multiplicand_2/m1_n40_64# 2 4 3088 157
+p s Vdd 4in-multiplicand_2/2inMUX_1/a_20_35# 3 4 2500 240
+n s Gnd 4in-multiplicand_2/2inMUX_1/a_20_35# 3 4 2500 152
+n 4in-multiplicand_2/2inMUX_1/a_20_35# out11 4in-multiplicand_2/m1_n576_64# 2 4 2552 202
+p s out11 4in-multiplicand_2/m1_n576_64# 2 4 2552 234
+p 4in-multiplicand_2/2inMUX_1/a_20_35# in12 4in-multiplicand_2/m1_n576_64# 2 4 2552 173
+n s in12 4in-multiplicand_2/m1_n576_64# 2 4 2552 157
+p s Vdd 4in-multiplicand_2/2inMUX_2/a_20_35# 3 4 3036 128
+n s Gnd 4in-multiplicand_2/2inMUX_2/a_20_35# 3 4 3036 40
+n 4in-multiplicand_2/2inMUX_2/a_20_35# out4 4in-multiplicand_2/m1_n40_n48# 2 4 3088 90
+p s out4 4in-multiplicand_2/m1_n40_n48# 2 4 3088 122
+p 4in-multiplicand_2/2inMUX_2/a_20_35# in5 4in-multiplicand_2/m1_n40_n48# 2 4 3088 61
+n s in5 4in-multiplicand_2/m1_n40_n48# 2 4 3088 45
+p s Vdd 4in-multiplicand_2/2inMUX_3/a_20_35# 3 4 2500 128
+n s Gnd 4in-multiplicand_2/2inMUX_3/a_20_35# 3 4 2500 40
+n 4in-multiplicand_2/2inMUX_3/a_20_35# out3 4in-multiplicand_2/m1_n576_n48# 2 4 2552 90
+p s out3 4in-multiplicand_2/m1_n576_n48# 2 4 2552 122
+p 4in-multiplicand_2/2inMUX_3/a_20_35# in4 4in-multiplicand_2/m1_n576_n48# 2 4 2552 61
+n s in4 4in-multiplicand_2/m1_n576_n48# 2 4 2552 45
+p reset Vdd 4in-multiplicand_2/dflipflopER_0/m1_460_72# 2 4 3444 240
+n reset Gnd 4in-multiplicand_2/dflipflopER_0/m1_460_72# 2 4 3444 152
+p phi2 Vdd 4in-multiplicand_2/dflipflopER_0/m1_236_24# 2 4 3220 240
+n phi2 Gnd 4in-multiplicand_2/dflipflopER_0/m1_236_24# 2 4 3220 152
+p phi1 Vdd 4in-multiplicand_2/dflipflopER_0/m1_200_40# 2 4 3184 240
+n phi1 Gnd 4in-multiplicand_2/dflipflopER_0/m1_200_40# 2 4 3184 152
+p 4in-multiplicand_2/m1_n40_64# Vdd 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_96# 2 4 3276 240
+p 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_0/m1_336_56# 2 4 3320 240
+n 4in-multiplicand_2/m1_n40_64# Gnd 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_8# 2 4 3276 152
+p 4in-multiplicand_2/dflipflopER_0/m1_200_40# 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_96# 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# 2 4 3284 240
+n 4in-multiplicand_2/dflipflopER_0/m1_336_56# 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_8# Gnd 2 4 3308 152
+p 4in-multiplicand_2/dflipflopER_0/m1_336_56# 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_96# Vdd 2 4 3308 240
+n phi1 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_8# 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# 2 4 3284 152
+p phi1 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_96# 2 4 3300 240
+n 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_0/m1_336_56# 2 4 3320 152
+n 4in-multiplicand_2/dflipflopER_0/m1_200_40# 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_8# 2 4 3300 152
+p 4in-multiplicand_2/dflipflopER_0/m1_336_56# Vdd 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_96# 2 4 3364 240
+p 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_0/m1_424_48# 2 4 3408 240
+n 4in-multiplicand_2/dflipflopER_0/m1_336_56# Gnd 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_8# 2 4 3364 152
+p 4in-multiplicand_2/dflipflopER_0/m1_236_24# 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_96# 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# 2 4 3372 240
+n 4in-multiplicand_2/dflipflopER_0/m1_424_48# 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_8# Gnd 2 4 3396 152
+p 4in-multiplicand_2/dflipflopER_0/m1_424_48# 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_96# Vdd 2 4 3396 240
+n phi2 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_8# 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# 2 4 3372 152
+p phi2 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_96# 2 4 3388 240
+n 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_0/m1_424_48# 2 4 3408 152
+n 4in-multiplicand_2/dflipflopER_0/m1_236_24# 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_8# 2 4 3388 152
+p 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# Vdd out13 2 4 3520 240
+n 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# Gnd out13 2 4 3520 152
+p 4in-multiplicand_2/dflipflopER_0/m1_460_72# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# Vdd 2 4 3480 240
+p 4in-multiplicand_2/dflipflopER_0/m1_424_48# Vdd 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# 2 4 3492 240
+n 4in-multiplicand_2/dflipflopER_0/m1_460_72# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_18_8# 2 4 3480 152
+n 4in-multiplicand_2/dflipflopER_0/m1_424_48# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_18_8# Gnd 2 4 3492 152
+p reset Vdd 4in-multiplicand_2/dflipflopER_1/m1_460_72# 2 4 2908 240
+n reset Gnd 4in-multiplicand_2/dflipflopER_1/m1_460_72# 2 4 2908 152
+p phi2 Vdd 4in-multiplicand_2/dflipflopER_1/m1_236_24# 2 4 2684 240
+n phi2 Gnd 4in-multiplicand_2/dflipflopER_1/m1_236_24# 2 4 2684 152
+p phi1 Vdd 4in-multiplicand_2/dflipflopER_1/m1_200_40# 2 4 2648 240
+n phi1 Gnd 4in-multiplicand_2/dflipflopER_1/m1_200_40# 2 4 2648 152
+p 4in-multiplicand_2/m1_n576_64# Vdd 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_96# 2 4 2740 240
+p 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_1/m1_336_56# 2 4 2784 240
+n 4in-multiplicand_2/m1_n576_64# Gnd 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_8# 2 4 2740 152
+p 4in-multiplicand_2/dflipflopER_1/m1_200_40# 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_96# 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# 2 4 2748 240
+n 4in-multiplicand_2/dflipflopER_1/m1_336_56# 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_8# Gnd 2 4 2772 152
+p 4in-multiplicand_2/dflipflopER_1/m1_336_56# 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_96# Vdd 2 4 2772 240
+n phi1 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_8# 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# 2 4 2748 152
+p phi1 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_96# 2 4 2764 240
+n 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_1/m1_336_56# 2 4 2784 152
+n 4in-multiplicand_2/dflipflopER_1/m1_200_40# 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_8# 2 4 2764 152
+p 4in-multiplicand_2/dflipflopER_1/m1_336_56# Vdd 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_96# 2 4 2828 240
+p 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_1/m1_424_48# 2 4 2872 240
+n 4in-multiplicand_2/dflipflopER_1/m1_336_56# Gnd 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_8# 2 4 2828 152
+p 4in-multiplicand_2/dflipflopER_1/m1_236_24# 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_96# 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# 2 4 2836 240
+n 4in-multiplicand_2/dflipflopER_1/m1_424_48# 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_8# Gnd 2 4 2860 152
+p 4in-multiplicand_2/dflipflopER_1/m1_424_48# 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_96# Vdd 2 4 2860 240
+n phi2 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_8# 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# 2 4 2836 152
+p phi2 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_96# 2 4 2852 240
+n 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_1/m1_424_48# 2 4 2872 152
+n 4in-multiplicand_2/dflipflopER_1/m1_236_24# 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_8# 2 4 2852 152
+p 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# Vdd out12 2 4 2984 240
+n 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# Gnd out12 2 4 2984 152
+p 4in-multiplicand_2/dflipflopER_1/m1_460_72# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# Vdd 2 4 2944 240
+p 4in-multiplicand_2/dflipflopER_1/m1_424_48# Vdd 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# 2 4 2956 240
+n 4in-multiplicand_2/dflipflopER_1/m1_460_72# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_18_8# 2 4 2944 152
+n 4in-multiplicand_2/dflipflopER_1/m1_424_48# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_18_8# Gnd 2 4 2956 152
+p reset Vdd 4in-multiplicand_2/dflipflopER_2/m1_460_72# 2 4 3444 128
+n reset Gnd 4in-multiplicand_2/dflipflopER_2/m1_460_72# 2 4 3444 40
+p phi2 Vdd 4in-multiplicand_2/dflipflopER_2/m1_236_24# 2 4 3220 128
+n phi2 Gnd 4in-multiplicand_2/dflipflopER_2/m1_236_24# 2 4 3220 40
+p phi1 Vdd 4in-multiplicand_2/dflipflopER_2/m1_200_40# 2 4 3184 128
+n phi1 Gnd 4in-multiplicand_2/dflipflopER_2/m1_200_40# 2 4 3184 40
+p 4in-multiplicand_2/m1_n40_n48# Vdd 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_96# 2 4 3276 128
+p 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_2/m1_336_56# 2 4 3320 128
+n 4in-multiplicand_2/m1_n40_n48# Gnd 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_8# 2 4 3276 40
+p 4in-multiplicand_2/dflipflopER_2/m1_200_40# 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_96# 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# 2 4 3284 128
+n 4in-multiplicand_2/dflipflopER_2/m1_336_56# 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_8# Gnd 2 4 3308 40
+p 4in-multiplicand_2/dflipflopER_2/m1_336_56# 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_96# Vdd 2 4 3308 128
+n phi1 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_8# 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# 2 4 3284 40
+p phi1 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_96# 2 4 3300 128
+n 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_2/m1_336_56# 2 4 3320 40
+n 4in-multiplicand_2/dflipflopER_2/m1_200_40# 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_8# 2 4 3300 40
+p 4in-multiplicand_2/dflipflopER_2/m1_336_56# Vdd 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_96# 2 4 3364 128
+p 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_2/m1_424_48# 2 4 3408 128
+n 4in-multiplicand_2/dflipflopER_2/m1_336_56# Gnd 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_8# 2 4 3364 40
+p 4in-multiplicand_2/dflipflopER_2/m1_236_24# 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_96# 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# 2 4 3372 128
+n 4in-multiplicand_2/dflipflopER_2/m1_424_48# 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_8# Gnd 2 4 3396 40
+p 4in-multiplicand_2/dflipflopER_2/m1_424_48# 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_96# Vdd 2 4 3396 128
+n phi2 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_8# 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# 2 4 3372 40
+p phi2 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_96# 2 4 3388 128
+n 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_2/m1_424_48# 2 4 3408 40
+n 4in-multiplicand_2/dflipflopER_2/m1_236_24# 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_8# 2 4 3388 40
+p 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# Vdd out5 2 4 3520 128
+n 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# Gnd out5 2 4 3520 40
+p 4in-multiplicand_2/dflipflopER_2/m1_460_72# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# Vdd 2 4 3480 128
+p 4in-multiplicand_2/dflipflopER_2/m1_424_48# Vdd 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# 2 4 3492 128
+n 4in-multiplicand_2/dflipflopER_2/m1_460_72# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_18_8# 2 4 3480 40
+n 4in-multiplicand_2/dflipflopER_2/m1_424_48# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_18_8# Gnd 2 4 3492 40
+p reset Vdd 4in-multiplicand_2/dflipflopER_3/m1_460_72# 2 4 2908 128
+n reset Gnd 4in-multiplicand_2/dflipflopER_3/m1_460_72# 2 4 2908 40
+p phi2 Vdd 4in-multiplicand_2/dflipflopER_3/m1_236_24# 2 4 2684 128
+n phi2 Gnd 4in-multiplicand_2/dflipflopER_3/m1_236_24# 2 4 2684 40
+p phi1 Vdd 4in-multiplicand_2/dflipflopER_3/m1_200_40# 2 4 2648 128
+n phi1 Gnd 4in-multiplicand_2/dflipflopER_3/m1_200_40# 2 4 2648 40
+p 4in-multiplicand_2/m1_n576_n48# Vdd 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_96# 2 4 2740 128
+p 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_3/m1_336_56# 2 4 2784 128
+n 4in-multiplicand_2/m1_n576_n48# Gnd 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_8# 2 4 2740 40
+p 4in-multiplicand_2/dflipflopER_3/m1_200_40# 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_96# 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# 2 4 2748 128
+n 4in-multiplicand_2/dflipflopER_3/m1_336_56# 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_8# Gnd 2 4 2772 40
+p 4in-multiplicand_2/dflipflopER_3/m1_336_56# 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_96# Vdd 2 4 2772 128
+n phi1 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_8# 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# 2 4 2748 40
+p phi1 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_96# 2 4 2764 128
+n 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_3/m1_336_56# 2 4 2784 40
+n 4in-multiplicand_2/dflipflopER_3/m1_200_40# 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_8# 2 4 2764 40
+p 4in-multiplicand_2/dflipflopER_3/m1_336_56# Vdd 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_96# 2 4 2828 128
+p 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# Vdd 4in-multiplicand_2/dflipflopER_3/m1_424_48# 2 4 2872 128
+n 4in-multiplicand_2/dflipflopER_3/m1_336_56# Gnd 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_8# 2 4 2828 40
+p 4in-multiplicand_2/dflipflopER_3/m1_236_24# 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_96# 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# 2 4 2836 128
+n 4in-multiplicand_2/dflipflopER_3/m1_424_48# 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_8# Gnd 2 4 2860 40
+p 4in-multiplicand_2/dflipflopER_3/m1_424_48# 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_96# Vdd 2 4 2860 128
+n phi2 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_8# 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# 2 4 2836 40
+p phi2 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_96# 2 4 2852 128
+n 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# Gnd 4in-multiplicand_2/dflipflopER_3/m1_424_48# 2 4 2872 40
+n 4in-multiplicand_2/dflipflopER_3/m1_236_24# 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_8# 2 4 2852 40
+p 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# Vdd out4 2 4 2984 128
+n 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# Gnd out4 2 4 2984 40
+p 4in-multiplicand_2/dflipflopER_3/m1_460_72# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# Vdd 2 4 2944 128
+p 4in-multiplicand_2/dflipflopER_3/m1_424_48# Vdd 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# 2 4 2956 128
+n 4in-multiplicand_2/dflipflopER_3/m1_460_72# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_18_8# 2 4 2944 40
+n 4in-multiplicand_2/dflipflopER_3/m1_424_48# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_18_8# Gnd 2 4 2956 40
+p s Vdd 4in-multiplicand_3/2inMUX_0/a_20_35# 3 4 4164 240
+n s Gnd 4in-multiplicand_3/2inMUX_0/a_20_35# 3 4 4164 152
+n 4in-multiplicand_3/2inMUX_0/a_20_35# out14 4in-multiplicand_3/m1_n40_64# 2 4 4216 202
+p s out14 4in-multiplicand_3/m1_n40_64# 2 4 4216 234
+p 4in-multiplicand_3/2inMUX_0/a_20_35# in15 4in-multiplicand_3/m1_n40_64# 2 4 4216 173
+n s in15 4in-multiplicand_3/m1_n40_64# 2 4 4216 157
+p s Vdd 4in-multiplicand_3/2inMUX_1/a_20_35# 3 4 3628 240
+n s Gnd 4in-multiplicand_3/2inMUX_1/a_20_35# 3 4 3628 152
+n 4in-multiplicand_3/2inMUX_1/a_20_35# out13 4in-multiplicand_3/m1_n576_64# 2 4 3680 202
+p s out13 4in-multiplicand_3/m1_n576_64# 2 4 3680 234
+p 4in-multiplicand_3/2inMUX_1/a_20_35# in14 4in-multiplicand_3/m1_n576_64# 2 4 3680 173
+n s in14 4in-multiplicand_3/m1_n576_64# 2 4 3680 157
+p s Vdd 4in-multiplicand_3/2inMUX_2/a_20_35# 3 4 4164 128
+n s Gnd 4in-multiplicand_3/2inMUX_2/a_20_35# 3 4 4164 40
+n 4in-multiplicand_3/2inMUX_2/a_20_35# out6 4in-multiplicand_3/m1_n40_n48# 2 4 4216 90
+p s out6 4in-multiplicand_3/m1_n40_n48# 2 4 4216 122
+p 4in-multiplicand_3/2inMUX_2/a_20_35# in7 4in-multiplicand_3/m1_n40_n48# 2 4 4216 61
+n s in7 4in-multiplicand_3/m1_n40_n48# 2 4 4216 45
+p s Vdd 4in-multiplicand_3/2inMUX_3/a_20_35# 3 4 3628 128
+n s Gnd 4in-multiplicand_3/2inMUX_3/a_20_35# 3 4 3628 40
+n 4in-multiplicand_3/2inMUX_3/a_20_35# out5 4in-multiplicand_3/m1_n576_n48# 2 4 3680 90
+p s out5 4in-multiplicand_3/m1_n576_n48# 2 4 3680 122
+p 4in-multiplicand_3/2inMUX_3/a_20_35# in6 4in-multiplicand_3/m1_n576_n48# 2 4 3680 61
+n s in6 4in-multiplicand_3/m1_n576_n48# 2 4 3680 45
+p reset Vdd 4in-multiplicand_3/dflipflopER_0/m1_460_72# 2 4 4572 240
+n reset Gnd 4in-multiplicand_3/dflipflopER_0/m1_460_72# 2 4 4572 152
+p phi2 Vdd 4in-multiplicand_3/dflipflopER_0/m1_236_24# 2 4 4348 240
+n phi2 Gnd 4in-multiplicand_3/dflipflopER_0/m1_236_24# 2 4 4348 152
+p phi1 Vdd 4in-multiplicand_3/dflipflopER_0/m1_200_40# 2 4 4312 240
+n phi1 Gnd 4in-multiplicand_3/dflipflopER_0/m1_200_40# 2 4 4312 152
+p 4in-multiplicand_3/m1_n40_64# Vdd 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_96# 2 4 4404 240
+p 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_0/m1_336_56# 2 4 4448 240
+n 4in-multiplicand_3/m1_n40_64# Gnd 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_8# 2 4 4404 152
+p 4in-multiplicand_3/dflipflopER_0/m1_200_40# 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_96# 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# 2 4 4412 240
+n 4in-multiplicand_3/dflipflopER_0/m1_336_56# 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_8# Gnd 2 4 4436 152
+p 4in-multiplicand_3/dflipflopER_0/m1_336_56# 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_96# Vdd 2 4 4436 240
+n phi1 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_8# 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# 2 4 4412 152
+p phi1 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_96# 2 4 4428 240
+n 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_0/m1_336_56# 2 4 4448 152
+n 4in-multiplicand_3/dflipflopER_0/m1_200_40# 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_8# 2 4 4428 152
+p 4in-multiplicand_3/dflipflopER_0/m1_336_56# Vdd 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_96# 2 4 4492 240
+p 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_0/m1_424_48# 2 4 4536 240
+n 4in-multiplicand_3/dflipflopER_0/m1_336_56# Gnd 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_8# 2 4 4492 152
+p 4in-multiplicand_3/dflipflopER_0/m1_236_24# 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_96# 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# 2 4 4500 240
+n 4in-multiplicand_3/dflipflopER_0/m1_424_48# 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_8# Gnd 2 4 4524 152
+p 4in-multiplicand_3/dflipflopER_0/m1_424_48# 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_96# Vdd 2 4 4524 240
+n phi2 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_8# 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# 2 4 4500 152
+p phi2 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_96# 2 4 4516 240
+n 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_0/m1_424_48# 2 4 4536 152
+n 4in-multiplicand_3/dflipflopER_0/m1_236_24# 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_8# 2 4 4516 152
+p 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# Vdd out15 2 4 4648 240
+n 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# Gnd out15 2 4 4648 152
+p 4in-multiplicand_3/dflipflopER_0/m1_460_72# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# Vdd 2 4 4608 240
+p 4in-multiplicand_3/dflipflopER_0/m1_424_48# Vdd 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# 2 4 4620 240
+n 4in-multiplicand_3/dflipflopER_0/m1_460_72# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_18_8# 2 4 4608 152
+n 4in-multiplicand_3/dflipflopER_0/m1_424_48# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_18_8# Gnd 2 4 4620 152
+p reset Vdd 4in-multiplicand_3/dflipflopER_1/m1_460_72# 2 4 4036 240
+n reset Gnd 4in-multiplicand_3/dflipflopER_1/m1_460_72# 2 4 4036 152
+p phi2 Vdd 4in-multiplicand_3/dflipflopER_1/m1_236_24# 2 4 3812 240
+n phi2 Gnd 4in-multiplicand_3/dflipflopER_1/m1_236_24# 2 4 3812 152
+p phi1 Vdd 4in-multiplicand_3/dflipflopER_1/m1_200_40# 2 4 3776 240
+n phi1 Gnd 4in-multiplicand_3/dflipflopER_1/m1_200_40# 2 4 3776 152
+p 4in-multiplicand_3/m1_n576_64# Vdd 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_96# 2 4 3868 240
+p 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_1/m1_336_56# 2 4 3912 240
+n 4in-multiplicand_3/m1_n576_64# Gnd 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_8# 2 4 3868 152
+p 4in-multiplicand_3/dflipflopER_1/m1_200_40# 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_96# 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# 2 4 3876 240
+n 4in-multiplicand_3/dflipflopER_1/m1_336_56# 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_8# Gnd 2 4 3900 152
+p 4in-multiplicand_3/dflipflopER_1/m1_336_56# 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_96# Vdd 2 4 3900 240
+n phi1 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_8# 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# 2 4 3876 152
+p phi1 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_96# 2 4 3892 240
+n 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_1/m1_336_56# 2 4 3912 152
+n 4in-multiplicand_3/dflipflopER_1/m1_200_40# 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_8# 2 4 3892 152
+p 4in-multiplicand_3/dflipflopER_1/m1_336_56# Vdd 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_96# 2 4 3956 240
+p 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_1/m1_424_48# 2 4 4000 240
+n 4in-multiplicand_3/dflipflopER_1/m1_336_56# Gnd 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_8# 2 4 3956 152
+p 4in-multiplicand_3/dflipflopER_1/m1_236_24# 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_96# 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# 2 4 3964 240
+n 4in-multiplicand_3/dflipflopER_1/m1_424_48# 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_8# Gnd 2 4 3988 152
+p 4in-multiplicand_3/dflipflopER_1/m1_424_48# 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_96# Vdd 2 4 3988 240
+n phi2 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_8# 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# 2 4 3964 152
+p phi2 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_96# 2 4 3980 240
+n 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_1/m1_424_48# 2 4 4000 152
+n 4in-multiplicand_3/dflipflopER_1/m1_236_24# 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_8# 2 4 3980 152
+p 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# Vdd out14 2 4 4112 240
+n 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# Gnd out14 2 4 4112 152
+p 4in-multiplicand_3/dflipflopER_1/m1_460_72# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# Vdd 2 4 4072 240
+p 4in-multiplicand_3/dflipflopER_1/m1_424_48# Vdd 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# 2 4 4084 240
+n 4in-multiplicand_3/dflipflopER_1/m1_460_72# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_18_8# 2 4 4072 152
+n 4in-multiplicand_3/dflipflopER_1/m1_424_48# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_18_8# Gnd 2 4 4084 152
+p reset Vdd 4in-multiplicand_3/dflipflopER_2/m1_460_72# 2 4 4572 128
+n reset Gnd 4in-multiplicand_3/dflipflopER_2/m1_460_72# 2 4 4572 40
+p phi2 Vdd 4in-multiplicand_3/dflipflopER_2/m1_236_24# 2 4 4348 128
+n phi2 Gnd 4in-multiplicand_3/dflipflopER_2/m1_236_24# 2 4 4348 40
+p phi1 Vdd 4in-multiplicand_3/dflipflopER_2/m1_200_40# 2 4 4312 128
+n phi1 Gnd 4in-multiplicand_3/dflipflopER_2/m1_200_40# 2 4 4312 40
+p 4in-multiplicand_3/m1_n40_n48# Vdd 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_96# 2 4 4404 128
+p 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_2/m1_336_56# 2 4 4448 128
+n 4in-multiplicand_3/m1_n40_n48# Gnd 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_8# 2 4 4404 40
+p 4in-multiplicand_3/dflipflopER_2/m1_200_40# 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_96# 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# 2 4 4412 128
+n 4in-multiplicand_3/dflipflopER_2/m1_336_56# 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_8# Gnd 2 4 4436 40
+p 4in-multiplicand_3/dflipflopER_2/m1_336_56# 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_96# Vdd 2 4 4436 128
+n phi1 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_8# 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# 2 4 4412 40
+p phi1 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_96# 2 4 4428 128
+n 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_2/m1_336_56# 2 4 4448 40
+n 4in-multiplicand_3/dflipflopER_2/m1_200_40# 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_8# 2 4 4428 40
+p 4in-multiplicand_3/dflipflopER_2/m1_336_56# Vdd 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_96# 2 4 4492 128
+p 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_2/m1_424_48# 2 4 4536 128
+n 4in-multiplicand_3/dflipflopER_2/m1_336_56# Gnd 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_8# 2 4 4492 40
+p 4in-multiplicand_3/dflipflopER_2/m1_236_24# 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_96# 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# 2 4 4500 128
+n 4in-multiplicand_3/dflipflopER_2/m1_424_48# 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_8# Gnd 2 4 4524 40
+p 4in-multiplicand_3/dflipflopER_2/m1_424_48# 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_96# Vdd 2 4 4524 128
+n phi2 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_8# 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# 2 4 4500 40
+p phi2 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_96# 2 4 4516 128
+n 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_2/m1_424_48# 2 4 4536 40
+n 4in-multiplicand_3/dflipflopER_2/m1_236_24# 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_8# 2 4 4516 40
+p 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# Vdd out7 2 4 4648 128
+n 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# Gnd out7 2 4 4648 40
+p 4in-multiplicand_3/dflipflopER_2/m1_460_72# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# Vdd 2 4 4608 128
+p 4in-multiplicand_3/dflipflopER_2/m1_424_48# Vdd 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# 2 4 4620 128
+n 4in-multiplicand_3/dflipflopER_2/m1_460_72# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_18_8# 2 4 4608 40
+n 4in-multiplicand_3/dflipflopER_2/m1_424_48# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_18_8# Gnd 2 4 4620 40
+p reset Vdd 4in-multiplicand_3/dflipflopER_3/m1_460_72# 2 4 4036 128
+n reset Gnd 4in-multiplicand_3/dflipflopER_3/m1_460_72# 2 4 4036 40
+p phi2 Vdd 4in-multiplicand_3/dflipflopER_3/m1_236_24# 2 4 3812 128
+n phi2 Gnd 4in-multiplicand_3/dflipflopER_3/m1_236_24# 2 4 3812 40
+p phi1 Vdd 4in-multiplicand_3/dflipflopER_3/m1_200_40# 2 4 3776 128
+n phi1 Gnd 4in-multiplicand_3/dflipflopER_3/m1_200_40# 2 4 3776 40
+p 4in-multiplicand_3/m1_n576_n48# Vdd 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_96# 2 4 3868 128
+p 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_3/m1_336_56# 2 4 3912 128
+n 4in-multiplicand_3/m1_n576_n48# Gnd 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_8# 2 4 3868 40
+p 4in-multiplicand_3/dflipflopER_3/m1_200_40# 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_96# 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# 2 4 3876 128
+n 4in-multiplicand_3/dflipflopER_3/m1_336_56# 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_8# Gnd 2 4 3900 40
+p 4in-multiplicand_3/dflipflopER_3/m1_336_56# 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_96# Vdd 2 4 3900 128
+n phi1 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_8# 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# 2 4 3876 40
+p phi1 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_96# 2 4 3892 128
+n 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_3/m1_336_56# 2 4 3912 40
+n 4in-multiplicand_3/dflipflopER_3/m1_200_40# 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_8# 2 4 3892 40
+p 4in-multiplicand_3/dflipflopER_3/m1_336_56# Vdd 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_96# 2 4 3956 128
+p 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# Vdd 4in-multiplicand_3/dflipflopER_3/m1_424_48# 2 4 4000 128
+n 4in-multiplicand_3/dflipflopER_3/m1_336_56# Gnd 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_8# 2 4 3956 40
+p 4in-multiplicand_3/dflipflopER_3/m1_236_24# 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_96# 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# 2 4 3964 128
+n 4in-multiplicand_3/dflipflopER_3/m1_424_48# 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_8# Gnd 2 4 3988 40
+p 4in-multiplicand_3/dflipflopER_3/m1_424_48# 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_96# Vdd 2 4 3988 128
+n phi2 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_8# 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# 2 4 3964 40
+p phi2 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_96# 2 4 3980 128
+n 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# Gnd 4in-multiplicand_3/dflipflopER_3/m1_424_48# 2 4 4000 40
+n 4in-multiplicand_3/dflipflopER_3/m1_236_24# 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_8# 2 4 3980 40
+p 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# Vdd out6 2 4 4112 128
+n 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# Gnd out6 2 4 4112 40
+p 4in-multiplicand_3/dflipflopER_3/m1_460_72# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# Vdd 2 4 4072 128
+p 4in-multiplicand_3/dflipflopER_3/m1_424_48# Vdd 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# 2 4 4084 128
+n 4in-multiplicand_3/dflipflopER_3/m1_460_72# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_18_8# 2 4 4072 40
+n 4in-multiplicand_3/dflipflopER_3/m1_424_48# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_18_8# Gnd 2 4 4084 40
+C phi2 4in-multiplicand_3/dflipflopER_1/m1_200_40# 2.46
+C Gnd Vdd 2.88
+C reset phi2 15.66
+C phi1 Vdd 11.52
+C phi1 Gnd 5.76
+C s reset 5.04
+C phi2 Vdd 11.52
+C phi2 Gnd 5.76
+C phi2 4in-multiplicand_0/dflipflopER_3/m1_200_40# 2.46
+C phi2 4in-multiplicand_1/dflipflopER_3/m1_200_40# 2.46
+C 4in-multiplicand_0/dflipflopER_0/m1_200_40# phi2 2.46
+C 4in-multiplicand_0/dflipflopER_2/m1_200_40# phi2 2.46
+C phi2 phi1 41.14
+C phi2 4in-multiplicand_2/dflipflopER_3/m1_200_40# 2.46
+C s Vdd 7.92
+C phi2 4in-multiplicand_1/dflipflopER_0/m1_200_40# 2.46
+C phi2 4in-multiplicand_1/dflipflopER_2/m1_200_40# 2.46
+C s Gnd 8.39
+C 4in-multiplicand_0/dflipflopER_1/m1_200_40# phi2 2.46
+C phi2 4in-multiplicand_3/dflipflopER_3/m1_200_40# 2.46
+C phi2 4in-multiplicand_2/dflipflopER_0/m1_200_40# 2.46
+C phi2 4in-multiplicand_2/dflipflopER_2/m1_200_40# 2.46
+C reset Vdd 11.52
+C reset Gnd 5.76
+C phi2 4in-multiplicand_1/dflipflopER_1/m1_200_40# 2.46
+C s phi1 5.04
+C phi2 4in-multiplicand_3/dflipflopER_0/m1_200_40# 2.46
+C phi2 4in-multiplicand_3/dflipflopER_2/m1_200_40# 2.46
+C phi2 4in-multiplicand_2/dflipflopER_1/m1_200_40# 2.46
+C s phi2 5.04
+C reset phi1 15.66
+R 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_18_8# 67
+C out6 GND 31.70
+R out6 628
+= out6 4in-multiplicand_3/2inMUX_2/a_28_58#
+= out6 4in-multiplicand_3/dflipflopER_3/2inAND_3/m1_64_56#
+= out6 4in-multiplicand_3/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-multiplicand_3/dflipflopER_3/m1_424_48# 2556
+= 4in-multiplicand_3/dflipflopER_3/m1_424_48# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-multiplicand_3/dflipflopER_3/m1_424_48# 4in-multiplicand_3/dflipflopER_3/latch_1/a_48_6#
+R 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-multiplicand_3/dflipflopER_3/m1_336_56# 2651
+= 4in-multiplicand_3/dflipflopER_3/m1_336_56# 4in-multiplicand_3/dflipflopER_3/latch_1/a_8_56#
+= 4in-multiplicand_3/dflipflopER_3/m1_336_56# 4in-multiplicand_3/dflipflopER_3/latch_0/a_48_6#
+C 4in-multiplicand_3/m1_n576_n48# GND 61.31
+R 4in-multiplicand_3/m1_n576_n48# 1905
+= 4in-multiplicand_3/m1_n576_n48# 4in-multiplicand_3/2inMUX_3/a_38_13#
+= 4in-multiplicand_3/m1_n576_n48# 4in-multiplicand_3/dflipflopER_3/m1_252_56#
+= 4in-multiplicand_3/m1_n576_n48# 4in-multiplicand_3/dflipflopER_3/latch_0/a_8_56#
+C 4in-multiplicand_3/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-multiplicand_3/dflipflopER_3/m1_200_40# 1508
+= 4in-multiplicand_3/dflipflopER_3/m1_200_40# 4in-multiplicand_3/dflipflopER_3/latch_0/a_24_68#
+= 4in-multiplicand_3/dflipflopER_3/m1_200_40# 4in-multiplicand_3/dflipflopER_3/inverter_2/a_18_8#
+C 4in-multiplicand_3/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-multiplicand_3/dflipflopER_3/m1_236_24# 1507
+= 4in-multiplicand_3/dflipflopER_3/m1_236_24# 4in-multiplicand_3/dflipflopER_3/latch_1/a_24_68#
+= 4in-multiplicand_3/dflipflopER_3/m1_236_24# 4in-multiplicand_3/dflipflopER_3/inverter_1/a_18_8#
+C 4in-multiplicand_3/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-multiplicand_3/dflipflopER_3/m1_460_72# 1457
+= 4in-multiplicand_3/dflipflopER_3/m1_460_72# 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-multiplicand_3/dflipflopER_3/m1_460_72# 4in-multiplicand_3/dflipflopER_3/inverter_0/a_18_8#
+R 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_18_8# 67
+C out7 GND 913.95
+R out7 686
+= out7 4in-multiplicand_0/2inMUX_1/a_28_58#
+= out7 4in-multiplicand_3/dflipflopER_2/2inAND_3/m1_64_56#
+= out7 4in-multiplicand_3/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-multiplicand_3/dflipflopER_2/m1_424_48# 2556
+= 4in-multiplicand_3/dflipflopER_2/m1_424_48# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-multiplicand_3/dflipflopER_2/m1_424_48# 4in-multiplicand_3/dflipflopER_2/latch_1/a_48_6#
+R 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-multiplicand_3/dflipflopER_2/m1_336_56# 2651
+= 4in-multiplicand_3/dflipflopER_2/m1_336_56# 4in-multiplicand_3/dflipflopER_2/latch_1/a_8_56#
+= 4in-multiplicand_3/dflipflopER_2/m1_336_56# 4in-multiplicand_3/dflipflopER_2/latch_0/a_48_6#
+C 4in-multiplicand_3/m1_n40_n48# GND 59.79
+R 4in-multiplicand_3/m1_n40_n48# 1904
+= 4in-multiplicand_3/m1_n40_n48# 4in-multiplicand_3/2inMUX_2/a_38_13#
+= 4in-multiplicand_3/m1_n40_n48# 4in-multiplicand_3/dflipflopER_2/m1_252_56#
+= 4in-multiplicand_3/m1_n40_n48# 4in-multiplicand_3/dflipflopER_2/latch_0/a_8_56#
+C 4in-multiplicand_3/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-multiplicand_3/dflipflopER_2/m1_200_40# 1508
+= 4in-multiplicand_3/dflipflopER_2/m1_200_40# 4in-multiplicand_3/dflipflopER_2/latch_0/a_24_68#
+= 4in-multiplicand_3/dflipflopER_2/m1_200_40# 4in-multiplicand_3/dflipflopER_2/inverter_2/a_18_8#
+C 4in-multiplicand_3/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-multiplicand_3/dflipflopER_2/m1_236_24# 1507
+= 4in-multiplicand_3/dflipflopER_2/m1_236_24# 4in-multiplicand_3/dflipflopER_2/latch_1/a_24_68#
+= 4in-multiplicand_3/dflipflopER_2/m1_236_24# 4in-multiplicand_3/dflipflopER_2/inverter_1/a_18_8#
+C 4in-multiplicand_3/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-multiplicand_3/dflipflopER_2/m1_460_72# 1457
+= 4in-multiplicand_3/dflipflopER_2/m1_460_72# 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-multiplicand_3/dflipflopER_2/m1_460_72# 4in-multiplicand_3/dflipflopER_2/inverter_0/a_18_8#
+R 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_18_8# 67
+C out14 GND 31.48
+R out14 628
+= out14 4in-multiplicand_3/2inMUX_0/a_28_58#
+= out14 4in-multiplicand_3/dflipflopER_1/2inAND_3/m1_64_56#
+= out14 4in-multiplicand_3/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-multiplicand_3/dflipflopER_1/m1_424_48# 2556
+= 4in-multiplicand_3/dflipflopER_1/m1_424_48# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-multiplicand_3/dflipflopER_1/m1_424_48# 4in-multiplicand_3/dflipflopER_1/latch_1/a_48_6#
+R 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-multiplicand_3/dflipflopER_1/m1_336_56# 2651
+= 4in-multiplicand_3/dflipflopER_1/m1_336_56# 4in-multiplicand_3/dflipflopER_1/latch_1/a_8_56#
+= 4in-multiplicand_3/dflipflopER_1/m1_336_56# 4in-multiplicand_3/dflipflopER_1/latch_0/a_48_6#
+C 4in-multiplicand_3/m1_n576_64# GND 61.01
+R 4in-multiplicand_3/m1_n576_64# 1905
+= 4in-multiplicand_3/m1_n576_64# 4in-multiplicand_3/2inMUX_1/a_38_13#
+= 4in-multiplicand_3/m1_n576_64# 4in-multiplicand_3/dflipflopER_1/m1_252_56#
+= 4in-multiplicand_3/m1_n576_64# 4in-multiplicand_3/dflipflopER_1/latch_0/a_8_56#
+C 4in-multiplicand_3/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-multiplicand_3/dflipflopER_1/m1_200_40# 1508
+= 4in-multiplicand_3/dflipflopER_1/m1_200_40# 4in-multiplicand_3/dflipflopER_1/latch_0/a_24_68#
+= 4in-multiplicand_3/dflipflopER_1/m1_200_40# 4in-multiplicand_3/dflipflopER_1/inverter_2/a_18_8#
+C 4in-multiplicand_3/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-multiplicand_3/dflipflopER_1/m1_236_24# 1507
+= 4in-multiplicand_3/dflipflopER_1/m1_236_24# 4in-multiplicand_3/dflipflopER_1/latch_1/a_24_68#
+= 4in-multiplicand_3/dflipflopER_1/m1_236_24# 4in-multiplicand_3/dflipflopER_1/inverter_1/a_18_8#
+C 4in-multiplicand_3/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-multiplicand_3/dflipflopER_1/m1_460_72# 1457
+= 4in-multiplicand_3/dflipflopER_1/m1_460_72# 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-multiplicand_3/dflipflopER_1/m1_460_72# 4in-multiplicand_3/dflipflopER_1/inverter_0/a_18_8#
+R 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_18_8# 67
+C out15 GND 16.36
+R out15 217
+= out15 4in-multiplicand_3/dflipflopER_0/2inAND_3/m1_64_56#
+= out15 4in-multiplicand_3/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_3/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-multiplicand_3/dflipflopER_0/m1_424_48# 2556
+= 4in-multiplicand_3/dflipflopER_0/m1_424_48# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-multiplicand_3/dflipflopER_0/m1_424_48# 4in-multiplicand_3/dflipflopER_0/latch_1/a_48_6#
+R 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-multiplicand_3/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-multiplicand_3/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_3/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-multiplicand_3/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-multiplicand_3/dflipflopER_0/m1_336_56# 2651
+= 4in-multiplicand_3/dflipflopER_0/m1_336_56# 4in-multiplicand_3/dflipflopER_0/latch_1/a_8_56#
+= 4in-multiplicand_3/dflipflopER_0/m1_336_56# 4in-multiplicand_3/dflipflopER_0/latch_0/a_48_6#
+C 4in-multiplicand_3/m1_n40_64# GND 59.49
+R 4in-multiplicand_3/m1_n40_64# 1904
+= 4in-multiplicand_3/m1_n40_64# 4in-multiplicand_3/2inMUX_0/a_38_13#
+= 4in-multiplicand_3/m1_n40_64# 4in-multiplicand_3/dflipflopER_0/m1_252_56#
+= 4in-multiplicand_3/m1_n40_64# 4in-multiplicand_3/dflipflopER_0/latch_0/a_8_56#
+C 4in-multiplicand_3/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-multiplicand_3/dflipflopER_0/m1_200_40# 1508
+= 4in-multiplicand_3/dflipflopER_0/m1_200_40# 4in-multiplicand_3/dflipflopER_0/latch_0/a_24_68#
+= 4in-multiplicand_3/dflipflopER_0/m1_200_40# 4in-multiplicand_3/dflipflopER_0/inverter_2/a_18_8#
+C 4in-multiplicand_3/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-multiplicand_3/dflipflopER_0/m1_236_24# 1507
+= 4in-multiplicand_3/dflipflopER_0/m1_236_24# 4in-multiplicand_3/dflipflopER_0/latch_1/a_24_68#
+= 4in-multiplicand_3/dflipflopER_0/m1_236_24# 4in-multiplicand_3/dflipflopER_0/inverter_1/a_18_8#
+C 4in-multiplicand_3/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-multiplicand_3/dflipflopER_0/m1_460_72# 1457
+= 4in-multiplicand_3/dflipflopER_0/m1_460_72# 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-multiplicand_3/dflipflopER_0/m1_460_72# 4in-multiplicand_3/dflipflopER_0/inverter_0/a_18_8#
+C in6 GND 6.39
+R in6 173
+= in6 4in-multiplicand_3/2inMUX_3/a_28_13#
+C 4in-multiplicand_3/2inMUX_3/a_20_35# GND 37.94
+R 4in-multiplicand_3/2inMUX_3/a_20_35# 1113
+= 4in-multiplicand_3/2inMUX_3/a_20_35# 4in-multiplicand_3/2inMUX_3/inv_0/a_15_8#
+C in7 GND 6.39
+R in7 173
+= in7 4in-multiplicand_3/2inMUX_2/a_28_13#
+C 4in-multiplicand_3/2inMUX_2/a_20_35# GND 37.94
+R 4in-multiplicand_3/2inMUX_2/a_20_35# 1113
+= 4in-multiplicand_3/2inMUX_2/a_20_35# 4in-multiplicand_3/2inMUX_2/inv_0/a_15_8#
+C in14 GND 6.39
+R in14 173
+= in14 4in-multiplicand_3/2inMUX_1/a_28_13#
+C 4in-multiplicand_3/2inMUX_1/a_20_35# GND 37.94
+R 4in-multiplicand_3/2inMUX_1/a_20_35# 1113
+= 4in-multiplicand_3/2inMUX_1/a_20_35# 4in-multiplicand_3/2inMUX_1/inv_0/a_15_8#
+C in15 GND 6.39
+R in15 173
+= in15 4in-multiplicand_3/2inMUX_0/a_28_13#
+C 4in-multiplicand_3/2inMUX_0/a_20_35# GND 37.94
+R 4in-multiplicand_3/2inMUX_0/a_20_35# 1113
+= 4in-multiplicand_3/2inMUX_0/a_20_35# 4in-multiplicand_3/2inMUX_0/inv_0/a_15_8#
+R 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_18_8# 67
+C out4 GND 31.70
+R out4 628
+= out4 4in-multiplicand_2/2inMUX_2/a_28_58#
+= out4 4in-multiplicand_2/dflipflopER_3/2inAND_3/m1_64_56#
+= out4 4in-multiplicand_2/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-multiplicand_2/dflipflopER_3/m1_424_48# 2556
+= 4in-multiplicand_2/dflipflopER_3/m1_424_48# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-multiplicand_2/dflipflopER_3/m1_424_48# 4in-multiplicand_2/dflipflopER_3/latch_1/a_48_6#
+R 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-multiplicand_2/dflipflopER_3/m1_336_56# 2651
+= 4in-multiplicand_2/dflipflopER_3/m1_336_56# 4in-multiplicand_2/dflipflopER_3/latch_1/a_8_56#
+= 4in-multiplicand_2/dflipflopER_3/m1_336_56# 4in-multiplicand_2/dflipflopER_3/latch_0/a_48_6#
+C 4in-multiplicand_2/m1_n576_n48# GND 61.31
+R 4in-multiplicand_2/m1_n576_n48# 1905
+= 4in-multiplicand_2/m1_n576_n48# 4in-multiplicand_2/2inMUX_3/a_38_13#
+= 4in-multiplicand_2/m1_n576_n48# 4in-multiplicand_2/dflipflopER_3/m1_252_56#
+= 4in-multiplicand_2/m1_n576_n48# 4in-multiplicand_2/dflipflopER_3/latch_0/a_8_56#
+C 4in-multiplicand_2/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-multiplicand_2/dflipflopER_3/m1_200_40# 1508
+= 4in-multiplicand_2/dflipflopER_3/m1_200_40# 4in-multiplicand_2/dflipflopER_3/latch_0/a_24_68#
+= 4in-multiplicand_2/dflipflopER_3/m1_200_40# 4in-multiplicand_2/dflipflopER_3/inverter_2/a_18_8#
+C Vdd GND 883.06
+R Vdd 43954
+= Vdd 4in-multiplicand_0/m2_n40_n8#
+= Vdd 4in-multiplicand_0/dflipflopER_2/m2_556_104#
+= Vdd 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_0/dflipflopER_2/m2_348_104#
+= Vdd 4in-multiplicand_0/dflipflopER_2/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/latch_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/latch_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/m2_234_104#
+= Vdd 4in-multiplicand_0/dflipflopER_2/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_2/m2_156_104#
+= Vdd 4in-multiplicand_0/dflipflopER_2/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_0/m2_n565_n8#
+= Vdd 4in-multiplicand_0/m2_n44_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/m2_556_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/m2_348_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/latch_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/latch_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/m2_234_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_0/m2_156_104#
+= Vdd 4in-multiplicand_0/dflipflopER_0/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_0/m2_n568_104#
+= Vdd 4in-multiplicand_0/2inMUX_0/m2_0_104#
+= Vdd 4in-multiplicand_0/2inMUX_0/inv_0/a_4_96#
+= Vdd 4in-multiplicand_0/2inMUX_0/m2_n32_104#
+= Vdd 4in-multiplicand_0/2inMUX_1/m2_0_104#
+= Vdd 4in-multiplicand_0/2inMUX_1/inv_0/a_4_96#
+= Vdd 4in-multiplicand_0/2inMUX_1/m2_n32_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/m2_556_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/m2_348_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/latch_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/latch_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/m2_234_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_1/m2_156_104#
+= Vdd 4in-multiplicand_0/dflipflopER_1/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_0/m1_n684_n8#
+= Vdd 4in-multiplicand_0/2inMUX_2/m2_0_104#
+= Vdd 4in-multiplicand_0/2inMUX_2/inv_0/a_4_96#
+= Vdd 4in-multiplicand_0/2inMUX_2/m2_n32_104#
+= Vdd 4in-multiplicand_0/2inMUX_3/m2_0_104#
+= Vdd 4in-multiplicand_0/2inMUX_3/inv_0/a_4_96#
+= Vdd 4in-multiplicand_0/2inMUX_3/m2_n32_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/m2_556_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/m2_348_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/latch_0/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/latch_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/m2_234_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_0/dflipflopER_3/m2_156_104#
+= Vdd 4in-multiplicand_0/dflipflopER_3/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_1/m2_n40_n8#
+= Vdd 4in-multiplicand_1/dflipflopER_2/m2_556_104#
+= Vdd 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_1/dflipflopER_2/m2_348_104#
+= Vdd 4in-multiplicand_1/dflipflopER_2/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/latch_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/latch_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/m2_234_104#
+= Vdd 4in-multiplicand_1/dflipflopER_2/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_2/m2_156_104#
+= Vdd 4in-multiplicand_1/dflipflopER_2/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_1/m2_n565_n8#
+= Vdd 4in-multiplicand_1/m2_n44_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/m2_556_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/m2_348_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/latch_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/latch_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/m2_234_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_0/m2_156_104#
+= Vdd 4in-multiplicand_1/dflipflopER_0/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_1/m2_n568_104#
+= Vdd 4in-multiplicand_1/2inMUX_0/m2_0_104#
+= Vdd 4in-multiplicand_1/2inMUX_0/inv_0/a_4_96#
+= Vdd 4in-multiplicand_1/2inMUX_0/m2_n32_104#
+= Vdd 4in-multiplicand_1/2inMUX_1/m2_0_104#
+= Vdd 4in-multiplicand_1/2inMUX_1/inv_0/a_4_96#
+= Vdd 4in-multiplicand_1/2inMUX_1/m2_n32_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/m2_556_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/m2_348_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/latch_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/latch_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/m2_234_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_1/m2_156_104#
+= Vdd 4in-multiplicand_1/dflipflopER_1/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_1/m1_n684_n8#
+= Vdd 4in-multiplicand_1/2inMUX_2/m2_0_104#
+= Vdd 4in-multiplicand_1/2inMUX_2/inv_0/a_4_96#
+= Vdd 4in-multiplicand_1/2inMUX_2/m2_n32_104#
+= Vdd 4in-multiplicand_1/2inMUX_3/m2_0_104#
+= Vdd 4in-multiplicand_1/2inMUX_3/inv_0/a_4_96#
+= Vdd 4in-multiplicand_1/2inMUX_3/m2_n32_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/m2_556_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/m2_348_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/latch_0/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/latch_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/m2_234_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_1/dflipflopER_3/m2_156_104#
+= Vdd 4in-multiplicand_1/dflipflopER_3/inverter_2/a_8_96#
+= Vdd m2_3552_248#
+= Vdd m2_2424_248#
+= Vdd 4in-multiplicand_3/m2_n40_n8#
+= Vdd 4in-multiplicand_3/dflipflopER_2/m2_556_104#
+= Vdd 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_3/dflipflopER_2/m2_348_104#
+= Vdd 4in-multiplicand_3/dflipflopER_2/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/latch_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/latch_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/m2_234_104#
+= Vdd 4in-multiplicand_3/dflipflopER_2/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_2/m2_156_104#
+= Vdd 4in-multiplicand_3/dflipflopER_2/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_3/m2_n565_n8#
+= Vdd 4in-multiplicand_3/m2_n44_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/m2_556_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/m2_348_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/latch_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/latch_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/m2_234_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_0/m2_156_104#
+= Vdd 4in-multiplicand_3/dflipflopER_0/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_3/m2_n568_104#
+= Vdd 4in-multiplicand_3/2inMUX_0/m2_0_104#
+= Vdd 4in-multiplicand_3/2inMUX_0/inv_0/a_4_96#
+= Vdd 4in-multiplicand_3/2inMUX_0/m2_n32_104#
+= Vdd 4in-multiplicand_3/2inMUX_1/m2_0_104#
+= Vdd 4in-multiplicand_3/2inMUX_1/inv_0/a_4_96#
+= Vdd 4in-multiplicand_3/2inMUX_1/m2_n32_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/m2_556_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/m2_348_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/latch_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/latch_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/m2_234_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_1/m2_156_104#
+= Vdd 4in-multiplicand_3/dflipflopER_1/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_3/m1_n684_n8#
+= Vdd 4in-multiplicand_3/2inMUX_2/m2_0_104#
+= Vdd 4in-multiplicand_3/2inMUX_2/inv_0/a_4_96#
+= Vdd 4in-multiplicand_3/2inMUX_2/m2_n32_104#
+= Vdd 4in-multiplicand_3/2inMUX_3/m2_0_104#
+= Vdd 4in-multiplicand_3/2inMUX_3/inv_0/a_4_96#
+= Vdd 4in-multiplicand_3/2inMUX_3/m2_n32_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/m2_556_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/m2_348_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/latch_0/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/latch_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/m2_234_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_3/dflipflopER_3/m2_156_104#
+= Vdd 4in-multiplicand_3/dflipflopER_3/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_2/m2_n40_n8#
+= Vdd 4in-multiplicand_2/dflipflopER_2/m2_556_104#
+= Vdd 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_2/dflipflopER_2/m2_348_104#
+= Vdd 4in-multiplicand_2/dflipflopER_2/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/latch_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/latch_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/m2_234_104#
+= Vdd 4in-multiplicand_2/dflipflopER_2/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_2/m2_156_104#
+= Vdd 4in-multiplicand_2/dflipflopER_2/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_2/m2_n565_n8#
+= Vdd 4in-multiplicand_2/m2_n44_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/m2_556_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/m2_348_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/latch_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/latch_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/m2_234_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_0/m2_156_104#
+= Vdd 4in-multiplicand_2/dflipflopER_0/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_2/m2_n568_104#
+= Vdd 4in-multiplicand_2/2inMUX_0/m2_0_104#
+= Vdd 4in-multiplicand_2/2inMUX_0/inv_0/a_4_96#
+= Vdd 4in-multiplicand_2/2inMUX_0/m2_n32_104#
+= Vdd 4in-multiplicand_2/2inMUX_1/m2_0_104#
+= Vdd 4in-multiplicand_2/2inMUX_1/inv_0/a_4_96#
+= Vdd 4in-multiplicand_2/2inMUX_1/m2_n32_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/m2_556_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/m2_348_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/latch_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/latch_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/m2_234_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_1/m2_156_104#
+= Vdd 4in-multiplicand_2/dflipflopER_1/inverter_2/a_8_96#
+= Vdd 4in-multiplicand_2/m1_n684_n8#
+= Vdd 4in-multiplicand_2/2inMUX_2/m2_0_104#
+= Vdd 4in-multiplicand_2/2inMUX_2/inv_0/a_4_96#
+= Vdd 4in-multiplicand_2/2inMUX_2/m2_n32_104#
+= Vdd 4in-multiplicand_2/2inMUX_3/m2_0_104#
+= Vdd 4in-multiplicand_2/2inMUX_3/inv_0/a_4_96#
+= Vdd 4in-multiplicand_2/2inMUX_3/m2_n32_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/m2_556_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_18_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/2inAND_3/m2_76_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/m2_348_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/inverter_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/latch_0/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/latch_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/m2_234_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/inverter_1/a_8_96#
+= Vdd 4in-multiplicand_2/dflipflopER_3/m2_156_104#
+= Vdd 4in-multiplicand_2/dflipflopER_3/inverter_2/a_8_96#
+C 4in-multiplicand_2/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-multiplicand_2/dflipflopER_3/m1_236_24# 1507
+= 4in-multiplicand_2/dflipflopER_3/m1_236_24# 4in-multiplicand_2/dflipflopER_3/latch_1/a_24_68#
+= 4in-multiplicand_2/dflipflopER_3/m1_236_24# 4in-multiplicand_2/dflipflopER_3/inverter_1/a_18_8#
+C 4in-multiplicand_2/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-multiplicand_2/dflipflopER_3/m1_460_72# 1457
+= 4in-multiplicand_2/dflipflopER_3/m1_460_72# 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-multiplicand_2/dflipflopER_3/m1_460_72# 4in-multiplicand_2/dflipflopER_3/inverter_0/a_18_8#
+R 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_18_8# 67
+C out5 GND 31.59
+R out5 628
+= out5 4in-multiplicand_3/2inMUX_3/a_28_58#
+= out5 4in-multiplicand_2/dflipflopER_2/2inAND_3/m1_64_56#
+= out5 4in-multiplicand_2/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-multiplicand_2/dflipflopER_2/m1_424_48# 2556
+= 4in-multiplicand_2/dflipflopER_2/m1_424_48# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-multiplicand_2/dflipflopER_2/m1_424_48# 4in-multiplicand_2/dflipflopER_2/latch_1/a_48_6#
+R 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-multiplicand_2/dflipflopER_2/m1_336_56# 2651
+= 4in-multiplicand_2/dflipflopER_2/m1_336_56# 4in-multiplicand_2/dflipflopER_2/latch_1/a_8_56#
+= 4in-multiplicand_2/dflipflopER_2/m1_336_56# 4in-multiplicand_2/dflipflopER_2/latch_0/a_48_6#
+C 4in-multiplicand_2/m1_n40_n48# GND 59.79
+R 4in-multiplicand_2/m1_n40_n48# 1904
+= 4in-multiplicand_2/m1_n40_n48# 4in-multiplicand_2/2inMUX_2/a_38_13#
+= 4in-multiplicand_2/m1_n40_n48# 4in-multiplicand_2/dflipflopER_2/m1_252_56#
+= 4in-multiplicand_2/m1_n40_n48# 4in-multiplicand_2/dflipflopER_2/latch_0/a_8_56#
+C 4in-multiplicand_2/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-multiplicand_2/dflipflopER_2/m1_200_40# 1508
+= 4in-multiplicand_2/dflipflopER_2/m1_200_40# 4in-multiplicand_2/dflipflopER_2/latch_0/a_24_68#
+= 4in-multiplicand_2/dflipflopER_2/m1_200_40# 4in-multiplicand_2/dflipflopER_2/inverter_2/a_18_8#
+C 4in-multiplicand_2/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-multiplicand_2/dflipflopER_2/m1_236_24# 1507
+= 4in-multiplicand_2/dflipflopER_2/m1_236_24# 4in-multiplicand_2/dflipflopER_2/latch_1/a_24_68#
+= 4in-multiplicand_2/dflipflopER_2/m1_236_24# 4in-multiplicand_2/dflipflopER_2/inverter_1/a_18_8#
+C 4in-multiplicand_2/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-multiplicand_2/dflipflopER_2/m1_460_72# 1457
+= 4in-multiplicand_2/dflipflopER_2/m1_460_72# 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-multiplicand_2/dflipflopER_2/m1_460_72# 4in-multiplicand_2/dflipflopER_2/inverter_0/a_18_8#
+R 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_18_8# 67
+C out12 GND 31.56
+R out12 628
+= out12 4in-multiplicand_2/2inMUX_0/a_28_58#
+= out12 4in-multiplicand_2/dflipflopER_1/2inAND_3/m1_64_56#
+= out12 4in-multiplicand_2/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-multiplicand_2/dflipflopER_1/m1_424_48# 2556
+= 4in-multiplicand_2/dflipflopER_1/m1_424_48# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-multiplicand_2/dflipflopER_1/m1_424_48# 4in-multiplicand_2/dflipflopER_1/latch_1/a_48_6#
+R 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-multiplicand_2/dflipflopER_1/m1_336_56# 2651
+= 4in-multiplicand_2/dflipflopER_1/m1_336_56# 4in-multiplicand_2/dflipflopER_1/latch_1/a_8_56#
+= 4in-multiplicand_2/dflipflopER_1/m1_336_56# 4in-multiplicand_2/dflipflopER_1/latch_0/a_48_6#
+C 4in-multiplicand_2/m1_n576_64# GND 61.01
+R 4in-multiplicand_2/m1_n576_64# 1905
+= 4in-multiplicand_2/m1_n576_64# 4in-multiplicand_2/2inMUX_1/a_38_13#
+= 4in-multiplicand_2/m1_n576_64# 4in-multiplicand_2/dflipflopER_1/m1_252_56#
+= 4in-multiplicand_2/m1_n576_64# 4in-multiplicand_2/dflipflopER_1/latch_0/a_8_56#
+C 4in-multiplicand_2/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-multiplicand_2/dflipflopER_1/m1_200_40# 1508
+= 4in-multiplicand_2/dflipflopER_1/m1_200_40# 4in-multiplicand_2/dflipflopER_1/latch_0/a_24_68#
+= 4in-multiplicand_2/dflipflopER_1/m1_200_40# 4in-multiplicand_2/dflipflopER_1/inverter_2/a_18_8#
+C 4in-multiplicand_2/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-multiplicand_2/dflipflopER_1/m1_236_24# 1507
+= 4in-multiplicand_2/dflipflopER_1/m1_236_24# 4in-multiplicand_2/dflipflopER_1/latch_1/a_24_68#
+= 4in-multiplicand_2/dflipflopER_1/m1_236_24# 4in-multiplicand_2/dflipflopER_1/inverter_1/a_18_8#
+C 4in-multiplicand_2/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-multiplicand_2/dflipflopER_1/m1_460_72# 1457
+= 4in-multiplicand_2/dflipflopER_1/m1_460_72# 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-multiplicand_2/dflipflopER_1/m1_460_72# 4in-multiplicand_2/dflipflopER_1/inverter_0/a_18_8#
+R 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_18_8# 67
+C out13 GND 31.92
+R out13 628
+= out13 4in-multiplicand_3/2inMUX_1/a_28_58#
+= out13 4in-multiplicand_2/dflipflopER_0/2inAND_3/m1_64_56#
+= out13 4in-multiplicand_2/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_2/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-multiplicand_2/dflipflopER_0/m1_424_48# 2556
+= 4in-multiplicand_2/dflipflopER_0/m1_424_48# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-multiplicand_2/dflipflopER_0/m1_424_48# 4in-multiplicand_2/dflipflopER_0/latch_1/a_48_6#
+R 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-multiplicand_2/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-multiplicand_2/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_2/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-multiplicand_2/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-multiplicand_2/dflipflopER_0/m1_336_56# 2651
+= 4in-multiplicand_2/dflipflopER_0/m1_336_56# 4in-multiplicand_2/dflipflopER_0/latch_1/a_8_56#
+= 4in-multiplicand_2/dflipflopER_0/m1_336_56# 4in-multiplicand_2/dflipflopER_0/latch_0/a_48_6#
+C 4in-multiplicand_2/m1_n40_64# GND 59.49
+R 4in-multiplicand_2/m1_n40_64# 1904
+= 4in-multiplicand_2/m1_n40_64# 4in-multiplicand_2/2inMUX_0/a_38_13#
+= 4in-multiplicand_2/m1_n40_64# 4in-multiplicand_2/dflipflopER_0/m1_252_56#
+= 4in-multiplicand_2/m1_n40_64# 4in-multiplicand_2/dflipflopER_0/latch_0/a_8_56#
+C 4in-multiplicand_2/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-multiplicand_2/dflipflopER_0/m1_200_40# 1508
+= 4in-multiplicand_2/dflipflopER_0/m1_200_40# 4in-multiplicand_2/dflipflopER_0/latch_0/a_24_68#
+= 4in-multiplicand_2/dflipflopER_0/m1_200_40# 4in-multiplicand_2/dflipflopER_0/inverter_2/a_18_8#
+C 4in-multiplicand_2/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-multiplicand_2/dflipflopER_0/m1_236_24# 1507
+= 4in-multiplicand_2/dflipflopER_0/m1_236_24# 4in-multiplicand_2/dflipflopER_0/latch_1/a_24_68#
+= 4in-multiplicand_2/dflipflopER_0/m1_236_24# 4in-multiplicand_2/dflipflopER_0/inverter_1/a_18_8#
+C 4in-multiplicand_2/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-multiplicand_2/dflipflopER_0/m1_460_72# 1457
+= 4in-multiplicand_2/dflipflopER_0/m1_460_72# 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-multiplicand_2/dflipflopER_0/m1_460_72# 4in-multiplicand_2/dflipflopER_0/inverter_0/a_18_8#
+C in4 GND 6.39
+R in4 173
+= in4 4in-multiplicand_2/2inMUX_3/a_28_13#
+C 4in-multiplicand_2/2inMUX_3/a_20_35# GND 37.94
+R 4in-multiplicand_2/2inMUX_3/a_20_35# 1113
+= 4in-multiplicand_2/2inMUX_3/a_20_35# 4in-multiplicand_2/2inMUX_3/inv_0/a_15_8#
+C in5 GND 6.39
+R in5 173
+= in5 4in-multiplicand_2/2inMUX_2/a_28_13#
+C 4in-multiplicand_2/2inMUX_2/a_20_35# GND 37.94
+R 4in-multiplicand_2/2inMUX_2/a_20_35# 1113
+= 4in-multiplicand_2/2inMUX_2/a_20_35# 4in-multiplicand_2/2inMUX_2/inv_0/a_15_8#
+C in12 GND 6.39
+R in12 173
+= in12 4in-multiplicand_2/2inMUX_1/a_28_13#
+C 4in-multiplicand_2/2inMUX_1/a_20_35# GND 37.94
+R 4in-multiplicand_2/2inMUX_1/a_20_35# 1113
+= 4in-multiplicand_2/2inMUX_1/a_20_35# 4in-multiplicand_2/2inMUX_1/inv_0/a_15_8#
+C in13 GND 6.39
+R in13 173
+= in13 4in-multiplicand_2/2inMUX_0/a_28_13#
+C 4in-multiplicand_2/2inMUX_0/a_20_35# GND 37.94
+R 4in-multiplicand_2/2inMUX_0/a_20_35# 1113
+= 4in-multiplicand_2/2inMUX_0/a_20_35# 4in-multiplicand_2/2inMUX_0/inv_0/a_15_8#
+R 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_18_8# 67
+C out2 GND 28.05
+R out2 628
+= out2 4in-multiplicand_1/2inMUX_2/a_28_58#
+= out2 4in-multiplicand_1/dflipflopER_3/2inAND_3/m1_64_56#
+= out2 4in-multiplicand_1/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-multiplicand_1/dflipflopER_3/m1_424_48# 2556
+= 4in-multiplicand_1/dflipflopER_3/m1_424_48# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-multiplicand_1/dflipflopER_3/m1_424_48# 4in-multiplicand_1/dflipflopER_3/latch_1/a_48_6#
+R 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-multiplicand_1/dflipflopER_3/m1_336_56# 2651
+= 4in-multiplicand_1/dflipflopER_3/m1_336_56# 4in-multiplicand_1/dflipflopER_3/latch_1/a_8_56#
+= 4in-multiplicand_1/dflipflopER_3/m1_336_56# 4in-multiplicand_1/dflipflopER_3/latch_0/a_48_6#
+C 4in-multiplicand_1/m1_n576_n48# GND 61.31
+R 4in-multiplicand_1/m1_n576_n48# 1905
+= 4in-multiplicand_1/m1_n576_n48# 4in-multiplicand_1/2inMUX_3/a_38_13#
+= 4in-multiplicand_1/m1_n576_n48# 4in-multiplicand_1/dflipflopER_3/m1_252_56#
+= 4in-multiplicand_1/m1_n576_n48# 4in-multiplicand_1/dflipflopER_3/latch_0/a_8_56#
+C 4in-multiplicand_1/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-multiplicand_1/dflipflopER_3/m1_200_40# 1508
+= 4in-multiplicand_1/dflipflopER_3/m1_200_40# 4in-multiplicand_1/dflipflopER_3/latch_0/a_24_68#
+= 4in-multiplicand_1/dflipflopER_3/m1_200_40# 4in-multiplicand_1/dflipflopER_3/inverter_2/a_18_8#
+C 4in-multiplicand_1/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-multiplicand_1/dflipflopER_3/m1_236_24# 1507
+= 4in-multiplicand_1/dflipflopER_3/m1_236_24# 4in-multiplicand_1/dflipflopER_3/latch_1/a_24_68#
+= 4in-multiplicand_1/dflipflopER_3/m1_236_24# 4in-multiplicand_1/dflipflopER_3/inverter_1/a_18_8#
+C 4in-multiplicand_1/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-multiplicand_1/dflipflopER_3/m1_460_72# 1457
+= 4in-multiplicand_1/dflipflopER_3/m1_460_72# 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-multiplicand_1/dflipflopER_3/m1_460_72# 4in-multiplicand_1/dflipflopER_3/inverter_0/a_18_8#
+R 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_18_8# 67
+C out3 GND 28.12
+R out3 628
+= out3 4in-multiplicand_2/2inMUX_3/a_28_58#
+= out3 4in-multiplicand_1/dflipflopER_2/2inAND_3/m1_64_56#
+= out3 4in-multiplicand_1/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-multiplicand_1/dflipflopER_2/m1_424_48# 2556
+= 4in-multiplicand_1/dflipflopER_2/m1_424_48# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-multiplicand_1/dflipflopER_2/m1_424_48# 4in-multiplicand_1/dflipflopER_2/latch_1/a_48_6#
+R 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-multiplicand_1/dflipflopER_2/m1_336_56# 2651
+= 4in-multiplicand_1/dflipflopER_2/m1_336_56# 4in-multiplicand_1/dflipflopER_2/latch_1/a_8_56#
+= 4in-multiplicand_1/dflipflopER_2/m1_336_56# 4in-multiplicand_1/dflipflopER_2/latch_0/a_48_6#
+C 4in-multiplicand_1/m1_n40_n48# GND 59.79
+R 4in-multiplicand_1/m1_n40_n48# 1904
+= 4in-multiplicand_1/m1_n40_n48# 4in-multiplicand_1/2inMUX_2/a_38_13#
+= 4in-multiplicand_1/m1_n40_n48# 4in-multiplicand_1/dflipflopER_2/m1_252_56#
+= 4in-multiplicand_1/m1_n40_n48# 4in-multiplicand_1/dflipflopER_2/latch_0/a_8_56#
+C 4in-multiplicand_1/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-multiplicand_1/dflipflopER_2/m1_200_40# 1508
+= 4in-multiplicand_1/dflipflopER_2/m1_200_40# 4in-multiplicand_1/dflipflopER_2/latch_0/a_24_68#
+= 4in-multiplicand_1/dflipflopER_2/m1_200_40# 4in-multiplicand_1/dflipflopER_2/inverter_2/a_18_8#
+C 4in-multiplicand_1/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-multiplicand_1/dflipflopER_2/m1_236_24# 1507
+= 4in-multiplicand_1/dflipflopER_2/m1_236_24# 4in-multiplicand_1/dflipflopER_2/latch_1/a_24_68#
+= 4in-multiplicand_1/dflipflopER_2/m1_236_24# 4in-multiplicand_1/dflipflopER_2/inverter_1/a_18_8#
+C 4in-multiplicand_1/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-multiplicand_1/dflipflopER_2/m1_460_72# 1457
+= 4in-multiplicand_1/dflipflopER_2/m1_460_72# 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-multiplicand_1/dflipflopER_2/m1_460_72# 4in-multiplicand_1/dflipflopER_2/inverter_0/a_18_8#
+R 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_18_8# 67
+C out10 GND 28.91
+R out10 627
+= out10 4in-multiplicand_1/2inMUX_0/a_28_58#
+= out10 4in-multiplicand_1/dflipflopER_1/2inAND_3/m1_64_56#
+= out10 4in-multiplicand_1/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-multiplicand_1/dflipflopER_1/m1_424_48# 2556
+= 4in-multiplicand_1/dflipflopER_1/m1_424_48# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-multiplicand_1/dflipflopER_1/m1_424_48# 4in-multiplicand_1/dflipflopER_1/latch_1/a_48_6#
+R 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-multiplicand_1/dflipflopER_1/m1_336_56# 2651
+= 4in-multiplicand_1/dflipflopER_1/m1_336_56# 4in-multiplicand_1/dflipflopER_1/latch_1/a_8_56#
+= 4in-multiplicand_1/dflipflopER_1/m1_336_56# 4in-multiplicand_1/dflipflopER_1/latch_0/a_48_6#
+C 4in-multiplicand_1/m1_n576_64# GND 61.01
+R 4in-multiplicand_1/m1_n576_64# 1905
+= 4in-multiplicand_1/m1_n576_64# 4in-multiplicand_1/2inMUX_1/a_38_13#
+= 4in-multiplicand_1/m1_n576_64# 4in-multiplicand_1/dflipflopER_1/m1_252_56#
+= 4in-multiplicand_1/m1_n576_64# 4in-multiplicand_1/dflipflopER_1/latch_0/a_8_56#
+C Gnd GND 896.04
+R Gnd 18760
+= Gnd m2_3552_32#
+= Gnd m2_2424_32#
+= Gnd 4in-multiplicand_3/m2_n39_0#
+= Gnd 4in-multiplicand_3/m2_n37_n112#
+= Gnd 4in-multiplicand_3/dflipflopER_2/m2_556_0#
+= Gnd 4in-multiplicand_3/dflipflopER_2/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_3/dflipflopER_2/m2_348_0#
+= Gnd 4in-multiplicand_3/dflipflopER_2/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/latch_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/latch_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/m2_239_0#
+= Gnd 4in-multiplicand_3/dflipflopER_2/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_2/m2_156_0#
+= Gnd 4in-multiplicand_3/dflipflopER_2/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_3/m2_n692_n112#
+= Gnd 4in-multiplicand_3/2inMUX_1/m2_0_0#
+= Gnd 4in-multiplicand_3/2inMUX_1/inv_0/a_4_8#
+= Gnd 4in-multiplicand_3/2inMUX_1/m2_n32_0#
+= Gnd 4in-multiplicand_3/m2_n568_n112#
+= Gnd 4in-multiplicand_3/2inMUX_3/m2_0_0#
+= Gnd 4in-multiplicand_3/2inMUX_3/inv_0/a_4_8#
+= Gnd 4in-multiplicand_3/2inMUX_3/m2_n32_0#
+= Gnd 4in-multiplicand_3/2inMUX_2/m2_0_0#
+= Gnd 4in-multiplicand_3/2inMUX_2/inv_0/a_4_8#
+= Gnd 4in-multiplicand_3/2inMUX_2/m2_n32_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/m2_556_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/m2_348_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/latch_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/latch_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/m2_239_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_3/m2_156_0#
+= Gnd 4in-multiplicand_3/dflipflopER_3/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_3/m2_n565_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/m2_556_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/m2_348_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/latch_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/latch_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/m2_239_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_0/m2_156_0#
+= Gnd 4in-multiplicand_3/dflipflopER_0/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_3/2inMUX_0/m2_0_0#
+= Gnd 4in-multiplicand_3/2inMUX_0/inv_0/a_4_8#
+= Gnd 4in-multiplicand_3/2inMUX_0/m2_n32_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/m2_556_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/m2_348_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/latch_0/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/latch_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/m2_239_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_3/dflipflopER_1/m2_156_0#
+= Gnd 4in-multiplicand_3/dflipflopER_1/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_2/m2_n39_0#
+= Gnd 4in-multiplicand_2/m2_n37_n112#
+= Gnd 4in-multiplicand_2/dflipflopER_2/m2_556_0#
+= Gnd 4in-multiplicand_2/dflipflopER_2/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_2/dflipflopER_2/m2_348_0#
+= Gnd 4in-multiplicand_2/dflipflopER_2/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/latch_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/latch_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/m2_239_0#
+= Gnd 4in-multiplicand_2/dflipflopER_2/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_2/m2_156_0#
+= Gnd 4in-multiplicand_2/dflipflopER_2/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_2/m2_n692_n112#
+= Gnd 4in-multiplicand_2/2inMUX_1/m2_0_0#
+= Gnd 4in-multiplicand_2/2inMUX_1/inv_0/a_4_8#
+= Gnd 4in-multiplicand_2/2inMUX_1/m2_n32_0#
+= Gnd 4in-multiplicand_2/m2_n568_n112#
+= Gnd 4in-multiplicand_2/2inMUX_3/m2_0_0#
+= Gnd 4in-multiplicand_2/2inMUX_3/inv_0/a_4_8#
+= Gnd 4in-multiplicand_2/2inMUX_3/m2_n32_0#
+= Gnd 4in-multiplicand_2/2inMUX_2/m2_0_0#
+= Gnd 4in-multiplicand_2/2inMUX_2/inv_0/a_4_8#
+= Gnd 4in-multiplicand_2/2inMUX_2/m2_n32_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/m2_556_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/m2_348_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/latch_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/latch_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/m2_239_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_3/m2_156_0#
+= Gnd 4in-multiplicand_2/dflipflopER_3/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_2/m2_n565_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/m2_556_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/m2_348_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/latch_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/latch_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/m2_239_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_0/m2_156_0#
+= Gnd 4in-multiplicand_2/dflipflopER_0/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_2/2inMUX_0/m2_0_0#
+= Gnd 4in-multiplicand_2/2inMUX_0/inv_0/a_4_8#
+= Gnd 4in-multiplicand_2/2inMUX_0/m2_n32_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/m2_556_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/m2_348_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/latch_0/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/latch_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/m2_239_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_2/dflipflopER_1/m2_156_0#
+= Gnd 4in-multiplicand_2/dflipflopER_1/inverter_2/a_8_8#
+= Gnd m1_264_99#
+= Gnd 4in-multiplicand_0/2inMUX_3/a_28_58#
+= Gnd 4in-multiplicand_0/m2_n39_0#
+= Gnd 4in-multiplicand_0/m2_n37_n112#
+= Gnd 4in-multiplicand_0/dflipflopER_2/m2_556_0#
+= Gnd 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_0/dflipflopER_2/m2_348_0#
+= Gnd 4in-multiplicand_0/dflipflopER_2/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/latch_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/latch_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/m2_239_0#
+= Gnd 4in-multiplicand_0/dflipflopER_2/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_2/m2_156_0#
+= Gnd 4in-multiplicand_0/dflipflopER_2/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_0/m2_n692_n112#
+= Gnd 4in-multiplicand_0/2inMUX_1/m2_0_0#
+= Gnd 4in-multiplicand_0/2inMUX_1/inv_0/a_4_8#
+= Gnd 4in-multiplicand_0/2inMUX_1/m2_n32_0#
+= Gnd 4in-multiplicand_0/m2_n568_n112#
+= Gnd 4in-multiplicand_0/2inMUX_3/m2_0_0#
+= Gnd 4in-multiplicand_0/2inMUX_3/inv_0/a_4_8#
+= Gnd 4in-multiplicand_0/2inMUX_3/m2_n32_0#
+= Gnd 4in-multiplicand_0/2inMUX_2/m2_0_0#
+= Gnd 4in-multiplicand_0/2inMUX_2/inv_0/a_4_8#
+= Gnd 4in-multiplicand_0/2inMUX_2/m2_n32_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/m2_556_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/m2_348_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/latch_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/latch_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/m2_239_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_3/m2_156_0#
+= Gnd 4in-multiplicand_0/dflipflopER_3/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_0/m2_n565_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/m2_556_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/m2_348_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/latch_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/latch_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/m2_239_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_0/m2_156_0#
+= Gnd 4in-multiplicand_0/dflipflopER_0/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_0/2inMUX_0/m2_0_0#
+= Gnd 4in-multiplicand_0/2inMUX_0/inv_0/a_4_8#
+= Gnd 4in-multiplicand_0/2inMUX_0/m2_n32_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/m2_556_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/m2_348_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/latch_0/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/latch_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/m2_239_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_0/dflipflopER_1/m2_156_0#
+= Gnd 4in-multiplicand_0/dflipflopER_1/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_1/m2_n39_0#
+= Gnd 4in-multiplicand_1/m2_n37_n112#
+= Gnd 4in-multiplicand_1/dflipflopER_2/m2_556_0#
+= Gnd 4in-multiplicand_1/dflipflopER_2/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_1/dflipflopER_2/m2_348_0#
+= Gnd 4in-multiplicand_1/dflipflopER_2/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/latch_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/latch_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/m2_239_0#
+= Gnd 4in-multiplicand_1/dflipflopER_2/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_2/m2_156_0#
+= Gnd 4in-multiplicand_1/dflipflopER_2/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_1/m2_n692_n112#
+= Gnd 4in-multiplicand_1/2inMUX_1/m2_0_0#
+= Gnd 4in-multiplicand_1/2inMUX_1/inv_0/a_4_8#
+= Gnd 4in-multiplicand_1/2inMUX_1/m2_n32_0#
+= Gnd 4in-multiplicand_1/m2_n568_n112#
+= Gnd 4in-multiplicand_1/2inMUX_3/m2_0_0#
+= Gnd 4in-multiplicand_1/2inMUX_3/inv_0/a_4_8#
+= Gnd 4in-multiplicand_1/2inMUX_3/m2_n32_0#
+= Gnd 4in-multiplicand_1/2inMUX_2/m2_0_0#
+= Gnd 4in-multiplicand_1/2inMUX_2/inv_0/a_4_8#
+= Gnd 4in-multiplicand_1/2inMUX_2/m2_n32_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/m2_556_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/m2_348_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/latch_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/latch_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/m2_239_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_3/m2_156_0#
+= Gnd 4in-multiplicand_1/dflipflopER_3/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_1/m2_n565_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/m2_556_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/m2_348_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/latch_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/latch_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/m2_239_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_0/m2_156_0#
+= Gnd 4in-multiplicand_1/dflipflopER_0/inverter_2/a_8_8#
+= Gnd 4in-multiplicand_1/2inMUX_0/m2_0_0#
+= Gnd 4in-multiplicand_1/2inMUX_0/inv_0/a_4_8#
+= Gnd 4in-multiplicand_1/2inMUX_0/m2_n32_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/m2_556_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_30_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/2inAND_3/m2_76_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/m2_348_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/inverter_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/latch_0/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/latch_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/m2_239_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/inverter_1/a_8_8#
+= Gnd 4in-multiplicand_1/dflipflopER_1/m2_156_0#
+= Gnd 4in-multiplicand_1/dflipflopER_1/inverter_2/a_8_8#
+C 4in-multiplicand_1/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-multiplicand_1/dflipflopER_1/m1_200_40# 1508
+= 4in-multiplicand_1/dflipflopER_1/m1_200_40# 4in-multiplicand_1/dflipflopER_1/latch_0/a_24_68#
+= 4in-multiplicand_1/dflipflopER_1/m1_200_40# 4in-multiplicand_1/dflipflopER_1/inverter_2/a_18_8#
+C 4in-multiplicand_1/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-multiplicand_1/dflipflopER_1/m1_236_24# 1507
+= 4in-multiplicand_1/dflipflopER_1/m1_236_24# 4in-multiplicand_1/dflipflopER_1/latch_1/a_24_68#
+= 4in-multiplicand_1/dflipflopER_1/m1_236_24# 4in-multiplicand_1/dflipflopER_1/inverter_1/a_18_8#
+C 4in-multiplicand_1/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-multiplicand_1/dflipflopER_1/m1_460_72# 1457
+= 4in-multiplicand_1/dflipflopER_1/m1_460_72# 4in-multiplicand_1/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-multiplicand_1/dflipflopER_1/m1_460_72# 4in-multiplicand_1/dflipflopER_1/inverter_0/a_18_8#
+R 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_18_8# 67
+C out11 GND 28.12
+R out11 627
+= out11 4in-multiplicand_2/2inMUX_1/a_28_58#
+= out11 4in-multiplicand_1/dflipflopER_0/2inAND_3/m1_64_56#
+= out11 4in-multiplicand_1/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_1/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-multiplicand_1/dflipflopER_0/m1_424_48# 2556
+= 4in-multiplicand_1/dflipflopER_0/m1_424_48# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-multiplicand_1/dflipflopER_0/m1_424_48# 4in-multiplicand_1/dflipflopER_0/latch_1/a_48_6#
+R 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-multiplicand_1/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-multiplicand_1/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_1/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-multiplicand_1/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-multiplicand_1/dflipflopER_0/m1_336_56# 2651
+= 4in-multiplicand_1/dflipflopER_0/m1_336_56# 4in-multiplicand_1/dflipflopER_0/latch_1/a_8_56#
+= 4in-multiplicand_1/dflipflopER_0/m1_336_56# 4in-multiplicand_1/dflipflopER_0/latch_0/a_48_6#
+C 4in-multiplicand_1/m1_n40_64# GND 59.49
+R 4in-multiplicand_1/m1_n40_64# 1904
+= 4in-multiplicand_1/m1_n40_64# 4in-multiplicand_1/2inMUX_0/a_38_13#
+= 4in-multiplicand_1/m1_n40_64# 4in-multiplicand_1/dflipflopER_0/m1_252_56#
+= 4in-multiplicand_1/m1_n40_64# 4in-multiplicand_1/dflipflopER_0/latch_0/a_8_56#
+C 4in-multiplicand_1/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-multiplicand_1/dflipflopER_0/m1_200_40# 1508
+= 4in-multiplicand_1/dflipflopER_0/m1_200_40# 4in-multiplicand_1/dflipflopER_0/latch_0/a_24_68#
+= 4in-multiplicand_1/dflipflopER_0/m1_200_40# 4in-multiplicand_1/dflipflopER_0/inverter_2/a_18_8#
+C 4in-multiplicand_1/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-multiplicand_1/dflipflopER_0/m1_236_24# 1507
+= 4in-multiplicand_1/dflipflopER_0/m1_236_24# 4in-multiplicand_1/dflipflopER_0/latch_1/a_24_68#
+= 4in-multiplicand_1/dflipflopER_0/m1_236_24# 4in-multiplicand_1/dflipflopER_0/inverter_1/a_18_8#
+C 4in-multiplicand_1/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-multiplicand_1/dflipflopER_0/m1_460_72# 1457
+= 4in-multiplicand_1/dflipflopER_0/m1_460_72# 4in-multiplicand_1/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-multiplicand_1/dflipflopER_0/m1_460_72# 4in-multiplicand_1/dflipflopER_0/inverter_0/a_18_8#
+C in2 GND 6.39
+R in2 173
+= in2 4in-multiplicand_1/2inMUX_3/a_28_13#
+C 4in-multiplicand_1/2inMUX_3/a_20_35# GND 37.94
+R 4in-multiplicand_1/2inMUX_3/a_20_35# 1113
+= 4in-multiplicand_1/2inMUX_3/a_20_35# 4in-multiplicand_1/2inMUX_3/inv_0/a_15_8#
+C in3 GND 6.39
+R in3 173
+= in3 4in-multiplicand_1/2inMUX_2/a_28_13#
+C 4in-multiplicand_1/2inMUX_2/a_20_35# GND 37.94
+R 4in-multiplicand_1/2inMUX_2/a_20_35# 1113
+= 4in-multiplicand_1/2inMUX_2/a_20_35# 4in-multiplicand_1/2inMUX_2/inv_0/a_15_8#
+C in10 GND 6.39
+R in10 173
+= in10 4in-multiplicand_1/2inMUX_1/a_28_13#
+C 4in-multiplicand_1/2inMUX_1/a_20_35# GND 37.94
+R 4in-multiplicand_1/2inMUX_1/a_20_35# 1113
+= 4in-multiplicand_1/2inMUX_1/a_20_35# 4in-multiplicand_1/2inMUX_1/inv_0/a_15_8#
+C in11 GND 6.39
+R in11 173
+= in11 4in-multiplicand_1/2inMUX_0/a_28_13#
+C 4in-multiplicand_1/2inMUX_0/a_20_35# GND 37.94
+R 4in-multiplicand_1/2inMUX_0/a_20_35# 1113
+= 4in-multiplicand_1/2inMUX_0/a_20_35# 4in-multiplicand_1/2inMUX_0/inv_0/a_15_8#
+R 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_18_8# 67
+C out0 GND 26.63
+R out0 627
+= out0 4in-multiplicand_0/2inMUX_2/a_28_58#
+= out0 4in-multiplicand_0/dflipflopER_3/2inAND_3/m1_64_56#
+= out0 4in-multiplicand_0/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-multiplicand_0/dflipflopER_3/m1_424_48# 2556
+= 4in-multiplicand_0/dflipflopER_3/m1_424_48# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-multiplicand_0/dflipflopER_3/m1_424_48# 4in-multiplicand_0/dflipflopER_3/latch_1/a_48_6#
+R 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-multiplicand_0/dflipflopER_3/m1_336_56# 2651
+= 4in-multiplicand_0/dflipflopER_3/m1_336_56# 4in-multiplicand_0/dflipflopER_3/latch_1/a_8_56#
+= 4in-multiplicand_0/dflipflopER_3/m1_336_56# 4in-multiplicand_0/dflipflopER_3/latch_0/a_48_6#
+C 4in-multiplicand_0/m1_n576_n48# GND 61.31
+R 4in-multiplicand_0/m1_n576_n48# 1905
+= 4in-multiplicand_0/m1_n576_n48# 4in-multiplicand_0/2inMUX_3/a_38_13#
+= 4in-multiplicand_0/m1_n576_n48# 4in-multiplicand_0/dflipflopER_3/m1_252_56#
+= 4in-multiplicand_0/m1_n576_n48# 4in-multiplicand_0/dflipflopER_3/latch_0/a_8_56#
+C 4in-multiplicand_0/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-multiplicand_0/dflipflopER_3/m1_200_40# 1508
+= 4in-multiplicand_0/dflipflopER_3/m1_200_40# 4in-multiplicand_0/dflipflopER_3/latch_0/a_24_68#
+= 4in-multiplicand_0/dflipflopER_3/m1_200_40# 4in-multiplicand_0/dflipflopER_3/inverter_2/a_18_8#
+C phi1 GND 1680.75
+R phi1 41259
+= phi1 4in-multiplicand_3/m1_n548_n56#
+= phi1 4in-multiplicand_3/dflipflopER_0/m1_172_56#
+= phi1 4in-multiplicand_3/dflipflopER_0/latch_0/a_24_6#
+= phi1 4in-multiplicand_3/dflipflopER_0/inverter_2/a_8_56#
+= phi1 4in-multiplicand_3/dflipflopER_1/m1_172_56#
+= phi1 4in-multiplicand_3/dflipflopER_1/latch_0/a_24_6#
+= phi1 4in-multiplicand_3/dflipflopER_1/inverter_2/a_8_56#
+= phi1 4in-multiplicand_3/dflipflopER_2/m1_172_56#
+= phi1 4in-multiplicand_3/dflipflopER_2/latch_0/a_24_6#
+= phi1 4in-multiplicand_3/dflipflopER_2/inverter_2/a_8_56#
+= phi1 4in-multiplicand_3/dflipflopER_3/m1_172_56#
+= phi1 4in-multiplicand_3/dflipflopER_3/latch_0/a_24_6#
+= phi1 4in-multiplicand_3/dflipflopER_3/inverter_2/a_8_56#
+= phi1 4in-multiplicand_2/m1_n548_n56#
+= phi1 4in-multiplicand_2/dflipflopER_0/m1_172_56#
+= phi1 4in-multiplicand_2/dflipflopER_0/latch_0/a_24_6#
+= phi1 4in-multiplicand_2/dflipflopER_0/inverter_2/a_8_56#
+= phi1 4in-multiplicand_2/dflipflopER_1/m1_172_56#
+= phi1 4in-multiplicand_2/dflipflopER_1/latch_0/a_24_6#
+= phi1 4in-multiplicand_2/dflipflopER_1/inverter_2/a_8_56#
+= phi1 4in-multiplicand_2/dflipflopER_2/m1_172_56#
+= phi1 4in-multiplicand_2/dflipflopER_2/latch_0/a_24_6#
+= phi1 4in-multiplicand_2/dflipflopER_2/inverter_2/a_8_56#
+= phi1 4in-multiplicand_2/dflipflopER_3/m1_172_56#
+= phi1 4in-multiplicand_2/dflipflopER_3/latch_0/a_24_6#
+= phi1 4in-multiplicand_2/dflipflopER_3/inverter_2/a_8_56#
+= phi1 m1_3140_272#
+= phi1 4in-multiplicand_1/m1_n548_n56#
+= phi1 4in-multiplicand_1/dflipflopER_0/m1_172_56#
+= phi1 4in-multiplicand_1/dflipflopER_0/latch_0/a_24_6#
+= phi1 4in-multiplicand_1/dflipflopER_0/inverter_2/a_8_56#
+= phi1 4in-multiplicand_1/dflipflopER_1/m1_172_56#
+= phi1 4in-multiplicand_1/dflipflopER_1/latch_0/a_24_6#
+= phi1 4in-multiplicand_1/dflipflopER_1/inverter_2/a_8_56#
+= phi1 4in-multiplicand_1/dflipflopER_2/m1_172_56#
+= phi1 4in-multiplicand_1/dflipflopER_2/latch_0/a_24_6#
+= phi1 4in-multiplicand_1/dflipflopER_2/inverter_2/a_8_56#
+= phi1 4in-multiplicand_1/dflipflopER_3/m1_172_56#
+= phi1 4in-multiplicand_1/dflipflopER_3/latch_0/a_24_6#
+= phi1 4in-multiplicand_1/dflipflopER_3/inverter_2/a_8_56#
+= phi1 m1_2012_272#
+= phi1 4in-multiplicand_0/m1_n548_n56#
+= phi1 4in-multiplicand_0/dflipflopER_0/m1_172_56#
+= phi1 4in-multiplicand_0/dflipflopER_0/latch_0/a_24_6#
+= phi1 4in-multiplicand_0/dflipflopER_0/inverter_2/a_8_56#
+= phi1 4in-multiplicand_0/dflipflopER_1/m1_172_56#
+= phi1 4in-multiplicand_0/dflipflopER_1/latch_0/a_24_6#
+= phi1 4in-multiplicand_0/dflipflopER_1/inverter_2/a_8_56#
+= phi1 4in-multiplicand_0/dflipflopER_2/m1_172_56#
+= phi1 4in-multiplicand_0/dflipflopER_2/latch_0/a_24_6#
+= phi1 4in-multiplicand_0/dflipflopER_2/inverter_2/a_8_56#
+= phi1 4in-multiplicand_0/dflipflopER_3/m1_172_56#
+= phi1 4in-multiplicand_0/dflipflopER_3/latch_0/a_24_6#
+= phi1 4in-multiplicand_0/dflipflopER_3/inverter_2/a_8_56#
+C 4in-multiplicand_0/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-multiplicand_0/dflipflopER_3/m1_236_24# 1507
+= 4in-multiplicand_0/dflipflopER_3/m1_236_24# 4in-multiplicand_0/dflipflopER_3/latch_1/a_24_68#
+= 4in-multiplicand_0/dflipflopER_3/m1_236_24# 4in-multiplicand_0/dflipflopER_3/inverter_1/a_18_8#
+C phi2 GND 1747.73
+R phi2 41263
+= phi2 4in-multiplicand_3/m1_n556_n80#
+= phi2 4in-multiplicand_3/dflipflopER_0/m1_220_32#
+= phi2 4in-multiplicand_3/dflipflopER_0/latch_1/a_24_6#
+= phi2 4in-multiplicand_3/dflipflopER_0/inverter_1/a_8_56#
+= phi2 4in-multiplicand_3/dflipflopER_1/m1_220_32#
+= phi2 4in-multiplicand_3/dflipflopER_1/latch_1/a_24_6#
+= phi2 4in-multiplicand_3/dflipflopER_1/inverter_1/a_8_56#
+= phi2 4in-multiplicand_3/dflipflopER_2/m1_220_32#
+= phi2 4in-multiplicand_3/dflipflopER_2/latch_1/a_24_6#
+= phi2 4in-multiplicand_3/dflipflopER_2/inverter_1/a_8_56#
+= phi2 4in-multiplicand_3/dflipflopER_3/m1_220_32#
+= phi2 4in-multiplicand_3/dflipflopER_3/latch_1/a_24_6#
+= phi2 4in-multiplicand_3/dflipflopER_3/inverter_1/a_8_56#
+= phi2 4in-multiplicand_2/m1_n556_n80#
+= phi2 4in-multiplicand_2/dflipflopER_0/m1_220_32#
+= phi2 4in-multiplicand_2/dflipflopER_0/latch_1/a_24_6#
+= phi2 4in-multiplicand_2/dflipflopER_0/inverter_1/a_8_56#
+= phi2 4in-multiplicand_2/dflipflopER_1/m1_220_32#
+= phi2 4in-multiplicand_2/dflipflopER_1/latch_1/a_24_6#
+= phi2 4in-multiplicand_2/dflipflopER_1/inverter_1/a_8_56#
+= phi2 4in-multiplicand_2/dflipflopER_2/m1_220_32#
+= phi2 4in-multiplicand_2/dflipflopER_2/latch_1/a_24_6#
+= phi2 4in-multiplicand_2/dflipflopER_2/inverter_1/a_8_56#
+= phi2 4in-multiplicand_2/dflipflopER_3/m1_220_32#
+= phi2 4in-multiplicand_2/dflipflopER_3/latch_1/a_24_6#
+= phi2 4in-multiplicand_2/dflipflopER_3/inverter_1/a_8_56#
+= phi2 m1_3132_264#
+= phi2 4in-multiplicand_1/m1_n556_n80#
+= phi2 4in-multiplicand_1/dflipflopER_0/m1_220_32#
+= phi2 4in-multiplicand_1/dflipflopER_0/latch_1/a_24_6#
+= phi2 4in-multiplicand_1/dflipflopER_0/inverter_1/a_8_56#
+= phi2 4in-multiplicand_1/dflipflopER_1/m1_220_32#
+= phi2 4in-multiplicand_1/dflipflopER_1/latch_1/a_24_6#
+= phi2 4in-multiplicand_1/dflipflopER_1/inverter_1/a_8_56#
+= phi2 4in-multiplicand_1/dflipflopER_2/m1_220_32#
+= phi2 4in-multiplicand_1/dflipflopER_2/latch_1/a_24_6#
+= phi2 4in-multiplicand_1/dflipflopER_2/inverter_1/a_8_56#
+= phi2 4in-multiplicand_1/dflipflopER_3/m1_220_32#
+= phi2 4in-multiplicand_1/dflipflopER_3/latch_1/a_24_6#
+= phi2 4in-multiplicand_1/dflipflopER_3/inverter_1/a_8_56#
+= phi2 m1_2004_264#
+= phi2 4in-multiplicand_0/m1_n556_n80#
+= phi2 4in-multiplicand_0/dflipflopER_0/m1_220_32#
+= phi2 4in-multiplicand_0/dflipflopER_0/latch_1/a_24_6#
+= phi2 4in-multiplicand_0/dflipflopER_0/inverter_1/a_8_56#
+= phi2 4in-multiplicand_0/dflipflopER_1/m1_220_32#
+= phi2 4in-multiplicand_0/dflipflopER_1/latch_1/a_24_6#
+= phi2 4in-multiplicand_0/dflipflopER_1/inverter_1/a_8_56#
+= phi2 4in-multiplicand_0/dflipflopER_2/m1_220_32#
+= phi2 4in-multiplicand_0/dflipflopER_2/latch_1/a_24_6#
+= phi2 4in-multiplicand_0/dflipflopER_2/inverter_1/a_8_56#
+= phi2 4in-multiplicand_0/dflipflopER_3/m1_220_32#
+= phi2 4in-multiplicand_0/dflipflopER_3/latch_1/a_24_6#
+= phi2 4in-multiplicand_0/dflipflopER_3/inverter_1/a_8_56#
+C 4in-multiplicand_0/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-multiplicand_0/dflipflopER_3/m1_460_72# 1457
+= 4in-multiplicand_0/dflipflopER_3/m1_460_72# 4in-multiplicand_0/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-multiplicand_0/dflipflopER_3/m1_460_72# 4in-multiplicand_0/dflipflopER_3/inverter_0/a_18_8#
+C reset GND 1356.48
+R reset 20635
+= reset 4in-multiplicand_3/m1_n540_n24#
+= reset 4in-multiplicand_3/dflipflopER_0/m1_444_56#
+= reset 4in-multiplicand_3/dflipflopER_0/inverter_0/a_8_56#
+= reset 4in-multiplicand_3/dflipflopER_1/m1_444_56#
+= reset 4in-multiplicand_3/dflipflopER_1/inverter_0/a_8_56#
+= reset 4in-multiplicand_3/dflipflopER_2/m1_444_56#
+= reset 4in-multiplicand_3/dflipflopER_2/inverter_0/a_8_56#
+= reset 4in-multiplicand_3/dflipflopER_3/m1_444_56#
+= reset 4in-multiplicand_3/dflipflopER_3/inverter_0/a_8_56#
+= reset 4in-multiplicand_2/m1_n540_n24#
+= reset 4in-multiplicand_2/dflipflopER_0/m1_444_56#
+= reset 4in-multiplicand_2/dflipflopER_0/inverter_0/a_8_56#
+= reset 4in-multiplicand_2/dflipflopER_1/m1_444_56#
+= reset 4in-multiplicand_2/dflipflopER_1/inverter_0/a_8_56#
+= reset 4in-multiplicand_2/dflipflopER_2/m1_444_56#
+= reset 4in-multiplicand_2/dflipflopER_2/inverter_0/a_8_56#
+= reset 4in-multiplicand_2/dflipflopER_3/m1_444_56#
+= reset 4in-multiplicand_2/dflipflopER_3/inverter_0/a_8_56#
+= reset m1_3148_280#
+= reset 4in-multiplicand_1/m1_n540_n24#
+= reset 4in-multiplicand_1/dflipflopER_0/m1_444_56#
+= reset 4in-multiplicand_1/dflipflopER_0/inverter_0/a_8_56#
+= reset 4in-multiplicand_1/dflipflopER_1/m1_444_56#
+= reset 4in-multiplicand_1/dflipflopER_1/inverter_0/a_8_56#
+= reset 4in-multiplicand_1/dflipflopER_2/m1_444_56#
+= reset 4in-multiplicand_1/dflipflopER_2/inverter_0/a_8_56#
+= reset 4in-multiplicand_1/dflipflopER_3/m1_444_56#
+= reset 4in-multiplicand_1/dflipflopER_3/inverter_0/a_8_56#
+= reset m1_2020_280#
+= reset 4in-multiplicand_0/m1_n540_n24#
+= reset 4in-multiplicand_0/dflipflopER_0/m1_444_56#
+= reset 4in-multiplicand_0/dflipflopER_0/inverter_0/a_8_56#
+= reset 4in-multiplicand_0/dflipflopER_1/m1_444_56#
+= reset 4in-multiplicand_0/dflipflopER_1/inverter_0/a_8_56#
+= reset 4in-multiplicand_0/dflipflopER_2/m1_444_56#
+= reset 4in-multiplicand_0/dflipflopER_2/inverter_0/a_8_56#
+= reset 4in-multiplicand_0/dflipflopER_3/m1_444_56#
+= reset 4in-multiplicand_0/dflipflopER_3/inverter_0/a_8_56#
+R 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_18_8# 67
+C out1 GND 26.40
+R out1 627
+= out1 4in-multiplicand_1/2inMUX_3/a_28_58#
+= out1 4in-multiplicand_0/dflipflopER_2/2inAND_3/m1_64_56#
+= out1 4in-multiplicand_0/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-multiplicand_0/dflipflopER_2/m1_424_48# 2556
+= 4in-multiplicand_0/dflipflopER_2/m1_424_48# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-multiplicand_0/dflipflopER_2/m1_424_48# 4in-multiplicand_0/dflipflopER_2/latch_1/a_48_6#
+R 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-multiplicand_0/dflipflopER_2/m1_336_56# 2651
+= 4in-multiplicand_0/dflipflopER_2/m1_336_56# 4in-multiplicand_0/dflipflopER_2/latch_1/a_8_56#
+= 4in-multiplicand_0/dflipflopER_2/m1_336_56# 4in-multiplicand_0/dflipflopER_2/latch_0/a_48_6#
+C 4in-multiplicand_0/m1_n40_n48# GND 59.79
+R 4in-multiplicand_0/m1_n40_n48# 1904
+= 4in-multiplicand_0/m1_n40_n48# 4in-multiplicand_0/2inMUX_2/a_38_13#
+= 4in-multiplicand_0/m1_n40_n48# 4in-multiplicand_0/dflipflopER_2/m1_252_56#
+= 4in-multiplicand_0/m1_n40_n48# 4in-multiplicand_0/dflipflopER_2/latch_0/a_8_56#
+C 4in-multiplicand_0/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-multiplicand_0/dflipflopER_2/m1_200_40# 1508
+= 4in-multiplicand_0/dflipflopER_2/m1_200_40# 4in-multiplicand_0/dflipflopER_2/latch_0/a_24_68#
+= 4in-multiplicand_0/dflipflopER_2/m1_200_40# 4in-multiplicand_0/dflipflopER_2/inverter_2/a_18_8#
+C 4in-multiplicand_0/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-multiplicand_0/dflipflopER_2/m1_236_24# 1507
+= 4in-multiplicand_0/dflipflopER_2/m1_236_24# 4in-multiplicand_0/dflipflopER_2/latch_1/a_24_68#
+= 4in-multiplicand_0/dflipflopER_2/m1_236_24# 4in-multiplicand_0/dflipflopER_2/inverter_1/a_18_8#
+C 4in-multiplicand_0/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-multiplicand_0/dflipflopER_2/m1_460_72# 1457
+= 4in-multiplicand_0/dflipflopER_2/m1_460_72# 4in-multiplicand_0/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-multiplicand_0/dflipflopER_2/m1_460_72# 4in-multiplicand_0/dflipflopER_2/inverter_0/a_18_8#
+R 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_18_8# 67
+C out8 GND 26.63
+R out8 627
+= out8 4in-multiplicand_0/2inMUX_0/a_28_58#
+= out8 4in-multiplicand_0/dflipflopER_1/2inAND_3/m1_64_56#
+= out8 4in-multiplicand_0/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-multiplicand_0/dflipflopER_1/m1_424_48# 2556
+= 4in-multiplicand_0/dflipflopER_1/m1_424_48# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-multiplicand_0/dflipflopER_1/m1_424_48# 4in-multiplicand_0/dflipflopER_1/latch_1/a_48_6#
+R 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-multiplicand_0/dflipflopER_1/m1_336_56# 2651
+= 4in-multiplicand_0/dflipflopER_1/m1_336_56# 4in-multiplicand_0/dflipflopER_1/latch_1/a_8_56#
+= 4in-multiplicand_0/dflipflopER_1/m1_336_56# 4in-multiplicand_0/dflipflopER_1/latch_0/a_48_6#
+C 4in-multiplicand_0/m1_n576_64# GND 61.01
+R 4in-multiplicand_0/m1_n576_64# 1905
+= 4in-multiplicand_0/m1_n576_64# 4in-multiplicand_0/2inMUX_1/a_38_13#
+= 4in-multiplicand_0/m1_n576_64# 4in-multiplicand_0/dflipflopER_1/m1_252_56#
+= 4in-multiplicand_0/m1_n576_64# 4in-multiplicand_0/dflipflopER_1/latch_0/a_8_56#
+C 4in-multiplicand_0/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-multiplicand_0/dflipflopER_1/m1_200_40# 1508
+= 4in-multiplicand_0/dflipflopER_1/m1_200_40# 4in-multiplicand_0/dflipflopER_1/latch_0/a_24_68#
+= 4in-multiplicand_0/dflipflopER_1/m1_200_40# 4in-multiplicand_0/dflipflopER_1/inverter_2/a_18_8#
+C 4in-multiplicand_0/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-multiplicand_0/dflipflopER_1/m1_236_24# 1507
+= 4in-multiplicand_0/dflipflopER_1/m1_236_24# 4in-multiplicand_0/dflipflopER_1/latch_1/a_24_68#
+= 4in-multiplicand_0/dflipflopER_1/m1_236_24# 4in-multiplicand_0/dflipflopER_1/inverter_1/a_18_8#
+C 4in-multiplicand_0/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-multiplicand_0/dflipflopER_1/m1_460_72# 1457
+= 4in-multiplicand_0/dflipflopER_1/m1_460_72# 4in-multiplicand_0/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-multiplicand_0/dflipflopER_1/m1_460_72# 4in-multiplicand_0/dflipflopER_1/inverter_0/a_18_8#
+R 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_18_8# 67
+C out9 GND 26.40
+R out9 627
+= out9 4in-multiplicand_1/2inMUX_1/a_28_58#
+= out9 4in-multiplicand_0/dflipflopER_0/2inAND_3/m1_64_56#
+= out9 4in-multiplicand_0/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_8# 4in-multiplicand_0/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-multiplicand_0/dflipflopER_0/m1_424_48# 2556
+= 4in-multiplicand_0/dflipflopER_0/m1_424_48# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-multiplicand_0/dflipflopER_0/m1_424_48# 4in-multiplicand_0/dflipflopER_0/latch_1/a_48_6#
+R 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-multiplicand_0/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-multiplicand_0/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-multiplicand_0/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-multiplicand_0/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-multiplicand_0/dflipflopER_0/m1_336_56# 2651
+= 4in-multiplicand_0/dflipflopER_0/m1_336_56# 4in-multiplicand_0/dflipflopER_0/latch_1/a_8_56#
+= 4in-multiplicand_0/dflipflopER_0/m1_336_56# 4in-multiplicand_0/dflipflopER_0/latch_0/a_48_6#
+C 4in-multiplicand_0/m1_n40_64# GND 59.49
+R 4in-multiplicand_0/m1_n40_64# 1904
+= 4in-multiplicand_0/m1_n40_64# 4in-multiplicand_0/2inMUX_0/a_38_13#
+= 4in-multiplicand_0/m1_n40_64# 4in-multiplicand_0/dflipflopER_0/m1_252_56#
+= 4in-multiplicand_0/m1_n40_64# 4in-multiplicand_0/dflipflopER_0/latch_0/a_8_56#
+C 4in-multiplicand_0/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-multiplicand_0/dflipflopER_0/m1_200_40# 1508
+= 4in-multiplicand_0/dflipflopER_0/m1_200_40# 4in-multiplicand_0/dflipflopER_0/latch_0/a_24_68#
+= 4in-multiplicand_0/dflipflopER_0/m1_200_40# 4in-multiplicand_0/dflipflopER_0/inverter_2/a_18_8#
+C 4in-multiplicand_0/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-multiplicand_0/dflipflopER_0/m1_236_24# 1507
+= 4in-multiplicand_0/dflipflopER_0/m1_236_24# 4in-multiplicand_0/dflipflopER_0/latch_1/a_24_68#
+= 4in-multiplicand_0/dflipflopER_0/m1_236_24# 4in-multiplicand_0/dflipflopER_0/inverter_1/a_18_8#
+C 4in-multiplicand_0/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-multiplicand_0/dflipflopER_0/m1_460_72# 1457
+= 4in-multiplicand_0/dflipflopER_0/m1_460_72# 4in-multiplicand_0/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-multiplicand_0/dflipflopER_0/m1_460_72# 4in-multiplicand_0/dflipflopER_0/inverter_0/a_18_8#
+C in0 GND 6.39
+R in0 173
+= in0 4in-multiplicand_0/2inMUX_3/a_28_13#
+C 4in-multiplicand_0/2inMUX_3/a_20_35# GND 37.94
+R 4in-multiplicand_0/2inMUX_3/a_20_35# 1113
+= 4in-multiplicand_0/2inMUX_3/a_20_35# 4in-multiplicand_0/2inMUX_3/inv_0/a_15_8#
+C s GND 2590.22
+R s 46361
+= s 4in-multiplicand_3/m1_n708_n120#
+= s 4in-multiplicand_3/2inMUX_0/a_n16_40#
+= s 4in-multiplicand_3/2inMUX_0/inv_0/a_12_5#
+= s 4in-multiplicand_3/2inMUX_1/a_n16_40#
+= s 4in-multiplicand_3/2inMUX_1/inv_0/a_12_5#
+= s 4in-multiplicand_3/2inMUX_2/a_n16_40#
+= s 4in-multiplicand_3/2inMUX_2/inv_0/a_12_5#
+= s 4in-multiplicand_3/2inMUX_3/a_n16_40#
+= s 4in-multiplicand_3/2inMUX_3/inv_0/a_12_5#
+= s 4in-multiplicand_2/m1_n708_n120#
+= s 4in-multiplicand_2/2inMUX_0/a_n16_40#
+= s 4in-multiplicand_2/2inMUX_0/inv_0/a_12_5#
+= s 4in-multiplicand_2/2inMUX_1/a_n16_40#
+= s 4in-multiplicand_2/2inMUX_1/inv_0/a_12_5#
+= s 4in-multiplicand_2/2inMUX_2/a_n16_40#
+= s 4in-multiplicand_2/2inMUX_2/inv_0/a_12_5#
+= s 4in-multiplicand_2/2inMUX_3/a_n16_40#
+= s 4in-multiplicand_2/2inMUX_3/inv_0/a_12_5#
+= s m1_3017_288#
+= s 4in-multiplicand_1/m1_n708_n120#
+= s 4in-multiplicand_1/2inMUX_0/a_n16_40#
+= s 4in-multiplicand_1/2inMUX_0/inv_0/a_12_5#
+= s 4in-multiplicand_1/2inMUX_1/a_n16_40#
+= s 4in-multiplicand_1/2inMUX_1/inv_0/a_12_5#
+= s 4in-multiplicand_1/2inMUX_2/a_n16_40#
+= s 4in-multiplicand_1/2inMUX_2/inv_0/a_12_5#
+= s 4in-multiplicand_1/2inMUX_3/a_n16_40#
+= s 4in-multiplicand_1/2inMUX_3/inv_0/a_12_5#
+= s m1_1889_288#
+= s 4in-multiplicand_0/m1_n708_n120#
+= s 4in-multiplicand_0/2inMUX_0/a_n16_40#
+= s 4in-multiplicand_0/2inMUX_0/inv_0/a_12_5#
+= s 4in-multiplicand_0/2inMUX_1/a_n16_40#
+= s 4in-multiplicand_0/2inMUX_1/inv_0/a_12_5#
+= s 4in-multiplicand_0/2inMUX_2/a_n16_40#
+= s 4in-multiplicand_0/2inMUX_2/inv_0/a_12_5#
+= s 4in-multiplicand_0/2inMUX_3/a_n16_40#
+= s 4in-multiplicand_0/2inMUX_3/inv_0/a_12_5#
+C in1 GND 6.39
+R in1 173
+= in1 4in-multiplicand_0/2inMUX_2/a_28_13#
+C 4in-multiplicand_0/2inMUX_2/a_20_35# GND 37.94
+R 4in-multiplicand_0/2inMUX_2/a_20_35# 1113
+= 4in-multiplicand_0/2inMUX_2/a_20_35# 4in-multiplicand_0/2inMUX_2/inv_0/a_15_8#
+C in8 GND 6.39
+R in8 173
+= in8 4in-multiplicand_0/2inMUX_1/a_28_13#
+C 4in-multiplicand_0/2inMUX_1/a_20_35# GND 37.94
+R 4in-multiplicand_0/2inMUX_1/a_20_35# 1113
+= 4in-multiplicand_0/2inMUX_1/a_20_35# 4in-multiplicand_0/2inMUX_1/inv_0/a_15_8#
+C in9 GND 6.39
+R in9 173
+= in9 4in-multiplicand_0/2inMUX_0/a_28_13#
+C 4in-multiplicand_0/2inMUX_0/a_20_35# GND 37.94
+R 4in-multiplicand_0/2inMUX_0/a_20_35# 1113
+= 4in-multiplicand_0/2inMUX_0/a_20_35# 4in-multiplicand_0/2inMUX_0/inv_0/a_15_8#

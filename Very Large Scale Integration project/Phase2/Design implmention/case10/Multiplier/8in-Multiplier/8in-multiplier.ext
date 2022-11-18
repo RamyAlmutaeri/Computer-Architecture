@@ -1,0 +1,104 @@
+timestamp 1653198727
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use 4in-multiplier 4in-multiplier_1 1 0 2024 0 1 132
+use 4in-multiplier 4in-multiplier_0 1 0 900 0 1 132
+node "Gnd" 0 3724 1296 20 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 196 106 0 0
+node "Vdd" 0 3724 1295 236 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 196 106 0 0
+node "in0" 0 752 1924 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in1" 0 752 1388 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in2" 0 752 800 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in3" 0 752 264 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out0" 0 752 2404 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out1" 1 6724 1868 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out2" 2 12080 1280 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 160 114 304 212 0 0
+node "out3" 1 6724 744 76 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "in4" 0 752 1924 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in5" 0 752 1388 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in6" 0 752 800 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in7" 0 752 264 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out4" 32 488536 180 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 10320 5184 248 162 0 0
+node "out5" 1 6365 1868 188 m1 0 0 0 0 0 0 0 0 0 0 0 0 76 54 179 124 0 0
+node "out6" 2 12655 1280 188 m1 0 0 0 0 0 0 0 0 0 0 0 0 169 120 312 196 0 0
+node "out7" 1 7524 744 188 m1 0 0 0 0 0 0 0 0 0 0 0 0 76 54 240 128 0 0
+node "m1_264_199#" 1 8200 264 199 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 408 232 0 0
+node "phi2" 4 46192 876 252 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 2384 1200 0 0
+node "phi1" 4 45744 884 260 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2384 1200 0 0
+node "reset" 6 92336 892 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 1680 848 720 368 0 0
+node "s" 7 106032 760 276 m1 0 0 0 0 0 0 0 0 0 0 0 0 2256 1136 0 0 0 0
+cap "4in-multiplier_0/2inMUX_3/a_28_58#" "4in-multiplier_0/2inMUX_3/inv_0/a_12_5#" 891
+cap "4in-multiplier_0/2inMUX_3/a_28_58#" "4in-multiplier_0/m2_n692_n112#" 720
+cap "4in-multiplier_0/2inMUX_3/inv_0/a_15_8#" "4in-multiplier_0/2inMUX_3/a_28_58#" 540
+cap "4in-multiplier_0/2inMUX_2/a_28_58#" "4in-multiplier_0/2inMUX_2/inv_0/a_15_8#" 540
+cap "4in-multiplier_0/2inMUX_2/a_28_58#" "4in-multiplier_0/2inMUX_2/inv_0/a_12_5#" 171
+cap "out2" "4in-multiplier_1/m2_n692_n112#" 540
+cap "4in-multiplier_1/2inMUX_3/inv_0/a_15_8#" "out2" 540
+cap "out2" "4in-multiplier_1/2inMUX_3/inv_0/a_12_5#" 711
+cap "4in-multiplier_1/m2_n692_n112#" "4in-multiplier_1/2inMUX_3/inv_0/a_12_5#" 720
+cap "4in-multiplier_1/2inMUX_2/a_28_58#" "4in-multiplier_1/2inMUX_2/inv_0/a_15_8#" 540
+cap "4in-multiplier_1/2inMUX_2/a_28_58#" "4in-multiplier_1/2inMUX_2/inv_0/a_12_5#" 171
+cap "4in-multiplier_0/2inMUX_1/inv_0/a_12_5#" "4in-multiplier_0/2inMUX_1/a_28_58#" 720
+cap "4in-multiplier_0/m1_n708_n120#" "out7" 180
+cap "4in-multiplier_0/2inMUX_0/inv_0/a_12_5#" "4in-multiplier_0/2inMUX_0/a_28_58#" 57
+cap "4in-multiplier_0/2inMUX_0/a_28_58#" "4in-multiplier_0/2inMUX_0/inv_0/a_15_8#" 180
+cap "out6" "4in-multiplier_1/2inMUX_1/inv_0/a_15_8#" 180
+cap "out6" "4in-multiplier_1/2inMUX_1/inv_0/a_12_5#" 57
+cap "4in-multiplier_0/2inMUX_1/inv_0/a_12_5#" "4in-multiplier_0/2inMUX_1/a_28_58#" 171
+cap "4in-multiplier_0/2inMUX_1/inv_0/a_15_8#" "4in-multiplier_0/2inMUX_1/a_28_58#" 540
+cap "out7" "4in-multiplier_0/m1_n708_n120#" 540
+cap "4in-multiplier_0/2inMUX_0/inv_0/a_12_5#" "4in-multiplier_0/2inMUX_0/a_28_58#" 171
+cap "4in-multiplier_0/2inMUX_0/inv_0/a_15_8#" "4in-multiplier_0/2inMUX_0/a_28_58#" 540
+cap "4in-multiplier_0/m1_n548_n56#" "4in-multiplier_0/m1_n556_n80#" 720
+cap "4in-multiplier_0/m1_n548_n56#" "reset" 720
+cap "reset" "4in-multiplier_0/m1_n556_n80#" 720
+cap "4in-multiplier_1/m1_n708_n120#" "phi2" 720
+cap "4in-multiplier_1/m1_n708_n120#" "reset" 720
+cap "4in-multiplier_1/2inMUX_1/inv_0/a_15_8#" "out6" 540
+cap "4in-multiplier_1/2inMUX_1/inv_0/a_12_5#" "out6" 171
+cap "4in-multiplier_1/m1_n684_n8#" "out6" 540
+cap "4in-multiplier_1/m1_n708_n120#" "4in-multiplier_1/m1_n684_n8#" 720
+cap "4in-multiplier_1/m1_n708_n120#" "out6" 540
+cap "4in-multiplier_1/m1_n708_n120#" "phi1" 720
+cap "4in-multiplier_1/2inMUX_0/a_28_58#" "4in-multiplier_1/2inMUX_0/inv_0/a_12_5#" 171
+cap "4in-multiplier_1/2inMUX_0/a_28_58#" "4in-multiplier_1/m1_n708_n120#" 540
+cap "4in-multiplier_1/2inMUX_0/a_28_58#" "4in-multiplier_1/2inMUX_0/inv_0/a_15_8#" 540
+merge "4in-multiplier_1/2inMUX_3/a_28_58#" "4in-multiplier_0/dflipflopER_2/2inAND_3/m1_64_56#" -12376 0 0 0 0 0 0 0 0 0 0 0 0 -176 -146 -264 -187 0 0
+merge "4in-multiplier_0/dflipflopER_2/2inAND_3/m1_64_56#" "out2"
+merge "4in-multiplier_1/m1_n540_n24#" "4in-multiplier_0/m1_n540_n24#" -60636 0 0 0 0 0 0 0 0 0 0 0 0 -1012 -518 -704 -364 0 0
+merge "4in-multiplier_0/m1_n540_n24#" "reset"
+merge "4in-multiplier_1/2inMUX_0/a_28_58#" "4in-multiplier_1/dflipflopER_1/2inAND_3/m1_64_56#" -4528 0 0 0 0 0 0 0 0 0 0 0 0 -83 -65 -16 -24 0 0
+merge "4in-multiplier_1/dflipflopER_1/2inAND_3/m1_64_56#" "out5"
+merge "4in-multiplier_1/m1_n548_n56#" "4in-multiplier_0/m1_n548_n56#" -23248 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -1200 -616 0 0
+merge "4in-multiplier_0/m1_n548_n56#" "phi1"
+merge "4in-multiplier_0/dflipflopER_2/m2_556_0#" "4in-multiplier_1/m2_n692_n112#" -1824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -68 -50 0 0
+merge "4in-multiplier_1/m2_n692_n112#" "Gnd"
+merge "4in-multiplier_1/dflipflopER_2/2inAND_3/m1_64_56#" "out0" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "4in-multiplier_1/2inMUX_2/a_28_13#" "in0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_0/dflipflopER_0/m2_556_104#" "4in-multiplier_1/m1_n684_n8#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0
+merge "4in-multiplier_1/m1_n684_n8#" "Vdd"
+merge "4in-multiplier_1/dflipflopER_0/2inAND_3/m1_64_56#" "4in-multiplier_0/2inMUX_3/a_28_58#" -7659 0 0 0 0 0 0 0 0 0 0 0 0 -148 -98 0 0 0 0
+merge "4in-multiplier_0/2inMUX_3/a_28_58#" "out4"
+merge "4in-multiplier_1/2inMUX_2/a_28_58#" "4in-multiplier_1/dflipflopER_3/2inAND_3/m1_64_56#" -5367 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -40 -29 0 0
+merge "4in-multiplier_1/dflipflopER_3/2inAND_3/m1_64_56#" "out1"
+merge "4in-multiplier_1/2inMUX_3/a_28_13#" "in1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_1/m1_n556_n80#" "4in-multiplier_0/m1_n556_n80#" -24304 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 -1216 -612 0 0
+merge "4in-multiplier_0/m1_n556_n80#" "phi2"
+merge "4in-multiplier_1/m1_n708_n120#" "4in-multiplier_0/m1_n708_n120#" -61664 0 0 0 0 0 0 0 0 0 0 0 0 -1312 -668 0 0 0 0
+merge "4in-multiplier_0/m1_n708_n120#" "s"
+merge "4in-multiplier_1/2inMUX_0/a_28_13#" "in4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_0/m2_n692_n112#" "4in-multiplier_0/2inMUX_1/a_28_58#" -1759 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
+merge "4in-multiplier_0/2inMUX_1/a_28_58#" "m1_264_199#"
+merge "4in-multiplier_0/2inMUX_2/a_28_13#" "in2" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_0/2inMUX_2/a_28_58#" "4in-multiplier_0/dflipflopER_3/2inAND_3/m1_64_56#" -6735 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -112 -77 0 0
+merge "4in-multiplier_0/dflipflopER_3/2inAND_3/m1_64_56#" "out3"
+merge "4in-multiplier_0/2inMUX_3/a_28_13#" "in3" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_1/2inMUX_1/a_28_13#" "in5" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_1/2inMUX_1/a_28_58#" "4in-multiplier_0/dflipflopER_0/2inAND_3/m1_64_56#" -12539 0 0 0 0 0 0 0 0 0 0 0 0 -173 -169 -280 -232 0 0
+merge "4in-multiplier_0/dflipflopER_0/2inAND_3/m1_64_56#" "out6"
+merge "4in-multiplier_0/2inMUX_0/a_28_13#" "in6" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplier_0/2inMUX_0/a_28_58#" "4in-multiplier_0/dflipflopER_1/2inAND_3/m1_64_56#" -7476 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -144 -76 0 0
+merge "4in-multiplier_0/dflipflopER_1/2inAND_3/m1_64_56#" "out7"
+merge "4in-multiplier_0/2inMUX_1/a_28_13#" "in7" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

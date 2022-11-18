@@ -1,0 +1,101 @@
+magic
+tech scmos
+timestamp 1653369615
+<< metal1 >>
+rect -1076 288 -432 292
+rect -492 280 -44 284
+rect -500 272 -52 276
+rect -508 264 -60 268
+rect -2216 200 -2212 204
+rect -1680 200 -1676 204
+rect -1092 200 -1088 204
+rect -556 200 -552 204
+rect 32 200 36 204
+rect 568 200 572 204
+rect 1156 200 1160 204
+rect 1692 200 1696 204
+rect -2696 165 -2692 169
+rect -2160 165 -2156 169
+rect -1572 165 -1568 169
+rect -1036 165 -1032 169
+rect -448 165 -444 169
+rect 88 165 92 169
+rect 676 165 680 169
+rect 1212 165 1216 169
+rect -2216 88 -2212 92
+rect -1680 88 -1676 92
+rect -1092 88 -1088 92
+rect -556 88 -552 92
+rect 32 88 36 92
+rect 568 88 572 92
+rect 1156 88 1160 92
+rect 1692 88 1696 92
+rect -2696 53 -2692 57
+rect -2160 53 -2156 57
+rect -1572 53 -1568 57
+rect -1036 53 -1032 57
+rect -448 53 -444 57
+rect 88 53 92 57
+rect 676 53 680 57
+rect 1212 53 1216 57
+<< metal2 >>
+rect -940 280 -496 284
+rect -948 272 -504 276
+rect -956 264 -512 268
+rect -540 248 -492 252
+rect -540 32 -492 36
+<< m2contact >>
+rect -944 280 -940 284
+rect -496 280 -492 284
+rect -952 272 -948 276
+rect -504 272 -500 276
+rect -960 264 -956 268
+rect -512 264 -508 268
+use 8in-product  8in-product_0
+timestamp 1653369370
+transform 1 0 -712 0 1 0
+box 192 16 2424 312
+use 8in-product  8in-product_1
+timestamp 1653369370
+transform 1 0 -2960 0 1 0
+box 192 16 2424 312
+<< labels >>
+rlabel metal1 -2696 165 -2692 169 1 in15
+rlabel metal1 -2216 200 -2212 204 1 out15
+rlabel metal1 -2160 165 -2156 169 1 in14
+rlabel metal1 -1680 200 -1676 204 1 out14
+rlabel metal1 -1572 165 -1568 169 1 in13
+rlabel metal1 -1092 200 -1088 204 1 out13
+rlabel metal1 -1036 165 -1032 169 1 in12
+rlabel metal1 -556 200 -552 204 1 out12
+rlabel metal1 88 165 92 169 1 in10
+rlabel metal1 568 200 572 204 1 out10
+rlabel metal1 676 165 680 169 1 in9
+rlabel metal1 1156 200 1160 204 1 out9
+rlabel metal1 1212 165 1216 169 1 in8
+rlabel metal1 1692 200 1696 204 1 out8
+rlabel metal1 -2160 53 -2156 57 1 in6
+rlabel metal1 -2696 53 -2692 57 1 in7
+rlabel metal1 -2216 88 -2212 92 1 out7
+rlabel metal1 -1680 88 -1676 92 1 out6
+rlabel metal1 -1572 53 -1568 57 1 in5
+rlabel metal1 -1092 88 -1088 92 1 out5
+rlabel metal1 -1036 53 -1032 57 1 in4
+rlabel metal1 -556 88 -552 92 1 out4
+rlabel metal1 -448 53 -444 57 1 in3
+rlabel metal1 32 88 36 92 1 out3
+rlabel metal1 88 53 92 57 1 in2
+rlabel metal1 568 88 572 92 1 out2
+rlabel metal1 676 53 680 57 1 in1
+rlabel metal1 1156 88 1160 92 1 out1
+rlabel metal1 1212 53 1216 57 1 in0
+rlabel metal1 1692 88 1696 92 1 out0
+rlabel metal1 -508 288 -504 292 1 s
+rlabel metal2 -508 280 -504 284 1 reset
+rlabel metal2 -512 272 -508 276 1 phi1
+rlabel metal2 -520 264 -516 268 1 phi2
+rlabel metal2 -520 248 -516 252 1 Vdd
+rlabel metal2 -520 32 -516 36 1 Gnd
+rlabel metal1 -448 165 -444 169 1 in11
+rlabel metal1 32 200 36 204 1 out11
+<< end >>

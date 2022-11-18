@@ -1,0 +1,1097 @@
+| units: 100 tech: scmos format: MIT
+p m1_760_288# m2_1296_248# 4in-product_0/2inMUX_0/a_20_35# 3 4 780 240
+n m1_760_288# m2_1297_32# 4in-product_0/2inMUX_0/a_20_35# 3 4 780 152
+n 4in-product_0/2inMUX_0/a_20_35# 4in-product_0/m1_n100_70# 4in-product_0/m1_n40_64# 2 4 832 202
+p m1_760_288# 4in-product_0/m1_n100_70# 4in-product_0/m1_n40_64# 2 4 832 234
+p 4in-product_0/2inMUX_0/a_20_35# 4in-product_0/2inMUX_0/a_28_13# 4in-product_0/m1_n40_64# 2 4 832 173
+n m1_760_288# 4in-product_0/2inMUX_0/a_28_13# 4in-product_0/m1_n40_64# 2 4 832 157
+p m1_760_288# m2_1296_248# 4in-product_0/2inMUX_1/a_20_35# 3 4 244 240
+n m1_760_288# m2_1297_32# 4in-product_0/2inMUX_1/a_20_35# 3 4 244 152
+n 4in-product_0/2inMUX_1/a_20_35# m2_744_308# 4in-product_0/m1_n576_64# 2 4 296 202
+p m1_760_288# m2_744_308# 4in-product_0/m1_n576_64# 2 4 296 234
+p 4in-product_0/2inMUX_1/a_20_35# 4in-product_0/2inMUX_1/a_28_13# 4in-product_0/m1_n576_64# 2 4 296 173
+n m1_760_288# 4in-product_0/2inMUX_1/a_28_13# 4in-product_0/m1_n576_64# 2 4 296 157
+p m1_760_288# m2_1296_248# 4in-product_0/2inMUX_2/a_20_35# 3 4 780 128
+n m1_760_288# m2_1297_32# 4in-product_0/2inMUX_2/a_20_35# 3 4 780 40
+n 4in-product_0/2inMUX_2/a_20_35# 4in-product_0/m1_n148_n120# 4in-product_0/m1_n40_n48# 2 4 832 90
+p m1_760_288# 4in-product_0/m1_n148_n120# 4in-product_0/m1_n40_n48# 2 4 832 122
+p 4in-product_0/2inMUX_2/a_20_35# 4in-product_0/2inMUX_2/a_28_13# 4in-product_0/m1_n40_n48# 2 4 832 61
+n m1_760_288# 4in-product_0/2inMUX_2/a_28_13# 4in-product_0/m1_n40_n48# 2 4 832 45
+p m1_760_288# m2_1296_248# 4in-product_0/2inMUX_3/a_20_35# 3 4 244 128
+n m1_760_288# m2_1297_32# 4in-product_0/2inMUX_3/a_20_35# 3 4 244 40
+n 4in-product_0/2inMUX_3/a_20_35# 4in-product_0/m1_n680_n120# 4in-product_0/m1_n576_n48# 2 4 296 90
+p m1_760_288# 4in-product_0/m1_n680_n120# 4in-product_0/m1_n576_n48# 2 4 296 122
+p 4in-product_0/2inMUX_3/a_20_35# 4in-product_0/2inMUX_3/a_28_13# 4in-product_0/m1_n576_n48# 2 4 296 61
+n m1_760_288# 4in-product_0/2inMUX_3/a_28_13# 4in-product_0/m1_n576_n48# 2 4 296 45
+p m1_892_280# m2_1296_248# 4in-product_0/dflipflopER_0/m1_460_72# 2 4 1188 240
+n m1_892_280# m2_1297_32# 4in-product_0/dflipflopER_0/m1_460_72# 2 4 1188 152
+p m1_876_264# m2_1296_248# 4in-product_0/dflipflopER_0/m1_236_24# 2 4 964 240
+n m1_876_264# m2_1297_32# 4in-product_0/dflipflopER_0/m1_236_24# 2 4 964 152
+p m1_884_272# m2_1296_248# 4in-product_0/dflipflopER_0/m1_200_40# 2 4 928 240
+n m1_884_272# m2_1297_32# 4in-product_0/dflipflopER_0/m1_200_40# 2 4 928 152
+p 4in-product_0/m1_n40_64# m2_1296_248# 4in-product_0/dflipflopER_0/latch_0/a_18_96# 2 4 1020 240
+p 4in-product_0/dflipflopER_0/latch_0/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_0/m1_336_56# 2 4 1064 240
+n 4in-product_0/m1_n40_64# m2_1297_32# 4in-product_0/dflipflopER_0/latch_0/a_18_8# 2 4 1020 152
+p 4in-product_0/dflipflopER_0/m1_200_40# 4in-product_0/dflipflopER_0/latch_0/a_18_96# 4in-product_0/dflipflopER_0/latch_0/a_26_8# 2 4 1028 240
+n 4in-product_0/dflipflopER_0/m1_336_56# 4in-product_0/dflipflopER_0/latch_0/a_42_8# m2_1297_32# 2 4 1052 152
+p 4in-product_0/dflipflopER_0/m1_336_56# 4in-product_0/dflipflopER_0/latch_0/a_42_96# m2_1296_248# 2 4 1052 240
+n m1_884_272# 4in-product_0/dflipflopER_0/latch_0/a_18_8# 4in-product_0/dflipflopER_0/latch_0/a_26_8# 2 4 1028 152
+p m1_884_272# 4in-product_0/dflipflopER_0/latch_0/a_26_8# 4in-product_0/dflipflopER_0/latch_0/a_42_96# 2 4 1044 240
+n 4in-product_0/dflipflopER_0/latch_0/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_0/m1_336_56# 2 4 1064 152
+n 4in-product_0/dflipflopER_0/m1_200_40# 4in-product_0/dflipflopER_0/latch_0/a_26_8# 4in-product_0/dflipflopER_0/latch_0/a_42_8# 2 4 1044 152
+p 4in-product_0/dflipflopER_0/m1_336_56# m2_1296_248# 4in-product_0/dflipflopER_0/latch_1/a_18_96# 2 4 1108 240
+p 4in-product_0/dflipflopER_0/latch_1/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_0/m1_424_48# 2 4 1152 240
+n 4in-product_0/dflipflopER_0/m1_336_56# m2_1297_32# 4in-product_0/dflipflopER_0/latch_1/a_18_8# 2 4 1108 152
+p 4in-product_0/dflipflopER_0/m1_236_24# 4in-product_0/dflipflopER_0/latch_1/a_18_96# 4in-product_0/dflipflopER_0/latch_1/a_26_8# 2 4 1116 240
+n 4in-product_0/dflipflopER_0/m1_424_48# 4in-product_0/dflipflopER_0/latch_1/a_42_8# m2_1297_32# 2 4 1140 152
+p 4in-product_0/dflipflopER_0/m1_424_48# 4in-product_0/dflipflopER_0/latch_1/a_42_96# m2_1296_248# 2 4 1140 240
+n m1_876_264# 4in-product_0/dflipflopER_0/latch_1/a_18_8# 4in-product_0/dflipflopER_0/latch_1/a_26_8# 2 4 1116 152
+p m1_876_264# 4in-product_0/dflipflopER_0/latch_1/a_26_8# 4in-product_0/dflipflopER_0/latch_1/a_42_96# 2 4 1132 240
+n 4in-product_0/dflipflopER_0/latch_1/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_0/m1_424_48# 2 4 1152 152
+n 4in-product_0/dflipflopER_0/m1_236_24# 4in-product_0/dflipflopER_0/latch_1/a_26_8# 4in-product_0/dflipflopER_0/latch_1/a_42_8# 2 4 1132 152
+p 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# m2_1296_248# 4in-product_0/m1_n100_70# 2 4 1264 240
+n 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# m2_1297_32# 4in-product_0/m1_n100_70# 2 4 1264 152
+p 4in-product_0/dflipflopER_0/m1_460_72# 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# m2_1296_248# 2 4 1224 240
+p 4in-product_0/dflipflopER_0/m1_424_48# m2_1296_248# 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# 2 4 1236 240
+n 4in-product_0/dflipflopER_0/m1_460_72# 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# 4in-product_0/dflipflopER_0/2inAND_3/a_18_8# 2 4 1224 152
+n 4in-product_0/dflipflopER_0/m1_424_48# 4in-product_0/dflipflopER_0/2inAND_3/a_18_8# m2_1297_32# 2 4 1236 152
+p m1_892_280# m2_1296_248# 4in-product_0/dflipflopER_1/m1_460_72# 2 4 652 240
+n m1_892_280# m2_1297_32# 4in-product_0/dflipflopER_1/m1_460_72# 2 4 652 152
+p m1_876_264# m2_1296_248# 4in-product_0/dflipflopER_1/m1_236_24# 2 4 428 240
+n m1_876_264# m2_1297_32# 4in-product_0/dflipflopER_1/m1_236_24# 2 4 428 152
+p m1_884_272# m2_1296_248# 4in-product_0/dflipflopER_1/m1_200_40# 2 4 392 240
+n m1_884_272# m2_1297_32# 4in-product_0/dflipflopER_1/m1_200_40# 2 4 392 152
+p 4in-product_0/m1_n576_64# m2_1296_248# 4in-product_0/dflipflopER_1/latch_0/a_18_96# 2 4 484 240
+p 4in-product_0/dflipflopER_1/latch_0/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_1/m1_336_56# 2 4 528 240
+n 4in-product_0/m1_n576_64# m2_1297_32# 4in-product_0/dflipflopER_1/latch_0/a_18_8# 2 4 484 152
+p 4in-product_0/dflipflopER_1/m1_200_40# 4in-product_0/dflipflopER_1/latch_0/a_18_96# 4in-product_0/dflipflopER_1/latch_0/a_26_8# 2 4 492 240
+n 4in-product_0/dflipflopER_1/m1_336_56# 4in-product_0/dflipflopER_1/latch_0/a_42_8# m2_1297_32# 2 4 516 152
+p 4in-product_0/dflipflopER_1/m1_336_56# 4in-product_0/dflipflopER_1/latch_0/a_42_96# m2_1296_248# 2 4 516 240
+n m1_884_272# 4in-product_0/dflipflopER_1/latch_0/a_18_8# 4in-product_0/dflipflopER_1/latch_0/a_26_8# 2 4 492 152
+p m1_884_272# 4in-product_0/dflipflopER_1/latch_0/a_26_8# 4in-product_0/dflipflopER_1/latch_0/a_42_96# 2 4 508 240
+n 4in-product_0/dflipflopER_1/latch_0/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_1/m1_336_56# 2 4 528 152
+n 4in-product_0/dflipflopER_1/m1_200_40# 4in-product_0/dflipflopER_1/latch_0/a_26_8# 4in-product_0/dflipflopER_1/latch_0/a_42_8# 2 4 508 152
+p 4in-product_0/dflipflopER_1/m1_336_56# m2_1296_248# 4in-product_0/dflipflopER_1/latch_1/a_18_96# 2 4 572 240
+p 4in-product_0/dflipflopER_1/latch_1/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_1/m1_424_48# 2 4 616 240
+n 4in-product_0/dflipflopER_1/m1_336_56# m2_1297_32# 4in-product_0/dflipflopER_1/latch_1/a_18_8# 2 4 572 152
+p 4in-product_0/dflipflopER_1/m1_236_24# 4in-product_0/dflipflopER_1/latch_1/a_18_96# 4in-product_0/dflipflopER_1/latch_1/a_26_8# 2 4 580 240
+n 4in-product_0/dflipflopER_1/m1_424_48# 4in-product_0/dflipflopER_1/latch_1/a_42_8# m2_1297_32# 2 4 604 152
+p 4in-product_0/dflipflopER_1/m1_424_48# 4in-product_0/dflipflopER_1/latch_1/a_42_96# m2_1296_248# 2 4 604 240
+n m1_876_264# 4in-product_0/dflipflopER_1/latch_1/a_18_8# 4in-product_0/dflipflopER_1/latch_1/a_26_8# 2 4 580 152
+p m1_876_264# 4in-product_0/dflipflopER_1/latch_1/a_26_8# 4in-product_0/dflipflopER_1/latch_1/a_42_96# 2 4 596 240
+n 4in-product_0/dflipflopER_1/latch_1/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_1/m1_424_48# 2 4 616 152
+n 4in-product_0/dflipflopER_1/m1_236_24# 4in-product_0/dflipflopER_1/latch_1/a_26_8# 4in-product_0/dflipflopER_1/latch_1/a_42_8# 2 4 596 152
+p 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# m2_1296_248# m2_744_308# 2 4 728 240
+n 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# m2_1297_32# m2_744_308# 2 4 728 152
+p 4in-product_0/dflipflopER_1/m1_460_72# 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# m2_1296_248# 2 4 688 240
+p 4in-product_0/dflipflopER_1/m1_424_48# m2_1296_248# 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# 2 4 700 240
+n 4in-product_0/dflipflopER_1/m1_460_72# 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# 4in-product_0/dflipflopER_1/2inAND_3/a_18_8# 2 4 688 152
+n 4in-product_0/dflipflopER_1/m1_424_48# 4in-product_0/dflipflopER_1/2inAND_3/a_18_8# m2_1297_32# 2 4 700 152
+p m1_892_280# m2_1296_248# 4in-product_0/dflipflopER_2/m1_460_72# 2 4 1188 128
+n m1_892_280# m2_1297_32# 4in-product_0/dflipflopER_2/m1_460_72# 2 4 1188 40
+p m1_876_264# m2_1296_248# 4in-product_0/dflipflopER_2/m1_236_24# 2 4 964 128
+n m1_876_264# m2_1297_32# 4in-product_0/dflipflopER_2/m1_236_24# 2 4 964 40
+p m1_884_272# m2_1296_248# 4in-product_0/dflipflopER_2/m1_200_40# 2 4 928 128
+n m1_884_272# m2_1297_32# 4in-product_0/dflipflopER_2/m1_200_40# 2 4 928 40
+p 4in-product_0/m1_n40_n48# m2_1296_248# 4in-product_0/dflipflopER_2/latch_0/a_18_96# 2 4 1020 128
+p 4in-product_0/dflipflopER_2/latch_0/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_2/m1_336_56# 2 4 1064 128
+n 4in-product_0/m1_n40_n48# m2_1297_32# 4in-product_0/dflipflopER_2/latch_0/a_18_8# 2 4 1020 40
+p 4in-product_0/dflipflopER_2/m1_200_40# 4in-product_0/dflipflopER_2/latch_0/a_18_96# 4in-product_0/dflipflopER_2/latch_0/a_26_8# 2 4 1028 128
+n 4in-product_0/dflipflopER_2/m1_336_56# 4in-product_0/dflipflopER_2/latch_0/a_42_8# m2_1297_32# 2 4 1052 40
+p 4in-product_0/dflipflopER_2/m1_336_56# 4in-product_0/dflipflopER_2/latch_0/a_42_96# m2_1296_248# 2 4 1052 128
+n m1_884_272# 4in-product_0/dflipflopER_2/latch_0/a_18_8# 4in-product_0/dflipflopER_2/latch_0/a_26_8# 2 4 1028 40
+p m1_884_272# 4in-product_0/dflipflopER_2/latch_0/a_26_8# 4in-product_0/dflipflopER_2/latch_0/a_42_96# 2 4 1044 128
+n 4in-product_0/dflipflopER_2/latch_0/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_2/m1_336_56# 2 4 1064 40
+n 4in-product_0/dflipflopER_2/m1_200_40# 4in-product_0/dflipflopER_2/latch_0/a_26_8# 4in-product_0/dflipflopER_2/latch_0/a_42_8# 2 4 1044 40
+p 4in-product_0/dflipflopER_2/m1_336_56# m2_1296_248# 4in-product_0/dflipflopER_2/latch_1/a_18_96# 2 4 1108 128
+p 4in-product_0/dflipflopER_2/latch_1/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_2/m1_424_48# 2 4 1152 128
+n 4in-product_0/dflipflopER_2/m1_336_56# m2_1297_32# 4in-product_0/dflipflopER_2/latch_1/a_18_8# 2 4 1108 40
+p 4in-product_0/dflipflopER_2/m1_236_24# 4in-product_0/dflipflopER_2/latch_1/a_18_96# 4in-product_0/dflipflopER_2/latch_1/a_26_8# 2 4 1116 128
+n 4in-product_0/dflipflopER_2/m1_424_48# 4in-product_0/dflipflopER_2/latch_1/a_42_8# m2_1297_32# 2 4 1140 40
+p 4in-product_0/dflipflopER_2/m1_424_48# 4in-product_0/dflipflopER_2/latch_1/a_42_96# m2_1296_248# 2 4 1140 128
+n m1_876_264# 4in-product_0/dflipflopER_2/latch_1/a_18_8# 4in-product_0/dflipflopER_2/latch_1/a_26_8# 2 4 1116 40
+p m1_876_264# 4in-product_0/dflipflopER_2/latch_1/a_26_8# 4in-product_0/dflipflopER_2/latch_1/a_42_96# 2 4 1132 128
+n 4in-product_0/dflipflopER_2/latch_1/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_2/m1_424_48# 2 4 1152 40
+n 4in-product_0/dflipflopER_2/m1_236_24# 4in-product_0/dflipflopER_2/latch_1/a_26_8# 4in-product_0/dflipflopER_2/latch_1/a_42_8# 2 4 1132 40
+p 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# m2_1296_248# 4in-product_0/m1_n148_n120# 2 4 1264 128
+n 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# m2_1297_32# 4in-product_0/m1_n148_n120# 2 4 1264 40
+p 4in-product_0/dflipflopER_2/m1_460_72# 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# m2_1296_248# 2 4 1224 128
+p 4in-product_0/dflipflopER_2/m1_424_48# m2_1296_248# 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# 2 4 1236 128
+n 4in-product_0/dflipflopER_2/m1_460_72# 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# 4in-product_0/dflipflopER_2/2inAND_3/a_18_8# 2 4 1224 40
+n 4in-product_0/dflipflopER_2/m1_424_48# 4in-product_0/dflipflopER_2/2inAND_3/a_18_8# m2_1297_32# 2 4 1236 40
+p m1_892_280# m2_1296_248# 4in-product_0/dflipflopER_3/m1_460_72# 2 4 652 128
+n m1_892_280# m2_1297_32# 4in-product_0/dflipflopER_3/m1_460_72# 2 4 652 40
+p m1_876_264# m2_1296_248# 4in-product_0/dflipflopER_3/m1_236_24# 2 4 428 128
+n m1_876_264# m2_1297_32# 4in-product_0/dflipflopER_3/m1_236_24# 2 4 428 40
+p m1_884_272# m2_1296_248# 4in-product_0/dflipflopER_3/m1_200_40# 2 4 392 128
+n m1_884_272# m2_1297_32# 4in-product_0/dflipflopER_3/m1_200_40# 2 4 392 40
+p 4in-product_0/m1_n576_n48# m2_1296_248# 4in-product_0/dflipflopER_3/latch_0/a_18_96# 2 4 484 128
+p 4in-product_0/dflipflopER_3/latch_0/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_3/m1_336_56# 2 4 528 128
+n 4in-product_0/m1_n576_n48# m2_1297_32# 4in-product_0/dflipflopER_3/latch_0/a_18_8# 2 4 484 40
+p 4in-product_0/dflipflopER_3/m1_200_40# 4in-product_0/dflipflopER_3/latch_0/a_18_96# 4in-product_0/dflipflopER_3/latch_0/a_26_8# 2 4 492 128
+n 4in-product_0/dflipflopER_3/m1_336_56# 4in-product_0/dflipflopER_3/latch_0/a_42_8# m2_1297_32# 2 4 516 40
+p 4in-product_0/dflipflopER_3/m1_336_56# 4in-product_0/dflipflopER_3/latch_0/a_42_96# m2_1296_248# 2 4 516 128
+n m1_884_272# 4in-product_0/dflipflopER_3/latch_0/a_18_8# 4in-product_0/dflipflopER_3/latch_0/a_26_8# 2 4 492 40
+p m1_884_272# 4in-product_0/dflipflopER_3/latch_0/a_26_8# 4in-product_0/dflipflopER_3/latch_0/a_42_96# 2 4 508 128
+n 4in-product_0/dflipflopER_3/latch_0/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_3/m1_336_56# 2 4 528 40
+n 4in-product_0/dflipflopER_3/m1_200_40# 4in-product_0/dflipflopER_3/latch_0/a_26_8# 4in-product_0/dflipflopER_3/latch_0/a_42_8# 2 4 508 40
+p 4in-product_0/dflipflopER_3/m1_336_56# m2_1296_248# 4in-product_0/dflipflopER_3/latch_1/a_18_96# 2 4 572 128
+p 4in-product_0/dflipflopER_3/latch_1/a_26_8# m2_1296_248# 4in-product_0/dflipflopER_3/m1_424_48# 2 4 616 128
+n 4in-product_0/dflipflopER_3/m1_336_56# m2_1297_32# 4in-product_0/dflipflopER_3/latch_1/a_18_8# 2 4 572 40
+p 4in-product_0/dflipflopER_3/m1_236_24# 4in-product_0/dflipflopER_3/latch_1/a_18_96# 4in-product_0/dflipflopER_3/latch_1/a_26_8# 2 4 580 128
+n 4in-product_0/dflipflopER_3/m1_424_48# 4in-product_0/dflipflopER_3/latch_1/a_42_8# m2_1297_32# 2 4 604 40
+p 4in-product_0/dflipflopER_3/m1_424_48# 4in-product_0/dflipflopER_3/latch_1/a_42_96# m2_1296_248# 2 4 604 128
+n m1_876_264# 4in-product_0/dflipflopER_3/latch_1/a_18_8# 4in-product_0/dflipflopER_3/latch_1/a_26_8# 2 4 580 40
+p m1_876_264# 4in-product_0/dflipflopER_3/latch_1/a_26_8# 4in-product_0/dflipflopER_3/latch_1/a_42_96# 2 4 596 128
+n 4in-product_0/dflipflopER_3/latch_1/a_26_8# m2_1297_32# 4in-product_0/dflipflopER_3/m1_424_48# 2 4 616 40
+n 4in-product_0/dflipflopER_3/m1_236_24# 4in-product_0/dflipflopER_3/latch_1/a_26_8# 4in-product_0/dflipflopER_3/latch_1/a_42_8# 2 4 596 40
+p 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# m2_1296_248# 4in-product_0/m1_n680_n120# 2 4 728 128
+n 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# m2_1297_32# 4in-product_0/m1_n680_n120# 2 4 728 40
+p 4in-product_0/dflipflopER_3/m1_460_72# 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# m2_1296_248# 2 4 688 128
+p 4in-product_0/dflipflopER_3/m1_424_48# m2_1296_248# 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# 2 4 700 128
+n 4in-product_0/dflipflopER_3/m1_460_72# 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# 4in-product_0/dflipflopER_3/2inAND_3/a_18_8# 2 4 688 40
+n 4in-product_0/dflipflopER_3/m1_424_48# 4in-product_0/dflipflopER_3/2inAND_3/a_18_8# m2_1297_32# 2 4 700 40
+p m1_760_288# m2_1296_248# 4in-product_1/2inMUX_0/a_20_35# 3 4 1904 240
+n m1_760_288# m2_1297_32# 4in-product_1/2inMUX_0/a_20_35# 3 4 1904 152
+n 4in-product_1/2inMUX_0/a_20_35# 4in-product_1/m1_n100_70# 4in-product_1/m1_n40_64# 2 4 1956 202
+p m1_760_288# 4in-product_1/m1_n100_70# 4in-product_1/m1_n40_64# 2 4 1956 234
+p 4in-product_1/2inMUX_0/a_20_35# 4in-product_1/2inMUX_0/a_28_13# 4in-product_1/m1_n40_64# 2 4 1956 173
+n m1_760_288# 4in-product_1/2inMUX_0/a_28_13# 4in-product_1/m1_n40_64# 2 4 1956 157
+p m1_760_288# m2_1296_248# 4in-product_1/2inMUX_1/a_20_35# 3 4 1368 240
+n m1_760_288# m2_1297_32# 4in-product_1/2inMUX_1/a_20_35# 3 4 1368 152
+n 4in-product_1/2inMUX_1/a_20_35# m2_1384_308# 4in-product_1/m1_n576_64# 2 4 1420 202
+p m1_760_288# m2_1384_308# 4in-product_1/m1_n576_64# 2 4 1420 234
+p 4in-product_1/2inMUX_1/a_20_35# 4in-product_1/2inMUX_1/a_28_13# 4in-product_1/m1_n576_64# 2 4 1420 173
+n m1_760_288# 4in-product_1/2inMUX_1/a_28_13# 4in-product_1/m1_n576_64# 2 4 1420 157
+p m1_760_288# m2_1296_248# 4in-product_1/2inMUX_2/a_20_35# 3 4 1904 128
+n m1_760_288# m2_1297_32# 4in-product_1/2inMUX_2/a_20_35# 3 4 1904 40
+n 4in-product_1/2inMUX_2/a_20_35# 4in-product_1/m1_n148_n120# 4in-product_1/m1_n40_n48# 2 4 1956 90
+p m1_760_288# 4in-product_1/m1_n148_n120# 4in-product_1/m1_n40_n48# 2 4 1956 122
+p 4in-product_1/2inMUX_2/a_20_35# 4in-product_1/2inMUX_2/a_28_13# 4in-product_1/m1_n40_n48# 2 4 1956 61
+n m1_760_288# 4in-product_1/2inMUX_2/a_28_13# 4in-product_1/m1_n40_n48# 2 4 1956 45
+p m1_760_288# m2_1296_248# 4in-product_1/2inMUX_3/a_20_35# 3 4 1368 128
+n m1_760_288# m2_1297_32# 4in-product_1/2inMUX_3/a_20_35# 3 4 1368 40
+n 4in-product_1/2inMUX_3/a_20_35# 4in-product_1/m1_n680_n120# 4in-product_1/m1_n576_n48# 2 4 1420 90
+p m1_760_288# 4in-product_1/m1_n680_n120# 4in-product_1/m1_n576_n48# 2 4 1420 122
+p 4in-product_1/2inMUX_3/a_20_35# 4in-product_1/2inMUX_3/a_28_13# 4in-product_1/m1_n576_n48# 2 4 1420 61
+n m1_760_288# 4in-product_1/2inMUX_3/a_28_13# 4in-product_1/m1_n576_n48# 2 4 1420 45
+p m1_892_280# m2_1296_248# 4in-product_1/dflipflopER_0/m1_460_72# 2 4 2312 240
+n m1_892_280# m2_1297_32# 4in-product_1/dflipflopER_0/m1_460_72# 2 4 2312 152
+p m1_876_264# m2_1296_248# 4in-product_1/dflipflopER_0/m1_236_24# 2 4 2088 240
+n m1_876_264# m2_1297_32# 4in-product_1/dflipflopER_0/m1_236_24# 2 4 2088 152
+p m1_884_272# m2_1296_248# 4in-product_1/dflipflopER_0/m1_200_40# 2 4 2052 240
+n m1_884_272# m2_1297_32# 4in-product_1/dflipflopER_0/m1_200_40# 2 4 2052 152
+p 4in-product_1/m1_n40_64# m2_1296_248# 4in-product_1/dflipflopER_0/latch_0/a_18_96# 2 4 2144 240
+p 4in-product_1/dflipflopER_0/latch_0/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_0/m1_336_56# 2 4 2188 240
+n 4in-product_1/m1_n40_64# m2_1297_32# 4in-product_1/dflipflopER_0/latch_0/a_18_8# 2 4 2144 152
+p 4in-product_1/dflipflopER_0/m1_200_40# 4in-product_1/dflipflopER_0/latch_0/a_18_96# 4in-product_1/dflipflopER_0/latch_0/a_26_8# 2 4 2152 240
+n 4in-product_1/dflipflopER_0/m1_336_56# 4in-product_1/dflipflopER_0/latch_0/a_42_8# m2_1297_32# 2 4 2176 152
+p 4in-product_1/dflipflopER_0/m1_336_56# 4in-product_1/dflipflopER_0/latch_0/a_42_96# m2_1296_248# 2 4 2176 240
+n m1_884_272# 4in-product_1/dflipflopER_0/latch_0/a_18_8# 4in-product_1/dflipflopER_0/latch_0/a_26_8# 2 4 2152 152
+p m1_884_272# 4in-product_1/dflipflopER_0/latch_0/a_26_8# 4in-product_1/dflipflopER_0/latch_0/a_42_96# 2 4 2168 240
+n 4in-product_1/dflipflopER_0/latch_0/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_0/m1_336_56# 2 4 2188 152
+n 4in-product_1/dflipflopER_0/m1_200_40# 4in-product_1/dflipflopER_0/latch_0/a_26_8# 4in-product_1/dflipflopER_0/latch_0/a_42_8# 2 4 2168 152
+p 4in-product_1/dflipflopER_0/m1_336_56# m2_1296_248# 4in-product_1/dflipflopER_0/latch_1/a_18_96# 2 4 2232 240
+p 4in-product_1/dflipflopER_0/latch_1/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_0/m1_424_48# 2 4 2276 240
+n 4in-product_1/dflipflopER_0/m1_336_56# m2_1297_32# 4in-product_1/dflipflopER_0/latch_1/a_18_8# 2 4 2232 152
+p 4in-product_1/dflipflopER_0/m1_236_24# 4in-product_1/dflipflopER_0/latch_1/a_18_96# 4in-product_1/dflipflopER_0/latch_1/a_26_8# 2 4 2240 240
+n 4in-product_1/dflipflopER_0/m1_424_48# 4in-product_1/dflipflopER_0/latch_1/a_42_8# m2_1297_32# 2 4 2264 152
+p 4in-product_1/dflipflopER_0/m1_424_48# 4in-product_1/dflipflopER_0/latch_1/a_42_96# m2_1296_248# 2 4 2264 240
+n m1_876_264# 4in-product_1/dflipflopER_0/latch_1/a_18_8# 4in-product_1/dflipflopER_0/latch_1/a_26_8# 2 4 2240 152
+p m1_876_264# 4in-product_1/dflipflopER_0/latch_1/a_26_8# 4in-product_1/dflipflopER_0/latch_1/a_42_96# 2 4 2256 240
+n 4in-product_1/dflipflopER_0/latch_1/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_0/m1_424_48# 2 4 2276 152
+n 4in-product_1/dflipflopER_0/m1_236_24# 4in-product_1/dflipflopER_0/latch_1/a_26_8# 4in-product_1/dflipflopER_0/latch_1/a_42_8# 2 4 2256 152
+p 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# m2_1296_248# 4in-product_1/m1_n100_70# 2 4 2388 240
+n 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# m2_1297_32# 4in-product_1/m1_n100_70# 2 4 2388 152
+p 4in-product_1/dflipflopER_0/m1_460_72# 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# m2_1296_248# 2 4 2348 240
+p 4in-product_1/dflipflopER_0/m1_424_48# m2_1296_248# 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# 2 4 2360 240
+n 4in-product_1/dflipflopER_0/m1_460_72# 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# 4in-product_1/dflipflopER_0/2inAND_3/a_18_8# 2 4 2348 152
+n 4in-product_1/dflipflopER_0/m1_424_48# 4in-product_1/dflipflopER_0/2inAND_3/a_18_8# m2_1297_32# 2 4 2360 152
+p m1_892_280# m2_1296_248# 4in-product_1/dflipflopER_1/m1_460_72# 2 4 1776 240
+n m1_892_280# m2_1297_32# 4in-product_1/dflipflopER_1/m1_460_72# 2 4 1776 152
+p m1_876_264# m2_1296_248# 4in-product_1/dflipflopER_1/m1_236_24# 2 4 1552 240
+n m1_876_264# m2_1297_32# 4in-product_1/dflipflopER_1/m1_236_24# 2 4 1552 152
+p m1_884_272# m2_1296_248# 4in-product_1/dflipflopER_1/m1_200_40# 2 4 1516 240
+n m1_884_272# m2_1297_32# 4in-product_1/dflipflopER_1/m1_200_40# 2 4 1516 152
+p 4in-product_1/m1_n576_64# m2_1296_248# 4in-product_1/dflipflopER_1/latch_0/a_18_96# 2 4 1608 240
+p 4in-product_1/dflipflopER_1/latch_0/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_1/m1_336_56# 2 4 1652 240
+n 4in-product_1/m1_n576_64# m2_1297_32# 4in-product_1/dflipflopER_1/latch_0/a_18_8# 2 4 1608 152
+p 4in-product_1/dflipflopER_1/m1_200_40# 4in-product_1/dflipflopER_1/latch_0/a_18_96# 4in-product_1/dflipflopER_1/latch_0/a_26_8# 2 4 1616 240
+n 4in-product_1/dflipflopER_1/m1_336_56# 4in-product_1/dflipflopER_1/latch_0/a_42_8# m2_1297_32# 2 4 1640 152
+p 4in-product_1/dflipflopER_1/m1_336_56# 4in-product_1/dflipflopER_1/latch_0/a_42_96# m2_1296_248# 2 4 1640 240
+n m1_884_272# 4in-product_1/dflipflopER_1/latch_0/a_18_8# 4in-product_1/dflipflopER_1/latch_0/a_26_8# 2 4 1616 152
+p m1_884_272# 4in-product_1/dflipflopER_1/latch_0/a_26_8# 4in-product_1/dflipflopER_1/latch_0/a_42_96# 2 4 1632 240
+n 4in-product_1/dflipflopER_1/latch_0/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_1/m1_336_56# 2 4 1652 152
+n 4in-product_1/dflipflopER_1/m1_200_40# 4in-product_1/dflipflopER_1/latch_0/a_26_8# 4in-product_1/dflipflopER_1/latch_0/a_42_8# 2 4 1632 152
+p 4in-product_1/dflipflopER_1/m1_336_56# m2_1296_248# 4in-product_1/dflipflopER_1/latch_1/a_18_96# 2 4 1696 240
+p 4in-product_1/dflipflopER_1/latch_1/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_1/m1_424_48# 2 4 1740 240
+n 4in-product_1/dflipflopER_1/m1_336_56# m2_1297_32# 4in-product_1/dflipflopER_1/latch_1/a_18_8# 2 4 1696 152
+p 4in-product_1/dflipflopER_1/m1_236_24# 4in-product_1/dflipflopER_1/latch_1/a_18_96# 4in-product_1/dflipflopER_1/latch_1/a_26_8# 2 4 1704 240
+n 4in-product_1/dflipflopER_1/m1_424_48# 4in-product_1/dflipflopER_1/latch_1/a_42_8# m2_1297_32# 2 4 1728 152
+p 4in-product_1/dflipflopER_1/m1_424_48# 4in-product_1/dflipflopER_1/latch_1/a_42_96# m2_1296_248# 2 4 1728 240
+n m1_876_264# 4in-product_1/dflipflopER_1/latch_1/a_18_8# 4in-product_1/dflipflopER_1/latch_1/a_26_8# 2 4 1704 152
+p m1_876_264# 4in-product_1/dflipflopER_1/latch_1/a_26_8# 4in-product_1/dflipflopER_1/latch_1/a_42_96# 2 4 1720 240
+n 4in-product_1/dflipflopER_1/latch_1/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_1/m1_424_48# 2 4 1740 152
+n 4in-product_1/dflipflopER_1/m1_236_24# 4in-product_1/dflipflopER_1/latch_1/a_26_8# 4in-product_1/dflipflopER_1/latch_1/a_42_8# 2 4 1720 152
+p 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# m2_1296_248# m2_1384_308# 2 4 1852 240
+n 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# m2_1297_32# m2_1384_308# 2 4 1852 152
+p 4in-product_1/dflipflopER_1/m1_460_72# 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# m2_1296_248# 2 4 1812 240
+p 4in-product_1/dflipflopER_1/m1_424_48# m2_1296_248# 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# 2 4 1824 240
+n 4in-product_1/dflipflopER_1/m1_460_72# 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# 4in-product_1/dflipflopER_1/2inAND_3/a_18_8# 2 4 1812 152
+n 4in-product_1/dflipflopER_1/m1_424_48# 4in-product_1/dflipflopER_1/2inAND_3/a_18_8# m2_1297_32# 2 4 1824 152
+p m1_892_280# m2_1296_248# 4in-product_1/dflipflopER_2/m1_460_72# 2 4 2312 128
+n m1_892_280# m2_1297_32# 4in-product_1/dflipflopER_2/m1_460_72# 2 4 2312 40
+p m1_876_264# m2_1296_248# 4in-product_1/dflipflopER_2/m1_236_24# 2 4 2088 128
+n m1_876_264# m2_1297_32# 4in-product_1/dflipflopER_2/m1_236_24# 2 4 2088 40
+p m1_884_272# m2_1296_248# 4in-product_1/dflipflopER_2/m1_200_40# 2 4 2052 128
+n m1_884_272# m2_1297_32# 4in-product_1/dflipflopER_2/m1_200_40# 2 4 2052 40
+p 4in-product_1/m1_n40_n48# m2_1296_248# 4in-product_1/dflipflopER_2/latch_0/a_18_96# 2 4 2144 128
+p 4in-product_1/dflipflopER_2/latch_0/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_2/m1_336_56# 2 4 2188 128
+n 4in-product_1/m1_n40_n48# m2_1297_32# 4in-product_1/dflipflopER_2/latch_0/a_18_8# 2 4 2144 40
+p 4in-product_1/dflipflopER_2/m1_200_40# 4in-product_1/dflipflopER_2/latch_0/a_18_96# 4in-product_1/dflipflopER_2/latch_0/a_26_8# 2 4 2152 128
+n 4in-product_1/dflipflopER_2/m1_336_56# 4in-product_1/dflipflopER_2/latch_0/a_42_8# m2_1297_32# 2 4 2176 40
+p 4in-product_1/dflipflopER_2/m1_336_56# 4in-product_1/dflipflopER_2/latch_0/a_42_96# m2_1296_248# 2 4 2176 128
+n m1_884_272# 4in-product_1/dflipflopER_2/latch_0/a_18_8# 4in-product_1/dflipflopER_2/latch_0/a_26_8# 2 4 2152 40
+p m1_884_272# 4in-product_1/dflipflopER_2/latch_0/a_26_8# 4in-product_1/dflipflopER_2/latch_0/a_42_96# 2 4 2168 128
+n 4in-product_1/dflipflopER_2/latch_0/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_2/m1_336_56# 2 4 2188 40
+n 4in-product_1/dflipflopER_2/m1_200_40# 4in-product_1/dflipflopER_2/latch_0/a_26_8# 4in-product_1/dflipflopER_2/latch_0/a_42_8# 2 4 2168 40
+p 4in-product_1/dflipflopER_2/m1_336_56# m2_1296_248# 4in-product_1/dflipflopER_2/latch_1/a_18_96# 2 4 2232 128
+p 4in-product_1/dflipflopER_2/latch_1/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_2/m1_424_48# 2 4 2276 128
+n 4in-product_1/dflipflopER_2/m1_336_56# m2_1297_32# 4in-product_1/dflipflopER_2/latch_1/a_18_8# 2 4 2232 40
+p 4in-product_1/dflipflopER_2/m1_236_24# 4in-product_1/dflipflopER_2/latch_1/a_18_96# 4in-product_1/dflipflopER_2/latch_1/a_26_8# 2 4 2240 128
+n 4in-product_1/dflipflopER_2/m1_424_48# 4in-product_1/dflipflopER_2/latch_1/a_42_8# m2_1297_32# 2 4 2264 40
+p 4in-product_1/dflipflopER_2/m1_424_48# 4in-product_1/dflipflopER_2/latch_1/a_42_96# m2_1296_248# 2 4 2264 128
+n m1_876_264# 4in-product_1/dflipflopER_2/latch_1/a_18_8# 4in-product_1/dflipflopER_2/latch_1/a_26_8# 2 4 2240 40
+p m1_876_264# 4in-product_1/dflipflopER_2/latch_1/a_26_8# 4in-product_1/dflipflopER_2/latch_1/a_42_96# 2 4 2256 128
+n 4in-product_1/dflipflopER_2/latch_1/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_2/m1_424_48# 2 4 2276 40
+n 4in-product_1/dflipflopER_2/m1_236_24# 4in-product_1/dflipflopER_2/latch_1/a_26_8# 4in-product_1/dflipflopER_2/latch_1/a_42_8# 2 4 2256 40
+p 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# m2_1296_248# 4in-product_1/m1_n148_n120# 2 4 2388 128
+n 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# m2_1297_32# 4in-product_1/m1_n148_n120# 2 4 2388 40
+p 4in-product_1/dflipflopER_2/m1_460_72# 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# m2_1296_248# 2 4 2348 128
+p 4in-product_1/dflipflopER_2/m1_424_48# m2_1296_248# 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# 2 4 2360 128
+n 4in-product_1/dflipflopER_2/m1_460_72# 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# 4in-product_1/dflipflopER_2/2inAND_3/a_18_8# 2 4 2348 40
+n 4in-product_1/dflipflopER_2/m1_424_48# 4in-product_1/dflipflopER_2/2inAND_3/a_18_8# m2_1297_32# 2 4 2360 40
+p m1_892_280# m2_1296_248# 4in-product_1/dflipflopER_3/m1_460_72# 2 4 1776 128
+n m1_892_280# m2_1297_32# 4in-product_1/dflipflopER_3/m1_460_72# 2 4 1776 40
+p m1_876_264# m2_1296_248# 4in-product_1/dflipflopER_3/m1_236_24# 2 4 1552 128
+n m1_876_264# m2_1297_32# 4in-product_1/dflipflopER_3/m1_236_24# 2 4 1552 40
+p m1_884_272# m2_1296_248# 4in-product_1/dflipflopER_3/m1_200_40# 2 4 1516 128
+n m1_884_272# m2_1297_32# 4in-product_1/dflipflopER_3/m1_200_40# 2 4 1516 40
+p 4in-product_1/m1_n576_n48# m2_1296_248# 4in-product_1/dflipflopER_3/latch_0/a_18_96# 2 4 1608 128
+p 4in-product_1/dflipflopER_3/latch_0/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_3/m1_336_56# 2 4 1652 128
+n 4in-product_1/m1_n576_n48# m2_1297_32# 4in-product_1/dflipflopER_3/latch_0/a_18_8# 2 4 1608 40
+p 4in-product_1/dflipflopER_3/m1_200_40# 4in-product_1/dflipflopER_3/latch_0/a_18_96# 4in-product_1/dflipflopER_3/latch_0/a_26_8# 2 4 1616 128
+n 4in-product_1/dflipflopER_3/m1_336_56# 4in-product_1/dflipflopER_3/latch_0/a_42_8# m2_1297_32# 2 4 1640 40
+p 4in-product_1/dflipflopER_3/m1_336_56# 4in-product_1/dflipflopER_3/latch_0/a_42_96# m2_1296_248# 2 4 1640 128
+n m1_884_272# 4in-product_1/dflipflopER_3/latch_0/a_18_8# 4in-product_1/dflipflopER_3/latch_0/a_26_8# 2 4 1616 40
+p m1_884_272# 4in-product_1/dflipflopER_3/latch_0/a_26_8# 4in-product_1/dflipflopER_3/latch_0/a_42_96# 2 4 1632 128
+n 4in-product_1/dflipflopER_3/latch_0/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_3/m1_336_56# 2 4 1652 40
+n 4in-product_1/dflipflopER_3/m1_200_40# 4in-product_1/dflipflopER_3/latch_0/a_26_8# 4in-product_1/dflipflopER_3/latch_0/a_42_8# 2 4 1632 40
+p 4in-product_1/dflipflopER_3/m1_336_56# m2_1296_248# 4in-product_1/dflipflopER_3/latch_1/a_18_96# 2 4 1696 128
+p 4in-product_1/dflipflopER_3/latch_1/a_26_8# m2_1296_248# 4in-product_1/dflipflopER_3/m1_424_48# 2 4 1740 128
+n 4in-product_1/dflipflopER_3/m1_336_56# m2_1297_32# 4in-product_1/dflipflopER_3/latch_1/a_18_8# 2 4 1696 40
+p 4in-product_1/dflipflopER_3/m1_236_24# 4in-product_1/dflipflopER_3/latch_1/a_18_96# 4in-product_1/dflipflopER_3/latch_1/a_26_8# 2 4 1704 128
+n 4in-product_1/dflipflopER_3/m1_424_48# 4in-product_1/dflipflopER_3/latch_1/a_42_8# m2_1297_32# 2 4 1728 40
+p 4in-product_1/dflipflopER_3/m1_424_48# 4in-product_1/dflipflopER_3/latch_1/a_42_96# m2_1296_248# 2 4 1728 128
+n m1_876_264# 4in-product_1/dflipflopER_3/latch_1/a_18_8# 4in-product_1/dflipflopER_3/latch_1/a_26_8# 2 4 1704 40
+p m1_876_264# 4in-product_1/dflipflopER_3/latch_1/a_26_8# 4in-product_1/dflipflopER_3/latch_1/a_42_96# 2 4 1720 128
+n 4in-product_1/dflipflopER_3/latch_1/a_26_8# m2_1297_32# 4in-product_1/dflipflopER_3/m1_424_48# 2 4 1740 40
+n 4in-product_1/dflipflopER_3/m1_236_24# 4in-product_1/dflipflopER_3/latch_1/a_26_8# 4in-product_1/dflipflopER_3/latch_1/a_42_8# 2 4 1720 40
+p 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# m2_1296_248# 4in-product_1/m1_n680_n120# 2 4 1852 128
+n 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# m2_1297_32# 4in-product_1/m1_n680_n120# 2 4 1852 40
+p 4in-product_1/dflipflopER_3/m1_460_72# 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# m2_1296_248# 2 4 1812 128
+p 4in-product_1/dflipflopER_3/m1_424_48# m2_1296_248# 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# 2 4 1824 128
+n 4in-product_1/dflipflopER_3/m1_460_72# 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# 4in-product_1/dflipflopER_3/2inAND_3/a_18_8# 2 4 1812 40
+n 4in-product_1/dflipflopER_3/m1_424_48# 4in-product_1/dflipflopER_3/2inAND_3/a_18_8# m2_1297_32# 2 4 1824 40
+C m1_892_280# m1_760_288# 2.16
+C m1_892_280# m1_884_272# 7.47
+C m2_1297_32# m1_876_264# 2.88
+C m1_876_264# m2_1296_248# 5.76
+C 4in-product_1/dflipflopER_2/m1_200_40# m1_876_264# 2.46
+C 4in-product_0/dflipflopER_3/m1_200_40# m1_876_264# 2.46
+C m1_876_264# 4in-product_0/dflipflopER_1/m1_200_40# 2.46
+C 4in-product_0/dflipflopER_2/m1_200_40# m1_876_264# 2.46
+C m2_1297_32# m1_892_280# 2.88
+C m1_876_264# m1_892_280# 7.47
+C m1_892_280# m2_1296_248# 5.76
+C m1_876_264# 4in-product_1/dflipflopER_1/m1_200_40# 2.46
+C m1_876_264# 4in-product_1/dflipflopER_3/m1_200_40# 2.46
+C 4in-product_1/dflipflopER_0/m1_200_40# m1_876_264# 2.46
+C m1_884_272# m1_760_288# 2.16
+C m1_876_264# 4in-product_0/dflipflopER_0/m1_200_40# 2.46
+C m2_1297_32# m1_760_288# 3.60
+C m2_1297_32# m1_884_272# 2.88
+C m1_876_264# m1_760_288# 2.16
+C m1_876_264# m1_884_272# 20.21
+C m1_760_288# m2_1296_248# 3.60
+C m1_884_272# m2_1296_248# 5.76
+R 4in-product_1/dflipflopER_3/2inAND_3/a_18_8# 67
+C 4in-product_1/m1_n680_n120# GND 137.07
+R 4in-product_1/m1_n680_n120# 635
+= 4in-product_1/m1_n680_n120# 4in-product_1/2inMUX_3/a_28_58#
+= 4in-product_1/m1_n680_n120# 4in-product_1/dflipflopER_3/2inAND_3/m1_64_56#
+= 4in-product_1/m1_n680_n120# 4in-product_1/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-product_1/dflipflopER_3/2inAND_3/a_8_8# 4in-product_1/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-product_1/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-product_1/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-product_1/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-product_1/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-product_1/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-product_1/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-product_1/dflipflopER_3/m1_424_48# 2556
+= 4in-product_1/dflipflopER_3/m1_424_48# 4in-product_1/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-product_1/dflipflopER_3/m1_424_48# 4in-product_1/dflipflopER_3/latch_1/a_48_6#
+R 4in-product_1/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-product_1/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-product_1/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-product_1/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-product_1/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-product_1/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-product_1/dflipflopER_3/m1_336_56# 2651
+= 4in-product_1/dflipflopER_3/m1_336_56# 4in-product_1/dflipflopER_3/latch_1/a_8_56#
+= 4in-product_1/dflipflopER_3/m1_336_56# 4in-product_1/dflipflopER_3/latch_0/a_48_6#
+C 4in-product_1/m1_n576_n48# GND 61.31
+R 4in-product_1/m1_n576_n48# 1905
+= 4in-product_1/m1_n576_n48# 4in-product_1/2inMUX_3/a_38_13#
+= 4in-product_1/m1_n576_n48# 4in-product_1/dflipflopER_3/m1_252_56#
+= 4in-product_1/m1_n576_n48# 4in-product_1/dflipflopER_3/latch_0/a_8_56#
+C 4in-product_1/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-product_1/dflipflopER_3/m1_200_40# 1508
+= 4in-product_1/dflipflopER_3/m1_200_40# 4in-product_1/dflipflopER_3/latch_0/a_24_68#
+= 4in-product_1/dflipflopER_3/m1_200_40# 4in-product_1/dflipflopER_3/inverter_2/a_18_8#
+C m2_1296_248# GND 438.22
+R m2_1296_248# 21918
+= m2_1296_248# 4in-product_0/m2_n40_n8#
+= m2_1296_248# 4in-product_0/dflipflopER_2/m2_556_104#
+= m2_1296_248# 4in-product_0/dflipflopER_2/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_0/dflipflopER_2/m2_348_104#
+= m2_1296_248# 4in-product_0/dflipflopER_2/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/latch_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/latch_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/m2_234_104#
+= m2_1296_248# 4in-product_0/dflipflopER_2/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_2/m2_156_104#
+= m2_1296_248# 4in-product_0/dflipflopER_2/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_0/m2_n565_n8#
+= m2_1296_248# 4in-product_0/m2_n44_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/m2_556_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/m2_348_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/latch_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/latch_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/m2_234_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_0/m2_156_104#
+= m2_1296_248# 4in-product_0/dflipflopER_0/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_0/m2_n568_104#
+= m2_1296_248# 4in-product_0/2inMUX_0/m2_0_104#
+= m2_1296_248# 4in-product_0/2inMUX_0/inv_0/a_4_96#
+= m2_1296_248# 4in-product_0/2inMUX_0/m2_n32_104#
+= m2_1296_248# 4in-product_0/2inMUX_1/m2_0_104#
+= m2_1296_248# 4in-product_0/2inMUX_1/inv_0/a_4_96#
+= m2_1296_248# 4in-product_0/2inMUX_1/m2_n32_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/m2_556_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/m2_348_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/latch_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/latch_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/m2_234_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_1/m2_156_104#
+= m2_1296_248# 4in-product_0/dflipflopER_1/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_0/m1_n684_n8#
+= m2_1296_248# 4in-product_0/2inMUX_2/m2_0_104#
+= m2_1296_248# 4in-product_0/2inMUX_2/inv_0/a_4_96#
+= m2_1296_248# 4in-product_0/2inMUX_2/m2_n32_104#
+= m2_1296_248# 4in-product_0/2inMUX_3/m2_0_104#
+= m2_1296_248# 4in-product_0/2inMUX_3/inv_0/a_4_96#
+= m2_1296_248# 4in-product_0/2inMUX_3/m2_n32_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/m2_556_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/m2_348_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/latch_0/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/latch_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/m2_234_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_0/dflipflopER_3/m2_156_104#
+= m2_1296_248# 4in-product_0/dflipflopER_3/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_1/m2_n40_n8#
+= m2_1296_248# 4in-product_1/dflipflopER_2/m2_556_104#
+= m2_1296_248# 4in-product_1/dflipflopER_2/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_1/dflipflopER_2/m2_348_104#
+= m2_1296_248# 4in-product_1/dflipflopER_2/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/latch_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/latch_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/m2_234_104#
+= m2_1296_248# 4in-product_1/dflipflopER_2/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_2/m2_156_104#
+= m2_1296_248# 4in-product_1/dflipflopER_2/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_1/m2_n565_n8#
+= m2_1296_248# 4in-product_1/m2_n44_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/m2_556_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/m2_348_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/latch_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/latch_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/m2_234_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_0/m2_156_104#
+= m2_1296_248# 4in-product_1/dflipflopER_0/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_1/m2_n568_104#
+= m2_1296_248# 4in-product_1/2inMUX_0/m2_0_104#
+= m2_1296_248# 4in-product_1/2inMUX_0/inv_0/a_4_96#
+= m2_1296_248# 4in-product_1/2inMUX_0/m2_n32_104#
+= m2_1296_248# 4in-product_1/2inMUX_1/m2_0_104#
+= m2_1296_248# 4in-product_1/2inMUX_1/inv_0/a_4_96#
+= m2_1296_248# 4in-product_1/2inMUX_1/m2_n32_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/m2_556_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/m2_348_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/latch_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/latch_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/m2_234_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_1/m2_156_104#
+= m2_1296_248# 4in-product_1/dflipflopER_1/inverter_2/a_8_96#
+= m2_1296_248# 4in-product_1/m1_n684_n8#
+= m2_1296_248# 4in-product_1/2inMUX_2/m2_0_104#
+= m2_1296_248# 4in-product_1/2inMUX_2/inv_0/a_4_96#
+= m2_1296_248# 4in-product_1/2inMUX_2/m2_n32_104#
+= m2_1296_248# 4in-product_1/2inMUX_3/m2_0_104#
+= m2_1296_248# 4in-product_1/2inMUX_3/inv_0/a_4_96#
+= m2_1296_248# 4in-product_1/2inMUX_3/m2_n32_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/m2_556_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/2inAND_3/a_18_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/2inAND_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/2inAND_3/m2_76_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/m2_348_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/inverter_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/latch_0/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/latch_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/m2_234_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/inverter_1/a_8_96#
+= m2_1296_248# 4in-product_1/dflipflopER_3/m2_156_104#
+= m2_1296_248# 4in-product_1/dflipflopER_3/inverter_2/a_8_96#
+C 4in-product_1/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-product_1/dflipflopER_3/m1_236_24# 1507
+= 4in-product_1/dflipflopER_3/m1_236_24# 4in-product_1/dflipflopER_3/latch_1/a_24_68#
+= 4in-product_1/dflipflopER_3/m1_236_24# 4in-product_1/dflipflopER_3/inverter_1/a_18_8#
+C 4in-product_1/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-product_1/dflipflopER_3/m1_460_72# 1457
+= 4in-product_1/dflipflopER_3/m1_460_72# 4in-product_1/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-product_1/dflipflopER_3/m1_460_72# 4in-product_1/dflipflopER_3/inverter_0/a_18_8#
+R 4in-product_1/dflipflopER_2/2inAND_3/a_18_8# 67
+C 4in-product_1/m1_n148_n120# GND 141.22
+R 4in-product_1/m1_n148_n120# 635
+= 4in-product_1/m1_n148_n120# 4in-product_1/2inMUX_2/a_28_58#
+= 4in-product_1/m1_n148_n120# 4in-product_1/dflipflopER_2/2inAND_3/m1_64_56#
+= 4in-product_1/m1_n148_n120# 4in-product_1/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-product_1/dflipflopER_2/2inAND_3/a_8_8# 4in-product_1/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-product_1/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-product_1/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-product_1/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-product_1/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-product_1/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-product_1/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-product_1/dflipflopER_2/m1_424_48# 2556
+= 4in-product_1/dflipflopER_2/m1_424_48# 4in-product_1/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-product_1/dflipflopER_2/m1_424_48# 4in-product_1/dflipflopER_2/latch_1/a_48_6#
+R 4in-product_1/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-product_1/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-product_1/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-product_1/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-product_1/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-product_1/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-product_1/dflipflopER_2/m1_336_56# 2651
+= 4in-product_1/dflipflopER_2/m1_336_56# 4in-product_1/dflipflopER_2/latch_1/a_8_56#
+= 4in-product_1/dflipflopER_2/m1_336_56# 4in-product_1/dflipflopER_2/latch_0/a_48_6#
+C 4in-product_1/m1_n40_n48# GND 61.31
+R 4in-product_1/m1_n40_n48# 1905
+= 4in-product_1/m1_n40_n48# 4in-product_1/2inMUX_2/a_38_13#
+= 4in-product_1/m1_n40_n48# 4in-product_1/dflipflopER_2/m1_252_56#
+= 4in-product_1/m1_n40_n48# 4in-product_1/dflipflopER_2/latch_0/a_8_56#
+C 4in-product_1/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-product_1/dflipflopER_2/m1_200_40# 1508
+= 4in-product_1/dflipflopER_2/m1_200_40# 4in-product_1/dflipflopER_2/latch_0/a_24_68#
+= 4in-product_1/dflipflopER_2/m1_200_40# 4in-product_1/dflipflopER_2/inverter_2/a_18_8#
+C 4in-product_1/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-product_1/dflipflopER_2/m1_236_24# 1507
+= 4in-product_1/dflipflopER_2/m1_236_24# 4in-product_1/dflipflopER_2/latch_1/a_24_68#
+= 4in-product_1/dflipflopER_2/m1_236_24# 4in-product_1/dflipflopER_2/inverter_1/a_18_8#
+C 4in-product_1/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-product_1/dflipflopER_2/m1_460_72# 1457
+= 4in-product_1/dflipflopER_2/m1_460_72# 4in-product_1/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-product_1/dflipflopER_2/m1_460_72# 4in-product_1/dflipflopER_2/inverter_0/a_18_8#
+R 4in-product_1/dflipflopER_1/2inAND_3/a_18_8# 67
+C m2_1384_308# GND 71.28
+R m2_1384_308# 631
+= m2_1384_308# 4in-product_1/m1_n640_67#
+= m2_1384_308# 4in-product_1/2inMUX_1/a_28_58#
+= m2_1384_308# 4in-product_1/dflipflopER_1/2inAND_3/m1_64_56#
+= m2_1384_308# 4in-product_1/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-product_1/dflipflopER_1/2inAND_3/a_8_8# 4in-product_1/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-product_1/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-product_1/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-product_1/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-product_1/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-product_1/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-product_1/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-product_1/dflipflopER_1/m1_424_48# 2556
+= 4in-product_1/dflipflopER_1/m1_424_48# 4in-product_1/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-product_1/dflipflopER_1/m1_424_48# 4in-product_1/dflipflopER_1/latch_1/a_48_6#
+R 4in-product_1/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-product_1/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-product_1/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-product_1/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-product_1/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-product_1/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-product_1/dflipflopER_1/m1_336_56# 2651
+= 4in-product_1/dflipflopER_1/m1_336_56# 4in-product_1/dflipflopER_1/latch_1/a_8_56#
+= 4in-product_1/dflipflopER_1/m1_336_56# 4in-product_1/dflipflopER_1/latch_0/a_48_6#
+C 4in-product_1/m1_n576_64# GND 61.01
+R 4in-product_1/m1_n576_64# 1905
+= 4in-product_1/m1_n576_64# 4in-product_1/2inMUX_1/a_38_13#
+= 4in-product_1/m1_n576_64# 4in-product_1/dflipflopER_1/m1_252_56#
+= 4in-product_1/m1_n576_64# 4in-product_1/dflipflopER_1/latch_0/a_8_56#
+C m2_1297_32# GND 438.61
+R m2_1297_32# 9233
+= m2_1297_32# 4in-product_0/m2_n39_0#
+= m2_1297_32# 4in-product_0/m2_n37_n112#
+= m2_1297_32# 4in-product_0/dflipflopER_2/m2_556_0#
+= m2_1297_32# 4in-product_0/dflipflopER_2/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_0/dflipflopER_2/m2_348_0#
+= m2_1297_32# 4in-product_0/dflipflopER_2/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/latch_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/latch_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/m2_239_0#
+= m2_1297_32# 4in-product_0/dflipflopER_2/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_2/m2_156_0#
+= m2_1297_32# 4in-product_0/dflipflopER_2/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_0/m2_n692_n112#
+= m2_1297_32# 4in-product_0/2inMUX_1/m2_0_0#
+= m2_1297_32# 4in-product_0/2inMUX_1/inv_0/a_4_8#
+= m2_1297_32# 4in-product_0/2inMUX_1/m2_n32_0#
+= m2_1297_32# 4in-product_0/m2_n568_n112#
+= m2_1297_32# 4in-product_0/2inMUX_3/m2_0_0#
+= m2_1297_32# 4in-product_0/2inMUX_3/inv_0/a_4_8#
+= m2_1297_32# 4in-product_0/2inMUX_3/m2_n32_0#
+= m2_1297_32# 4in-product_0/2inMUX_2/m2_0_0#
+= m2_1297_32# 4in-product_0/2inMUX_2/inv_0/a_4_8#
+= m2_1297_32# 4in-product_0/2inMUX_2/m2_n32_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/m2_556_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/m2_348_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/latch_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/latch_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/m2_239_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_3/m2_156_0#
+= m2_1297_32# 4in-product_0/dflipflopER_3/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_0/m2_n565_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/m2_556_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/m2_348_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/latch_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/latch_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/m2_239_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_0/m2_156_0#
+= m2_1297_32# 4in-product_0/dflipflopER_0/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_0/2inMUX_0/m2_0_0#
+= m2_1297_32# 4in-product_0/2inMUX_0/inv_0/a_4_8#
+= m2_1297_32# 4in-product_0/2inMUX_0/m2_n32_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/m2_556_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/m2_348_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/latch_0/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/latch_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/m2_239_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_0/dflipflopER_1/m2_156_0#
+= m2_1297_32# 4in-product_0/dflipflopER_1/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_1/m2_n39_0#
+= m2_1297_32# 4in-product_1/m2_n37_n112#
+= m2_1297_32# 4in-product_1/dflipflopER_2/m2_556_0#
+= m2_1297_32# 4in-product_1/dflipflopER_2/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_1/dflipflopER_2/m2_348_0#
+= m2_1297_32# 4in-product_1/dflipflopER_2/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/latch_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/latch_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/m2_239_0#
+= m2_1297_32# 4in-product_1/dflipflopER_2/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_2/m2_156_0#
+= m2_1297_32# 4in-product_1/dflipflopER_2/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_1/m2_n692_n112#
+= m2_1297_32# 4in-product_1/2inMUX_1/m2_0_0#
+= m2_1297_32# 4in-product_1/2inMUX_1/inv_0/a_4_8#
+= m2_1297_32# 4in-product_1/2inMUX_1/m2_n32_0#
+= m2_1297_32# 4in-product_1/m2_n568_n112#
+= m2_1297_32# 4in-product_1/2inMUX_3/m2_0_0#
+= m2_1297_32# 4in-product_1/2inMUX_3/inv_0/a_4_8#
+= m2_1297_32# 4in-product_1/2inMUX_3/m2_n32_0#
+= m2_1297_32# 4in-product_1/2inMUX_2/m2_0_0#
+= m2_1297_32# 4in-product_1/2inMUX_2/inv_0/a_4_8#
+= m2_1297_32# 4in-product_1/2inMUX_2/m2_n32_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/m2_556_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/m2_348_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/latch_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/latch_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/m2_239_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_3/m2_156_0#
+= m2_1297_32# 4in-product_1/dflipflopER_3/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_1/m2_n565_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/m2_556_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/m2_348_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/latch_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/latch_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/m2_239_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_0/m2_156_0#
+= m2_1297_32# 4in-product_1/dflipflopER_0/inverter_2/a_8_8#
+= m2_1297_32# 4in-product_1/2inMUX_0/m2_0_0#
+= m2_1297_32# 4in-product_1/2inMUX_0/inv_0/a_4_8#
+= m2_1297_32# 4in-product_1/2inMUX_0/m2_n32_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/m2_556_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/2inAND_3/a_30_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/2inAND_3/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/2inAND_3/m2_76_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/m2_348_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/inverter_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/latch_0/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/latch_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/m2_239_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/inverter_1/a_8_8#
+= m2_1297_32# 4in-product_1/dflipflopER_1/m2_156_0#
+= m2_1297_32# 4in-product_1/dflipflopER_1/inverter_2/a_8_8#
+C 4in-product_1/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-product_1/dflipflopER_1/m1_200_40# 1508
+= 4in-product_1/dflipflopER_1/m1_200_40# 4in-product_1/dflipflopER_1/latch_0/a_24_68#
+= 4in-product_1/dflipflopER_1/m1_200_40# 4in-product_1/dflipflopER_1/inverter_2/a_18_8#
+C 4in-product_1/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-product_1/dflipflopER_1/m1_236_24# 1507
+= 4in-product_1/dflipflopER_1/m1_236_24# 4in-product_1/dflipflopER_1/latch_1/a_24_68#
+= 4in-product_1/dflipflopER_1/m1_236_24# 4in-product_1/dflipflopER_1/inverter_1/a_18_8#
+C 4in-product_1/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-product_1/dflipflopER_1/m1_460_72# 1457
+= 4in-product_1/dflipflopER_1/m1_460_72# 4in-product_1/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-product_1/dflipflopER_1/m1_460_72# 4in-product_1/dflipflopER_1/inverter_0/a_18_8#
+R 4in-product_1/dflipflopER_0/2inAND_3/a_18_8# 67
+C 4in-product_1/m1_n100_70# GND 113.57
+R 4in-product_1/m1_n100_70# 633
+= 4in-product_1/m1_n100_70# 4in-product_1/2inMUX_0/a_28_58#
+= 4in-product_1/m1_n100_70# 4in-product_1/dflipflopER_0/2inAND_3/m1_64_56#
+= 4in-product_1/m1_n100_70# 4in-product_1/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-product_1/dflipflopER_0/2inAND_3/a_8_8# 4in-product_1/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-product_1/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-product_1/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-product_1/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-product_1/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-product_1/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-product_1/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-product_1/dflipflopER_0/m1_424_48# 2556
+= 4in-product_1/dflipflopER_0/m1_424_48# 4in-product_1/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-product_1/dflipflopER_0/m1_424_48# 4in-product_1/dflipflopER_0/latch_1/a_48_6#
+R 4in-product_1/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-product_1/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-product_1/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-product_1/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-product_1/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-product_1/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-product_1/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-product_1/dflipflopER_0/m1_336_56# 2651
+= 4in-product_1/dflipflopER_0/m1_336_56# 4in-product_1/dflipflopER_0/latch_1/a_8_56#
+= 4in-product_1/dflipflopER_0/m1_336_56# 4in-product_1/dflipflopER_0/latch_0/a_48_6#
+C 4in-product_1/m1_n40_64# GND 61.01
+R 4in-product_1/m1_n40_64# 1905
+= 4in-product_1/m1_n40_64# 4in-product_1/2inMUX_0/a_38_13#
+= 4in-product_1/m1_n40_64# 4in-product_1/dflipflopER_0/m1_252_56#
+= 4in-product_1/m1_n40_64# 4in-product_1/dflipflopER_0/latch_0/a_8_56#
+C 4in-product_1/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-product_1/dflipflopER_0/m1_200_40# 1508
+= 4in-product_1/dflipflopER_0/m1_200_40# 4in-product_1/dflipflopER_0/latch_0/a_24_68#
+= 4in-product_1/dflipflopER_0/m1_200_40# 4in-product_1/dflipflopER_0/inverter_2/a_18_8#
+C 4in-product_1/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-product_1/dflipflopER_0/m1_236_24# 1507
+= 4in-product_1/dflipflopER_0/m1_236_24# 4in-product_1/dflipflopER_0/latch_1/a_24_68#
+= 4in-product_1/dflipflopER_0/m1_236_24# 4in-product_1/dflipflopER_0/inverter_1/a_18_8#
+C 4in-product_1/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-product_1/dflipflopER_0/m1_460_72# 1457
+= 4in-product_1/dflipflopER_0/m1_460_72# 4in-product_1/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-product_1/dflipflopER_0/m1_460_72# 4in-product_1/dflipflopER_0/inverter_0/a_18_8#
+C 4in-product_1/2inMUX_3/a_28_13# GND 6.39
+R 4in-product_1/2inMUX_3/a_28_13# 173
+C 4in-product_1/2inMUX_3/a_20_35# GND 37.94
+R 4in-product_1/2inMUX_3/a_20_35# 1113
+= 4in-product_1/2inMUX_3/a_20_35# 4in-product_1/2inMUX_3/inv_0/a_15_8#
+C 4in-product_1/2inMUX_2/a_28_13# GND 6.39
+R 4in-product_1/2inMUX_2/a_28_13# 173
+C 4in-product_1/2inMUX_2/a_20_35# GND 37.94
+R 4in-product_1/2inMUX_2/a_20_35# 1113
+= 4in-product_1/2inMUX_2/a_20_35# 4in-product_1/2inMUX_2/inv_0/a_15_8#
+C 4in-product_1/2inMUX_1/a_28_13# GND 6.39
+R 4in-product_1/2inMUX_1/a_28_13# 173
+C 4in-product_1/2inMUX_1/a_20_35# GND 37.94
+R 4in-product_1/2inMUX_1/a_20_35# 1113
+= 4in-product_1/2inMUX_1/a_20_35# 4in-product_1/2inMUX_1/inv_0/a_15_8#
+C 4in-product_1/2inMUX_0/a_28_13# GND 6.39
+R 4in-product_1/2inMUX_0/a_28_13# 173
+C 4in-product_1/2inMUX_0/a_20_35# GND 37.94
+R 4in-product_1/2inMUX_0/a_20_35# 1113
+= 4in-product_1/2inMUX_0/a_20_35# 4in-product_1/2inMUX_0/inv_0/a_15_8#
+R 4in-product_0/dflipflopER_3/2inAND_3/a_18_8# 67
+C 4in-product_0/m1_n680_n120# GND 137.07
+R 4in-product_0/m1_n680_n120# 635
+= 4in-product_0/m1_n680_n120# 4in-product_0/2inMUX_3/a_28_58#
+= 4in-product_0/m1_n680_n120# 4in-product_0/dflipflopER_3/2inAND_3/m1_64_56#
+= 4in-product_0/m1_n680_n120# 4in-product_0/dflipflopER_3/2inAND_3/inverter_0/a_18_8#
+C 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# GND 51.51
+R 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# 1727
+= 4in-product_0/dflipflopER_3/2inAND_3/a_8_8# 4in-product_0/dflipflopER_3/2inAND_3/inverter_0/a_8_56#
+R 4in-product_0/dflipflopER_3/latch_1/a_42_8# 40
+R 4in-product_0/dflipflopER_3/latch_1/a_18_8# 40
+R 4in-product_0/dflipflopER_3/latch_1/a_42_96# 89
+R 4in-product_0/dflipflopER_3/latch_1/a_18_96# 89
+C 4in-product_0/dflipflopER_3/latch_1/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_3/latch_1/a_26_8# 1448
+C 4in-product_0/dflipflopER_3/m1_424_48# GND 70.98
+R 4in-product_0/dflipflopER_3/m1_424_48# 2556
+= 4in-product_0/dflipflopER_3/m1_424_48# 4in-product_0/dflipflopER_3/2inAND_3/a_28_6#
+= 4in-product_0/dflipflopER_3/m1_424_48# 4in-product_0/dflipflopER_3/latch_1/a_48_6#
+R 4in-product_0/dflipflopER_3/latch_0/a_42_8# 40
+R 4in-product_0/dflipflopER_3/latch_0/a_18_8# 40
+R 4in-product_0/dflipflopER_3/latch_0/a_42_96# 89
+R 4in-product_0/dflipflopER_3/latch_0/a_18_96# 89
+C 4in-product_0/dflipflopER_3/latch_0/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_3/latch_0/a_26_8# 1448
+C 4in-product_0/dflipflopER_3/m1_336_56# GND 69.91
+R 4in-product_0/dflipflopER_3/m1_336_56# 2651
+= 4in-product_0/dflipflopER_3/m1_336_56# 4in-product_0/dflipflopER_3/latch_1/a_8_56#
+= 4in-product_0/dflipflopER_3/m1_336_56# 4in-product_0/dflipflopER_3/latch_0/a_48_6#
+C 4in-product_0/m1_n576_n48# GND 61.31
+R 4in-product_0/m1_n576_n48# 1905
+= 4in-product_0/m1_n576_n48# 4in-product_0/2inMUX_3/a_38_13#
+= 4in-product_0/m1_n576_n48# 4in-product_0/dflipflopER_3/m1_252_56#
+= 4in-product_0/m1_n576_n48# 4in-product_0/dflipflopER_3/latch_0/a_8_56#
+C 4in-product_0/dflipflopER_3/m1_200_40# GND 56.01
+R 4in-product_0/dflipflopER_3/m1_200_40# 1508
+= 4in-product_0/dflipflopER_3/m1_200_40# 4in-product_0/dflipflopER_3/latch_0/a_24_68#
+= 4in-product_0/dflipflopER_3/m1_200_40# 4in-product_0/dflipflopER_3/inverter_2/a_18_8#
+C m1_884_272# GND 787.89
+R m1_884_272# 20602
+= m1_884_272# 4in-product_1/m1_n548_n56#
+= m1_884_272# 4in-product_1/dflipflopER_0/m1_172_56#
+= m1_884_272# 4in-product_1/dflipflopER_0/latch_0/a_24_6#
+= m1_884_272# 4in-product_1/dflipflopER_0/inverter_2/a_8_56#
+= m1_884_272# 4in-product_1/dflipflopER_1/m1_172_56#
+= m1_884_272# 4in-product_1/dflipflopER_1/latch_0/a_24_6#
+= m1_884_272# 4in-product_1/dflipflopER_1/inverter_2/a_8_56#
+= m1_884_272# 4in-product_1/dflipflopER_2/m1_172_56#
+= m1_884_272# 4in-product_1/dflipflopER_2/latch_0/a_24_6#
+= m1_884_272# 4in-product_1/dflipflopER_2/inverter_2/a_8_56#
+= m1_884_272# 4in-product_1/dflipflopER_3/m1_172_56#
+= m1_884_272# 4in-product_1/dflipflopER_3/latch_0/a_24_6#
+= m1_884_272# 4in-product_1/dflipflopER_3/inverter_2/a_8_56#
+= m1_884_272# 4in-product_0/m1_n548_n56#
+= m1_884_272# 4in-product_0/dflipflopER_0/m1_172_56#
+= m1_884_272# 4in-product_0/dflipflopER_0/latch_0/a_24_6#
+= m1_884_272# 4in-product_0/dflipflopER_0/inverter_2/a_8_56#
+= m1_884_272# 4in-product_0/dflipflopER_1/m1_172_56#
+= m1_884_272# 4in-product_0/dflipflopER_1/latch_0/a_24_6#
+= m1_884_272# 4in-product_0/dflipflopER_1/inverter_2/a_8_56#
+= m1_884_272# 4in-product_0/dflipflopER_2/m1_172_56#
+= m1_884_272# 4in-product_0/dflipflopER_2/latch_0/a_24_6#
+= m1_884_272# 4in-product_0/dflipflopER_2/inverter_2/a_8_56#
+= m1_884_272# 4in-product_0/dflipflopER_3/m1_172_56#
+= m1_884_272# 4in-product_0/dflipflopER_3/latch_0/a_24_6#
+= m1_884_272# 4in-product_0/dflipflopER_3/inverter_2/a_8_56#
+C 4in-product_0/dflipflopER_3/m1_236_24# GND 51.27
+R 4in-product_0/dflipflopER_3/m1_236_24# 1507
+= 4in-product_0/dflipflopER_3/m1_236_24# 4in-product_0/dflipflopER_3/latch_1/a_24_68#
+= 4in-product_0/dflipflopER_3/m1_236_24# 4in-product_0/dflipflopER_3/inverter_1/a_18_8#
+C m1_876_264# GND 820.78
+R m1_876_264# 20604
+= m1_876_264# 4in-product_1/m1_n556_n80#
+= m1_876_264# 4in-product_1/dflipflopER_0/m1_220_32#
+= m1_876_264# 4in-product_1/dflipflopER_0/latch_1/a_24_6#
+= m1_876_264# 4in-product_1/dflipflopER_0/inverter_1/a_8_56#
+= m1_876_264# 4in-product_1/dflipflopER_1/m1_220_32#
+= m1_876_264# 4in-product_1/dflipflopER_1/latch_1/a_24_6#
+= m1_876_264# 4in-product_1/dflipflopER_1/inverter_1/a_8_56#
+= m1_876_264# 4in-product_1/dflipflopER_2/m1_220_32#
+= m1_876_264# 4in-product_1/dflipflopER_2/latch_1/a_24_6#
+= m1_876_264# 4in-product_1/dflipflopER_2/inverter_1/a_8_56#
+= m1_876_264# 4in-product_1/dflipflopER_3/m1_220_32#
+= m1_876_264# 4in-product_1/dflipflopER_3/latch_1/a_24_6#
+= m1_876_264# 4in-product_1/dflipflopER_3/inverter_1/a_8_56#
+= m1_876_264# 4in-product_0/m1_n556_n80#
+= m1_876_264# 4in-product_0/dflipflopER_0/m1_220_32#
+= m1_876_264# 4in-product_0/dflipflopER_0/latch_1/a_24_6#
+= m1_876_264# 4in-product_0/dflipflopER_0/inverter_1/a_8_56#
+= m1_876_264# 4in-product_0/dflipflopER_1/m1_220_32#
+= m1_876_264# 4in-product_0/dflipflopER_1/latch_1/a_24_6#
+= m1_876_264# 4in-product_0/dflipflopER_1/inverter_1/a_8_56#
+= m1_876_264# 4in-product_0/dflipflopER_2/m1_220_32#
+= m1_876_264# 4in-product_0/dflipflopER_2/latch_1/a_24_6#
+= m1_876_264# 4in-product_0/dflipflopER_2/inverter_1/a_8_56#
+= m1_876_264# 4in-product_0/dflipflopER_3/m1_220_32#
+= m1_876_264# 4in-product_0/dflipflopER_3/latch_1/a_24_6#
+= m1_876_264# 4in-product_0/dflipflopER_3/inverter_1/a_8_56#
+C 4in-product_0/dflipflopER_3/m1_460_72# GND 43.24
+R 4in-product_0/dflipflopER_3/m1_460_72# 1457
+= 4in-product_0/dflipflopER_3/m1_460_72# 4in-product_0/dflipflopER_3/2inAND_3/a_8_72#
+= 4in-product_0/dflipflopER_3/m1_460_72# 4in-product_0/dflipflopER_3/inverter_0/a_18_8#
+C m1_892_280# GND 703.83
+R m1_892_280# 10297
+= m1_892_280# 4in-product_1/m1_n540_n24#
+= m1_892_280# 4in-product_1/dflipflopER_0/m1_444_56#
+= m1_892_280# 4in-product_1/dflipflopER_0/inverter_0/a_8_56#
+= m1_892_280# 4in-product_1/dflipflopER_1/m1_444_56#
+= m1_892_280# 4in-product_1/dflipflopER_1/inverter_0/a_8_56#
+= m1_892_280# 4in-product_1/dflipflopER_2/m1_444_56#
+= m1_892_280# 4in-product_1/dflipflopER_2/inverter_0/a_8_56#
+= m1_892_280# 4in-product_1/dflipflopER_3/m1_444_56#
+= m1_892_280# 4in-product_1/dflipflopER_3/inverter_0/a_8_56#
+= m1_892_280# 4in-product_0/m1_n540_n24#
+= m1_892_280# 4in-product_0/dflipflopER_0/m1_444_56#
+= m1_892_280# 4in-product_0/dflipflopER_0/inverter_0/a_8_56#
+= m1_892_280# 4in-product_0/dflipflopER_1/m1_444_56#
+= m1_892_280# 4in-product_0/dflipflopER_1/inverter_0/a_8_56#
+= m1_892_280# 4in-product_0/dflipflopER_2/m1_444_56#
+= m1_892_280# 4in-product_0/dflipflopER_2/inverter_0/a_8_56#
+= m1_892_280# 4in-product_0/dflipflopER_3/m1_444_56#
+= m1_892_280# 4in-product_0/dflipflopER_3/inverter_0/a_8_56#
+R 4in-product_0/dflipflopER_2/2inAND_3/a_18_8# 67
+C 4in-product_0/m1_n148_n120# GND 141.22
+R 4in-product_0/m1_n148_n120# 635
+= 4in-product_0/m1_n148_n120# 4in-product_0/2inMUX_2/a_28_58#
+= 4in-product_0/m1_n148_n120# 4in-product_0/dflipflopER_2/2inAND_3/m1_64_56#
+= 4in-product_0/m1_n148_n120# 4in-product_0/dflipflopER_2/2inAND_3/inverter_0/a_18_8#
+C 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# GND 51.51
+R 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# 1727
+= 4in-product_0/dflipflopER_2/2inAND_3/a_8_8# 4in-product_0/dflipflopER_2/2inAND_3/inverter_0/a_8_56#
+R 4in-product_0/dflipflopER_2/latch_1/a_42_8# 40
+R 4in-product_0/dflipflopER_2/latch_1/a_18_8# 40
+R 4in-product_0/dflipflopER_2/latch_1/a_42_96# 89
+R 4in-product_0/dflipflopER_2/latch_1/a_18_96# 89
+C 4in-product_0/dflipflopER_2/latch_1/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_2/latch_1/a_26_8# 1448
+C 4in-product_0/dflipflopER_2/m1_424_48# GND 70.98
+R 4in-product_0/dflipflopER_2/m1_424_48# 2556
+= 4in-product_0/dflipflopER_2/m1_424_48# 4in-product_0/dflipflopER_2/2inAND_3/a_28_6#
+= 4in-product_0/dflipflopER_2/m1_424_48# 4in-product_0/dflipflopER_2/latch_1/a_48_6#
+R 4in-product_0/dflipflopER_2/latch_0/a_42_8# 40
+R 4in-product_0/dflipflopER_2/latch_0/a_18_8# 40
+R 4in-product_0/dflipflopER_2/latch_0/a_42_96# 89
+R 4in-product_0/dflipflopER_2/latch_0/a_18_96# 89
+C 4in-product_0/dflipflopER_2/latch_0/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_2/latch_0/a_26_8# 1448
+C 4in-product_0/dflipflopER_2/m1_336_56# GND 69.91
+R 4in-product_0/dflipflopER_2/m1_336_56# 2651
+= 4in-product_0/dflipflopER_2/m1_336_56# 4in-product_0/dflipflopER_2/latch_1/a_8_56#
+= 4in-product_0/dflipflopER_2/m1_336_56# 4in-product_0/dflipflopER_2/latch_0/a_48_6#
+C 4in-product_0/m1_n40_n48# GND 61.31
+R 4in-product_0/m1_n40_n48# 1905
+= 4in-product_0/m1_n40_n48# 4in-product_0/2inMUX_2/a_38_13#
+= 4in-product_0/m1_n40_n48# 4in-product_0/dflipflopER_2/m1_252_56#
+= 4in-product_0/m1_n40_n48# 4in-product_0/dflipflopER_2/latch_0/a_8_56#
+C 4in-product_0/dflipflopER_2/m1_200_40# GND 56.01
+R 4in-product_0/dflipflopER_2/m1_200_40# 1508
+= 4in-product_0/dflipflopER_2/m1_200_40# 4in-product_0/dflipflopER_2/latch_0/a_24_68#
+= 4in-product_0/dflipflopER_2/m1_200_40# 4in-product_0/dflipflopER_2/inverter_2/a_18_8#
+C 4in-product_0/dflipflopER_2/m1_236_24# GND 51.27
+R 4in-product_0/dflipflopER_2/m1_236_24# 1507
+= 4in-product_0/dflipflopER_2/m1_236_24# 4in-product_0/dflipflopER_2/latch_1/a_24_68#
+= 4in-product_0/dflipflopER_2/m1_236_24# 4in-product_0/dflipflopER_2/inverter_1/a_18_8#
+C 4in-product_0/dflipflopER_2/m1_460_72# GND 43.24
+R 4in-product_0/dflipflopER_2/m1_460_72# 1457
+= 4in-product_0/dflipflopER_2/m1_460_72# 4in-product_0/dflipflopER_2/2inAND_3/a_8_72#
+= 4in-product_0/dflipflopER_2/m1_460_72# 4in-product_0/dflipflopER_2/inverter_0/a_18_8#
+R 4in-product_0/dflipflopER_1/2inAND_3/a_18_8# 67
+C m2_744_308# GND 70.52
+R m2_744_308# 631
+= m2_744_308# 4in-product_0/m1_n640_67#
+= m2_744_308# 4in-product_0/2inMUX_1/a_28_58#
+= m2_744_308# 4in-product_0/dflipflopER_1/2inAND_3/m1_64_56#
+= m2_744_308# 4in-product_0/dflipflopER_1/2inAND_3/inverter_0/a_18_8#
+C 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# GND 51.51
+R 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# 1727
+= 4in-product_0/dflipflopER_1/2inAND_3/a_8_8# 4in-product_0/dflipflopER_1/2inAND_3/inverter_0/a_8_56#
+R 4in-product_0/dflipflopER_1/latch_1/a_42_8# 40
+R 4in-product_0/dflipflopER_1/latch_1/a_18_8# 40
+R 4in-product_0/dflipflopER_1/latch_1/a_42_96# 89
+R 4in-product_0/dflipflopER_1/latch_1/a_18_96# 89
+C 4in-product_0/dflipflopER_1/latch_1/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_1/latch_1/a_26_8# 1448
+C 4in-product_0/dflipflopER_1/m1_424_48# GND 70.98
+R 4in-product_0/dflipflopER_1/m1_424_48# 2556
+= 4in-product_0/dflipflopER_1/m1_424_48# 4in-product_0/dflipflopER_1/2inAND_3/a_28_6#
+= 4in-product_0/dflipflopER_1/m1_424_48# 4in-product_0/dflipflopER_1/latch_1/a_48_6#
+R 4in-product_0/dflipflopER_1/latch_0/a_42_8# 40
+R 4in-product_0/dflipflopER_1/latch_0/a_18_8# 40
+R 4in-product_0/dflipflopER_1/latch_0/a_42_96# 89
+R 4in-product_0/dflipflopER_1/latch_0/a_18_96# 89
+C 4in-product_0/dflipflopER_1/latch_0/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_1/latch_0/a_26_8# 1448
+C 4in-product_0/dflipflopER_1/m1_336_56# GND 69.91
+R 4in-product_0/dflipflopER_1/m1_336_56# 2651
+= 4in-product_0/dflipflopER_1/m1_336_56# 4in-product_0/dflipflopER_1/latch_1/a_8_56#
+= 4in-product_0/dflipflopER_1/m1_336_56# 4in-product_0/dflipflopER_1/latch_0/a_48_6#
+C 4in-product_0/m1_n576_64# GND 61.01
+R 4in-product_0/m1_n576_64# 1905
+= 4in-product_0/m1_n576_64# 4in-product_0/2inMUX_1/a_38_13#
+= 4in-product_0/m1_n576_64# 4in-product_0/dflipflopER_1/m1_252_56#
+= 4in-product_0/m1_n576_64# 4in-product_0/dflipflopER_1/latch_0/a_8_56#
+C 4in-product_0/dflipflopER_1/m1_200_40# GND 56.01
+R 4in-product_0/dflipflopER_1/m1_200_40# 1508
+= 4in-product_0/dflipflopER_1/m1_200_40# 4in-product_0/dflipflopER_1/latch_0/a_24_68#
+= 4in-product_0/dflipflopER_1/m1_200_40# 4in-product_0/dflipflopER_1/inverter_2/a_18_8#
+C 4in-product_0/dflipflopER_1/m1_236_24# GND 51.27
+R 4in-product_0/dflipflopER_1/m1_236_24# 1507
+= 4in-product_0/dflipflopER_1/m1_236_24# 4in-product_0/dflipflopER_1/latch_1/a_24_68#
+= 4in-product_0/dflipflopER_1/m1_236_24# 4in-product_0/dflipflopER_1/inverter_1/a_18_8#
+C 4in-product_0/dflipflopER_1/m1_460_72# GND 43.24
+R 4in-product_0/dflipflopER_1/m1_460_72# 1457
+= 4in-product_0/dflipflopER_1/m1_460_72# 4in-product_0/dflipflopER_1/2inAND_3/a_8_72#
+= 4in-product_0/dflipflopER_1/m1_460_72# 4in-product_0/dflipflopER_1/inverter_0/a_18_8#
+R 4in-product_0/dflipflopER_0/2inAND_3/a_18_8# 67
+C 4in-product_0/m1_n100_70# GND 113.57
+R 4in-product_0/m1_n100_70# 633
+= 4in-product_0/m1_n100_70# 4in-product_0/2inMUX_0/a_28_58#
+= 4in-product_0/m1_n100_70# 4in-product_0/dflipflopER_0/2inAND_3/m1_64_56#
+= 4in-product_0/m1_n100_70# 4in-product_0/dflipflopER_0/2inAND_3/inverter_0/a_18_8#
+C 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# GND 51.51
+R 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# 1727
+= 4in-product_0/dflipflopER_0/2inAND_3/a_8_8# 4in-product_0/dflipflopER_0/2inAND_3/inverter_0/a_8_56#
+R 4in-product_0/dflipflopER_0/latch_1/a_42_8# 40
+R 4in-product_0/dflipflopER_0/latch_1/a_18_8# 40
+R 4in-product_0/dflipflopER_0/latch_1/a_42_96# 89
+R 4in-product_0/dflipflopER_0/latch_1/a_18_96# 89
+C 4in-product_0/dflipflopER_0/latch_1/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_0/latch_1/a_26_8# 1448
+C 4in-product_0/dflipflopER_0/m1_424_48# GND 70.98
+R 4in-product_0/dflipflopER_0/m1_424_48# 2556
+= 4in-product_0/dflipflopER_0/m1_424_48# 4in-product_0/dflipflopER_0/2inAND_3/a_28_6#
+= 4in-product_0/dflipflopER_0/m1_424_48# 4in-product_0/dflipflopER_0/latch_1/a_48_6#
+R 4in-product_0/dflipflopER_0/latch_0/a_42_8# 40
+R 4in-product_0/dflipflopER_0/latch_0/a_18_8# 40
+R 4in-product_0/dflipflopER_0/latch_0/a_42_96# 89
+R 4in-product_0/dflipflopER_0/latch_0/a_18_96# 89
+C 4in-product_0/dflipflopER_0/latch_0/a_26_8# GND 36.70
+R 4in-product_0/dflipflopER_0/latch_0/a_26_8# 1448
+C 4in-product_0/dflipflopER_0/m1_336_56# GND 69.91
+R 4in-product_0/dflipflopER_0/m1_336_56# 2651
+= 4in-product_0/dflipflopER_0/m1_336_56# 4in-product_0/dflipflopER_0/latch_1/a_8_56#
+= 4in-product_0/dflipflopER_0/m1_336_56# 4in-product_0/dflipflopER_0/latch_0/a_48_6#
+C 4in-product_0/m1_n40_64# GND 61.01
+R 4in-product_0/m1_n40_64# 1905
+= 4in-product_0/m1_n40_64# 4in-product_0/2inMUX_0/a_38_13#
+= 4in-product_0/m1_n40_64# 4in-product_0/dflipflopER_0/m1_252_56#
+= 4in-product_0/m1_n40_64# 4in-product_0/dflipflopER_0/latch_0/a_8_56#
+C 4in-product_0/dflipflopER_0/m1_200_40# GND 56.01
+R 4in-product_0/dflipflopER_0/m1_200_40# 1508
+= 4in-product_0/dflipflopER_0/m1_200_40# 4in-product_0/dflipflopER_0/latch_0/a_24_68#
+= 4in-product_0/dflipflopER_0/m1_200_40# 4in-product_0/dflipflopER_0/inverter_2/a_18_8#
+C 4in-product_0/dflipflopER_0/m1_236_24# GND 51.27
+R 4in-product_0/dflipflopER_0/m1_236_24# 1507
+= 4in-product_0/dflipflopER_0/m1_236_24# 4in-product_0/dflipflopER_0/latch_1/a_24_68#
+= 4in-product_0/dflipflopER_0/m1_236_24# 4in-product_0/dflipflopER_0/inverter_1/a_18_8#
+C 4in-product_0/dflipflopER_0/m1_460_72# GND 43.24
+R 4in-product_0/dflipflopER_0/m1_460_72# 1457
+= 4in-product_0/dflipflopER_0/m1_460_72# 4in-product_0/dflipflopER_0/2inAND_3/a_8_72#
+= 4in-product_0/dflipflopER_0/m1_460_72# 4in-product_0/dflipflopER_0/inverter_0/a_18_8#
+C 4in-product_0/2inMUX_3/a_28_13# GND 6.39
+R 4in-product_0/2inMUX_3/a_28_13# 173
+C 4in-product_0/2inMUX_3/a_20_35# GND 37.94
+R 4in-product_0/2inMUX_3/a_20_35# 1113
+= 4in-product_0/2inMUX_3/a_20_35# 4in-product_0/2inMUX_3/inv_0/a_15_8#
+C m1_760_288# GND 1232.32
+R m1_760_288# 23151
+= m1_760_288# 4in-product_1/m1_n708_n128#
+= m1_760_288# 4in-product_1/2inMUX_0/a_n16_40#
+= m1_760_288# 4in-product_1/2inMUX_0/inv_0/a_12_5#
+= m1_760_288# 4in-product_1/2inMUX_1/a_n16_40#
+= m1_760_288# 4in-product_1/2inMUX_1/inv_0/a_12_5#
+= m1_760_288# 4in-product_1/2inMUX_2/a_n16_40#
+= m1_760_288# 4in-product_1/2inMUX_2/inv_0/a_12_5#
+= m1_760_288# 4in-product_1/2inMUX_3/a_n16_40#
+= m1_760_288# 4in-product_1/2inMUX_3/inv_0/a_12_5#
+= m1_760_288# 4in-product_0/m1_n708_n128#
+= m1_760_288# 4in-product_0/2inMUX_0/a_n16_40#
+= m1_760_288# 4in-product_0/2inMUX_0/inv_0/a_12_5#
+= m1_760_288# 4in-product_0/2inMUX_1/a_n16_40#
+= m1_760_288# 4in-product_0/2inMUX_1/inv_0/a_12_5#
+= m1_760_288# 4in-product_0/2inMUX_2/a_n16_40#
+= m1_760_288# 4in-product_0/2inMUX_2/inv_0/a_12_5#
+= m1_760_288# 4in-product_0/2inMUX_3/a_n16_40#
+= m1_760_288# 4in-product_0/2inMUX_3/inv_0/a_12_5#
+C 4in-product_0/2inMUX_2/a_28_13# GND 6.39
+R 4in-product_0/2inMUX_2/a_28_13# 173
+C 4in-product_0/2inMUX_2/a_20_35# GND 37.94
+R 4in-product_0/2inMUX_2/a_20_35# 1113
+= 4in-product_0/2inMUX_2/a_20_35# 4in-product_0/2inMUX_2/inv_0/a_15_8#
+C 4in-product_0/2inMUX_1/a_28_13# GND 6.39
+R 4in-product_0/2inMUX_1/a_28_13# 173
+C 4in-product_0/2inMUX_1/a_20_35# GND 37.94
+R 4in-product_0/2inMUX_1/a_20_35# 1113
+= 4in-product_0/2inMUX_1/a_20_35# 4in-product_0/2inMUX_1/inv_0/a_15_8#
+C 4in-product_0/2inMUX_0/a_28_13# GND 6.39
+R 4in-product_0/2inMUX_0/a_28_13# 173
+C 4in-product_0/2inMUX_0/a_20_35# GND 37.94
+R 4in-product_0/2inMUX_0/a_20_35# 1113
+= 4in-product_0/2inMUX_0/a_20_35# 4in-product_0/2inMUX_0/inv_0/a_15_8#

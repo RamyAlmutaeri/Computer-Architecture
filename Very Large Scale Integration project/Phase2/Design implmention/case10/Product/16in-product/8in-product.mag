@@ -1,0 +1,34 @@
+magic
+tech scmos
+timestamp 1653369370
+<< metal1 >>
+rect 760 288 1404 292
+rect 1344 280 1792 284
+rect 1336 272 1784 276
+rect 1328 264 1468 268
+rect 1472 264 1776 268
+<< metal2 >>
+rect 744 308 748 312
+rect 1384 308 1388 312
+rect 896 280 1340 284
+rect 888 272 1332 276
+rect 880 264 1324 268
+rect 1296 248 1344 252
+rect 1297 32 1345 36
+<< m2contact >>
+rect 892 280 896 284
+rect 1340 280 1344 284
+rect 884 272 888 276
+rect 1332 272 1336 276
+rect 876 264 880 268
+rect 1324 264 1328 268
+rect 1468 264 1472 268
+use 4in-product  4in-product_0
+timestamp 1653368704
+transform 1 0 900 0 1 144
+box -708 -128 400 168
+use 4in-product  4in-product_1
+timestamp 1653368704
+transform 1 0 2024 0 1 144
+box -708 -128 400 168
+<< end >>

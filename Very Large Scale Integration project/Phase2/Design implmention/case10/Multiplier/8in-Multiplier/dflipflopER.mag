@@ -1,0 +1,78 @@
+magic
+tech scmos
+timestamp 1653191013
+<< metal1 >>
+rect 176 56 188 60
+rect 220 36 224 60
+rect 256 56 280 60
+rect 336 56 368 60
+rect 444 56 448 88
+rect 460 72 484 76
+rect 256 48 276 52
+rect 360 48 364 52
+rect 248 40 292 44
+rect 352 40 364 44
+<< metal2 >>
+rect 156 104 180 108
+rect 234 104 268 108
+rect 348 104 356 108
+rect 556 104 564 108
+rect 172 88 444 92
+rect 260 72 360 76
+rect 172 64 256 68
+rect 252 60 256 64
+rect 172 52 176 56
+rect 172 48 252 52
+rect 204 40 244 44
+rect 260 36 264 72
+rect 172 32 220 36
+rect 224 32 264 36
+rect 268 64 352 68
+rect 268 28 272 64
+rect 348 44 352 64
+rect 356 52 360 72
+rect 480 52 484 56
+rect 428 48 484 52
+rect 240 24 272 28
+rect 156 0 180 4
+rect 239 0 271 4
+rect 348 0 356 4
+rect 556 0 564 4
+<< m2contact >>
+rect 444 88 448 92
+rect 172 56 176 60
+rect 200 40 204 44
+rect 252 56 256 60
+rect 480 56 484 60
+rect 252 48 256 52
+rect 356 48 360 52
+rect 424 48 428 52
+rect 244 40 248 44
+rect 348 40 352 44
+rect 220 32 224 36
+rect 236 24 240 28
+use 2inAND  2inAND_3
+timestamp 1652698805
+transform 1 0 472 0 1 0
+box 0 0 84 108
+use inverter  inverter_0
+timestamp 1652558825
+transform 1 0 436 0 1 0
+box 0 0 36 108
+use inverter  inverter_1
+timestamp 1652558825
+transform 1 0 212 0 1 0
+box 0 0 36 108
+use inverter  inverter_2
+timestamp 1652558825
+transform 1 0 176 0 1 0
+box 0 0 36 108
+use latch  latch_0
+timestamp 1652541516
+transform 1 0 268 0 1 0
+box 0 0 80 108
+use latch  latch_1
+timestamp 1652541516
+transform 1 0 356 0 1 0
+box 0 0 80 108
+<< end >>

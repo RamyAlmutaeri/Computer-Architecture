@@ -1,0 +1,222 @@
+timestamp 1653199644
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use 4in-multiplicand 4in-multiplicand_3 1 0 4284 0 1 144
+use 4in-multiplicand 4in-multiplicand_2 1 0 3156 0 1 144
+use 4in-multiplicand 4in-multiplicand_1 1 0 2028 0 1 144
+use 4in-multiplicand 4in-multiplicand_0 1 0 900 0 1 144
+node "m2_3552_32#" 0 3952 3552 32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "m2_2424_32#" 0 3952 2424 32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "Gnd" 0 3952 1296 32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "m2_3552_248#" 0 3952 3552 248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "m2_2424_248#" 0 3952 2424 248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "Vdd" 0 3952 1296 248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "in7" 0 752 4184 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in6" 0 752 3648 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in5" 0 752 3056 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in4" 0 752 2520 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in3" 0 752 1928 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in2" 0 752 1392 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in1" 0 752 800 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in0" 0 752 264 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out6" 1 6724 4128 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out5" 2 12308 3536 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 160 114 316 220 0 0
+node "out4" 1 6724 3000 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out3" 2 12980 2408 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 184 130 292 204 0 0
+node "out2" 1 6724 1872 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out1" 2 12644 1280 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 172 122 304 212 0 0
+node "out0" 1 6724 744 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "m1_264_99#" 0 5008 264 99 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 240 128 0 0
+node "in15" 0 752 4184 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in14" 0 752 3648 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in13" 0 752 3056 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in12" 0 752 2520 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in11" 0 752 1928 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in10" 0 752 1392 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in9" 0 752 800 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in8" 0 752 264 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out15" 0 752 4664 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out14" 1 6724 4128 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out13" 2 12644 3536 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 172 122 304 212 0 0
+node "out12" 1 6667 3000 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 185 128 0 0
+node "out11" 2 12644 2408 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 172 122 304 212 0 0
+node "out10" 1 7788 1872 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 248 132 0 0
+node "out9" 2 12308 1280 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 160 114 316 220 0 0
+node "out8" 1 6724 744 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 80 56 188 130 0 0
+node "out7" 60 902356 184 12 m1 0 0 0 0 0 0 0 0 0 0 0 0 19136 9602 220 156 0 0
+node "m1_3132_264#" 4 46496 3132 264 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 2400 1208 0 0
+node "m1_2004_264#" 4 46496 2004 264 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 2400 1208 0 0
+node "phi2" 4 46496 876 264 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 2400 1208 0 0
+node "m1_3140_272#" 4 46048 3140 272 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2400 1208 0 0
+node "m1_2012_272#" 4 46048 2012 272 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2400 1208 0 0
+node "phi1" 4 46048 884 272 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2400 1208 0 0
+node "m1_3148_280#" 4 46048 3148 280 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2400 1208 0 0
+node "m1_2020_280#" 4 46048 2020 280 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 2400 1208 0 0
+node "reset" 7 95648 876 280 m1 0 0 0 0 0 0 0 0 0 0 0 0 1744 880 736 376 0 0
+node "m1_3017_288#" 7 105844 3017 288 m1 0 0 0 0 0 0 0 0 0 0 0 0 2252 1134 0 0 0 0
+node "m1_1889_288#" 7 105844 1889 288 m1 0 0 0 0 0 0 0 0 0 0 0 0 2252 1134 0 0 0 0
+node "s" 7 105844 760 288 m1 0 0 0 0 0 0 0 0 0 0 0 0 2252 1134 0 0 0 0
+cap "4in-multiplicand_0/2inMUX_3/inv_0/a_12_5#" "4in-multiplicand_0/2inMUX_3/a_28_58#" 228
+cap "4in-multiplicand_0/2inMUX_3/inv_0/a_15_8#" "4in-multiplicand_0/2inMUX_3/a_28_58#" 720
+cap "4in-multiplicand_0/2inMUX_2/inv_0/a_12_5#" "out0" 171
+cap "4in-multiplicand_0/2inMUX_2/inv_0/a_15_8#" "4in-multiplicand_0/2inMUX_2/a_28_58#" 540
+cap "4in-multiplicand_1/2inMUX_3/inv_0/a_15_8#" "out1" 540
+cap "4in-multiplicand_1/2inMUX_3/inv_0/a_12_5#" "4in-multiplicand_1/m2_n692_n112#" 720
+cap "4in-multiplicand_1/m2_n692_n112#" "out1" 540
+cap "4in-multiplicand_1/2inMUX_3/inv_0/a_12_5#" "out1" 711
+cap "4in-multiplicand_1/2inMUX_2/inv_0/a_12_5#" "4in-multiplicand_1/2inMUX_2/a_28_58#" 171
+cap "4in-multiplicand_1/2inMUX_2/inv_0/a_15_8#" "4in-multiplicand_1/2inMUX_2/a_28_58#" 540
+cap "4in-multiplicand_2/m2_n692_n112#" "4in-multiplicand_2/m1_n708_n120#" 720
+cap "out3" "4in-multiplicand_2/m2_n692_n112#" 540
+cap "out3" "4in-multiplicand_2/m1_n708_n120#" 540
+cap "4in-multiplicand_2/2inMUX_3/inv_0/a_15_8#" "4in-multiplicand_2/2inMUX_3/a_28_58#" 540
+cap "4in-multiplicand_2/2inMUX_3/inv_0/a_12_5#" "4in-multiplicand_2/2inMUX_3/a_28_58#" 171
+cap "4in-multiplicand_2/2inMUX_2/a_28_58#" "4in-multiplicand_2/2inMUX_2/inv_0/a_15_8#" 540
+cap "4in-multiplicand_2/2inMUX_2/inv_0/a_12_5#" "4in-multiplicand_2/2inMUX_2/a_28_58#" 171
+cap "4in-multiplicand_3/m1_n708_n120#" "out5" 540
+cap "4in-multiplicand_2/dflipflopER_2/m2_556_0#" "4in-multiplicand_3/m1_n708_n120#" 720
+cap "4in-multiplicand_3/2inMUX_3/inv_0/a_12_5#" "4in-multiplicand_3/2inMUX_3/a_28_58#" 171
+cap "4in-multiplicand_3/2inMUX_3/inv_0/a_15_8#" "4in-multiplicand_3/2inMUX_3/a_28_58#" 540
+cap "4in-multiplicand_3/m2_n692_n112#" "4in-multiplicand_3/2inMUX_3/a_28_58#" 540
+cap "4in-multiplicand_3/2inMUX_2/a_28_58#" "4in-multiplicand_3/2inMUX_2/inv_0/a_15_8#" 540
+cap "4in-multiplicand_3/2inMUX_2/inv_0/a_12_5#" "4in-multiplicand_3/2inMUX_2/a_28_58#" 171
+cap "out7" "4in-multiplicand_3/dflipflopER_2/2inAND_3/m2_76_0#" 720
+cap "4in-multiplicand_1/2inMUX_0/inv_0/a_15_8#" "4in-multiplicand_1/2inMUX_0/a_28_58#" 180
+cap "4in-multiplicand_1/2inMUX_0/inv_0/a_12_5#" "4in-multiplicand_1/2inMUX_0/a_28_58#" 237
+cap "4in-multiplicand_0/2inMUX_1/inv_0/a_12_5#" "4in-multiplicand_0/2inMUX_1/a_28_58#" 171
+cap "4in-multiplicand_0/2inMUX_1/a_28_58#" "4in-multiplicand_0/m1_n684_n8#" 540
+cap "4in-multiplicand_0/m1_n708_n120#" "4in-multiplicand_0/2inMUX_1/a_28_58#" 540
+cap "4in-multiplicand_0/2inMUX_1/a_28_58#" "4in-multiplicand_0/2inMUX_1/inv_0/a_15_8#" 540
+cap "4in-multiplicand_0/2inMUX_0/inv_0/a_12_5#" "out8" 171
+cap "4in-multiplicand_0/m1_n708_n120#" "out8" 540
+cap "4in-multiplicand_0/2inMUX_0/inv_0/a_15_8#" "4in-multiplicand_0/2inMUX_0/a_28_58#" 540
+cap "phi2" "reset" 720
+cap "phi2" "4in-multiplicand_0/m1_n548_n56#" 720
+cap "reset" "4in-multiplicand_0/m1_n548_n56#" 720
+cap "out9" "4in-multiplicand_1/m1_n684_n8#" 540
+cap "4in-multiplicand_1/m1_n708_n120#" "phi2" 720
+cap "out9" "4in-multiplicand_1/2inMUX_1/inv_0/a_12_5#" 171
+cap "4in-multiplicand_1/m1_n708_n120#" "out9" 540
+cap "4in-multiplicand_1/m1_n708_n120#" "phi1" 720
+cap "4in-multiplicand_1/m1_n708_n120#" "4in-multiplicand_1/m1_n684_n8#" 720
+cap "4in-multiplicand_1/m1_n708_n120#" "reset" 720
+cap "out9" "4in-multiplicand_1/2inMUX_1/inv_0/a_15_8#" 540
+cap "4in-multiplicand_1/2inMUX_0/inv_0/a_12_5#" "4in-multiplicand_1/2inMUX_0/a_28_58#" 171
+cap "4in-multiplicand_1/2inMUX_0/inv_0/a_15_8#" "4in-multiplicand_1/2inMUX_0/a_28_58#" 540
+cap "4in-multiplicand_1/2inMUX_0/a_28_58#" "4in-multiplicand_1/m1_n708_n120#" 540
+cap "4in-multiplicand_1/m1_n540_n24#" "4in-multiplicand_1/m1_n548_n56#" 720
+cap "4in-multiplicand_1/m1_n540_n24#" "4in-multiplicand_1/m1_n556_n80#" 720
+cap "4in-multiplicand_1/m1_n556_n80#" "4in-multiplicand_1/m1_n548_n56#" 720
+cap "4in-multiplicand_2/m1_n684_n8#" "out11" 540
+cap "4in-multiplicand_2/m1_n708_n120#" "out11" 540
+cap "4in-multiplicand_2/m1_n684_n8#" "4in-multiplicand_2/m1_n708_n120#" 720
+cap "4in-multiplicand_2/m1_n708_n120#" "m1_2004_264#" 720
+cap "4in-multiplicand_2/m1_n708_n120#" "m1_2012_272#" 720
+cap "4in-multiplicand_2/m1_n708_n120#" "m1_2020_280#" 720
+cap "4in-multiplicand_2/2inMUX_1/inv_0/a_12_5#" "4in-multiplicand_2/2inMUX_1/a_28_58#" 171
+cap "4in-multiplicand_2/2inMUX_1/inv_0/a_15_8#" "4in-multiplicand_2/2inMUX_1/a_28_58#" 540
+cap "4in-multiplicand_2/2inMUX_0/inv_0/a_12_5#" "4in-multiplicand_2/2inMUX_0/a_28_58#" 171
+cap "4in-multiplicand_2/2inMUX_0/inv_0/a_15_8#" "4in-multiplicand_2/2inMUX_0/a_28_58#" 540
+cap "4in-multiplicand_2/2inMUX_0/a_28_58#" "4in-multiplicand_2/m1_n708_n120#" 540
+cap "4in-multiplicand_2/m1_n540_n24#" "4in-multiplicand_2/m1_n556_n80#" 720
+cap "4in-multiplicand_2/m1_n548_n56#" "4in-multiplicand_2/m1_n556_n80#" 720
+cap "4in-multiplicand_2/m1_n540_n24#" "4in-multiplicand_2/m1_n548_n56#" 720
+cap "4in-multiplicand_3/m1_n708_n120#" "out13" 540
+cap "4in-multiplicand_3/m1_n708_n120#" "m1_3132_264#" 720
+cap "4in-multiplicand_2/dflipflopER_0/m2_556_104#" "4in-multiplicand_3/m1_n708_n120#" 720
+cap "4in-multiplicand_3/m1_n708_n120#" "m1_3140_272#" 720
+cap "4in-multiplicand_3/m1_n708_n120#" "m1_3148_280#" 720
+cap "4in-multiplicand_3/m1_n684_n8#" "4in-multiplicand_3/2inMUX_1/a_28_58#" 540
+cap "4in-multiplicand_3/2inMUX_1/inv_0/a_12_5#" "4in-multiplicand_3/2inMUX_1/a_28_58#" 171
+cap "4in-multiplicand_3/2inMUX_1/inv_0/a_15_8#" "4in-multiplicand_3/2inMUX_1/a_28_58#" 540
+cap "4in-multiplicand_3/2inMUX_0/a_28_58#" "4in-multiplicand_3/m1_n708_n120#" 540
+cap "4in-multiplicand_3/2inMUX_0/inv_0/a_12_5#" "4in-multiplicand_3/2inMUX_0/a_28_58#" 171
+cap "4in-multiplicand_3/2inMUX_0/inv_0/a_15_8#" "4in-multiplicand_3/2inMUX_0/a_28_58#" 540
+merge "4in-multiplicand_1/dflipflopER_2/m2_556_0#" "4in-multiplicand_2/m2_n692_n112#" -1748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0
+merge "4in-multiplicand_2/m2_n692_n112#" "m2_2424_32#"
+merge "4in-multiplicand_0/m2_n692_n112#" "4in-multiplicand_0/2inMUX_3/a_28_58#" -1588 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
+merge "4in-multiplicand_0/2inMUX_3/a_28_58#" "m1_264_99#"
+merge "4in-multiplicand_2/2inMUX_2/a_28_58#" "4in-multiplicand_2/dflipflopER_3/2inAND_3/m1_64_56#" -1715 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0 0 0
+merge "4in-multiplicand_2/dflipflopER_3/2inAND_3/m1_64_56#" "out4"
+merge "4in-multiplicand_3/2inMUX_1/a_28_58#" "4in-multiplicand_2/dflipflopER_0/2inAND_3/m1_64_56#" -7419 0 0 0 0 0 0 0 0 0 0 0 0 -96 -76 -148 -149 0 0
+merge "4in-multiplicand_2/dflipflopER_0/2inAND_3/m1_64_56#" "out13"
+merge "4in-multiplicand_2/2inMUX_3/a_28_58#" "4in-multiplicand_1/dflipflopER_2/2inAND_3/m1_64_56#" -11555 0 0 0 0 0 0 0 0 0 0 0 0 -184 -134 -164 -118 0 0
+merge "4in-multiplicand_1/dflipflopER_2/2inAND_3/m1_64_56#" "out3"
+merge "4in-multiplicand_3/2inMUX_2/a_28_13#" "in7" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "4in-multiplicand_1/dflipflopER_0/m2_556_104#" "4in-multiplicand_2/m1_n684_n8#" -1140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "4in-multiplicand_2/m1_n684_n8#" "m2_2424_248#"
+merge "4in-multiplicand_1/2inMUX_0/a_28_58#" "4in-multiplicand_1/dflipflopER_1/2inAND_3/m1_64_56#" -5576 0 0 0 0 0 0 0 0 0 0 0 0 -96 -80 -28 -29 0 0
+merge "4in-multiplicand_1/dflipflopER_1/2inAND_3/m1_64_56#" "out10"
+merge "4in-multiplicand_0/dflipflopER_2/m2_556_0#" "4in-multiplicand_1/m2_n692_n112#" -1748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0
+merge "4in-multiplicand_1/m2_n692_n112#" "Gnd"
+merge "4in-multiplicand_3/m1_n548_n56#" "4in-multiplicand_2/m1_n548_n56#" -64272 0 0 0 0 0 0 0 0 0 0 0 0 -48 -52 -3312 -1700 0 0
+merge "4in-multiplicand_2/m1_n548_n56#" "m1_3140_272#"
+merge "m1_3140_272#" "4in-multiplicand_1/m1_n548_n56#"
+merge "4in-multiplicand_1/m1_n548_n56#" "m1_2012_272#"
+merge "m1_2012_272#" "4in-multiplicand_0/m1_n548_n56#"
+merge "4in-multiplicand_0/m1_n548_n56#" "phi1"
+merge "4in-multiplicand_3/m2_n692_n112#" "4in-multiplicand_2/dflipflopER_2/m2_556_0#" -1748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0
+merge "4in-multiplicand_2/dflipflopER_2/m2_556_0#" "m2_3552_32#"
+merge "4in-multiplicand_3/m1_n708_n120#" "4in-multiplicand_2/m1_n708_n120#" -101708 0 0 0 0 0 0 0 0 0 0 0 0 -2164 -1126 0 0 0 0
+merge "4in-multiplicand_2/m1_n708_n120#" "m1_3017_288#"
+merge "m1_3017_288#" "4in-multiplicand_1/m1_n708_n120#"
+merge "4in-multiplicand_1/m1_n708_n120#" "m1_1889_288#"
+merge "m1_1889_288#" "4in-multiplicand_0/m1_n708_n120#"
+merge "4in-multiplicand_0/m1_n708_n120#" "s"
+merge "4in-multiplicand_0/2inMUX_2/a_28_58#" "4in-multiplicand_0/dflipflopER_3/2inAND_3/m1_64_56#" -6792 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -124 -85 0 0
+merge "4in-multiplicand_0/dflipflopER_3/2inAND_3/m1_64_56#" "out0"
+merge "4in-multiplicand_0/2inMUX_3/a_28_13#" "in0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_3/m1_n540_n24#" "4in-multiplicand_2/m1_n540_n24#" -121500 0 0 0 0 0 0 0 0 0 0 0 0 -1492 -774 -2752 -1412 0 0
+merge "4in-multiplicand_2/m1_n540_n24#" "m1_3148_280#"
+merge "m1_3148_280#" "4in-multiplicand_1/m1_n540_n24#"
+merge "4in-multiplicand_1/m1_n540_n24#" "m1_2020_280#"
+merge "m1_2020_280#" "4in-multiplicand_0/m1_n540_n24#"
+merge "4in-multiplicand_0/m1_n540_n24#" "reset"
+merge "4in-multiplicand_1/2inMUX_3/a_28_58#" "4in-multiplicand_0/dflipflopER_2/2inAND_3/m1_64_56#" -12940 0 0 0 0 0 0 0 0 0 0 0 0 -188 -158 -264 -184 0 0
+merge "4in-multiplicand_0/dflipflopER_2/2inAND_3/m1_64_56#" "out1"
+merge "4in-multiplicand_3/2inMUX_3/a_28_58#" "4in-multiplicand_2/dflipflopER_2/2inAND_3/m1_64_56#" -7419 0 0 0 0 0 0 0 0 0 0 0 0 -96 -76 -148 -102 0 0
+merge "4in-multiplicand_2/dflipflopER_2/2inAND_3/m1_64_56#" "out5"
+merge "4in-multiplicand_3/m1_n556_n80#" "4in-multiplicand_2/m1_n556_n80#" -67440 0 0 0 0 0 0 0 0 0 0 0 0 -96 -96 -3360 -1692 0 0
+merge "4in-multiplicand_2/m1_n556_n80#" "m1_3132_264#"
+merge "m1_3132_264#" "4in-multiplicand_1/m1_n556_n80#"
+merge "4in-multiplicand_1/m1_n556_n80#" "m1_2004_264#"
+merge "m1_2004_264#" "4in-multiplicand_0/m1_n556_n80#"
+merge "4in-multiplicand_0/m1_n556_n80#" "phi2"
+merge "4in-multiplicand_0/2inMUX_2/a_28_13#" "in1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_0/2inMUX_0/a_28_58#" "4in-multiplicand_0/dflipflopER_1/2inAND_3/m1_64_56#" -6792 0 0 0 0 0 0 0 0 0 0 0 0 -96 -76 -124 -125 0 0
+merge "4in-multiplicand_0/dflipflopER_1/2inAND_3/m1_64_56#" "out8"
+merge "4in-multiplicand_1/2inMUX_2/a_28_58#" "4in-multiplicand_1/dflipflopER_3/2inAND_3/m1_64_56#" -5367 0 0 0 0 0 0 0 0 0 0 0 0 -96 -72 -40 -29 0 0
+merge "4in-multiplicand_1/dflipflopER_3/2inAND_3/m1_64_56#" "out2"
+merge "4in-multiplicand_0/dflipflopER_0/m2_556_104#" "4in-multiplicand_1/m1_n684_n8#" -1140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "4in-multiplicand_1/m1_n684_n8#" "Vdd"
+merge "4in-multiplicand_1/2inMUX_3/a_28_13#" "in2" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_0/2inMUX_1/a_28_13#" "in8" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_2/2inMUX_1/a_28_58#" "4in-multiplicand_1/dflipflopER_0/2inAND_3/m1_64_56#" -11219 0 0 0 0 0 0 0 0 0 0 0 0 -172 -154 -176 -182 0 0
+merge "4in-multiplicand_1/dflipflopER_0/2inAND_3/m1_64_56#" "out11"
+merge "4in-multiplicand_3/m1_n684_n8#" "4in-multiplicand_2/dflipflopER_0/m2_556_104#" -1140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "4in-multiplicand_2/dflipflopER_0/m2_556_104#" "m2_3552_248#"
+merge "4in-multiplicand_1/2inMUX_2/a_28_13#" "in3" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_2/2inMUX_3/a_28_13#" "in4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_3/2inMUX_2/a_28_58#" "4in-multiplicand_3/dflipflopER_3/2inAND_3/m1_64_56#" -1715 0 0 0 0 0 0 0 0 0 0 0 0 -28 -33 0 0 0 0
+merge "4in-multiplicand_3/dflipflopER_3/2inAND_3/m1_64_56#" "out6"
+merge "4in-multiplicand_1/2inMUX_1/a_28_58#" "4in-multiplicand_0/dflipflopER_0/2inAND_3/m1_64_56#" -12604 0 0 0 0 0 0 0 0 0 0 0 0 -176 -178 -276 -280 0 0
+merge "4in-multiplicand_0/dflipflopER_0/2inAND_3/m1_64_56#" "out9"
+merge "4in-multiplicand_2/2inMUX_0/a_28_13#" "in13" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_2/2inMUX_2/a_28_13#" "in5" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_3/2inMUX_3/a_28_13#" "in6" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_2/2inMUX_0/a_28_58#" "4in-multiplicand_2/dflipflopER_1/2inAND_3/m1_64_56#" -1802 0 0 0 0 0 0 0 0 0 0 0 0 -25 -31 0 0 0 0
+merge "4in-multiplicand_2/dflipflopER_1/2inAND_3/m1_64_56#" "out12"
+merge "4in-multiplicand_3/2inMUX_0/a_28_58#" "4in-multiplicand_3/dflipflopER_1/2inAND_3/m1_64_56#" -1943 0 0 0 0 0 0 0 0 0 0 0 0 -28 -37 0 0 0 0
+merge "4in-multiplicand_3/dflipflopER_1/2inAND_3/m1_64_56#" "out14"
+merge "4in-multiplicand_0/2inMUX_1/a_28_58#" "4in-multiplicand_3/dflipflopER_2/2inAND_3/m1_64_56#" -15103 0 0 0 0 0 0 0 0 0 0 0 0 -308 -182 0 0 0 0
+merge "4in-multiplicand_3/dflipflopER_2/2inAND_3/m1_64_56#" "out7"
+merge "4in-multiplicand_3/2inMUX_1/a_28_13#" "in14" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_0/2inMUX_0/a_28_13#" "in9" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_1/2inMUX_1/a_28_13#" "in10" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_3/2inMUX_0/a_28_13#" "in15" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "4in-multiplicand_3/dflipflopER_0/2inAND_3/m1_64_56#" "out15" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "4in-multiplicand_1/2inMUX_0/a_28_13#" "in11" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "4in-multiplicand_2/2inMUX_1/a_28_13#" "in12" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

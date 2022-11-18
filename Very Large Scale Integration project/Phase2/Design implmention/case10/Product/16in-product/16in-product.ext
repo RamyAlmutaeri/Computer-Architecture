@@ -1,0 +1,101 @@
+timestamp 1653369615
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use 8in-product 8in-product_0 1 0 -712 0 1 0
+use 8in-product 8in-product_1 1 0 -2960 0 1 0
+node "Gnd" 0 3648 -540 32 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "Vdd" 0 3648 -540 248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "in0" 0 752 1212 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in1" 0 752 676 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in2" 0 752 88 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in3" 0 752 -448 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in4" 0 752 -1036 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in5" 0 752 -1572 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in6" 0 752 -2160 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in7" 0 752 -2696 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out0" 0 752 1692 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out1" 0 752 1156 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out2" 0 752 568 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out3" 0 752 32 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out4" 0 752 -556 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out5" 0 752 -1092 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out6" 0 752 -1680 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out7" 0 752 -2216 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in8" 0 752 1212 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in9" 0 752 676 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in10" 0 752 88 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in11" 0 752 -448 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in12" 0 752 -1036 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in13" 0 752 -1572 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in14" 0 752 -2160 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "in15" 0 752 -2696 165 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out8" 0 752 1692 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out9" 0 752 1156 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out10" 0 752 568 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out11" 0 752 32 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out12" 0 752 -556 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out13" 0 752 -1092 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out14" 0 752 -1680 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "out15" 0 752 -2216 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "phi2" 9 119472 -960 264 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1808 912 0 0
+node "phi1" 9 119472 -952 272 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1808 912 0 0
+node "reset" 9 119472 -944 280 v 0 0 0 0 0 0 0 0 0 0 0 0 1824 928 1808 912 0 0
+node "s" 8 121072 -1076 288 m1 0 0 0 0 0 0 0 0 0 0 0 0 2576 1296 0 0 0 0
+cap "8in-product_0/4in-product_0/m2_n692_n112#" "8in-product_0/4in-product_0/m1_n708_n128#" 720
+cap "8in-product_1/4in-product_1/m1_n556_n80#" "8in-product_1/4in-product_1/m1_n540_n24#" 720
+cap "8in-product_1/4in-product_1/m1_n548_n56#" "8in-product_1/4in-product_1/m1_n540_n24#" 720
+cap "8in-product_1/4in-product_1/m1_n548_n56#" "8in-product_1/4in-product_1/m1_n556_n80#" 720
+cap "phi1" "8in-product_0/4in-product_0/m1_n708_n128#" 720
+cap "phi2" "8in-product_0/4in-product_0/m1_n708_n128#" 720
+cap "reset" "8in-product_0/4in-product_0/m1_n708_n128#" 720
+cap "8in-product_0/4in-product_0/m1_n684_n8#" "8in-product_0/4in-product_0/m1_n708_n128#" 720
+cap "8in-product_0/4in-product_0/m1_n640_67#" "phi1" 720
+cap "reset" "8in-product_0/4in-product_0/m1_n640_67#" 720
+cap "8in-product_0/4in-product_0/m1_n640_67#" "8in-product_0/4in-product_0/m1_n556_n80#" 720
+merge "8in-product_1/4in-product_1/2inMUX_1/a_28_13#" "in13" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "8in-product_1/4in-product_0/m1_n640_67#" "out15" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/dflipflopER_2/m2_556_0#" "8in-product_0/4in-product_0/m2_n692_n112#" -1520 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0
+merge "8in-product_0/4in-product_0/m2_n692_n112#" "Gnd"
+merge "8in-product_0/4in-product_0/m1_n548_n56#" "8in-product_1/4in-product_1/m1_n548_n56#" -137468 0 0 0 0 0 0 0 0 0 0 0 0 -2692 -1370 -608 -312 0 0
+merge "8in-product_1/4in-product_1/m1_n548_n56#" "phi1"
+merge "8in-product_1/4in-product_1/m1_n100_70#" "out12" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_0/2inMUX_3/a_28_13#" "in7" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_0/m1_n100_70#" "out14" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n540_n24#" "8in-product_1/4in-product_1/m1_n540_n24#" -135964 0 0 0 0 0 0 0 0 0 0 0 0 -2660 -1354 -608 -312 0 0
+merge "8in-product_1/4in-product_1/m1_n540_n24#" "reset"
+merge "8in-product_0/4in-product_1/m1_n148_n120#" "out0" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "8in-product_0/4in-product_1/2inMUX_2/a_28_13#" "in0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n148_n120#" "out2" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n556_n80#" "8in-product_1/4in-product_1/m1_n556_n80#" -120172 0 0 0 0 0 0 0 0 0 0 0 0 -2324 -1190 -608 -312 0 0
+merge "8in-product_1/4in-product_1/m1_n556_n80#" "phi2"
+merge "8in-product_0/4in-product_0/2inMUX_0/a_28_13#" "in10" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_1/m1_n680_n120#" "out1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_1/2inMUX_3/a_28_13#" "in1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/m1_n680_n120#" "out5" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "8in-product_1/4in-product_1/dflipflopER_0/m2_556_104#" "8in-product_0/4in-product_0/m1_n684_n8#" -912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "8in-product_0/4in-product_0/m1_n684_n8#" "Vdd"
+merge "8in-product_0/4in-product_0/m1_n708_n128#" "8in-product_1/4in-product_1/m1_n708_n128#" -55648 0 0 0 0 0 0 0 0 0 0 0 0 -1184 -604 0 0 0 0
+merge "8in-product_1/4in-product_1/m1_n708_n128#" "s"
+merge "8in-product_0/4in-product_0/2inMUX_2/a_28_13#" "in2" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n680_n120#" "out3" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -27 0 0 0 0
+merge "8in-product_0/4in-product_0/2inMUX_3/a_28_13#" "in3" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/m1_n148_n120#" "out4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_1/m1_n640_67#" "out9" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_1/2inMUX_1/a_28_13#" "in9" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/2inMUX_2/a_28_13#" "in4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n640_67#" "out11" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "8in-product_1/4in-product_1/2inMUX_3/a_28_13#" "in5" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "8in-product_1/4in-product_0/m1_n148_n120#" "out6" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "8in-product_1/4in-product_0/2inMUX_2/a_28_13#" "in6" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_1/m1_n100_70#" "out8" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/2inMUX_0/a_28_13#" "in12" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_0/m1_n680_n120#" "out7" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "8in-product_0/4in-product_1/2inMUX_0/a_28_13#" "in8" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/m1_n100_70#" "out10" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_1/m1_n640_67#" "out13" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_0/2inMUX_1/a_28_13#" "in15" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_0/4in-product_0/2inMUX_1/a_28_13#" "in11" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "8in-product_1/4in-product_0/2inMUX_0/a_28_13#" "in14" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
