@@ -1,0 +1,24 @@
+module mux4t01 (a, b, c, d,s0,s1 , out); 
+	input [15:0]a ;
+	input [15:0]b	;
+	input [15:0]c	;
+	input [15:0]d	;
+	input s0 ,s1 ;
+	output [15:0]out  ;
+	assign out[0] = s1 ? (s0 ? d[0] : c[0]) : (s0 ? b[0] : a[0]);
+	assign out[1] = s1 ? (s0 ? d[1] : c[1]) : (s0 ? b[1] : a[1]);
+	assign out[2] = s1 ? (s0 ? d[2] : c[2]) : (s0 ? b[2] : a[2]);
+	assign out[3] = s1 ? (s0 ? d[3] : c[3]) : (s0 ? b[3] : a[3]);
+	assign out[4] = s1 ? (s0 ? d[4] : c[4]) : (s0 ? b[4] : a[4]);
+	assign out[5] = s1 ? (s0 ? d[5] : c[5]) : (s0 ? b[5] : a[5]);
+	assign out[6] = s1 ? (s0 ? d[6] : c[6]) : (s0 ? b[6] : a[6]);
+	assign out[7] = s1 ? (s0 ? d[7] : c[7]) : (s0 ? b[7] : a[7]);
+	assign out[8] = s1 ? (s0 ? d[8] : c[8]) : (s0 ? b[8] : a[8]);
+	assign out[9] = s1 ? (s0 ? d[9] : c[9]) : (s0 ? b[9] : a[9]);
+	assign out[10] = s1 ? (s0 ? d[10] : c[10]) : (s0 ? b[10] : a[10]);
+	assign out[11] = s1 ? (s0 ? d[11] : c[11]) : (s0 ? b[11] : a[11]);
+	assign out[12] = s1 ? (s0 ? d[12] : c[12]) : (s0 ? b[12] : a[12]);
+	assign out[13] = s1 ? (s0 ? d[13] : c[13]) : (s0 ? b[13] : a[13]);
+	assign out[14] = s1 ? (s0 ? d[14] : c[14]) : (s0 ? b[14] : a[14]);
+	assign out[15] = s1 ? (s0 ? d[15] : c[15]) : (s0 ? b[15] : a[15]);
+endmodule
