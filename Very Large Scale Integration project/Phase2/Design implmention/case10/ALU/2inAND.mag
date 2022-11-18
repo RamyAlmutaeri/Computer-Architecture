@@ -1,0 +1,65 @@
+magic
+tech scmos
+timestamp 1653228967
+<< polysilicon >>
+rect 8 100 10 102
+rect 20 100 22 102
+rect 8 72 10 96
+rect 4 70 10 72
+rect 8 12 10 70
+rect 20 64 22 96
+rect 20 12 22 60
+rect 8 6 10 8
+rect 20 6 22 8
+<< ndiffusion >>
+rect 4 8 8 12
+rect 10 8 20 12
+rect 22 8 24 12
+rect 28 8 32 12
+<< pdiffusion >>
+rect 4 96 8 100
+rect 10 96 12 100
+rect 16 96 20 100
+rect 22 96 28 100
+<< metal1 >>
+rect 12 100 16 104
+rect 0 88 4 96
+rect 28 88 32 96
+rect 0 84 32 88
+rect 0 60 20 64
+rect 28 60 32 84
+rect 28 56 44 60
+rect 68 56 88 60
+rect 28 24 32 56
+rect 0 20 32 24
+rect 0 12 4 20
+rect 24 4 28 8
+<< metal2 >>
+rect 0 104 12 108
+rect 16 104 32 108
+rect 0 0 24 4
+rect 28 0 32 4
+<< ntransistor >>
+rect 8 8 10 12
+rect 20 8 22 12
+<< ptransistor >>
+rect 8 96 10 100
+rect 20 96 22 100
+<< polycontact >>
+rect 0 68 4 72
+rect 20 60 24 64
+<< ndcontact >>
+rect 0 8 4 12
+rect 24 8 28 12
+<< pdcontact >>
+rect 0 96 4 100
+rect 12 96 16 100
+rect 28 96 32 100
+<< m2contact >>
+rect 12 104 16 108
+rect 24 0 28 4
+use inverter  inverter_0
+timestamp 1651237757
+transform 1 0 32 0 1 0
+box 0 0 52 108
+<< end >>

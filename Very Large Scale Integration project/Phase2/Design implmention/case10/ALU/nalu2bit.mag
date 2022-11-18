@@ -1,0 +1,45 @@
+magic
+tech scmos
+timestamp 1653247424
+<< metal1 >>
+rect -372 228 124 232
+rect -372 112 -368 228
+rect 120 204 124 228
+rect -168 196 108 200
+rect 140 196 916 200
+rect 180 180 720 184
+rect 180 104 184 180
+rect 716 112 720 180
+rect 180 100 208 104
+rect -596 96 -592 100
+rect 488 96 492 100
+rect -72 88 -68 92
+rect 1012 88 1016 92
+rect -596 72 -592 76
+rect -368 72 -352 76
+rect 488 72 492 76
+rect 720 72 732 76
+<< metal2 >>
+rect 112 196 136 200
+rect -72 136 32 140
+rect 1008 136 1012 140
+rect -372 76 -368 108
+rect 716 76 720 108
+rect -72 32 32 36
+rect 1008 32 1012 36
+<< m2contact >>
+rect 108 196 112 200
+rect 136 196 140 200
+rect -372 108 -368 112
+rect 716 108 720 112
+rect -372 72 -368 76
+rect 716 72 720 76
+use nalu1bit  nalu1bit_0
+timestamp 1653242760
+transform 1 0 492 0 1 32
+box -492 -32 524 172
+use nalu1bit  nalu1bit_1
+timestamp 1653242760
+transform 1 0 -592 0 1 32
+box -492 -32 524 172
+<< end >>

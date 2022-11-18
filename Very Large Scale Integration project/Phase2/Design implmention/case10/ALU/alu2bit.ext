@@ -1,0 +1,102 @@
+timestamp 1653239363
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use 2inAND 2inAND_0 1 0 824 0 1 -248
+use 2inAND 2inAND_1 1 0 -84 0 1 -248
+use alu1bit alu1bit_1 1 0 -544 0 1 308
+use alu1bit alu1bit_0 1 0 364 0 1 308
+node "m2_0_n248#" 12 145008 0 -248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7648 3832 0 0
+node "Gnd" 0 304 360 308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_n856_n248#" 16 181184 -856 -248 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9600 4808 0 0
+node "m2_528_404#" 7 77824 528 404 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4096 2056 0 0
+node "m2_n840_280#" 5 63840 -840 280 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3360 1688 0 0
+node "D0" 0 752 908 -192 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "D1" 0 752 0 -192 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "E0" 0 752 824 -188 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "E1" 0 752 -84 -188 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_148_172#" 1 9680 148 172 v 0 0 0 0 0 0 0 0 0 0 0 0 96 56 304 168 0 0
+node "Vdd" 14 165472 -36 172 v 0 0 0 0 0 0 0 0 0 0 0 0 112 64 8592 4304 0 0
+node "Cin0" 0 752 604 216 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_760_224#" 6 87984 760 224 m1 0 0 0 0 0 0 0 0 0 0 0 0 1872 944 0 0 0 0
+node "m1_n148_224#" 6 84096 -148 224 m1 0 0 0 0 0 0 0 0 0 0 0 0 1744 888 160 88 0 0
+node "Cin1" 0 1504 40 240 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "m1_n892_n44#" 23 348192 -892 -44 m1 0 0 0 0 0 0 0 0 0 0 0 0 7376 3704 112 64 0 0
+node "A0" 0 752 364 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A1" 0 752 -536 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B0" 0 752 364 372 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B1" 0 752 -540 372 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+cap "m1_n892_n44#" "m2_n856_n248#" 2880
+cap "Vdd" "m1_148_172#" 720
+cap "m1_n148_224#" "m1_n892_n44#" 720
+cap "m1_n892_n44#" "m2_0_n248#" 720
+cap "m1_n148_224#" "Vdd" 720
+cap "m1_n892_n44#" "Vdd" 720
+cap "alu1bit_1/2in-OR_0/a_0_96#" "alu1bit_1/m1_n256_n264#" 720
+cap "alu1bit_1/m1_n256_n264#" "m2_n856_n248#" 720
+cap "alu1bit_0/2in-OR_0/a_0_96#" "alu1bit_0/m1_n256_n264#" 720
+cap "alu1bit_1/2inAND_1/a_0_68#" "alu1bit_1/m1_n364_n76#" 720
+cap "m1_148_172#" "alu1bit_0/m1_n272_n276#" 720
+cap "alu1bit_0/m1_n256_n264#" "m2_0_n248#" 720
+cap "alu1bit_1/m1_n364_n76#" "alu1bit_1/2inAND_1/a_10_96#" 720
+cap "m2_n840_280#" "alu1bit_1/m1_n364_n76#" 720
+cap "alu1bit_1/m1_n188_n76#" "alu1bit_1/2inAND_0/inverter_0/a_8_96#" 720
+cap "alu1bit_1/m1_n364_n76#" "alu1bit_1/2inAND_0/inverter_0/a_8_96#" 720
+cap "alu1bit_1/2in-xor_0/a_30_8#" "alu1bit_1/m1_n364_n76#" 720
+cap "alu1bit_0/2inAND_1/a_10_96#" "alu1bit_0/m1_n364_n76#" 720
+cap "Vdd" "alu1bit_0/m1_n364_n76#" 720
+cap "alu1bit_0/m1_n188_n76#" "alu1bit_0/2inAND_0/inverter_0/a_8_96#" 720
+cap "alu1bit_0/2inAND_0/inverter_0/a_8_96#" "alu1bit_0/m1_n364_n76#" 720
+cap "alu1bit_0/m1_n364_n76#" "alu1bit_0/2in-xor_0/a_30_8#" 720
+cap "m2_n840_280#" "alu1bit_1/m1_n176_n68#" 720
+cap "alu1bit_0/m1_n176_n68#" "Vdd" 720
+merge "alu1bit_0/2in-xor_0/m2_108_96#" "alu1bit_0/2in-xor_1/a_14_88#" -10792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -568 -308 0 0
+merge "alu1bit_0/2in-xor_1/a_14_88#" "2inAND_0/inverter_0/a_8_96#"
+merge "2inAND_0/inverter_0/a_8_96#" "m2_528_404#"
+merge "alu1bit_1/2in-xor_0/a_30_8#" "alu1bit_1/2inAND_0/inverter_0/a_8_8#" -13452 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -708 -386 0 0
+merge "alu1bit_1/2inAND_0/inverter_0/a_8_8#" "alu1bit_1/2inAND_1/a_22_8#"
+merge "alu1bit_1/2inAND_1/a_22_8#" "alu1bit_1/2in-OR_0/a_0_8#"
+merge "alu1bit_1/2in-OR_0/a_0_8#" "2inAND_1/a_22_8#"
+merge "2inAND_1/a_22_8#" "m2_n856_n248#"
+merge "alu1bit_0/2in-xor_0/a_30_8#" "Gnd" -11552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -608 -361 0 0
+merge "Gnd" "alu1bit_0/2in-xor_1/a_30_8#"
+merge "alu1bit_0/2in-xor_1/a_30_8#" "alu1bit_0/2inAND_0/inverter_0/a_8_8#"
+merge "alu1bit_0/2inAND_0/inverter_0/a_8_8#" "alu1bit_0/2in-OR_0/inverter_0/a_8_8#"
+merge "alu1bit_0/2in-OR_0/inverter_0/a_8_8#" "2inAND_0/a_22_8#"
+merge "2inAND_0/a_22_8#" "2inAND_1/inverter_0/a_8_8#"
+merge "2inAND_1/inverter_0/a_8_8#" "m2_0_n248#"
+merge "alu1bit_1/2in-xor_1/a_4_8#" "2inAND_1/a_0_68#" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -36 0 0 0 0
+merge "2inAND_1/a_0_68#" "m1_n148_224#"
+merge "alu1bit_1/2in-xor_1/a_28_5#" "alu1bit_1/2inAND_1/a_0_68#" -24556 0 0 0 0 0 0 0 0 0 0 0 0 -516 -286 0 0 0 0
+merge "alu1bit_1/2inAND_1/a_0_68#" "alu1bit_0/2in-OR_0/m1_72_56#"
+merge "alu1bit_0/2in-OR_0/m1_72_56#" "m1_n892_n44#"
+merge "alu1bit_1/2in-xor_0/a_14_88#" "alu1bit_1/2inAND_0/inverter_0/a_8_96#" -52592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2768 -1396 0 0
+merge "alu1bit_1/2inAND_0/inverter_0/a_8_96#" "alu1bit_1/2inAND_1/a_10_96#"
+merge "alu1bit_1/2inAND_1/a_10_96#" "alu1bit_1/2in-OR_0/a_0_96#"
+merge "alu1bit_1/2in-OR_0/a_0_96#" "m2_n840_280#"
+merge "2inAND_1/m1_68_56#" "D1" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "alu1bit_0/m1_n188_n76#" "A0" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -125 0 0 0 0
+merge "alu1bit_0/2in-xor_0/a_14_88#" "alu1bit_1/2in-xor_0/m2_108_96#" -64144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3392 -1756 0 0
+merge "alu1bit_1/2in-xor_0/m2_108_96#" "alu1bit_0/2inAND_0/inverter_0/a_8_96#"
+merge "alu1bit_0/2inAND_0/inverter_0/a_8_96#" "alu1bit_0/2inAND_1/a_10_96#"
+merge "alu1bit_0/2inAND_1/a_10_96#" "alu1bit_1/2in-xor_1/a_14_88#"
+merge "alu1bit_1/2in-xor_1/a_14_88#" "alu1bit_0/2inAND_1/a_22_8#"
+merge "alu1bit_0/2inAND_1/a_22_8#" "alu1bit_1/2in-xor_1/m2_108_0#"
+merge "alu1bit_1/2in-xor_1/m2_108_0#" "alu1bit_0/2in-OR_0/a_0_96#"
+merge "alu1bit_0/2in-OR_0/a_0_96#" "2inAND_1/inverter_0/a_8_96#"
+merge "2inAND_1/inverter_0/a_8_96#" "Vdd"
+merge "alu1bit_0/2inAND_0/a_22_8#" "alu1bit_0/2inAND_1/inverter_0/a_8_8#" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "alu1bit_0/2inAND_1/inverter_0/a_8_8#" "m1_148_172#"
+merge "alu1bit_0/m1_n176_n68#" "B0" -15228 0 0 0 0 0 0 0 0 0 0 0 0 -324 -174 0 0 0 0
+merge "alu1bit_1/m1_n188_n76#" "alu1bit_1/2in-xor_0/a_28_5#" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -40 -117 0 0 0 0
+merge "alu1bit_1/2in-xor_0/a_28_5#" "A1"
+merge "2inAND_0/m1_68_56#" "D0" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "2inAND_0/a_20_6#" "E0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "2inAND_1/a_20_6#" "E1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "alu1bit_1/m1_n176_n68#" "B1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "alu1bit_0/2in-xor_1/a_4_8#" "2inAND_0/a_0_68#" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -36 0 0 0 0
+merge "2inAND_0/a_0_68#" "m1_760_224#"
+merge "alu1bit_0/2inAND_1/a_0_68#" "Cin1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "alu1bit_0/2in-xor_1/a_28_5#" "Cin0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
